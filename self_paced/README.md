@@ -1,7 +1,7 @@
 # Course Self-Paced: <a href="../self_paced/">self_paced</a>
 
 ### Cisco: <a href="../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
-### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/platforms/cna.png" alt="cna" width="auto" height="25"></a>
+### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
 
 Os cursos **Self-Paced** da Cisco são modalidades de estudo autoguiado oferecidas pela plataforma **Cisco Networking Academy (CNA)**. Nesse formato, o aluno tem total autonomia para avançar no conteúdo no próprio ritmo, sem depender de instrutor, agenda definida ou turmas específicas.
 
