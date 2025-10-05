@@ -10,7 +10,7 @@ Atualmente, os conteúdos são organizados com base nas categorias oferecidas de
 
 - **Courses**: Cursos estruturados com conteúdo teórico e prático, divididos em:
   - **Instructor-led**: Cursos conduzidos por instrutores, geralmente em ambientes guiados ou salas virtuais.
-  - **Self-paced**: Cursos autoexplicativos e autoguiados, realizados no próprio ritmo do aluno.
+  - [Self-paced](./self_paced/): Cursos autoexplicativos e autoguiados, realizados no próprio ritmo do aluno.
 - **Career Paths**: Trilhas de aprendizado voltadas para certificações ou profissões específicas.
 - **Modules**: Unidades de conteúdo independentes, geralmente extraídas de cursos maiores.
 - **Resources**: Materiais adicionais, como guias, simuladores e tutoriais.
