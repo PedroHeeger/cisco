@@ -7,7 +7,7 @@
 ### Course: <a href="./">sfp_001 (Gerenciamento de Ameaças Cibernéticas)   <img src="./0-aux/logo_course.png" alt="sfp_001" width="auto" height="25"></a>
 
 #### <a href="https://github.com/PedroHeeger/my_tech_journey/blob/main/credentials/certificates/online_courses/cybersecurity\2590922_Cyber_Threat_Management_PH_CNA.pdf">Certificate</a>
-#### <a href="https://www.credly.com/badges/9d6fd8e2-9d1b-4db5-b600-c37bceb8867d/public_url">Badge</a>
+#### <a href="https://www.credly.com/badges/1210f13a-8b8b-41f6-826e-a7434d02922f">Badge</a>
 
 ---
 
@@ -44,11 +44,11 @@
   1.5 <a href="./1-gov_conforme/README.md#item01.05">Resumo de Governança e conformidade</a><br>
 2. <a href="./2-teste_seg_rede/">Teste de segurança de rede</a><br>
   2.1 <a href="./2-teste_seg_rede/README.md#item02.01">Introdução</a><br>
-  2.2 <a href="./2-teste_seg_rede/README.md##item02.02">Avaliações de segurança</a><br>
-  2.3 <a href="./2-teste_seg_rede/README.md##item02.03">Técnicas de teste de segurança</a><br>
-  2.4 <a href="./2-teste_seg_rede/README.md##item02.04">Ferramentas de teste de segurança de rede</a><br>
-  2.5 <a href="./2-teste_seg_rede/README.md##item02.05">Teste de penetração</a><br>
-  2.6 <a href="./2-teste_seg_rede/README.md##item02.06">Resumo de teste de segurança de rede</a><br>
+  2.2 <a href="./2-teste_seg_rede/README.md#item02.02">Avaliações de segurança</a><br>
+  2.3 <a href="./2-teste_seg_rede/README.md#item02.03">Técnicas de teste de segurança</a><br>
+  2.4 <a href="./2-teste_seg_rede/README.md#item02.04">Ferramentas de teste de segurança de rede</a><br>
+  2.5 <a href="./2-teste_seg_rede/README.md#item02.05">Teste de penetração</a><br>
+  2.6 <a href="./2-teste_seg_rede/README.md#item02.06">Resumo de teste de segurança de rede</a><br>
 3. <a href="./3-inteligencia_ameacas/">Inteligência de ameaças</a><br>
   3.1 <a href="./3-inteligencia_ameacas/README.md#item03.01">Introdução</a><br>
   3.2 <a href="./3-inteligencia_ameacas/README.md#item03.02">Fontes de informação</a><br>
