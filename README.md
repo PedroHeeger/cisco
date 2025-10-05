@@ -1,4 +1,4 @@
-# Cisco   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="auto" height="25">
+# Cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25">
 
 Este repositório foi criado com o objetivo de centralizar todos os conteúdos desenvolvidos durante os estudos das tecnologias Cisco, utilizando inicialmente a plataforma oficial **Cisco Networking Academy (CNA)**.
 
