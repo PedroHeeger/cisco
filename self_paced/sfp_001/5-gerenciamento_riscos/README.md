@@ -3,7 +3,7 @@
 ### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/plataforma/cna.png" alt="cna" width="auto" height="25"></a>
 ### Training Category: <a href="../../../self_paced/">self-paced</a>
-### Software/Subject: <a href="../../">cybersecurity   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/cybersecurity.jpg" alt="cybersecurity" width="auto" height="25"></a>
+### Software/Subject: cybersecurity   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/cybersecurity.jpg" alt="cybersecurity" width="auto" height="25"></a>
 ### Course: <a href="../">curso_150 (Gerenciamento de Ameaças Cibernéticas)   <img src="../0-aux/logo_course.png" alt="curso_150" width="auto" height="25"></a>
 ### Module: 5. Gerenciamento de Riscos e Controles de Segurança
 
@@ -33,7 +33,7 @@
 ---
 
 ### Course Module 5 Structure:
-5. <a href="item05">Gerenciamento de Riscos e Controles de Segurança</a><br>
+5. <a name="item05">Gerenciamento de Riscos e Controles de Segurança</a><br>
   5.1 <a href="#item05.01">Introdução</a><br>
   5.2 <a href="#item05.02">Gerenciamento de risco</a><br>
   5.3 <a href="#item05.03">Avaliação de risco</a><br>
