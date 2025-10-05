@@ -27,6 +27,7 @@ A seguir, são listados os cursos Self-Paced organizados por assunto:
 </details>
 <details><summary>Cybersecurity</summary>
     <ul>
+        <li>curso_sfp_001: <a href="./curso_sfp_001/">Gerenciamento de Ameaças Cibernéticas   <img src="./curso_sfp_001/0-aux/logo_course.png" alt="curso_sfp_001" width="auto" height="25"></a></li>
     </ul>
 </details>
 <details><summary>Digital Literacy</summary>
@@ -39,7 +40,6 @@ A seguir, são listados os cursos Self-Paced organizados por assunto:
 </details>
 <details><summary>Network</summary>
     <ul>
-        <li>curso_sfp_001: <a href="./curso_sfp_001/">Gerenciamento de Ameaças Cibernéticas   <img src="./curso_sfp_001/0-aux/logo_course.png" alt="curso_sfp_001" width="auto" height="25"></a></li>
     </ul>
 </details>
 <details><summary>Professional Skills</summary>
