@@ -43,7 +43,7 @@
   3.2 <a href="#item03.02">Fontes de informação</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;3.2.1 <a href="#item03.02.01">Laboratório - Avaliar relatórios de segurança digital</a><br>
   3.3 <a href="#item03.03">Serviços de inteligência de ameaças</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.3.1 <a href="#item03.03.01">Laboratório - identifique inteligência relevante de ameaças</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.3.1 <a href="#item03.03.01">Laboratório - Identifique inteligência relevante de ameaças</a><br>
   3.4 <a href="#item03.04">Resumo de Inteligência de Ameaças</a><br>
 
 ---
@@ -153,8 +153,6 @@ Dessa forma, nenhum dos dois sites ofereceu acesso direto a relatórios de intel
 
 ##### Parte 3: Pesquisa em inteligência de ameaças de segurança cibernética em tempo real
 
-Atualmente, o compartilhamento de informações sobre ameaças digitais tem se tornado cada vez mais relevante, contribuindo para o fortalecimento da segurança cibernética de organizações e do setor público. Diversas empresas e órgãos governamentais disponibilizam plataformas que permitem tanto o envio quanto o recebimento de dados sobre atividades e alertas de segurança. Na terceira parte deste laboratório, foi utilizado o site da Cybersecurity and Infrastructure Security Agency (CISA), vinculada ao Department of Homeland Security (DHS), com o objetivo de acessar informações sobre ameaças cibernéticas no contexto nacional. Devido a uma reorganização do site, não foi possível localizar a seção específica indicada, e as perguntas foram respondidas com base em pesquisas complementares na internet.
-
 Hoje, o compartilhamento de dados de inteligência de ameaças está se tornando cada vez mais popular. O compartilhamento de dados de ameaças digitais melhora a segurança para todos. Empresas e agências governamentais têm sites que podem ser usados para enviar dados de segurança digital, bem como receber as atividades e alertas de segurança digital mais recentes. Na parte 3 desse laboratório foi acessado o site Cybersecurity and Infrastructure Security Agency (CISA) no Department of Homeland Security (DHS) para localizar a seção ameaças cibernéticas no estado nacional. Como o site foi reorganizado não possível encontrar a seção especificada e as perguntas foram respondidas com base em pesquisas na internet.
 - Identifique as quatro ameaças cibernéticas do estado nacional.
   - China: conduz ataques cibernéticos focados em espionagem econômica e roubo de propriedade intelectual, visando empresas e infraestrutura crítica para ganho estratégico e econômico.
@@ -240,7 +238,7 @@ Essas plataformas agregam informações para apresentá-las de forma compreensí
 🐝 Honeypots   
 Honeypots são redes ou servidores simulados que atraem atacantes, permitindo a coleta de informações sobre ataques. Os dados obtidos podem ser compartilhados com assinantes de plataformas de inteligência de ameaças. Honeypots hospedados na nuvem isolam os ataques da rede de produção, oferecendo uma alternativa segura para a coleta de informações de ameaças.
 
-<a name="item03.03.01"><h4>3.3.1 Laboratório - identifique inteligência relevante de ameaças</h4></a>[Back to summary](#item03)
+<a name="item03.03.01"><h4>3.3.1 Laboratório - Identifique inteligência relevante de ameaças</h4></a>[Back to summary](#item03)
 
 Este laboratório foi desenvolvido em três partes, cada uma composta por várias etapas. Algumas etapas foram documentadas diretamente neste arquivo README, enquanto outras exigiram o acesso a sites e bases de dados externas. O objetivo do laboratório foi compreender e aplicar técnicas de inteligência contra ameaças digitais, realizando pesquisas sobre vulnerabilidades (CVEs), explorando a Base de Conhecimento MITRE ATT&CK e investigando possíveis malwares. A partir dessas atividades, foi obtido habilidades para analisar cenários de ameaças e propor respostas adequadas no contexto de uma equipe de segurança digital.
 
