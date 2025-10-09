@@ -35,8 +35,11 @@
 ### Course Module 5 Structure:
 5. <a name="item05">Gerenciamento de Riscos e Controles de Segurança</a><br>
   5.1 <a href="#item05.01">Introdução</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;5.1.1 <a href="#item05.01.01">Laboratório - Gerenciamento de risco</a><br> 
   5.2 <a href="#item05.02">Gerenciamento de risco</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;5.2.1 <a href="#item05.02.01">Laboratório - Análise de riscos</a><br> 
   5.3 <a href="#item05.03">Avaliação de risco</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;5.3.1 <a href="#item05.03.01">Laboratório - Implementação de controles de segurança</a><br> 
   5.4 <a href="#item05.04">Controles de segurança</a><br>
   5.5 <a href="#item05.05">Resumo de Gerenciamento de riscos e controles de segurança</a><br>
 
@@ -62,6 +65,15 @@ O cálculo de riscos permite quantificar o nível de ameaça a partir da combina
 🛡️ Avaliação de Controles de Segurança   
 Após identificar e calcular os riscos, é necessário avaliar os controles de segurança existentes ou planejados. Esses controles devem ser compatíveis com as características da organização, considerando fatores como o tamanho da empresa, o setor de atuação, os recursos disponíveis e a criticidade dos ativos. A adequação dos controles garante que os riscos sejam mitigados de maneira proporcional e eficaz.
 
+<a name="item05.01.01"><h4>5.1.1 Laboratório - Gerenciamento de risco</h4></a>[Back to summary](#item05)
+
+Este laboratório foi desenvolvido em quatro partes, cada uma composta por várias etapas. Algumas etapas foram documentadas diretamente neste arquivo README, enquanto outras exigiram a criação de arquivos específicos. O objetivo do laboratório foi analisar vulnerabilidades identificadas em uma empresa fictícia, classificá-las por ordem de criticidade, desenvolver uma política de segurança da informação para a vulnerabilidade mais crítica, criar um procedimento detalhado para sua implementação e, por fim, elaborar um plano para disseminar e avaliar as políticas de segurança da empresa. Além disso, foi realizado uma análise conceitual dos documentos de segurança da informação para melhor compreensão e entendimento.
+
+##### Parte 1: Revisão do cenário
+
+
+
+
 <a name="item05.02"><h4>5.2 Gerenciamento de risco</h4></a>[Back to summary](#item05)
 
 ⚠️ Conceito de Risco   
@@ -81,6 +93,16 @@ O gerenciamento de riscos é formal e contínuo, buscando equilibrar o impacto d
 - Avaliar o risco: Analisar a gravidade das ameaças, priorizando-as pelo impacto financeiro (quantitativo) ou pelo efeito operacional (qualitativo).
 - Responder ao risco: Desenvolver planos de ação que podem mitigar, transferir ou aceitar riscos, conforme sua criticidade.
 - Monitorar o risco: Revisar continuamente os controles aplicados e acompanhar os riscos aceitos. Para isso, pode ser usado um registro de riscos, que documenta ameaças, controles adotados e estratégias de resposta.
+
+<a name="item05.02.01"><h4>5.2.1 Laboratório - Análise de riscos</h4></a>[Back to summary](#item05)
+
+Este laboratório foi desenvolvido em quatro partes, cada uma composta por várias etapas. Algumas etapas foram documentadas diretamente neste arquivo README, enquanto outras exigiram a criação de arquivos específicos. O objetivo do laboratório foi analisar vulnerabilidades identificadas em uma empresa fictícia, classificá-las por ordem de criticidade, desenvolver uma política de segurança da informação para a vulnerabilidade mais crítica, criar um procedimento detalhado para sua implementação e, por fim, elaborar um plano para disseminar e avaliar as políticas de segurança da empresa. Além disso, foi realizado uma análise conceitual dos documentos de segurança da informação para melhor compreensão e entendimento.
+
+##### Parte 1: Revisão do cenário
+
+
+
+
 
 <a name="item05.03"><h4>5.3 Avaliação de risco</h4></a>[Back to summary](#item05)
 
@@ -122,6 +144,15 @@ A mitigação busca reduzir a gravidade da perda ou a probabilidade de ocorrênc
 - Reduzir: Implementar controles como firewalls, patches, permissões e atualizações.
 - Evitar: Alterar a abordagem para eliminar totalmente o risco.
 - Transferir: Utilizar seguros, terceirização ou contratação de especialistas.
+
+<a name="item05.03.01"><h4>5.3.1 Laboratório - Implementação de controles de segurança</h4></a>[Back to summary](#item05)
+
+Este laboratório foi desenvolvido em quatro partes, cada uma composta por várias etapas. Algumas etapas foram documentadas diretamente neste arquivo README, enquanto outras exigiram a criação de arquivos específicos. O objetivo do laboratório foi analisar vulnerabilidades identificadas em uma empresa fictícia, classificá-las por ordem de criticidade, desenvolver uma política de segurança da informação para a vulnerabilidade mais crítica, criar um procedimento detalhado para sua implementação e, por fim, elaborar um plano para disseminar e avaliar as políticas de segurança da empresa. Além disso, foi realizado uma análise conceitual dos documentos de segurança da informação para melhor compreensão e entendimento.
+
+##### Parte 1: Revisão do cenário
+
+
+
 
 <a name="item05.04"><h4>5.4 Controles de segurança</h4></a>[Back to summary](#item05)
 
