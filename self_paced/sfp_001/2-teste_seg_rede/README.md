@@ -131,10 +131,24 @@ Quando integrado ao SIEM, o SOAR potencializa a capacidade de detectar, correlac
 
 <a name="item02.02.01"><h4>2.2.1 Laboratório - Packet Tracer - Use comandos de diagnóstico</h4></a>[Back to summary](#item02)
 
+Neste 
+
+
 ##### Parte 1: Reunir as configurações do dispositivo de usuário final
 
 
+
+
+
+
+
 ##### Parte 2: Coletar informações sobre a rede e os dispositivos
+
+
+
+
+
+
 
 ##### Parte 3: Diagnosticar problemas de conectividade
 
