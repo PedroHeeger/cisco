@@ -36,7 +36,7 @@
 2. <a name="item02">Teste de Segurança de Rede</a><br>
   2.1 <a href="#item02.01">Introdução</a><br>
   2.2 <a href="#item02.02">Avaliações de segurança</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 <a href="#item02.02.01">Laboratório - Packet Tracer - Use comandos de diagnóstico</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 <a href="#item02.02.01">Packet Tracer - Use comandos de diagnóstico</a><br>
   2.3 <a href="#item02.03">Técnicas de teste de segurança</a><br>
   2.4 <a href="#item02.04">Ferramentas de teste de segurança de rede</a><br>
   2.5 <a href="#item02.05">Teste de penetração</a><br>
@@ -129,31 +129,211 @@ O SOAR complementa o SIEM, coletando informações de várias fontes e automatiz
 
 Quando integrado ao SIEM, o SOAR potencializa a capacidade de detectar, correlacionar e reagir rapidamente a ameaças.
 
-<a name="item02.02.01"><h4>2.2.1 Laboratório - Packet Tracer - Use comandos de diagnóstico</h4></a>[Back to summary](#item02)
+<a name="item02.02.01"><h4>2.2.1 Packet Tracer - Use comandos de diagnóstico</h4></a>[Back to summary](#item02)
 
-Neste 
+As atividades do **Cisco Packet Tracer** são chamadas de *Packet Tracer Tutored Activity (PTTA)*, que consistem em exercícios interativos desenvolvidos para aprimorar o aprendizado prático de redes. Cada PTTA apresenta um ambiente de simulação com dispositivos parcialmente configurados, no qual é necessário completar tarefas específicas, realizar ajustes de configuração ou responder perguntas relacionadas à topologia apresentada. Essas atividades orientadas combinam instruções guiadas e desafios de aplicação prática, permitindo compreender de forma progressiva os conceitos de redes, protocolos e serviços. 
 
+Nesta atividade do Packet Tracer (PTTA), o objetivo foi aplicar diversos comandos para coletar informações dos dispositivos e solucionar problemas relacionados à configuração e à conectividade. Entre os dados analisados estavam o endereço IP, o gateway padrão e as configurações do servidor DNS — parâmetros fundamentais para garantir que um dispositivo consiga se comunicar em rede local e acessar recursos externos, como a Internet.
+
+Nesta atividade do Packet Tracer (PTTA), o objetivo consistiu em utilizar vários comandos para coletar informações dos dispositivos e solucionar problemas de configuração e conectividade dos dispositivos. As informações dos dispositivos incluem o endereço IP, o gateway padrão e as configurações do servidor DNS. Essas configurações são essenciais para permitir que um dispositivo se comunique em redes e se conecte à Internet.
 
 ##### Parte 1: Reunir as configurações do dispositivo de usuário final
 
+Na primeira parte desse PTTA, foram documentadas as configurações de endereço IP dos dispositivos finais localizados no *Headquarters* (sede corporativa) de uma empresa fictícia. Inicialmente, no modo físico, identificou-se a posição de todos os equipamentos envolvidos: PCs 1-1, 1-2, 1-3 e 1-4; a impressora FL-1P; o HQ-Laptop-1 e o Net-Admin no Wiring Closet, conforme imagem 01. Em seguida, na Etapa 1, foi acessado o prompt de comando do HQ-Laptop-1 para consultar suas informações de rede, enquanto na Etapa 2 o mesmo procedimento foi realizado no Net-Admin.
 
+<div align="center"><figure>
+    <img src="../0-aux/md2-img01.png" alt="img01"><br>
+    <figcaption>Imagem 01.</figcaption>
+</figure></div><br>
 
+- HQ-Laptop-1 (Imagem 02):
+  - Qual endereço IPv4 é exibido para a conexão Wireless0?
+    - 192.168.50.2
+  - Se o endereço IPv4 estiver no intervalo 169.254.0.0/16, que método está sendo usado para atribuir endereços IPv4? Por que o laptop recebeu um endereço IPv4 no intervalo de 169.254.0.0/16?
+    - Isso indica que o dispositivo não conseguiu obter o endereçamento de um servidor DHCP. Portanto, o dispositivo atribuiu a si mesmo um pool de endereços 169.254.0.0/16 usado para endereçamento IP privado automático (APIPA).
+  - Quando o endereço IPv4 não está mais no intervalo 169.254.0.0/16, quais são as informações de endereçamento IP exibidas? Registre suas respostas na tabela abaixo.
+    - Endereço de link-local IPv6: FE80::20A:F3FF:FEE4:EEAA
+    - Endereço IPv6: ::
+    - Endereço IPv4: 192.168.50.2
+    - Máscara de Sub-Rede: 255.255.255.0
+    - Gateway Padrão: 192.168.50.1
+    - Servidores DNS: 10.2.0.125
+  - Você vê um endereço de servidor de DNS? Explique.
+    - Só consigo ver o servidor DNS executando o comando `ipconfig /all`.
+  - Você vê um endereço de servidor de DNS? O que é?
+    - Só consigo ver o servidor DNS executando o comando `ipconfig /all`. O servidor DNS é 10.2.0.125.
 
+<div align="center"><figure>
+    <img src="../0-aux/md2-img02.png" alt="img02"><br>
+    <figcaption>Imagem 02.</figcaption>
+</figure></div><br>
 
+- Net-Admin (Imagem 03):
+  - Quais são as informações de endereçamento IP exibidas na interface FastEthernet0? Registre suas respostas na tabela abaixo.
+    - Endereço físico: 0001.C910.22D6
+    - Endereço de link-local IPv6: FE80::201:C9FF:FE10:22D6
+    - Endereço IPv6: ::
+    - Endereço IPv4: 192.168.99.9
+    - Máscara de Sub-Rede: 255.255.255.0
+    - Gateway Padrão: 192.168.99.1
+    - Servidores DNS: 10.2.0.125
 
+<div align="center"><figure>
+    <img src="../0-aux/md2-img03.png" alt="img03"><br>
+    <figcaption>Imagem 03.</figcaption>
+</figure></div><br>
 
 ##### Parte 2: Coletar informações sobre a rede e os dispositivos
 
+Na Parte 2, foram documentadas as informações sobre o link com o ISP e os endereçamentos IP de todos os dispositivos finais da sede, identificando também a qual VLAN cada um deles pertencia. Na Etapa 1, foi acessada a CLI do roteador HQ-Edge no Wiring Closet. Esse roteador atuava como ponto de interconexão entre a rede corporativa e o provedor de serviços de Internet (ISP). A partir da CLI, foram executados comandos para obter os dados do dispositivo de upstream localizado no ISP.
 
+- HQ-Edge (Imagem 04):
+  - Qual é o endereço do gateway de último recurso (ou gateway padrão)?
+    - 0.0.0.0
+  - Por que o endereço de próximo salto não é exibido?
+    - Ele não está configurado explicitamente.
+  - Como a rota padrão é configurada? Ele usa o endereço do próximo salto?
+    - Ele é configurado com a interface de saída em vez do endereço de próximo salto.
+  - Qual é o endereço IPv4 do endereço do próximo salto (ISP)?
+    - 10.0.0.49
+  - Qual porta do roteador ISP está conectada ao HQ-Edge?
+    - GigabitEthernet1/0
+  - Qual versão do IOS é usada no roteador ISP?
+    - Software (PT1000-I-M); Version 12.2(28); RELEASE SOFTWARE (fc5)
+  - Qual é o endereço MAC da interface no roteador ISP conectado ao HQ-Edge?
+    - 0060.2FE1.903B
 
+<div align="center"><figure>
+    <img src="../0-aux/md2-img04.png" alt="img04"><br>
+    <figcaption>Imagem 04.</figcaption>
+</figure></div><br>
 
+Na Etapa 2, foram coletadas as informações de conectividade de rede dos dispositivos localizados no HQ. A lista a seguir apresenta o endereço IP e o gateway padrão atribuídos a cada equipamento:
+- PC 1-1: 192.168.10.2 | 192.168.10.1
+- PC 1-2: 192.168.10.3 | 192.168.10.1
+- PC 1-3: 192.168.20.4 | 192.168.20.1
+- PC 1-4: 192.168.20.3 | 192.168.20.1
+- FL-1P: 192.168.50.3 | 192.168.50.1 (Imagem 05)
+- HQ-Laptop-1: 192.168.50.2 | 192.168.50.1
 
+<div align="center"><figure>
+    <img src="../0-aux/md2-img05.png" alt="img05"><br>
+    <figcaption>Imagem 05.</figcaption>
+</figure></div><br>
 
+- PC 1-1:
+  - Abra o prompt de comando e digite o comando `arp -a`. Que informações são exibidas?
+    - Nenhuma Entrada ARP Encontrada.
+  - Que informações são exibidas?
+  - Use o comando `ping` para pingar 1-2, 1-3, 1-4, FL-1P e HQ-Laptop-1. Insira o comando `arp -a`. Que informações são exibidas?
+    - Endereço de internet, Endereço físico e tipo. ARP fornece uma tabela que mapeia endereços MAC conhecidos para seus endereços IP associados. (Imagem 06)
+  - Por que as entradas na tabela ARP não contêm informações sobre dispositivos nas redes 192.168.20.0 e 192.168.50.0 enquanto o ping é bem-sucedido?
+    - 192.168.10.0/24, 192.168.20.0/24 e 192.168.50.0/24 estão em VLANs diferentes. O ping da rede 192.168.10.0 para outras redes VLAN precisaria passar primeiro pelo gateway padrão. Portanto, a tabela ARP contém apenas as informações sobre dispositivos na mesma rede ou na mesma VLAN.
+  - Para encontrar a rota de um pacote para chegar ao servidor DNS, digite o comando `tracert 10.2.0.125`. Que informações são exibidas?
+    - Um traçado de rota do IP 192.168.10.1 (PC 1-1) até 10.2.0.125 (Servidor DNS), passando pelo Gateway (10.0.0.49). (Imagem 06)
+  - Quantos roteadores, ou saltos, estão entre o PC 1-1 e o servidor DNS?
+    - 2 (Imagem 06)
+
+<div align="center"><figure>
+    <img src="../0-aux/md2-img06.png" alt="img06"><br>
+    <figcaption>Imagem 06.</figcaption>
+</figure></div><br>
 
 ##### Parte 3: Diagnosticar problemas de conectividade
 
+Na última parte desse PTTA, foram aplicadas diversas técnicas e comandos de diagnóstico. A ferramenta **nslookup** foi utilizada para consultar um servidor DNS e solucionar problemas relacionados à resolução de nomes. Também foi analisado um cenário em que o comando ping falhava, embora o acesso à Web permanecesse funcional, identificando a causa dessa inconsistência. Em seguida, foi empregado a ferramenta **netstat** para identificar quais portas estavam em escuta no dispositivo de destino. A primeira etapa dessa parte foi executada diretamente no navegador do PC 1-1, em vez do prompt de comando.
 
+- PC 1-1:
+  - Insira a URL test.ptsecurity.com. A página da Web é exibida? Caso contrário, qual é a mensagem?
+    - Não. A mensagem é “Nome do host não resolvido”.
+  - Digite o endereço IP:192.168.75.2. A página da Web é exibida?
+    - Sim. (Imagem 07)
+  - Por que a página da Web é exibida usando o endereço IP, mas não o nome de domínio?
+    - O PC não consegue resolver o nome de domínio com o endereço IP.
 
+<div align="center"><figure>
+    <img src="../0-aux/md2-img07.png" alt="img07"><br>
+    <figcaption>Imagem 07.</figcaption>
+</figure></div><br>
+
+Na segunda etapa, a ferramenta **nslookup** foi utilizada para verificar o funcionamento do serviço DNS. Essa verificação foi realizada novamente no prompt de comando do PC 1-1.
+
+- PC 1-1:
+  - Insira o comando `ping test.ptsecurity.com`. Qual mensagem foi exibida?
+    - A solicitação de ping não pôde encontrar o host test.ptsecurity.com. Verifique o nome e tente novamente.
+  - O que significa a mensagem?
+    - A entrada DNS não está no banco de dados do servidor DNS.
+  - Insira o comando `nslookup test.ptsecurity.com`. Qual mensagem foi exibida?
+    - Servidor: [10.2.0.125], Endereço: 10.2.0.125, Desconhecido não consegue encontrar test.ptsecurity.com: Domínio inexistente.
+  - Qual servidor é o servidor DNS padrão?
+    - 10.2.0.125
+  - Insira o comando `nslookup test.ptsecurity.com 192.168.99.3` e pressione Enter. Qual mensagem foi exibida?
+    - Server: [192.168.99.3], Address: 192.168.99.3, DNS request timed out, timeout was 15000 milli seconds; Server: [192.168.99.3], Address: 192.168.99.3;
+    Non-authoritative answer: Name: test.ptsecurity.com Address: 192.168.75.2. (Imagem 08)
+  - Na Etapa 2c, por que o nome de domínio não pode ser resolvido?
+    - Quando um nome de domínio é inserido na caixa de URL, o PC está tentando resolvê-lo através do servidor DNS padrão. Nesse caso, o servidor DNS padrão não contém as informações em seu banco de dados.
+
+<div align="center"><figure>
+    <img src="../0-aux/md2-img08.png" alt="img08"><br>
+    <figcaption>Imagem 08.</figcaption>
+</figure></div><br>
+
+A etapa três consistiu em usar a saída do comando `ping` para diagnosticar problemas de conectividade.
+
+- PC 1-1:
+  - Insira o comando `ping mail.cybercloud.com`. Qual mensagem foi exibida?
+    - Os 4 pacotes enviados foram perdidos.
+  - Que informações são indicadas pela mensagem?
+    - A resolução de nome do DNS foi bem-sucedida. No entanto, o ping falhou. As possíveis razões são que o host está inativo ou o eco/resposta de eco de ICMP está desabilitado no host.
+  - Insira o comando `ping www.ptsecurity.com`. Qual mensagem foi exibida?
+    - Os 4 pacotes enviados foram perdidos.
+  - Que informações são indicadas pela mensagem?
+    - Há um firewall no caminho que bloqueia o ping até o destino.
+  - Feche o prompt de comando, abra o Navegador da Web e acesse `www.ptsecurity.com`. A página da Web é exibida?
+    - Sim. (Imagem 09)
+  - O que se pode concluir?
+    - O host está em execução; no entanto, o ping no servidor da Web é bloqueado.
+
+<div align="center"><figure>
+    <img src="../0-aux/md2-img09.png" alt="img09"><br>
+    <figcaption>Imagem 09.</figcaption>
+</figure></div><br>
+
+Na quarta e última etapa, foi utilizado a ferramenta **netstat** para encontrar portas ativas e de escuta. Para isso, o prompt de comando do servidor FTP no Wiring Closet foi acessado.
+
+- Servidor FTP | PC 1-1:
+  - Na janela PC 1-1, digite o comando `netstat`. Qual mensagem foi exibida? Ela mostra dados?
+    - Não mostra dados, apenas a tabela vazia Active Connections com os seguintes atributos: Proto, Local, Address, Foreign Address e State.
+  - No servidor FTP, insira o comando `netstat`. Qual mensagem foi exibida? Ela mostra dados?
+    - Sim. Existem três linhas para a mesma tabela de mesmo cabeçalho.
+  - No servidor FTP, insira o comando `ipconfig` para determinar o endereço IP. Do PC 1-1, inicie uma sessão FTP com o servidor FTP (`ftp 192.168.75.2`). Aqui foi preciso identificar as credenciais de um usuário FTP, olhando as configurações do serviço FTP no servidor (`cisco:cisco`). No servidor FTP, insira o comando `netstat`. Qual mensagem foi exibida? Há alguma informação nova?
+    - Sim, uma nova entrada mostra: TCP, 192.168.75.2:21, 192.168.10.3:1025, ESTABLISHED. (Imagem 10)
+  - Qual porta é a porta de escuta e qual é o status da conexão?
+    - A porta de escuta é TCP 21 e a conexão TCP é estabelecida. (Imagem 10)
+  - Do PC 1-1, digite `bob:cisco123` como o nome de usuário. No servidor FTP, insira o comando `netstat`. As informações exibidas são alteradas?
+    - Sim. Uma nova entrada mostra: TCP, 192.168.75.2:1028, 192.168.10.3:1028, ESTABLISHED. (Imagem 11)
+  - O que é indicado por essa nova entrada?
+    - Que a conexão foi estabelecida.
+  - No PC 1-1, digite o comando `put Sample2.txt` e pressione Enter. Isso vai subir o arquivo `Sample2.txt` para o servidor de FTP. No servidor FTP, insira o comando `netstat`. As informações exibidas são alteradas?
+    - Sim. Uma nova entrada mostra: TCP, 192.168.75.2:1030, 192.168.10.3:1029, CLOSING. (Imagem 11)
+  - Aguarde alguns segundos e insira o comando `netstat` novamente. As informações exibidas são alteradas?
+    - Sim. A linha “CLOSING” desapareceu. (Imagem 11)
+  - No PC 1-1, digite o comando `quit`. No servidor FTP, insira o comando `netstat`. As informações exibidas são alteradas?
+    - Sim. Agora a conexão TCP entre 192.168.75.2:21 e 192.168.10.2:1027 está CLOSED. (Imagem 11)
+  - Do PC 1-1, feche o prompt de comando e abra o Navegador da Web. Navegue até 192.168.75.2. No servidor FTP, insira o comando `netstat`. As informações exibidas são alteradas?
+    - Sim. Uma nova entrada mostra: TCP, 192.168.75.2:80, 192.168.10.2:1030, CLOSED. (Imagem 11)
+  - O que essa nova entrada indica?
+    - Uma solicitação de página da Web é feita pelo host 192.168.10.2. A página da Web é transmitida (exibida no navegador da Web do PC 1-1) e a conexão TCP é fechada. (Imagem 11)
+
+<div align="center"><figure>
+    <img src="../0-aux/md2-img10.png" alt="img10"><br>
+    <figcaption>Imagem 10.</figcaption>
+</figure></div><br>
+
+<div align="center"><figure>
+    <img src="../0-aux/md2-img11.png" alt="img11"><br>
+    <figcaption>Imagem 11.</figcaption>
+</figure></div><br>
 
 <a name="item02.03"><h4>2.3 Técnicas de teste de segurança</h4></a>[Back to summary](#item02)
 
