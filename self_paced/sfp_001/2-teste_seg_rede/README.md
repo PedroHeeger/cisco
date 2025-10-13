@@ -15,10 +15,9 @@
 ### Used Tools:
 - Operating System (OS): 
   - Windows 11 <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/windows11.png" alt="windows11" width="auto" height="25">
-- Cloud:
-  - Amazon Web Services (AWS)   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="auto" height="25">
+- Virtualization: 
+  - Oracle VM VirtualBox   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/vm_virtualbox.png" alt="vm_virtualbox" width="auto" height="25">
 - Cloud Services:
-  - Amazon Elastic Compute Cloud (EC2)   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/cloud/aws_ec2.svg" alt="aws_ec2" width="auto" height="25">
   - Google Drive <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/google_drive.png" alt="google_drive" width="auto" height="25">
 - Language:
   - HTML   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html" width="auto" height="25">
@@ -29,7 +28,18 @@
   - Git   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="auto" height="25">
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
-
+- Network:
+  - arp   <img src="" alt="arp" width="auto" height="25">
+  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - ftp   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/ftp.png" alt="ftp" width="auto" height="25">
+  - ipconfig   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/ipconfig.jpeg" alt="ipconfig" width="auto" height="25">
+  - netstat   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/netstat.webp" alt="netstat" width="auto" height="25">
+  - OpenSSH   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/openssh.png" alt="openssh" width="auto" height="25">
+  - ping   <img src="" alt="iputils" width="auto" height="25">
+  - Telnet   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/telnet.png" alt="telnet" width="auto" height="25">
+  - Trace Route (tracert)   <img src="" alt="tracert" width="auto" height="25">
+  - Wireshark   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/wireshark.png" alt="wireshark" width="auto" height="25">
+  
 ---
 
 ### Course Module 2 Structure:
@@ -134,8 +144,6 @@ Quando integrado ao SIEM, o SOAR potencializa a capacidade de detectar, correlac
 As atividades do **Cisco Packet Tracer** são chamadas de *Packet Tracer Tutored Activity (PTTA)*, que consistem em exercícios interativos desenvolvidos para aprimorar o aprendizado prático de redes. Cada PTTA apresenta um ambiente de simulação com dispositivos parcialmente configurados, no qual é necessário completar tarefas específicas, realizar ajustes de configuração ou responder perguntas relacionadas à topologia apresentada. Essas atividades orientadas combinam instruções guiadas e desafios de aplicação prática, permitindo compreender de forma progressiva os conceitos de redes, protocolos e serviços. 
 
 Nesta atividade do Packet Tracer (PTTA), o objetivo foi aplicar diversos comandos para coletar informações dos dispositivos e solucionar problemas relacionados à configuração e à conectividade. Entre os dados analisados estavam o endereço IP, o gateway padrão e as configurações do servidor DNS — parâmetros fundamentais para garantir que um dispositivo consiga se comunicar em rede local e acessar recursos externos, como a Internet.
-
-Nesta atividade do Packet Tracer (PTTA), o objetivo consistiu em utilizar vários comandos para coletar informações dos dispositivos e solucionar problemas de configuração e conectividade dos dispositivos. As informações dos dispositivos incluem o endereço IP, o gateway padrão e as configurações do servidor DNS. Essas configurações são essenciais para permitir que um dispositivo se comunique em redes e se conecte à Internet.
 
 ##### Parte 1: Reunir as configurações do dispositivo de usuário final
 
@@ -499,13 +507,29 @@ O teste de penetração permite que empresas compreendam seus pontos fracos ante
 
 <a name="item02.05.01"><h4>2.5.1 Laboratório - Use o Wireshark para comparar o tráfego Telnet e SSH</h4></a>[Back to summary](#item02)
 
+O **Wireshark** é um analisador de protocolos de rede que permite monitorar o tráfego de rede em nível detalhado. É possível capturar pacotes em tempo real e armazená-los para análise posterior. O **Wireshark** oferece diversas ferramentas para inspeção profunda de centenas de protocolos de rede, permitindo identificar comportamentos e problemas de comunicação entre dispositivos.  
+
+Neste laboratório, o Wireshark foi utilizado para capturar e analisar diferentes tipos de tráfego: o tráfego Web na Parte 1, o tráfego Telnet na Parte 2 e o tráfego SSH na Parte 3. Para este laboratório, foi utilizada uma máquina virtual na **Oracle VM VirtualBox**, pois seriam realizadas conexões remotas. Entretanto, optei por executar o **Wireshark** na própria máquina física **Windows** mesmo, ignorando as partes que não foi possível a execução.
+
 ##### Parte 1: Usar o Wireshark para capturar o tráfego do navegador da Web.
+
+Na primeira parte, a interface gráfica do **Wireshark** foi aberta e, na lista de interfaces, foi selecionada a que estava conectada à Internet para iniciar a captura de tráfego. Em seguida, a página `www.cisco.com` foi acessada por meio do navegador para gerar pacotes de rede. Após a navegação, a captura foi interrompida. No **Windows PowerShell** da mesma máquina, o comando `nslookup www.cisco.com` foi executado para identificar o endereço IP do site. Esse IP foi então utilizado no filtro `ip.addr == 2.20.124.114` no **Wireshark** para isolar todos os pacotes relacionados à comunicação com o site.
+
+
+<div align="center"><figure>
+    <img src="../0-aux/md2-img12.png" alt="img12"><br>
+    <figcaption>Imagem 12.</figcaption>
+</figure></div><br>
 
 ##### Parte 2: Usar o Wireshark para capturar o tráfego Telnet.
 
+Na Parte 2, o mesmo processo foi realizado na máquina virtual no **Oracle VM VirtualBox**. A única diferença é que o tráfego gerado foi Telnet em vez de HTTPS. O Telnet é um protocolo de comunicação que permite acesso remoto a dispositivos de rede usando uma conexão de texto não criptografada, sendo útil para testes e administração de sistemas em laboratórios controlados.  
+
+A ferramenta de linha de comando **Telnet** foi utilizada para se conectar da própria VM para ela mesma, executando o comando `telnet localhost` e fornecendo as credenciais: `cisco` (usuário) e `password` (senha). Após estabelecer a conexão, a captura de tráfego foi interrompida e analisada no **Wireshark**. Neste caso, o **Wireshark** estava sendo executado diretamente na própria máquina virtual, permitindo a inspeção detalhada dos pacotes Telnet transmitidos. O objetivo principal dessa etapa foi observar como as credenciais do Telnet são enviadas em texto claro, já que o protocolo não utiliza criptografia.
 
 ##### Parte 3: Usar o Wireshark para capturar o tráfego SSH.
 
+A terceira e última parte consistiu em um procedimento semelhante ao da Parte 2, com a diferença de que a conexão remota foi estabelecida via **SSH**, utilizando o comando `ssh localhost` do **OpenSSH**. Diferentemente do Telnet, o SSH emprega criptografia, garantindo que os dados transmitidos fiquem protegidos. Assim, mesmo com a captura de pacotes realizada pelo **Wireshark**, era possível identificar o tráfego, mas não visualizar as credenciais em texto claro.
 
 <a name="item02.06"><h4>2.6 Resumo de teste de segurança de rede</h4></a>[Back to summary](#item02)
 
