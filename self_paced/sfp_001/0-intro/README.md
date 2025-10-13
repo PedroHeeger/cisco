@@ -57,8 +57,6 @@ O módulo também trouxe uma introdução ao **Cisco Packet Tracer**, explicando
 
 <a name="item00.01"><h4>0.1 Packet Tracer - Exploração dos Modos Lógico e Físico</h4></a>[Back to summary](#item00)
 
-As atividades do **Cisco Packet Tracer** são chamados de *Packet Tracer Tutored Activity (PTTA)*, que são.... 
-
 As atividades do **Cisco Packet Tracer** são chamadas de *Packet Tracer Tutored Activity (PTTA)*, que consistem em exercícios interativos desenvolvidos para aprimorar o aprendizado prático de redes. Cada PTTA apresenta um ambiente de simulação com dispositivos parcialmente configurados, no qual é necessário completar tarefas específicas, realizar ajustes de configuração ou responder perguntas relacionadas à topologia apresentada. Essas atividades orientadas combinam instruções guiadas e desafios de aplicação prática, permitindo compreender de forma progressiva os conceitos de redes, protocolos e serviços. 
 
 No contexto deste módulo, o único PTTA apresentou uma breve introdução ao **Cisco Packet Tracer**, explicando o funcionamento básico do software. O foco principal foi demonstrar as diferenças entre os modos Lógico e Físico. O modo Lógico representa a topologia funcional da rede, exibindo os dispositivos, conexões e configurações de protocolos que determinam o tráfego de dados. Já o modo Físico oferece uma visão espacial e realista da infraestrutura, mostrando a disposição dos equipamentos em racks, salas e edifícios, além de possibilitar a movimentação e a conexão física dos cabos. As tarefas de cada etapa, assim como os arquivos inicial e completo desse PTTA, são listados a seguir:

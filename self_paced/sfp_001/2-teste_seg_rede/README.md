@@ -11,6 +11,7 @@
 
 ### Theme:
 - Cybersecurity
+- Network
 
 ### Used Tools:
 - Operating System (OS): 
@@ -39,7 +40,7 @@
   - Telnet   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/telnet.png" alt="telnet" width="auto" height="25">
   - Trace Route (tracert)   <img src="" alt="tracert" width="auto" height="25">
   - Wireshark   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/wireshark.png" alt="wireshark" width="auto" height="25">
-  
+
 ---
 
 ### Course Module 2 Structure:
