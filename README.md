@@ -2,7 +2,7 @@
 
 Este repositório foi criado com o objetivo de centralizar todos os conteúdos desenvolvidos durante os estudos das tecnologias Cisco, utilizando inicialmente a plataforma oficial **Cisco Networking Academy (CNA)**.
 
-A proposta é semelhante ao repositório dedicado à ([AWS](https://github.com/PedroHeeger/aws_skb)), reunindo em um só lugar cursos, laboratórios, trilhas de aprendizado e materiais de apoio relacionados ao ecossistema Cisco.
+A proposta é semelhante ao repositório dedicado à [AWS](https://github.com/PedroHeeger/aws_skb), reunindo em um só lugar cursos, laboratórios, trilhas de aprendizado e materiais de apoio relacionados ao ecossistema Cisco.
 
 Embora o repositório tenha sido criado com foco exclusivo na CNA, ele poderá futuramente abranger outras plataformas oficiais de capacitação da Cisco, como o Cisco U., Cisco Digital Learning ou a Cisco Learning Network.
 
