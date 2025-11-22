@@ -9,8 +9,8 @@ Embora o repositório tenha sido criado com foco exclusivo na CNA, ele poderá f
 Atualmente, os conteúdos são organizados com base nas categorias oferecidas dentro da Cisco Networking Academy:
 
 - **Courses**: Cursos estruturados com conteúdo teórico e prático, divididos em:
-  - **Instructor-led**: Cursos conduzidos por instrutores, geralmente em ambientes guiados ou salas virtuais.
-  - [Self-paced](./self_paced/): Cursos autoexplicativos e autoguiados, realizados no próprio ritmo do aluno.
+  - [Instructor-Led](./instructor_led/): Cursos conduzidos por instrutores, geralmente em ambientes guiados ou salas virtuais.
+  - [Self-Paced](./self_paced/): Cursos autoexplicativos e autoguiados, realizados no próprio ritmo do aluno.
 - **Career Paths**: Trilhas de aprendizado voltadas para certificações ou profissões específicas.
 - **Modules**: Unidades de conteúdo independentes, geralmente extraídas de cursos maiores.
 - **Resources**: Materiais adicionais, como guias, simuladores e tutoriais.
