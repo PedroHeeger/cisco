@@ -1,0 +1,100 @@
+# CCNA: Introduction to Networks   <img src="./0-aux/logo_course.png" alt="ild_001" width="auto" height="45">
+
+### Cisco: <a href="../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
+### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
+### Training Category: <a href="../../self_paced/">self-paced</a>
+### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
+### Course: <a href="./">ild_001 (CCNA: Introduction to Networks)   <img src="./0-aux/logo_course.png" alt="ild_001" width="auto" height="25"></a>
+
+#### <a href="https://github.com/PedroHeeger/my_tech_journey/blob/main/credentials/certificates/online_courses/cybersecurity\2590922_Cyber_Threat_Management_PH_CNA.pdf">Certificate</a>
+#### <a href="https://www.credly.com/badges/1210f13a-8b8b-41f6-826e-a7434d02922f">Badge</a>
+
+---
+
+### Theme:
+- Network
+
+### Used Tools:
+- Operating System (OS): 
+  - Windows 11 <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/windows11.png" alt="windows11" width="auto" height="25">
+- Cloud Services:
+  - Google Drive <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/google_drive.png" alt="google_drive" width="auto" height="25">
+- Language:
+  - HTML   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html" width="auto" height="25">
+  - Markdown   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" alt="markdown" width="auto" height="25">
+- Integrated Development Environment (IDE) and Text Editor:
+  - Visual Studio Code (VS Code)   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="auto" height="25">
+- Versioning: 
+  - Git   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="auto" height="25">
+- Repository:
+  - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
+
+---
+
+### Course Strcuture:
+1. <a href="./mod-01/">As redes de hoje</a><br>
+  1.1 <a href="./mod-01/README.md#item01.01">Introdução</a><br>
+  1.2 <a href="./mod-01/README.md#item01.02">Redes afetam nossas vidas</a><br>
+  1.3 <a href="./mod-01/README.md#item01.03">Componentes de rede</a><br>
+  1.4 <a href="./mod-01/README.md#item01.04">Representações e topologias de rede</a><br>
+  1.5 <a href="./mod-01/README.md#item01.05">Tipos comuns de redes</a><br>
+  1.6 <a href="./mod-01/README.md#item01.06">Conexões com a Internet</a><br>
+  1.7 <a href="./mod-01/README.md#item01.07">Redes confiáveis</a><br>
+  1.8 <a href="./mod-01/README.md#item01.08">Tendênciais das redes</a><br>
+  1.9 <a href="./mod-01/README.md#item01.09">Segurança de Redes</a><br>
+  1.10 <a href="./mod-01/README.md#item01.10">O profissional de TI</a><br>
+2. <a href="./mod-02/">Switch básico e configuração de dispositivo final</a><br>
+  2.1 <a href="./mod-02/README.md#item02.01">Introdução</a><br>
+  2.2 <a href="./mod-02/README.md#item02.02">Acesso ao Cisco IOS</a><br>
+  2.3 <a href="./mod-02/README.md#item02.03">Navegação IOS</a><br>
+  2.4 <a href="./mod-02/README.md#item02.04">A Estrutura de Comandos</a><br>
+  2.5 <a href="./mod-02/README.md#item02.05">Configuração básica de dispositivos</a><br>
+  2.6 <a href="./mod-02/README.md#item02.06">Salvar configurações</a><br>
+  2.7 <a href="./mod-02/README.md#item02.07">Portas e Endereços</a><br>
+  2.8 <a href="./mod-02/README.md#item02.08">Configurar Endereços IP</a><br>
+  2.9 <a href="./mod-02/README.md#item02.09">Verificar a conectividade</a><br>
+3. <a href="./mod-03/">Protocolos e modelos</a><br>
+  3.1 <a href="./mod-03/README.md#item03.01">Introdução</a><br>
+  3.2 <a href="./mod-03/README.md#item03.02">As regras</a><br>
+  3.3 <a href="./mod-03/README.md#item03.03">Protocolos</a><br>
+  3.4 <a href="./mod-03/README.md#item03.04">Conjuntos de protocolos</a><br>
+  3.5 <a href="./mod-03/README.md#item03.05">Empresas de padrões</a><br>
+  3.6 <a href="./mod-03/README.md#item03.06">Modelos de Referência</a><br>
+  3.7 <a href="./mod-03/README.md#item03.07">Encapsulamento de dados</a><br>
+  3.8 <a href="./mod-03/README.md#item03.08">Acesso a dados</a><br>
+4. <a href="./mod-04/">Camada física</a><br>
+  4.1 <a href="./mod-04/README.md#item04.01">Introdução</a><br>
+  4.2 <a href="./mod-04/README.md#item04.02">Propósito da camada física</a><br>
+  4.3 <a href="./mod-04/README.md#item04.03">Características da camada física</a><br>
+  4.4 <a href="./mod-04/README.md#item04.04">Cabeamento de Cobre</a><br>
+  4.5 <a href="./mod-04/README.md#item04.05">Cabeamento UTP</a><br>
+  4.6 <a href="./mod-04/README.md#item04.06">Cabeamento de Fibra Óptica</a><br>
+  4.7 <a href="./mod-04/README.md#item04.07">Meios Sem Fio</a><br>
+5. <a href="./mod-05/">Sistemas de números</a><br>
+  5.1 <a href="./mod-05/README.md#item05.01">Introdução</a><br>
+  5.2 <a href="./mod-05/README.md#item05.02">Sistema de numeração binária</a><br>
+  5.3 <a href="./mod-05/README.md#item05.03">Sistema de numeração hexadecimal</a><br>
+6. <a href="./mod-06/">Camaca de Enlace de dados</a><br>
+  6.1 <a href="./mod-06/README.md#item06.01">Introdução</a><br>
+  6.2 <a href="./mod-06/README.md#item06.02">Finalidade da Camada de Enlance de Dados</a><br>
+  6.3 <a href="./mod-06/README.md#item06.03">Topologias</a><br>
+  6.4 <a href="./mod-06/README.md#item06.04">Quadro de Enlance de Dados</a><br>
+
+---
+
+### Objective:
+O objetivo deste primeiro curso de uma série de três foi introduzir os fundamentos essenciais de redes, abrangendo desde arquiteturas e protocolos até o domínio de endereçamento IP e conceitos básicos de Ethernet. O conteúdo proporcionou uma base sólida para compreender o funcionamento das redes modernas. Além da parte teórica, o curso contou com laboratórios interativos e cenários reais de aplicação, permitindo adquirir experiência prática na construção de redes locais (LANs), implementação de medidas de segurança e configuração de roteadores e switches.
+
+### Course Structure:
+- [README.md](./README.md): Este documento de README, escrito em **Markdown**, apresentando esse curso e distribuíndo para cada módulo.
+- [0-aux](../0-aux/): Pasta auxiliar com imagens utilizadas na construção dos arquivos de README desse curso.
+- Pastas referentes a cada módulo do curso.
+
+### Development:
+O curso **CCNA: Introduction to Networks** da **Cisco Networking Academy (CNA)** é o primeiro de uma série de três cursos voltados ao desenvolvimento de habilidades fundamentais em redes e à preparação para a certificação **CCNA (Cisco Certified Network Associate)**.
+
+Este curso foi disponibilizado juntamente com o **CyberOps Associate** ([ild_002](./ild_002)) na etapa de capacitação profissionalizante do **Programa CiberEducação Cisco Brasil**, considerada a terceira fase do programa. Para acessar essa fase, foi necessário ser aprovado na etapa inicial: a **11ª Maratona CiberEducação Cisco – Edição 1 Milhão de Estudantes no Brasil**, que exigiu a realização do curso **Gerenciamento de Ameaças Cibernéticas** ([sfp_001](../../self_paced/sfp_001/)). A segunda fase do programa foi dedicada à qualificação de instrutores credenciados no CNA.
+
+O curso foi estruturado em dezessete módulos, cada um contendo atividades práticas e laboratórios no **Cisco Packet Tracer** (PTTA). Também foram realizados questionários e quizzes ao longo do conteúdo, além de cinco exames de verificação distribuídos a cada três ou quatro módulos, e um exame final abrangendo todos os tópicos estudados. A nota mínima para aprovação em todas as avaliações foi de 70%.
+
+O conteúdo teórico e prático foi documentado em seus respectivos módulos. Os PTTAs desenvolvidos ao longo do curso foram registrados na pasta ([ptta](../../ptta/)) deste repositório, cujos arquivos são acessados por meio de links diretos. Essa pasta centraliza todas as atividades do Packet Tracer deste e de outros cursos, organizadas de forma padronizada.
