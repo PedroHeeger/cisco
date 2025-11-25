@@ -43,6 +43,7 @@
   1.8 <a href="./mod-01/README.md#item01.08">Tendênciais das redes</a><br>
   1.9 <a href="./mod-01/README.md#item01.09">Segurança de Redes</a><br>
   1.10 <a href="./mod-01/README.md#item01.10">O profissional de TI</a><br>
+  1.11 <a href="./mod-01/README.md#item01.11">Módulo Prático e Quiz</a><br>
 2. <a href="./mod-02/">Switch básico e configuração de dispositivo final</a><br>
   2.1 <a href="./mod-02/README.md#item02.01">Introdução</a><br>
   2.2 <a href="./mod-02/README.md#item02.02">Acesso ao Cisco IOS</a><br>
@@ -53,6 +54,7 @@
   2.7 <a href="./mod-02/README.md#item02.07">Portas e Endereços</a><br>
   2.8 <a href="./mod-02/README.md#item02.08">Configurar Endereços IP</a><br>
   2.9 <a href="./mod-02/README.md#item02.09">Verificar a conectividade</a><br>
+  2.10 <a href="./mod-02/README.md#item02.10">Módulo Prático e Quiz</a><br>
 3. <a href="./mod-03/">Protocolos e modelos</a><br>
   3.1 <a href="./mod-03/README.md#item03.01">Introdução</a><br>
   3.2 <a href="./mod-03/README.md#item03.02">As regras</a><br>
@@ -62,6 +64,7 @@
   3.6 <a href="./mod-03/README.md#item03.06">Modelos de Referência</a><br>
   3.7 <a href="./mod-03/README.md#item03.07">Encapsulamento de dados</a><br>
   3.8 <a href="./mod-03/README.md#item03.08">Acesso a dados</a><br>
+  3.9 <a href="./mod-03/README.md#item03.09">Módulo Prático e Quiz</a><br>
 4. <a href="./mod-04/">Camada física</a><br>
   4.1 <a href="./mod-04/README.md#item04.01">Introdução</a><br>
   4.2 <a href="./mod-04/README.md#item04.02">Propósito da camada física</a><br>
@@ -74,18 +77,67 @@
   5.1 <a href="./mod-05/README.md#item05.01">Introdução</a><br>
   5.2 <a href="./mod-05/README.md#item05.02">Sistema de numeração binária</a><br>
   5.3 <a href="./mod-05/README.md#item05.03">Sistema de numeração hexadecimal</a><br>
-6. <a href="./mod-06/">Camaca de Enlace de dados</a><br>
+6. <a href="./mod-06/">Camada de Enlace de dados</a><br>
   6.1 <a href="./mod-06/README.md#item06.01">Introdução</a><br>
   6.2 <a href="./mod-06/README.md#item06.02">Finalidade da Camada de Enlance de Dados</a><br>
   6.3 <a href="./mod-06/README.md#item06.03">Topologias</a><br>
   6.4 <a href="./mod-06/README.md#item06.04">Quadro de Enlance de Dados</a><br>
+7. <a href="./mod-07/">Switching Ethernet</a><br>
+  7.1 <a href="./mod-07/README.md#item07.01">Introdução</a><br>
+  7.2 <a href="./mod-07/README.md#item07.02">Quadros Ethernet</a><br>
+  7.3 <a href="./mod-07/README.md#item07.03">Endereços MAC Ethernet</a><br>
+  7.4 <a href="./mod-07/README.md#item07.04">A Tabela de Endereços MAC</a><br>
+  7.5 <a href="./mod-07/README.md#item07.05">Métodos de encaminhamento e velocidade de switches</a><br>
+8. <a href="./mod-08/">Camada de rede</a><br>
+  8.1 <a href="./mod-08/README.md#item08.01">Introdução</a><br>
+  8.2 <a href="./mod-08/README.md#item08.02">Características de camada de rede</a><br>
+  8.3 <a href="./mod-08/README.md#item08.03">Pacote IPv4</a><br>
+  8.4 <a href="./mod-08/README.md#item08.04">Pacote IPv6</a><br>
+  8.5 <a href="./mod-08/README.md#item08.05">Como um Host Roteia</a><br>
+  8.6 <a href="./mod-08/README.md#item08.06">Introdução ao Roteamento</a><br>
+9. <a href="./mod-09/">Resolução de endereços</a><br>
+  9.1 <a href="./mod-09/README.md#item09.01">Introdução</a><br>
+  9.2 <a href="./mod-09/README.md#item09.02">MAC e IP</a><br>
+  9.3 <a href="./mod-09/README.md#item09.03">ARP</a><br>
+  9.4 <a href="./mod-09/README.md#item09.04">Descoberta de vizinhos de IPv6</a><br>
+10. <a href="./mod-10/">Configuração básica do roteador</a><br>
+  10.1 <a href="./mod-10/README.md#item10.01">Introdução</a><br>
+  10.2 <a href="./mod-10/README.md#item10.02">Configurar definições iniciais do roteador</a><br>
+  10.3 <a href="./mod-10/README.md#item10.03">Configurar Interfaces</a><br>
+  10.4 <a href="./mod-10/README.md#item10.04">Configurar o gateway padrão</a><br>
+11. <a href="./mod-11/">Endereçamento IPv4</a><br>
+  11.1 <a href="./mod-11/README.md#item11.01">Introdução</a><br>
+  11.2 <a href="./mod-11/README.md#item11.02">Estrutura do Endereço IPv4</a><br>
+  11.3 <a href="./mod-11/README.md#item11.03">Unicast, broadcast e multicast IPv4</a><br>
+  11.4 <a href="./mod-11/README.md#item11.04">Tipos de endereços IPv4</a><br>
+  11.5 <a href="./mod-11/README.md#item11.05">Segmentação de rede</a><br>
+  11.6 <a href="./mod-11/README.md#item11.06">Sub-rede de uma rede IPv4</a><br>
+  11.7 <a href="./mod-11/README.md#item11.07">Sub-rede uma barra 16 e um prefixo de barra 8</a><br>
+  11.8 <a href="./mod-11/README.md#item11.08">Divisão em sub-redes para atender a requisitos </a><br>
+  11.9 <a href="./mod-11/README.md#item11.09">VLSM</a><br>
+  11.10 <a href="./mod-11/README.md#item11.10">Projeto estruturado</a><br>
+12. <a href="./mod-12/">Endereçamento IPv6</a><br>
+  12.1 <a href="./mod-12/README.md#item12.01">Introdução</a><br>
+  12.2 <a href="./mod-12/README.md#item12.02">Problemas do IPv4</a><br>
+  12.3 <a href="./mod-12/README.md#item12.03">Representação do Endereço IPv6</a><br>
+  12.4 <a href="./mod-12/README.md#item12.04">Tipos de Endereço IPv6</a><br>
+  12.5 <a href="./mod-12/README.md#item12.05">Configuração Estática do GUA e do LLA</a><br>
+  12.6 <a href="./mod-12/README.md#item12.06">Endereçamento dinâmico para GUAs IPv6</a><br>
+  12.7 <a href="./mod-12/README.md#item12.07">Endereçamento Dinâmico para LLAs IPv6</a><br>
+  12.8 <a href="./mod-12/README.md#item12.08">Endereços IPv6 Multicast</a><br>
+  12.9 <a href="./mod-12/README.md#item12.09">Sub-rede de uma rede IPv6</a><br>
+13. <a href="./mod-13/">ICMP</a><br>
+  13.1 <a href="./mod-13/README.md#item13.01">Introdução</a><br>
+  13.2 <a href="./mod-13/README.md#item13.02">Mensagens ICMP</a><br>
+  13.3 <a href="./mod-13/README.md#item13.03">Testes de Ping e Traceroute</a><br>
+
 
 ---
 
 ### Objective:
 O objetivo deste primeiro curso de uma série de três foi introduzir os fundamentos essenciais de redes, abrangendo desde arquiteturas e protocolos até o domínio de endereçamento IP e conceitos básicos de Ethernet. O conteúdo proporcionou uma base sólida para compreender o funcionamento das redes modernas. Além da parte teórica, o curso contou com laboratórios interativos e cenários reais de aplicação, permitindo adquirir experiência prática na construção de redes locais (LANs), implementação de medidas de segurança e configuração de roteadores e switches.
 
-### Course Structure:
+### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, apresentando esse curso e distribuíndo para cada módulo.
 - [0-aux](../0-aux/): Pasta auxiliar com imagens utilizadas na construção dos arquivos de README desse curso.
 - Pastas referentes a cada módulo do curso.
