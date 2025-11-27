@@ -1,1 +1,11 @@
 ptta/*
+ptta/mat/*
+labs/*
+labs/mat/*
+video_activity/*
+video_activity/mat/*
+
+
+
+instructor_led/ild_001/*
+!instructor_led/ild_001/mod-01/
