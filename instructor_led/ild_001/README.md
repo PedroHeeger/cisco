@@ -65,6 +65,7 @@
   3.7 <a href="./mod-03/README.md#item03.07">Encapsulamento de dados</a><br>
   3.8 <a href="./mod-03/README.md#item03.08">Acesso a dados</a><br>
   3.9 <a href="./mod-03/README.md#item03.09">Módulo Prático e Quiz</a><br>
+  3.10 <a href="./mod-03/README.md#item03.10">Exame de Comunicação e Conectividade de Rede Básica</a><br>
 4. <a href="./mod-04/">Camada física</a><br>
   4.1 <a href="./mod-04/README.md#item04.01">Introdução</a><br>
   4.2 <a href="./mod-04/README.md#item04.02">Propósito da camada física</a><br>
@@ -91,6 +92,8 @@
   7.3 <a href="./mod-07/README.md#item07.03">Endereços MAC Ethernet</a><br>
   7.4 <a href="./mod-07/README.md#item07.04">A Tabela de Endereços MAC</a><br>
   7.5 <a href="./mod-07/README.md#item07.05">Métodos de encaminhamento e velocidade de switches</a><br>
+  7.6 <a href="./mod-07/README.md#item07.06">Módulo Prático e Quiz</a><br>
+  7.7 <a href="./mod-07/README.md#item07.07">Exame de Comunicação e Conectividade de Rede Básica</a><br>
 8. <a href="./mod-08/">Camada de rede</a><br>
   8.1 <a href="./mod-08/README.md#item08.01">Introdução</a><br>
   8.2 <a href="./mod-08/README.md#item08.02">Características de camada de rede</a><br>
@@ -98,16 +101,20 @@
   8.4 <a href="./mod-08/README.md#item08.04">Pacote IPv6</a><br>
   8.5 <a href="./mod-08/README.md#item08.05">Como um Host Roteia</a><br>
   8.6 <a href="./mod-08/README.md#item08.06">Introdução ao Roteamento</a><br>
+  8.7 <a href="./mod-08/README.md#item08.07">Módulo Prático e Quiz</a><br>
 9. <a href="./mod-09/">Resolução de endereços</a><br>
   9.1 <a href="./mod-09/README.md#item09.01">Introdução</a><br>
   9.2 <a href="./mod-09/README.md#item09.02">MAC e IP</a><br>
   9.3 <a href="./mod-09/README.md#item09.03">ARP</a><br>
   9.4 <a href="./mod-09/README.md#item09.04">Descoberta de vizinhos de IPv6</a><br>
+  9.5 <a href="./mod-09/README.md#item09.05">Módulo Prático e Quiz</a><br>
 10. <a href="./mod-10/">Configuração básica do roteador</a><br>
   10.1 <a href="./mod-10/README.md#item10.01">Introdução</a><br>
   10.2 <a href="./mod-10/README.md#item10.02">Configurar definições iniciais do roteador</a><br>
   10.3 <a href="./mod-10/README.md#item10.03">Configurar Interfaces</a><br>
   10.4 <a href="./mod-10/README.md#item10.04">Configurar o gateway padrão</a><br>
+  10.5 <a href="./mod-10/README.md#item10.05">Módulo Prático e Quiz</a><br>
+  10.6 <a href="./mod-10/README.md#item10.06">Exame de comunicação entre redes</a><br>
 11. <a href="./mod-11/">Endereçamento IPv4</a><br>
   11.1 <a href="./mod-11/README.md#item11.01">Introdução</a><br>
   11.2 <a href="./mod-11/README.md#item11.02">Estrutura do Endereço IPv4</a><br>
@@ -119,6 +126,7 @@
   11.8 <a href="./mod-11/README.md#item11.08">Divisão em sub-redes para atender a requisitos </a><br>
   11.9 <a href="./mod-11/README.md#item11.09">VLSM</a><br>
   11.10 <a href="./mod-11/README.md#item11.10">Projeto estruturado</a><br>
+  11.11 <a href="./mod-11/README.md#item11.11">Módulo Prático e Quiz</a><br>
 12. <a href="./mod-12/">Endereçamento IPv6</a><br>
   12.1 <a href="./mod-12/README.md#item12.01">Introdução</a><br>
   12.2 <a href="./mod-12/README.md#item12.02">Problemas do IPv4</a><br>
@@ -129,12 +137,54 @@
   12.7 <a href="./mod-12/README.md#item12.07">Endereçamento Dinâmico para LLAs IPv6</a><br>
   12.8 <a href="./mod-12/README.md#item12.08">Endereços IPv6 Multicast</a><br>
   12.9 <a href="./mod-12/README.md#item12.09">Sub-rede de uma rede IPv6</a><br>
+  12.10 <a href="./mod-12/README.md#item12.10">Módulo Prático e Quiz</a><br>
 13. <a href="./mod-13/">ICMP</a><br>
   13.1 <a href="./mod-13/README.md#item13.01">Introdução</a><br>
   13.2 <a href="./mod-13/README.md#item13.02">Mensagens ICMP</a><br>
   13.3 <a href="./mod-13/README.md#item13.03">Testes de Ping e Traceroute</a><br>
-
-
+  13.4 <a href="./mod-13/README.md#item13.04">Módulo Prático e Quiz</a><br>
+  13.5 <a href="./mod-13/README.md#item13.05">Exame de endereçamento IP</a><br>
+14. <a href="./mod-14/">Camada de transporte</a><br>
+  14.1 <a href="./mod-14/README.md#item14.01">Introdução</a><br>
+  14.2 <a href="./mod-14/README.md#item14.02">Transporte de Dados</a><br>
+  14.3 <a href="./mod-14/README.md#item14.03">Visão geral do TCP</a><br>
+  14.4 <a href="./mod-14/README.md#item14.04">Visão geral do UDP</a><br>
+  14.5 <a href="./mod-14/README.md#item14.05">Números de porta</a><br>
+  14.6 <a href="./mod-14/README.md#item14.06">Processo de Comunicação TCP</a><br>
+  14.7 <a href="./mod-14/README.md#item14.07">Confiabilidade e controle de fluxo</a><br>
+  14.8 <a href="./mod-14/README.md#item14.08">Comunicação UDP</a><br>
+  14.9 <a href="./mod-14/README.md#item14.09">Módulo Prático e Quiz</a><br>
+15. <a href="./mod-15/">Camada de aplicação</a><br>
+  15.1 <a href="./mod-15/README.md#item15.01">Introdução</a><br>
+  15.2 <a href="./mod-15/README.md#item15.02">Aplicação, Apresentação e Sessão</a><br>
+  15.3 <a href="./mod-15/README.md#item15.03">Ponto a ponto</a><br>
+  15.4 <a href="./mod-15/README.md#item15.04">Protocolos de E-mail e Web</a><br>
+  15.5 <a href="./mod-15/README.md#item15.05">Serviços de Endereçamento IP</a><br>
+  15.6 <a href="./mod-15/README.md#item15.06">Serviços de Compartilhamento de Arquivos</a><br>
+  15.7 <a href="./mod-15/README.md#item15.07">Módulo Prático e Quiz</a><br>
+  15.8 <a href="./mod-15/README.md#item15.08">Exame de Comunicação de Aplicativos de Rede</a><br>
+16. <a href="./mod-16/">Fundamentos de segurança de rede</a><br>
+  16.1 <a href="./mod-16/README.md#item16.01">Introdução</a><br>
+  16.2 <a href="./mod-16/README.md#item16.02">Ameaças à Segurança e Vulnerabilidades</a><br>
+  16.3 <a href="./mod-16/README.md#item16.03">Ataques à Rede</a><br>
+  16.4 <a href="./mod-16/README.md#item16.04">Mitigações de ataque à rede</a><br>
+  16.5 <a href="./mod-16/README.md#item16.05">Segurança de dispositivos</a><br>
+  16.6 <a href="./mod-16/README.md#item16.06">Módulo Prático e Quiz</a><br>
+17. <a href="./mod-17/">Criação de uma rede pequena</a><br>
+  17.1 <a href="./mod-17/README.md#item17.01">Introdução</a><br>
+  17.2 <a href="./mod-17/README.md#item17.02">Dispositivos em uma Rede Pequena</a><br>
+  17.3 <a href="./mod-17/README.md#item17.03">Aplicações e Protocolos de Redes Pequenas</a><br>
+  17.4 <a href="./mod-17/README.md#item17.04">Escalar para Redes Maiores</a><br>
+  17.5 <a href="./mod-17/README.md#item17.05">Verificar a conectividade</a><br>
+  17.6 <a href="./mod-17/README.md#item17.06">Host e comandos IOS</a><br>
+  17.7 <a href="./mod-17/README.md#item17.07">Metodologias de solução de problemas</a><br>
+  17.8 <a href="./mod-17/README.md#item17.08">Cenários de solução de problemas</a><br>
+  17.9 <a href="./mod-17/README.md#item17.09">Módulo Prático e Quiz</a><br>
+  17.10 <a href="./mod-17/README.md#item17.10">Construíndo e protegendo um exame de rede pequena</a><br>
+18. <a href="./mod-18/">ITNv7 Practice Final Exam</a><br>
+  18.1 <a href="./mod-18/README.md#item18.01">ITNv7 Practice Final Exam</a><br>
+  18.2 <a href="./mod-18/README.md#item18.02">Avaliação de habilidades do ITN Practice PT (PTSA)</a><br>
+  18.3 <a href="./mod-18/README.md#item18.03">Exame Final ITNv7</a><br>
 ---
 
 ### Objective:
