@@ -1,4 +1,4 @@
-# Course Instructor-Led: <a href="../self_paced/">self_paced</a>
+# Course Instructor-Led: <a href="../instructor_led/">instructor_led</a>
 
 ### Cisco: <a href="../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
