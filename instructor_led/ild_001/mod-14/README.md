@@ -72,17 +72,39 @@ Comparar as operações dos protocolos da camada de transporte no suporte da com
 
 <a name="item14.02"><h4>14.2 Transporte de Dados</h4></a>[Back to summary](#item14)
 
+🔗 A Camada de Transporte e a Comunicação Lógica   
+A Camada de Transporte atua como um elo vital entre os programas da Camada de Aplicação e as camadas de rede inferiores. Sua responsabilidade é gerenciar a comunicação lógica entre as aplicações que rodam em hosts diferentes. Em outras palavras, ela cuida dos detalhes de como os dados de uma aplicação de origem chegam corretamente à aplicação de destino, o que pode envolver o estabelecimento de uma sessão temporária e a garantia da entrega das informações.
 
+É importante notar que a Camada de Transporte atua de forma independente de fatores de rede, como o tipo de meio físico, o caminho percorrido pelos dados, o congestionamento na rede ou a arquitetura do host de destino.
 
+📋 Responsabilidades Principais da Camada de Transporte   
+A Camada de Transporte tem várias funções cruciais para gerenciar a troca de dados entre aplicações:
+- Rastreamento de Conversações Individuais: Um host pode executar vários programas simultaneamente, todos se comunicando pela rede. Cada fluxo de dados entre um aplicativo de origem e um aplicativo de destino é tratado como uma conversa separada. A Camada de Transporte é responsável por manter o controle e monitorar essas múltiplas conversas de forma independente.
+- Segmentação e Remontagem de Dados: Como existe um limite para a quantidade de dados que pode ser encapsulada em um único pacote de rede, a Camada de Transporte deve dividir os dados do aplicativo em blocos menores e gerenciáveis. Esses blocos são chamados de Segmentos se o TCP for usado. Eles são chamados de Datagramas se o UDP for usado. No host de destino, a camada de transporte é responsável por remontar esses blocos em um fluxo de dados completo para a aplicação receptora.
+- Adição de Informações de Cabeçalho: A camada adiciona um cabeçalho contendo dados binários a cada bloco (segmento ou datagrama). Os valores presentes nesses campos do cabeçalho são o que permitem aos protocolos de transporte (TCP/UDP) realizar suas funções, como garantir a ordem e direcionar os dados para a aplicação correta.
+- Identificação de Aplicações (Portas): Para garantir que os fluxos de dados sejam entregues à aplicação correta, a Camada de Transporte utiliza um identificador chamado número da porta. Cada processo de software que precisa acessar a rede recebe um número de porta exclusivo para aquele host.
+- Multiplexação de Conversas: Enviar um grande volume de dados (como um streaming de vídeo) como um fluxo único e contínuo pode monopolizar toda a largura de banda. A Camada de Transporte utiliza a segmentação e a multiplexação para intercalar os blocos de diferentes conversas na mesma rede simultaneamente, maximizando a eficiência.
 
+🔄 Protocolos de Transporte: TCP vs. UDP   
+A arquitetura TCP/IP oferece dois protocolos de transporte para atender a diferentes necessidades de confiabilidade e desempenho das aplicações. É o protocolo da Camada de Transporte, e não o IP, que determina como o transporte da mensagem ocorrerá, e ele é responsável por gerenciar os requisitos de confiabilidade da conversa.
 
+✅ Protocolo TCP (Transmission Control Protocol)   
+O TCP é um protocolo confiável e orientado a conexão, o que significa que ele deve primeiro estabelecer uma conexão (handshake) entre o remetente e o receptor antes de transmitir os dados.
+- Confiabilidade: O TCP garante que todos os dados cheguem ao destino e na ordem correta, análogo ao envio de pacotes rastreados que exigem confirmação de recebimento.
+- Sobrecarga: Os campos adicionais de controle de confiabilidade e fluxo no cabeçalho exigem um processamento extra dos hosts.
+- Operações de Confiabilidade: O TCP fornece confiabilidade e controle de fluxo por meio de um conjunto de operações:
+  - Numerar e rastrear os segmentos de dados.
+  - Confirmar os dados recebidos (ACK).
+  - Retransmitir os dados não confirmados após um timeout.
+  - Reordenar os dados que possam ter chegado fora de sequência.
+  - Gerenciar o fluxo de dados para que o remetente não sobrecarregue o receptor.
+- Exemplos de Uso: É ideal para aplicações onde a perda de dados é inaceitável, como navegadores web (HTTP/HTTPS), clientes de e-mail (SMTP/IMAP) e aplicações de banco de dados.
 
-
-
-
-
-
-
+⏩ Protocolo UDP (User Datagram Protocol)   
+O UDP é um protocolo simplificado, sem conexão e sem estado, focado em velocidade e baixa sobrecarga. Ele é conhecido como um protocolo de "melhor esforço", pois envia os dados sem exigir confirmação de recebimento ou garantia de entrega. Suas principais características e aplicações incluem:
+- Velocidade e Leveza: Por não realizar handshake, retransmissão ou sequenciamento complexo, o cabeçalho UDP é pequeno e o processamento é muito rápido.
+- Tolerância a Perdas: O UDP "dispara e esquece". Se um pacote se perder, ele não é reenviado, o que evita atrasos causados pela espera de retransmissões.
+- Aplicações Típicas: É a escolha ideal para aplicações sensíveis a atrasos (delay) onde uma pequena perda de dados é preferível a uma pausa na transmissão. Exemplos incluem VoIP (Telefonia IP), Streaming em Tempo Real e serviços de consulta rápida como DNS.
 
 <a name="item14.03"><h4>14.3 Visão geral do TCP</h4></a>[Back to summary](#item14)
 
