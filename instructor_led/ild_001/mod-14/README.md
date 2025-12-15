@@ -108,42 +108,139 @@ O UDP é um protocolo simplificado, sem conexão e sem estado, focado em velocid
 
 <a name="item14.03"><h4>14.3 Visão geral do TCP</h4></a>[Back to summary](#item14)
 
+🛡️ Recursos e Funcionalidades do TCP   
+A compreensão das diferenças entre TCP e UDP fundamenta-se na análise de como cada protocolo implementa a confiabilidade e o rastreamento de conversas. Além de executar as funções básicas de segmentação e remontagem de dados, o TCP oferece serviços específicos que garantem a integridade da comunicação. Os principais recursos fornecidos pelo TCP incluem:
+- Estabelecimento de Sessão: O TCP é um protocolo orientado à conexão. Antes do encaminhamento de qualquer tráfego, uma conexão (ou sessão) permanente é negociada e estabelecida entre os dispositivos de origem e destino, permitindo o gerenciamento atento da comunicação.
+- Garantia de Entrega Confiável: Durante a transmissão pela rede, segmentos podem ser corrompidos ou perdidos. O TCP assegura que cada segmento enviado pela fonte seja efetivamente recebido no destino.
+- Entrega Ordenada: Como as redes podem utilizar rotas distintas com taxas de transmissão variadas, os dados podem chegar fora de ordem. O TCP numera e sequencia os segmentos, garantindo que sejam remontados na ordem exata em que foram enviados.
+- Suporte ao Controle de Fluxo: Dispositivos de rede possuem recursos limitados de memória e processamento. O TCP pode solicitar que a aplicação emissora reduza a taxa de fluxo de dados ao perceber sobrecarga no receptor, evitando a perda de dados e a necessidade de retransmissão.
 
+💾 Protocolo com Estado (Stateful)   
+O TCP é classificado como um protocolo stateful (com estado), pois mantém o controle do estado da sessão de comunicação. Para isso, o protocolo registra quais informações foram enviadas e quais foram confirmadas. Uma sessão com estado possui um ciclo de vida definido: inicia-se com o estabelecimento da conexão, mantém-se durante a transferência e encerra-se ao final da comunicação.
 
+📦 Estrutura do Cabeçalho TCP   
+O segmento TCP adiciona uma sobrecarga de 20 bytes (160 bits) ao encapsular os dados da camada de aplicação. O cabeçalho é composto por dez campos principais, descritos a seguir:
+- Porta de Origem (16 bits): Identifica o aplicativo de origem por meio do número da porta.
+- Porta de Destino (16 bits): Identifica o aplicativo de destino por meio do número da porta.
+- Número de Sequência (32 bits): Utilizado para fins de reordenação e remontagem dos dados.
+- Número de Confirmação (32 bits): Indica que os dados foram recebidos e aponta qual é o próximo byte esperado da fonte.
+- Comprimento do Cabeçalho (4 bits): Conhecido como "offset de dados", indica o tamanho total do cabeçalho do segmento TCP.
+- Reservado (6 bits): Campo reservado para uso futuro.
+- Bits de Controle (6 bits): Inclui códigos de bits (flags) que indicam a finalidade e a função do segmento.
+- Tamanho da Janela (16 bits): Indica o número de bytes que podem ser aceitos de uma só vez pelo receptor.
+- Checksum (16 bits): Utilizado para a verificação de erros tanto do cabeçalho quanto dos dados do segmento.
+- Urgente (16 bits): Sinaliza se os dados contidos no segmento possuem prioridade.
 
-
-
-
-
+🤝 Independência das Aplicações   
+O TCP exemplifica a divisão de tarefas no conjunto de protocolos TCP/IP. Ele assume todas as responsabilidades associadas à divisão do fluxo de dados, garantia de confiabilidade, controle de fluxo e reordenação. Isso libera a camada de aplicação da necessidade de gerenciar tais tarefas complexas. Aplicações como FTP, HTTP, SMTP e SSH simplesmente enviam o fluxo de dados à camada de transporte e utilizam os serviços do TCP.
 
 <a name="item14.04"><h4>14.4 Visão geral do UDP</h4></a>[Back to summary](#item14)
 
+⚡ Características Fundamentais do UDP   
+O User Datagram Protocol (UDP) opera sob o conceito de "melhor esforço" (best-effort). Diferentemente do TCP, que prioriza a garantia de entrega, o UDP foca na leveza e na velocidade de transmissão. Embora realize as funções básicas da camada de transporte, como a segmentação e a remontagem de dados, ele dispensa mecanismos complexos de controle de fluxo e verificação de confiabilidade. Por ser um protocolo sem estado (stateless), nem o cliente nem o servidor mantêm registros sobre a sessão de comunicação. Isso significa que a responsabilidade por garantir a integridade dos dados — caso seja necessária — é transferida inteiramente para a aplicação, e não gerida pelo protocolo de transporte.
 
+🚫 Modo de Operação e Limitações   
+O funcionamento do UDP é frequentemente definido pela ausência dos recursos restritivos encontrados no TCP, o que resulta em um processamento mais ágil. As principais características operacionais incluem:
+- Ausência de Sessão: Não há o processo de estabelecimento de conexão (handshake) antes do envio dos dados.
+- Entrega Não Ordenada: Os dados são reagrupados e processados na exata ordem em que chegam. Se chegarem fora de sequência, não há reordenação automática.
+- Sem Retransmissão: Segmentos perdidos ou corrompidos durante o trajeto não são reenviados pelo protocolo.
+- Envio Contínuo: O remetente não verifica se o destinatário está disponível ou sobrecarregado; os dados são enviados continuamente.
 
+📦 Estrutura Simplificada do Cabeçalho   
+A eficiência do UDP reflete-se na simplicidade do seu cabeçalho. Enquanto o TCP possui um cabeçalho extenso e complexo, o UDP utiliza apenas 8 bytes (64 bits) de sobrecarga para empacotar os dados da aplicação. Os blocos de comunicação aqui são denominados datagramas. O cabeçalho é composto por apenas quatro campos:
+- Porta de Origem (16 bits): Identifica a aplicação remetente.
+- Porta de Destino (16 bits): Identifica a aplicação destinatária.
+- Comprimento (16 bits): Define o tamanho total do datagrama (cabeçalho + dados).
+- Checksum (16 bits): Realiza uma verificação básica de integridade do cabeçalho e dos dados.
 
+🎬 Cenários de Uso Ideais   
+A escolha do UDP é estratégica para situações onde a velocidade é crítica e pequenas perdas de dados são aceitáveis. Existem três categorias principais de aplicações que se beneficiam deste protocolo:
+- Multimídia em Tempo Real: Aplicações de voz e vídeo, como VoIP e transmissões ao vivo, priorizam o fluxo contínuo. Uma pausa para retransmitir um pacote perdido causaria travamentos perceptíveis, o que é pior do que uma pequena falha visual ou de áudio momentânea.
+- Transações Simples (Solicitação/Resposta): Protocolos que envolvem trocas rápidas de pequenas quantidades de informação, onde o host envia uma pergunta e espera uma resposta imediata. Exemplos clássicos são o DNS e o DHCP.
+- Confiabilidade Gerida pela Aplicação: Situações em que a própria aplicação possui mecanismos para lidar com erros ou onde a comunicação é unidirecional e não exige confirmação. Exemplos incluem SNMP e TFTP.
 
-
-
+🔀 Flexibilidade e Exceções   
+Embora certos protocolos como DNS e SNMP utilizem UDP por padrão devido à eficiência, essa não é uma regra absoluta. O DNS, por exemplo, alternará para o uso de TCP caso a resposta da consulta exceda 512 bytes (comum em resoluções complexas ou com segurança DNSSEC). Da mesma forma, administradores de rede podem configurar o SNMP para operar sobre TCP quando a confiabilidade da gestão da rede for prioritária sobre a velocidade.
 
 <a name="item14.05"><h4>14.5 Números de porta</h4></a>[Back to summary](#item14)
 
+🔢 Números de Porta e Gerenciamento de Conversas   
+Independentemente de se utilizar TCP ou UDP, ambos os protocolos da camada de transporte dependem de números de porta para gerenciar múltiplas conversas simultâneas. Nos cabeçalhos de ambos os protocolos, existem campos específicos que identificam a Porta de Origem e a Porta de Destino.
 
+A função desses números é distinta para cada extremidade da comunicação:
+- Porta de Origem: Está associada à aplicação no host local (o remetente). Geralmente, é gerada dinamicamente pelo dispositivo para identificar aquela conversa específica de forma exclusiva. Cada nova solicitação (como abrir uma nova aba no navegador) recebe um número de porta de origem diferente, permitindo que várias conexões ocorram ao mesmo tempo sem conflito.
+- Porta de Destino: Identifica o serviço específico que está sendo requisitado no servidor remoto. Por exemplo, ao solicitar uma página web, o número 80 é inserido na porta de destino, informando ao servidor que a requisição deve ser encaminhada ao serviço de servidor web (HTTP).
 
+Graças a esse mecanismo, um único servidor pode oferecer diversos serviços simultaneamente (como FTP na porta 21 e Web na porta 80), pois o número da porta direciona os dados para a aplicação servidora correta.
 
+🔌 O Conceito de Socket   
+Para que a comunicação ocorra, os segmentos da camada de transporte (que contêm as portas) são encapsulados dentro de pacotes IP (que contêm os endereços lógicos). A combinação de um Endereço IP com um Número de Porta é denominada Socket. O socket serve para identificar de forma única o dispositivo e o serviço específico em execução.
+- Exemplo de Socket de Cliente: 192.168.1.5:1099 (Onde 192.168.1.5 é o IP do host e 1099 é a porta de origem gerada dinamicamente).
+- Exemplo de Socket de Servidor: 192.168.1.7:80 (Onde 192.168.1.7 é o IP do servidor e 80 é a porta do serviço web).
 
+A comunicação ativa entre dois dispositivos é definida por um Par de Sockets, consistindo no socket de origem e no socket de destino. Esse par permite que múltiplos processos no cliente se diferenciem, e que o servidor gerencie múltiplas conexões de diferentes clientes simultaneamente. A porta atua, essencialmente, como um "endereço de retorno" para que a camada de transporte saiba exatamente para qual aplicativo entregar a resposta recebida.
 
+🗂️ Classificação de Portas pela IANA   
+A Internet Assigned Numbers Authority (IANA) é a entidade responsável pela padronização e atribuição dos números de porta. O campo de 16 bits permite um intervalo que vai de 0 a 65.535. A IANA divide esse intervalo em três grupos distintos:
+- Portas Bem Conhecidas (0 a 1.023): Reservadas para serviços e aplicações essenciais e populares (como navegadores web e clientes de e-mail). O uso dessas portas estáticas permite que clientes identifiquem facilmente o serviço necessário em um servidor.
+- Portas Registradas (1.024 a 49.151): Atribuídas pela IANA a entidades que solicitam o uso para aplicações específicas. Geralmente referem-se a aplicações instaladas pelo usuário, e não a serviços de infraestrutura básica. Exemplo: A porta 1812 é registrada pela Cisco para o processo de autenticação RADIUS.
+- Portas Dinâmicas ou Privadas (49.152 a 65.535): Também chamadas de portas efêmeras. Estas são atribuídas dinamicamente pelo sistema operacional do cliente quando uma conexão é iniciada, servindo para identificar a aplicação durante aquela sessão específica.
 
+Nota: Alguns sistemas operacionais podem utilizar o intervalo de portas registradas para atribuição dinâmica, variando conforme a implementação.
 
+📌 Portas de Serviços Comuns   
+É fundamental reconhecer as portas associadas aos serviços de rede mais utilizados. Abaixo estão listadas algumas das principais portas TCP e UDP:
+- 20 e 21 (TCP): FTP (Transferência de Arquivos) - Dados e Controle, respectivamente.
+- 22 (TCP): SSH (Secure Shell) - Acesso remoto seguro.
+- 23 (TCP): Telnet - Acesso remoto não seguro.
+- 25 (TCP): SMTP - Envio de e-mail.
+- 53 (UDP/TCP): DNS - Resolução de nomes de domínio. (Usa UDP para consultas padrão e TCP para transferências de zona ou respostas grandes).
+- 67 e 68 (UDP): DHCP - Configuração dinâmica de host (Servidor e Cliente).
+- 69 (UDP): TFTP - Transferência trivial de arquivos.
+- 80 (TCP): HTTP - Navegação web padrão.
+- 110 (TCP): POP3 - Recebimento de e-mail.
+- 143 (TCP): IMAP - Acesso a e-mail no servidor.
+- 161 (UDP): SNMP - Gerenciamento de redes.
+- 443 (TCP): HTTPS - Navegação web segura.
+
+🕵️ Monitoramento com Netstat   
+Conexões TCP desconhecidas podem representar riscos de segurança, indicando a presença de softwares maliciosos ou acessos não autorizados ao host local. Para auditar essas atividades, utiliza-se o utilitário de rede netstat. Este comando lista os protocolos em uso, os endereços e portas locais, os endereços e portas externas (remotas) e o estado atual da conexão (como ESTABLISHED ou LISTENING). Por padrão, o netstat tenta resolver os IPs para nomes de domínio e as portas para nomes de serviços conhecidos. Para visualizar os dados em sua forma numérica bruta (IPs e números de portas), utiliza-se a opção `-n`.
 
 <a name="item14.06"><h4>14.6 Processo de Comunicação TCP</h4></a>[Back to summary](#item14)
 
+🖥️ Processos do Servidor TCP   
+A compreensão da função dos números de porta é essencial para entender os detalhes da comunicação TCP. Nos servidores, cada aplicação em execução é configurada para utilizar um número de porta específico, que pode ser atribuído automaticamente ou definido manualmente por um administrador. É uma regra fundamental que um servidor individual não pode atribuir o mesmo número de porta a dois serviços distintos dentro da mesma camada de transporte. Por exemplo, um host não pode executar simultaneamente um servidor Web e um servidor de transferência de arquivos utilizando a mesma porta (como a porta 80). Quando uma aplicação de servidor é atribuída a uma porta, diz-se que essa porta está aberta. Isso significa que a camada de transporte do servidor está escutando, aceitando e processando segmentos endereçados a ela. Qualquer solicitação de cliente que chegue ao socket correto é aceita e os dados são encaminhados para a aplicação correspondente.
 
+Fluxo de Solicitação e Resposta:
+- Requisição do Cliente: Ao solicitar um serviço (como Web na porta 80 ou E-mail na porta 25), o cliente gera dinamicamente uma porta de origem única (ex: 49152) para identificar aquela conversa.
+- Resposta do Servidor: Ao responder, o servidor inverte os papéis. A porta de origem da resposta torna-se a porta do serviço (80 ou 25) e a porta de destino torna-se a porta dinâmica gerada pelo cliente (49152). Isso garante que o tráfego retorne para a aba ou janela correta no dispositivo do usuário.
 
+🤝 Estabelecimento de Conexão: O Handshake de Três Vias   
+O TCP é um protocolo full-duplex, onde cada conexão é composta por duas sessões de comunicação unidirecionais. Antes que qualquer dado seja transmitido, os hosts devem estabelecer a conexão através de um processo conhecido como Handshake de Três Vias (Three-Way Handshake). Este processo desempenha três funções vitais:
+- Verifica se o dispositivo de destino está presente na rede.
+- Confirma se o dispositivo de destino possui um serviço ativo e está aceitando solicitações na porta desejada.
+- Informa ao destino que o cliente de origem pretende iniciar uma sessão de comunicação.
 
+Etapas do Handshake:
+- Passo 1 (SYN): O cliente iniciador envia um segmento com a flag SYN (Sincronização) ativa, solicitando uma sessão com o servidor.
+- Passo 2 (SYN + ACK): O servidor recebe a solicitação, confirma a sessão do cliente (com a flag ACK) e, simultaneamente, solicita sua própria sessão de volta para o cliente (com a flag SYN).
+- Passo 3 (ACK): O cliente iniciador responde com uma flag ACK, confirmando a sessão do servidor. Após isso, a conexão está estabelecida.
 
+🛑 Término da Sessão TCP   
+Para encerrar uma conexão, é necessário desligar a flag de controle FIN (Finish). Como o TCP é full-duplex, o encerramento deve ocorrer em ambas as direções, exigindo um processo de quatro etapas (ou dois handshakes duplos). Qualquer um dos hosts pode iniciar o término:
+- Passo 1 (FIN): O host que deseja encerrar envia um segmento com a flag FIN ativa.
+- Passo 2 (ACK): O outro host confirma o recebimento do FIN. (A sessão em uma direção é encerrada).
+- Passo 3 (FIN): O segundo host envia seu próprio segmento FIN para encerrar a sessão na direção oposta.
+- Passo 4 (ACK): O primeiro host confirma o recebimento. (A conexão é totalmente encerrada).
 
-
-
+🚩 Bits de Controle (Flags)   
+O cabeçalho do segmento TCP possui um campo de 6 bits reservado para os Bits de Controle, também chamados de Flags. Esses bits indicam o status e o propósito do segmento na gestão da conexão. As seis flags principais são:
+- URG: Indica que o campo de "ponteiro urgente" é significativo.
+- ACK: A flag de confirmação, usada para validar o recebimento de dados e durante o handshake.
+- PSH: Função Push, instruindo o receptor a processar os dados imediatamente.
+- RST: Reset, usado para reinicializar uma conexão quando ocorre um erro ou falha.
+- SYN: Sincronização, usada para iniciar e estabelecer conexões.
+- FIN: Finish, indica que não há mais dados a serem enviados e inicia o encerramento da sessão.
 
 <a name="item14.07"><h4>14.7 Confiabilidade e controle de fluxo</h4></a>[Back to summary](#item14)
 
