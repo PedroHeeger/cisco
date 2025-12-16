@@ -244,26 +244,65 @@ O cabeçalho do segmento TCP possui um campo de 6 bits reservado para os Bits de
 
 <a name="item14.07"><h4>14.7 Confiabilidade e controle de fluxo</h4></a>[Back to summary](#item14)
 
+🛡️ Confiabilidade do TCP: Ordenação e Entrega Garantida   
+A preferência pelo TCP em determinadas aplicações justifica-se pela sua capacidade de garantir a entrega e a ordem correta dos dados, diferentemente do UDP. O protocolo não apenas recupera pacotes perdidos, mas também gerencia o fluxo para evitar a sobrecarga dos dispositivos finais. Para assegurar que a mensagem original seja compreendida, mesmo que os segmentos cheguem fora de ordem ou por rotas distintas, o TCP utiliza Números de Sequência. Este número é atribuído no cabeçalho de cada pacote e representa o primeiro byte de dados daquele segmento específico.
 
+O processo de sequenciamento funciona da seguinte forma:
+- Número de Sequência Inicial (ISN): Durante o estabelecimento da sessão, um valor inicial aleatório é definido. Isso visa prevenir ataques maliciosos de previsão de sequência.
+- Rastreamento de Bytes: À medida que os dados são transmitidos, o número de sequência é incrementado com base na quantidade de bytes enviados. Isso permite que cada segmento seja identificado e confirmado individualmente.
+- Buffer de Recepção: O processo TCP no receptor armazena os segmentos em um buffer. Dados fora de ordem são retidos até que os segmentos faltantes cheguem, momento em que são reordenados corretamente e passados para a camada de aplicação.
 
+🔄 Gerenciamento de Perdas e Retransmissão (ACK e SACK)   
+A perda de dados é um evento possível em qualquer rede. O TCP gerencia essas ocorrências através de mecanismos de confirmação e retransmissão. O protocolo utiliza o Número de Sequência (SEQ) e o Número de Confirmação (ACK) em conjunto. O ACK é uma "confirmação antecipatória", ou seja, informa à origem qual é o próximo byte que o destino espera receber.
 
+A evolução dos métodos de confirmação trouxe melhorias significativas na eficiência:
+- Método Tradicional: Originalmente, o TCP apenas confirmava o próximo byte esperado em sequência. Se os segmentos 1, 2, 5, 6 e 7 chegassem, mas o 3 e 4 se perdessem, o receptor confirmaria apenas o recebimento até o 2 (pedindo o 3). O remetente, sem saber que o 5, 6 e 7 já haviam chegado, retransmitiria tudo do 3 ao 7, gerando duplicidade e desperdício de banda.
+- Reconhecimento Seletivo (SACK): Atualmente, sistemas operacionais modernos negociam o uso do SACK durante o handshake de três vias. Com o SACK, o receptor pode confirmar explicitamente blocos de dados descontínuos. No exemplo anterior, ele informaria que precisa do 3 e 4, mas que já possui do 5 ao 7. Assim, a origem retransmite apenas os dados estritamente necessários.
 
+🌊 Controle de Fluxo: Janelas Deslizantes   
+O controle de fluxo é o mecanismo que impede que o remetente sobrecarregue o receptor, enviando mais dados do que este consegue processar. Isso é gerenciado através do campo Tamanho da Janela (Window Size) no cabeçalho TCP (16 bits).
+- Janela de Envio: O tamanho da janela define quantos bytes podem ser enviados antes que uma confirmação (ACK) seja exigida. Este valor é negociado inicialmente no handshake.
+- Conceito de Janelas Deslizantes: O receptor não precisa esperar a janela inteira encher para enviar um ACK. À medida que processa os dados, ele envia confirmações. Quando a origem recebe um ACK, ela "desliza" a janela, permitindo o envio de mais bytes.
+- Ajuste Dinâmico: Se o buffer do receptor começar a encher (por falta de memória ou processamento lento), ele pode reduzir o tamanho da janela informado nos ACKs, forçando a origem a diminuir a taxa de transmissão.
 
+📏 Tamanho Máximo do Segmento (MSS)   
+O MSS (Maximum Segment Size) define a maior quantidade de dados (payload) que um dispositivo pode receber em um único segmento TCP, excluindo o cabeçalho. Este valor é definido no campo de opções do cabeçalho TCP durante o handshake. O cálculo do MSS é baseado na Unidade Máxima de Transmissão (MTU) da interface de rede:
+- Cálculo Padrão (IPv4/Ethernet):
+  - MTU Ethernet: 1500 bytes.
+  - Menos Cabeçalho IPv4: 20 bytes.
+  - Menos Cabeçalho TCP: 20 bytes.
+  - MSS Resultante: 1460 bytes.
 
-
-
-
+🚦 Prevenção de Congestionamento   
+Enquanto o controle de fluxo lida com a capacidade do receptor, a prevenção de congestionamento lida com a capacidade da rede (roteadores e links intermediários). Quando ocorre congestionamento, roteadores sobrecarregados descartam pacotes. A origem detecta o congestionamento indiretamente:
+- Sintoma: A ausência de confirmações (ACKs) em tempo hábil ou o recebimento de ACKs duplicados.
+- Reação: Ao perceber a perda de pacotes, a origem assume que a rede está congestionada e reduz automaticamente a taxa de envio (diminuindo o número de bytes não confirmados na rede), independentemente do tamanho da janela anunciado pelo receptor.
+- Objetivo: Essa redução evita o colapso da rede, impedindo que retransmissões excessivas agravem o tráfego já saturado.
 
 <a name="item14.08"><h4>14.8 Comunicação UDP</h4></a>[Back to summary](#item14)
 
+⚡ Eficiência e Baixa Sobrecarga do UDP   
+O UDP destaca-se como o protocolo ideal para comunicações sensíveis a atrasos, como o VoIP (Voz sobre IP), devido à sua arquitetura simplificada. A principal característica que confere essa agilidade é o fato de o UDP não estabelecer uma conexão prévia. Ao contrário do TCP, que exige negociações iniciais, o UDP inicia a transmissão de dados imediatamente. Isso resulta em um transporte de baixa sobrecarga, caracterizado por um cabeçalho de datagrama pequeno e pela ausência de tráfego de gerenciamento de rede (como handshakes ou confirmações).
 
+🔀 Reagrupamento de Datagramas   
+Quando múltiplos datagramas UDP são enviados a um destino, é comum que percorram caminhos de rede distintos, resultando em tempos de chegada variados e, consequentemente, fora da ordem original de envio. Diferentemente do TCP, o UDP não utiliza números de sequência para rastrear ou reordenar os pacotes. O comportamento padrão do protocolo é remontar os dados exatamente na ordem em que são recebidos e encaminhá-los imediatamente para a camada de aplicação. Portanto, se a sequência correta dos dados for crítica para a interpretação da mensagem, a responsabilidade recai sobre a aplicação. É o software na camada de aplicação que deve ser projetado para identificar a sequência adequada e processar os dados corretamente, compensando a simplicidade do protocolo de transporte.
 
+🖥️ Processos e Portas do Servidor UDP   
+Aplicações de servidor baseadas em UDP operam escutando números de portas "bem conhecidas" ou registradas. Quando um serviço é iniciado no servidor, ele aceita qualquer dado que chegue marcado com o número de porta atribuído a ele. O protocolo UDP recebe o datagrama, verifica a porta de destino e encaminha os dados para a aplicação correspondente.
 
+Exemplo de Serviço: O servidor RADIUS (Remote Authentication Dial-In User Service), frequentemente utilizado para serviços de Autenticação, Autorização e Auditoria (AAA), opera tipicamente na porta registrada UDP 1812.
 
+🔄 Fluxo de Comunicação Cliente-Servidor   
+O processo de comunicação é iniciado pela aplicação cliente, que seleciona dinamicamente um número de porta (a partir da faixa de portas dinâmicas/privadas) para usar como porta de origem. A porta de destino será a porta fixa do serviço desejado no servidor. A mecânica de endereçamento durante a troca de mensagens ocorre da seguinte forma:
+- Envio da Solicitação:
+  - O Cliente 1 deseja resolver um nome de domínio. Ele envia um datagrama para a porta de destino 53 (DNS) e utiliza uma porta de origem dinâmica, por exemplo, 49152.
+  - O Cliente 2 deseja autenticação. Ele envia um datagrama para a porta de destino 1812 (RADIUS) e utiliza uma porta de origem dinâmica, por exemplo, 51152.
+- Retorno da Resposta:
+  - Ao responder, o servidor inverte os endereços para garantir o retorno correto.
+  - Para o Cliente 1, a resposta do servidor DNS terá como destino a porta 49152 e origem a porta 53.
+  - Para o Cliente 2, a resposta do servidor RADIUS terá como destino a porta 51152 e origem a porta 1812.
 
-
-
-
+Desta forma, o servidor consegue gerenciar múltiplas solicitações simultâneas e encaminhar as respostas para os processos clientes exatos que as originaram.
 
 <a name="item14.09"><h4>14.9 Módulo Prático e Quiz</h4></a>[Back to summary](#item14)
 
