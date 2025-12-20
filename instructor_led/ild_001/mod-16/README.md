@@ -58,11 +58,19 @@ O objetivo deste módulo foi apresentar os fundamentos da governança em seguran
 
 
 
+
+
 <a name="item16.02"><h4>16.2 Ameaças à Segurança e Vulnerabilidades</h4></a>[Back to summary](#item16)
 
 
 
+
+
+
 <a name="item16.03"><h4>16.3 Ataques à Rede</h4></a>[Back to summary](#item16)
+
+
+
 
 
 
