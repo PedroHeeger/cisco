@@ -56,9 +56,17 @@ O objetivo deste módulo foi apresentar os fundamentos da governança em seguran
 
 <a name="item16.01"><h4>16.1 Introdução</h4></a>[Back to summary](#item16)
 
-Neste 
+🔐 Fundamentos de Segurança de Rede   
+A segurança de rede é um elemento essencial no funcionamento de qualquer infraestrutura conectada. Além da configuração básica de dispositivos, é necessário aplicar mecanismos que reduzam riscos e dificultem acessos não autorizados. Este módulo apresenta uma visão geral das principais ameaças existentes em redes, os tipos de ataques mais comuns e as práticas iniciais utilizadas para proteger switches e roteadores. O foco está na compreensão dos riscos e na aplicação de medidas preventivas para aumentar a confiabilidade do ambiente de rede.
 
+🎯 Objetivo do módulo   
+Configurar switches e roteadores com recursos de proteção de dispositivo para aumentar a segurança.
 
+📘 Tópicos do módulo   
+- Ameaças à segurança e vulnerabilidades: Explica a necessidade da aplicação de medidas básicas de segurança em dispositivos de rede para reduzir pontos de exposição.
+- Ataques à rede: Identifica tipos comuns de ataques e as vulnerabilidades exploradas em ambientes mal protegidos.
+- Mitigação de ataques à rede: Apresenta técnicas gerais utilizadas para minimizar impactos e reduzir a probabilidade de ataques bem-sucedidos.
+- Segurança de dispositivos: Descreve como configurar recursos de proteção em dispositivos de rede para atenuar ameaças e fortalecer a infraestrutura.
 
 <a name="item16.02"><h4>16.2 Ameaças à Segurança e Vulnerabilidades</h4></a>[Back to summary](#item16)
 
