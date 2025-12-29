@@ -45,7 +45,7 @@ O objetivo deste PTTA foi promover a familiarização com o software **Cisco Pac
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo desta atividade.
-- [0-aux](../0-aux/): Pasta auxiliar com imagens utilizadas na construção dos arquivos de README desse curso.
+- [0-aux](./0-aux/): Pasta auxiliar com imagens utilizadas na construção dos arquivos de README desse curso.
 
 ### Development:
 
@@ -88,7 +88,7 @@ O objetivo deste PTTA foi promover a familiarização com o software **Cisco Pac
 
 <a name="item04"><h4>4. Pergunta do Desafio</h4></a>[Back to summary](#item00)
 
-- Adicione um dispositivo final à topologia e conecte-o a uma das redes locais com uma conexão de meio físico. O que mais esse dispositivo precisa para enviar os dados a outros usuários finais? Você pode fornecer essas informações? Há uma maneira de confirmar se você conectou adequadamente o dispositivo? 
+- a. Adicione um dispositivo final à topologia e conecte-o a uma das redes locais com uma conexão de meio físico. O que mais esse dispositivo precisa para enviar os dados a outros usuários finais? Você pode fornecer essas informações? Há uma maneira de confirmar se você conectou adequadamente o dispositivo? 
   - PC0 conectado ao Switch S1 na LAN Central com cabo Ethernet. Foi necessário realizar a configuração de IP que incluíu: endereço IP, Máscara de sub-rede e Gateway Padrão. Essa configuração podia ser manual ou automática via DHCP.
     - PC0 -> Desktop -> IP Configuration -> Ativar DHCP.
     - PC0 -> Desktop -> Command Prompt -> Executar um Ping para o PC1 -> `ping 10.2.0.4` (Imagem 01).
@@ -98,7 +98,7 @@ O objetivo deste PTTA foi promover a familiarização com o software **Cisco Pac
     <figcaption>Imagem 01.</figcaption>
 </figure></div><br>
 
-- Adicione um novo dispositivo intermediário a uma das redes e conecte-o a uma das LANs ou WANs com uma conexão de meio físico. O que mais esse dispositivo precisa para servir como um intermediário para outros dispositivos na rede? 
+- b. Adicione um novo dispositivo intermediário a uma das redes e conecte-o a uma das LANs ou WANs com uma conexão de meio físico. O que mais esse dispositivo precisa para servir como um intermediário para outros dispositivos na rede? 
   - Switch0 conectado ao Roteador R4 via cabo Ethernet. Foi necessário ativar a porta conectada no roteador.
     - R4 -> CLI -> `enable` -> `class` -> `show ip interface brief` -> `configure terminal` -> `interface gigabitEthernet 0/1` -> `no shutdown` -> `exit` -> `exit` -> `show ip interface brief` (Imagem 02).
   - Laptop0 adicionado ao Switch0 via cabo Ethernet. Para servir como intermediário foi necessário adicionar um dispositivo final.
@@ -108,7 +108,7 @@ O objetivo deste PTTA foi promover a familiarização com o software **Cisco Pac
     <figcaption>Imagem 02.</figcaption>
 </figure></div><br>
 
-- Abra uma nova instância do Packet Tracer. Crie uma nova rede com pelo menos duas redes locais conectadas por WAN. Conecte todos os dispositivos. Investigue a atividade original do Packet Tracer para ver o que mais você precisa fazer para tornar sua nova rede funcional. Registre seus pensamentos e salve o seu arquivo do Packet Tracer. Pode ser interessante rever a sua rede mais tarde, depois de adquirir mais algumas habilidades. (Imagem 03)
+- c. Abra uma nova instância do Packet Tracer. Crie uma nova rede com pelo menos duas redes locais conectadas por WAN. Conecte todos os dispositivos. Investigue a atividade original do Packet Tracer para ver o que mais você precisa fazer para tornar sua nova rede funcional. Registre seus pensamentos e salve o seu arquivo do Packet Tracer. Pode ser interessante rever a sua rede mais tarde, depois de adquirir mais algumas habilidades. (Imagem 03)
   - Criar R0, S0 e PC0 do lado esquerdo conectados via cabo Ethernet.
   - Criar R1, S1 e PC1 do lado direito conectados via cabo Ethernet.
   - Desligar routers R0 e R1 e adicionar o módulo NIM-2T em ambos.
