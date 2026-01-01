@@ -1,6 +1,5 @@
 
-labs/*
-labs/mat/*
+
 video_activity/*
 video_activity/mat/*
 
@@ -36,3 +35,25 @@ pkt/pkt_003/mat/*
 pkt/pkt_004/mat/*
 pkt/pkt_005/mat/*
 pkt/pkt_006/mat/*
+pkt/pkt_007/mat/*
+pkt/pkt_008/mat/*
+pkt/pkt_009/mat/*
+pkt/pkt_010/mat/*
+pkt/pkt_011/mat/*
+pkt/pkt_012/mat/*
+pkt/pkt_013/mat/*
+pkt/pkt_014/mat/*
+pkt/pkt_015/mat/*
+
+
+
+labs/mat/*
+labs/lab_000/*
+labs/lab_001/mat/*
+labs/lab_002/mat/*
+labs/lab_003/mat/*
+labs/lab_004/mat/*
+labs/lab_005/mat/*
+labs/lab_006/mat/*
+labs/lab_007/mat/*
+labs/lab_008/mat/*
