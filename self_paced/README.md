@@ -8,11 +8,15 @@ Os cursos **Self-Paced** da Cisco são modalidades de estudo autoguiado oferecid
 Esse tipo de curso pode incluir:
 - Conteúdo teórico estruturado em módulos e lições;
 - Atividades interativas e demonstrações práticas;
-- Laboratórios virtuais e simuladores (como **Cisco Packet Tracer** ou CML, quando aplicável);
+- Laboratórios virtuais e simuladores, como o **Cisco Packet Tracer** ou **Cisco Modeling Labs (CML)**, quando aplicável;
 - Avaliações de conhecimento ao final de cada seção ou módulo;
 - Certificados de conclusão ou emblemas digitais, dependendo do curso.
 
-Os cursos Self-Paced ficam disponíveis para acesso contínuo, permitindo pausar e retomar o estudo a qualquer momento, facilitando o aprendizado flexível e independente.
+Os cursos **Self-Paced** ficam disponíveis para acesso contínuo, permitindo pausar e retomar os estudos a qualquer momento, o que facilita um aprendizado flexível e independente.
+
+A grande maioria dos cursos desta categoria seguiu a estruturação dos próprios cursos da Cisco. Para cada módulo, foi criada uma subpasta contendo um arquivo `README.md` com todo o conteúdo teórico correspondente. O conteúdo prático, que geralmente consiste em laboratórios e atividades do **Packet Tracer**, foi realizado separadamente e organizado em pastas específicas ([labs](/../labs/) e [pkt](/../pkt/)). Nessas pastas, estão agrupados os laboratórios e arquivos do Packet Tracer de todos os cursos.
+
+Essa organização foi adotada para facilitar a separação entre teoria e prática, permitir a conclusão dos cursos teóricos de forma independente e possibilitar a execução das atividades práticas em outro momento, além de evitar a duplicação de laboratórios ou atividades idênticas que são comuns entre diferentes cursos. Ainda assim, os laboratórios e atividades do Packet Tracer foram devidamente indicados nos arquivos `README.md` dos módulos dos cursos, por meio de links que direcionam para as atividades correspondentes localizadas nessas pastas de outras categorias.
 
 A seguir, são listados os cursos Self-Paced organizados por assunto:
 
@@ -40,6 +44,7 @@ A seguir, são listados os cursos Self-Paced organizados por assunto:
 </details>
 <details><summary>Network</summary>
     <ul>
+        <li>sfp_003: <a href="./sfp_003/">Gerenciamento de Ameaças Cibernéticas   <img src="./sfp_003/0-aux/logo_course.png" alt="sfp_003" width="auto" height="25"></a></li>
     </ul>
 </details>
 <details><summary>Professional Skills</summary>
