@@ -44,7 +44,7 @@ A seguir, são listados os cursos Self-Paced organizados por assunto:
 </details>
 <details><summary>Network</summary>
     <ul>
-        <li>sfp_003: <a href="./sfp_003/">Gerenciamento de Ameaças Cibernéticas   <img src="./sfp_003/0-aux/logo_course.png" alt="sfp_003" width="auto" height="25"></a></li>
+        <li>sfp_003: <a href="./sfp_003/">Introdução à IoT e à Transformação Digital   <img src="./sfp_003/0-aux/logo_course.png" alt="sfp_003" width="auto" height="25"></a></li>
     </ul>
 </details>
 <details><summary>Professional Skills</summary>
