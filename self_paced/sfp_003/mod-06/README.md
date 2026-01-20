@@ -1,10 +1,10 @@
-# Oportunidades Educacionais e Comerciais - Módulo 6   <img src="../0-aux/logo_course.png" alt="sfp_003" width="auto" height="45">
+# Introdução à IoT e à Transformação Digital - Módulo 6   <img src="../0-aux/logo_course.png" alt="sfp_003" width="auto" height="45">
 
 ### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
 ### Training Category: <a href="../../../self_paced/">self-paced</a>
 ### Software/Subject: iot   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/iot.jpg" alt="iot" width="auto" height="25"></a>
-### Course: <a href="../">sfp_003 (Oportunidades Educacionais e Comerciais)   <img src="../0-aux/logo_course.png" alt="sfp_003" width="auto" height="25"></a>
+### Course: <a href="../">sfp_003 (Introdução à IoT e à Transformação Digital)   <img src="../0-aux/logo_course.png" alt="sfp_003" width="auto" height="25"></a>
 ### Module: 6. Oportunidades Educacionais e Comerciais
 
 ---
@@ -36,7 +36,7 @@
   6.3 <a href="#item06.03">Oportunidades Educacionais e Profissionais</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;6.3.1 <a href="../../../labs/lab_022/">Laboratório - Emprego e oportunidades de aprendizado relacionados à IoT</a><br>
   6.4 <a href="#item06.04">Resumo das oportunidades educacionais e de negócios</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;6.4.1 <a href="../../../pkt/pkt_020/">Packet Tracer - Adicionar dispositivos de IoT no Packet Tracer</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;6.4.1 <a href="../../../pkt/pkt_020/">Packet Tracer - A engenhoca da senha</a><br>
 
 ---
 
