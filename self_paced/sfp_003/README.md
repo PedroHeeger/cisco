@@ -3,16 +3,16 @@
 ### Cisco: <a href="../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
 ### Training Category: <a href="../../self_paced/">self-paced</a>
-### Software/Subject: cybersecurity   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/cybersecurity.jpg" alt="cybersecurity" width="auto" height="25"></a>
+### Software/Subject: iot   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/iot.jpg" alt="iot" width="auto" height="25"></a>
 ### Course: <a href="./">sfp_003 (Introdução à IoT e à Transformação Digital)   <img src="./0-aux/logo_course.png" alt="sfp_003" width="auto" height="25"></a>
 
-#### <a href="https://github.com/PedroHeeger/my_tech_journey/blob/main/credentials/certificates/online_courses/cybersecurity\2590922_Cyber_Threat_Management_PH_CNA.pdf">Certificate</a>
-#### <a href="https://www.credly.com/badges/1210f13a-8b8b-41f6-826e-a7434d02922f">Badge</a>
+#### <a href="https://github.com/PedroHeeger/my_tech_journey/blob/main/credentials/certificates/online_courses/iot/260119_Cert_sfp_003_PH_CNA.pdf">Certificate</a>
+#### <a href="https://www.credly.com/badges/15e910cc-727c-43ed-9dde-aa9dc1114696/public_url">Badge</a>
 
 ---
 
 ### Theme:
-- Cybersecurity
+- Internet of Things (IoT)
 
 ### Used Tools:
 - Operating System (OS): 
@@ -28,14 +28,10 @@
   - Git   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="auto" height="25">
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
-- Command Line Interpreter (CLI):
-  - AWS Command Line Interface (CLI)   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/cloud/aws_cli.svg" alt="aws_cli" width="auto" height="25">
-  - Windows PowerShell   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/windows_power_shell.png" alt="windows_power_shell" width="auto" height="25">
 
 ---
 
 ### Course Strcuture:
-0. <a href="./0-intro/">Introdução ao curso</a><br>
 1. <a href="./mod-01/">Tudo está Conectado</a><br>
   1.1 <a href="./mod-01/README.md#item01.01">Introdução</a><br>
   1.2 <a href="./mod-01/README.md#item01.02">A digitalização transforma os negócios</a><br>
@@ -50,7 +46,7 @@
   2.4 <a href="./mod-02/README.md#item02.04">Programação com Python</a><br>
   2.5 <a href="./mod-02/README.md#item02.05">O que é prototipagem?</a><br>
   2.6 <a href="./mod-02/README.md#item02.06">Recursos de Prototipagem</a><br>
-  2.6 <a href="./mod-02/README.md#item02.06">Resumo de Tudo se torna programável</a><br>
+  2.7 <a href="./mod-02/README.md#item02.07">Resumo de Tudo se torna programável</a><br>
 3. <a href="./mod-03/">Tudo Gera Dados</a><br>
   3.1 <a href="./mod-03/README.md#item03.01">Introdução</a><br>
   3.2 <a href="./mod-03/README.md#item03.02">O que é Big Data?</a><br>
@@ -78,17 +74,11 @@
 ---
 
 ### Objective:
-O objetivo desse curso foi introduzir os conceitos fundamentais de cibersegurança, abordando governança, conformidade, testes de segurança, inteligência de ameaças, avaliação de vulnerabilidades, gerenciamento de riscos e resposta a incidentes.
+O objetivo deste curso foi introduzir os conceitos fundamentais da Internet das Coisas (IoT), abordando arquiteturas, dispositivos inteligentes, sensores e atuadores, conectividade de rede, processamento de dados e integração com tecnologias emergentes como análise de dados, inteligência artificial e cibersegurança, visando preparação para aplicação de soluções IoT em diferentes setores e contextos profissionais.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, apresentando esse curso e distribuíndo para cada módulo.
-- [0-aux](../0-aux/): Pasta auxiliar com imagens utilizadas na construção dos arquivos de README desse curso.
+- [0-aux](./0-aux/): Pasta auxiliar com imagens utilizadas na construção dos arquivos de README desse curso.
 
 ### Development:
-O curso **Gerenciamento de Ameaças Cibernéticas**, desenvolvido pela **Cisco Networking Academy (CNA)**, integrou a primeira fase da **11ª Maratona CiberEducação Cisco – Edição 1 Milhão de Estudantes no Brasil**, considerado o maior programa de capacitação em cibersegurança do país (Brasil).  
-
-Com duração de **01/09/2025 a 21/09/2025**, os participantes tiveram que concluir esta etapa dentro do prazo para estarem aptos à segunda fase do processo seletivo. Nesta fase seguinte, os candidatos concorreram a 1.500 bolsas de estudo gratuitas para os cursos **CCNA-1 (Cisco Certified Network Associate)** e **CyberOps Associate**, na etapa de capacitação profissionalizante do **Programa CiberEducação Cisco Brasil**.  
-
-O curso foi estruturado em seis módulos, além de um módulo introdutório (módulo zero), no qual foi apresentado o software **Cisco Packet Tracer**. Cada módulo contou com laboratórios práticos, documentados nos próprios READMEs dos seus respectivos módulos. Também foram aplicados questionários e quizzes, além de dois exames de verificação (referentes aos módulos 5 e 6) e um exame final abrangendo todo o conteúdo. A nota mínima de aprovação em todas as avaliações foi de 70%. Toda a parte teórica foi igualmente registrada nos READMEs de cada módulo, organizando o aprendizado de forma progressiva e documentada.  
-
-Caso aprovado para segunda fase, os cursos referente ao **Programa CiberEducação Cisco Brasil** será documentado em outra pasta neste repositório, que posteriormente será indicado aqui.
+O desenvolvimento do curso foi estruturado com base na organização modular do próprio conteúdo. Para cada módulo, foi criada uma pasta específica contendo os materiais correspondentes. Em cada uma dessas pastas, o arquivo README apresentou o conteúdo teórico do módulo e sua respectiva estrutura. Os laboratórios e as atividades do Packet Tracer foram realizados nas pastas [labs](../../labs/) e [pkt](../../pkt/), estando devidamente referenciados por meio de links.

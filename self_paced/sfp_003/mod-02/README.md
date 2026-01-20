@@ -31,20 +31,20 @@
 
 ### Course Module 2 Structure:
 2. <a name="item02">Tudo se Torna Programável</a><br>
-  2.1 <a href="./mod-02/README.md#item02.01">Introdução</a><br>
-  2.2 <a href="./mod-02/README.md#item02.02">Conceitos Básicos de Programação</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 <a href="./mod-02/README.md#item02.02.01">Verifique o seu Entendimento - Siga o Fluxograma</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 <a href="./mod-02/README.md#item02.02.02">Verifique seu Entendimento - Identificar Termos de Programação</a><br>
+  2.1 <a href="../mod-02/README.md#item02.01">Introdução</a><br>
+  2.2 <a href="../mod-02/README.md#item02.02">Conceitos Básicos de Programação</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 <a href="../mod-02/README.md#item02.02.01">Verifique o seu Entendimento - Siga o Fluxograma</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 <a href="../mod-02/README.md#item02.02.02">Verifique seu Entendimento - Identificar Termos de Programação</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.2.3 <a href="../../../labs/lab_010/">Laboratório - Criar um fluxograma de processo</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.2.4 <a href="./mod-02/README.md#item02.02.04">Verifique sua Compreensão - Combine o símbolo do fluxograma com a tarefa</a><br>
-  2.3 <a href="./mod-02/README.md#item02.03">Programação básica usando Blockly</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.2.4 <a href="../mod-02/README.md#item02.02.04">Verifique sua Compreensão - Combine o símbolo do fluxograma com a tarefa</a><br>
+  2.3 <a href="../mod-02/README.md#item02.03">Programação básica usando Blockly</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.3.1 <a href="../../../pkt/pkt_015/">Packet Tracer - Fazendo um LED piscar usando Blockly</a><br>
-  2.4 <a href="./mod-02/README.md#item02.04">Programação com Python</a><br>
+  2.4 <a href="../mod-02/README.md#item02.04">Programação com Python</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.4.1 <a href="../../../labs/lab_011/">Laboratório - Programação básica em Python</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.4.2 <a href="../../../labs/lab_012/">Laboratório - Crie um jogo simples com Python</a><br>
-  2.5 <a href="./mod-02/README.md#item02.05">O que é prototipagem?</a><br>
-  2.6 <a href="./mod-02/README.md#item02.06">Recursos de Prototipagem</a><br>
-  2.6 <a href="./mod-02/README.md#item02.06">Resumo de Tudo se torna programável</a><br>
+  2.5 <a href="../mod-02/README.md#item02.05">O que é prototipagem?</a><br>
+  2.6 <a href="../mod-02/README.md#item02.06">Recursos de Prototipagem</a><br>
+  2.6 <a href="../mod-02/README.md#item02.06">Resumo de Tudo se torna programável</a><br>
 
 ---
 
