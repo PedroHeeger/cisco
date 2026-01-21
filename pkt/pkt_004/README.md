@@ -27,7 +27,8 @@
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
   - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/pkt.webp" alt="pkt" width="auto" height="25">
-
+  - ping   <img src="" alt="iputils" width="auto" height="25">
+  
 ---
 
 <h3><a name="item00">Course Strcuture:</a></h3>
