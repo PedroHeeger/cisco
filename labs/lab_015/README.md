@@ -3,7 +3,7 @@
 ### Cisco: <a href="../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
 ### Training Category: <a href="../../self_paced/">self-paced</a>
-### Software/Subject: big_data   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/big_data.jpg" alt="big_data" width="auto" height="25"></a>
+### Software/Subject: Excel   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/microsoft_excel.png" alt="excel" width="auto" height="25"></a>
 ### Course: <a href="./">lab_015 (Laboratório - Use o Excel para fazer previsões)   <img src="./0-aux/logo_course.png" alt="lab_015" width="auto" height="25"></a>
 
 ---
