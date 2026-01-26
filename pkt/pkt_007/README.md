@@ -33,9 +33,9 @@
 
 <h3><a name="item00">Course Strcuture:</a></h3>
 
-1. <a href="#item01">Parte 1: Verificar a configuração padrão do switch  </a><br>
-  1.1 <a href="#item01.01">Etapa 1: Entrar no modo EXEC privilegiado. </a><br>
-  1.2 <a href="#item01.02">Etapa 2: Examinar a configuração atual do switch. </a><br>
+1. <a href="#item01">Parte 1: Verificar a configuração padrão do switch</a><br>
+  1.1 <a href="#item01.01">Etapa 1: Entrar no modo EXEC privilegiado.</a><br>
+  1.2 <a href="#item01.02">Etapa 2: Examinar a configuração atual do switch.</a><br>
 2. <a href="#item02">Parte 2: Criar uma configuração básica do switch</a><br>
   2.1 <a href="#item02.01">Etapa 1: Atribuir um nome a um switch.</a><br>
   2.2 <a href="#item02.02">Etapa 2: Acesso seguro à linha do console.</a><br>
@@ -62,7 +62,7 @@ Este PTTA visou a segurança básica de um Switch através da configuração de 
 
 ### Development:
 
-<a name="item01"><h4>1. Parte 1: Verificar a configuração padrão do switch  </h4></a>[Back to summary](#item00)
+<a name="item01"><h4>1. Parte 1: Verificar a configuração padrão do switch</h4></a>[Back to summary](#item00)
 
 A imagem 01 mostra a topologia inicial.
 
@@ -71,13 +71,13 @@ A imagem 01 mostra a topologia inicial.
     <figcaption>Imagem 01.</figcaption>
 </figure></div><br>
 
-<a name="item01.01"><h4>1.1 Etapa 1: Entrar no modo EXEC privilegiado. </h4></a>[Back to summary](#item00)
+<a name="item01.01"><h4>1.1 Etapa 1: Entrar no modo EXEC privilegiado.</h4></a>[Back to summary](#item00)
 
 - a. Você pode acessar todos os comandos do switch no modo EXEC privilegiado. No entanto, como muitos dos comandos privilegiados configuram parâmetros operacionais, o acesso privilegiado deve ser protegido por senha para evitar o uso não autorizado. O conjunto de comandos EXEC privilegiados inclui os comandos disponíveis no modo EXEC do usuário, 
 muitos comandos adicionais e o comando configure através do qual o acesso aos modos de configuração é obtido. Clique em S1 e depois na guia CLI. Pressione Enter. 
 - b. Entre no modo EXEC privilegiado inserindo o comando enable: `Switch> enable`. Observe que o prompt foi alterado para refletir o modo EXEC privilegiado. 
 
-<a name="item01.02"><h4>1.2 Etapa 2: Examinar a configuração atual do switch. </h4></a>[Back to summary](#item00)
+<a name="item01.02"><h4>1.2 Etapa 2: Examinar a configuração atual do switch.</h4></a>[Back to summary](#item00)
 
 - a. Insira o comando show running-config: `Switch# show running-config`. Responda às perguntas a seguir:
   - Quantas interfaces Fast Ethernet o switch possui?
@@ -199,7 +199,7 @@ A imagem 05 exibe a conclusão da Parte 4.
     <figcaption>Imagem 05.</figcaption>
 </figure></div><br>
 
-<a name="item05"><h4>5. Parte 5: Configurar S2 </h4></a>[Back to summary](#item00)
+<a name="item05"><h4>5. Parte 5: Configurar S2</h4></a>[Back to summary](#item00)
 
 - a. Você concluiu a configuração em S1. Você vai configurar o S2 agora. Se você não se lembrar dos comandos, consulte as Partes 1 a 4 para obter ajuda. Configure S2 com os seguintes parâmetros: 
   - Nome do Dispositivo: S2.

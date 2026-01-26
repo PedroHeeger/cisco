@@ -38,8 +38,8 @@
   1.2 <a href="#item01.02">Etapa 2: Conectar a nuvem ao modem a cabo.</a><br>
 2. <a href="#item02">Parte 2: conectar Router0</a><br>
   2.1 <a href="#item02.01">Etapa 1: Conectar Router0 a Router1.</a><br>
-  2.2 <a href="#item02.02">Etapa 2: Conectar Cable Modem a Wireless Router.</a><br>
-  2.3 <a href="#item02.03">Etapa 3: Conectar Wireless Router a Family PC</a><br>
+  2.2 <a href="#item02.02">Etapa 2: Conectar Router0 a netacad.pka.</a><br>
+  2.3 <a href="#item02.03">Etapa 3: Conectar Router0 ao terminal de configuração (Configuration Terminal).</a><br>
 3. <a href="#item03">Parte 3: conectar dispositivos restantes</a><br>
   3.1 <a href="#item03.01">Etapa 1: Conectar Router1 a Switch.</a><br>
   3.2 <a href="#item03.02">Etapa 2: Conectar Cable Modem a Wireless Router.</a><br>
