@@ -1,8 +1,8 @@
 # Packet Tracer - A engenhoca da senha   <img src="./0-aux/logo_course.png" alt="pkt_020" width="auto" height="45">
 
-### Cisco: <a href="../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
+### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
-### Training Category: <a href="../../self_paced/">self-paced</a>
+### Training Category: <a href="../../../pkt/">pkt</a>
 ### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
 ### Course: <a href="./">pkt_020 (Packet Tracer - A engenhoca da senha)   <img src="./0-aux/logo_course.png" alt="pkt_020" width="auto" height="25"></a>
 
@@ -35,15 +35,11 @@
 <h3><a name="item00">Course Strcuture:</a></h3>
 
 1. <a href="#item01">Packet Tracer - A engenhoca da senha</a><br>
-  1.1 <a href="#item01.01">Etapa 1: Instale a rede conforme mostrado na topologia.</a><br>
-2. <a href="#item02">Parte 2: Exibir, Descrever e Analisar Endereços MAC Ethernet</a><br>
-  2.1 <a href="#item02.01">Etapa 1: Analise o endereço MAC da placa de interface de rede de PC-A.</a><br>
-
 
 ---
 
 ### Objective:
-O objetivo foi configurar o endereçamento IP de dois dispositivos (um PC e um Switch), realizar a conexão entre eles por meio de cabos Ethernet e Console, testar a conectividade de rede e analisar o comportamento dos endereços MAC nas tabelas MAC e ARP, bem como nas configurações dos próprios dispositivos.
+O objetivo desta atividade de desafio foi estabelecer a conectividade a uma rede Wi-Fi através de um fluxo de automação entre dispositivos IoT, utilizando a interação entre sensores e atuadores para a liberação da chave de acesso à rede.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo do laboratório.
