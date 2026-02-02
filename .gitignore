@@ -28,8 +28,8 @@ instructor_led/ild_001/*
 
 
 pkt/mat/*
-pkt/pkt_000/*
-pkt/pkt_*/mat/*
+pkt/files/pkt_000/*
+pkt/files/pkt_*/mat/*
 # pkt/pkt_001/mat/*
 # pkt/pkt_002/mat/*
 # pkt/pkt_003/mat/*

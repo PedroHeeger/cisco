@@ -16,26 +16,28 @@ Algumas dessas atividades podem incluir um laboratório prático complementar, q
 A seguir, são listados os PKTs já realizados:
 
 ### Activities:
-<li>pkt_001: <a href="./pkt_001/">Packet Tracer: representação da Rede   <img src="./pkt_001/0-aux/logo_course.png" alt="pkt_001" width="auto" height="25"></a></li>
-<li>pkt_002: <a href="./pkt_002/">Packet Tracer - Navegue no IOS   <img src="./pkt_002/0-aux/logo_course.png" alt="pkt_002" width="auto" height="25"></a></li>
-<li>pkt_003: <a href="./pkt_003/">Packet Tracer - Navegue pelo IOS usando um cliente terminal para conectividade de console - Modo Físico   <img src="./pkt_003/0-aux/logo_course.png" alt="pkt_003" width="auto" height="25"></a></li>
-<li>pkt_004: <a href="./pkt_004/">Packet Tracer – Criar uma Rede Simples   <img src="./pkt_004/0-aux/logo_course.png" alt="pkt_004" width="auto" height="25"></a></li>
-<li>pkt_005: <a href="./pkt_005/">Packet Tracer - Conecte os dispositivos a um gateway doméstico e monitore a rede   <img src="./pkt_005/0-aux/logo_course.png" alt="pkt_005" width="auto" height="25"></a></li>
-<li>pkt_006: <a href="./pkt_006/">Packet Tracer - Conecte-se a um gateway doméstico e monitore a rede   <img src="./pkt_006/0-aux/logo_course.png" alt="pkt_006" width="auto" height="25"></a></li>
-<li>pkt_007: <a href="./pkt_007/">Packet Tracer - Definir configurações iniciais do switch   <img src="./pkt_007/0-aux/logo_course.png" alt="pkt_007" width="auto" height="25"></a></li>
-<li>pkt_008: <a href="./pkt_008/">Packet Tracer - Implementação da conectividade básica   <img src="./pkt_008/0-aux/logo_course.png" alt="pkt_008" width="auto" height="25"></a></li>
-<li>pkt_009: <a href="./pkt_009/">Vídeo Activity - Testar a atribuição de interface   <img src="./pkt_009/0-aux/logo_course.png" alt="pkt_009" width="auto" height="25"></a></li>
-<li>pkt_010: <a href="./pkt_010/">Vídeo Activity - Teste a conectividade de ponta a ponta   <img src="./pkt_010/0-aux/logo_course.png" alt="pkt_010" width="auto" height="25"></a></li>
-<li>pkt_011: <a href="./pkt_011/">Packet Tracer - Configuração básica do switch e do dispositivo final   <img src="./pkt_011/0-aux/logo_course.png" alt="pkt_011" width="auto" height="25"></a></li>
-<li>pkt_012: <a href="./pkt_012/">Packet Tracer - Configuração básica do switch e do dispositivo final - Modo Físico   <img src="./pkt_012/0-aux/logo_course.png" alt="pkt_012" width="auto" height="25"></a></li>
-<li>pkt_013: <a href="./pkt_013/">Packet Tracer - Investigue os modelos TCP / IP e OSI em ação   <img src="./pkt_013/0-aux/logo_course.png" alt="pkt_013" width="auto" height="25"></a></li>
-<li>pkt_014: <a href="./pkt_014/">Packet Tracer - Conecte uma LAN com e sem fio   <img src="./pkt_014/0-aux/logo_course.png" alt="pkt_014" width="auto" height="25"></a></li>
-<li>pkt_015: <a href="./pkt_015/">Packet Tracer - Fazendo um LED piscar usando Blockly   <img src="./pkt_015/0-aux/logo_course.png" alt="pkt_015" width="auto" height="25"></a></li>
-<li>pkt_016: <a href="./pkt_016/">Packet Tracer - Exploração de Camada Física - Modo Físico   <img src="./pkt_016/0-aux/logo_course.png" alt="pkt_016" width="auto" height="25"></a></li>
-<li>pkt_017: <a href="./pkt_017/">Packet Tracer - Packet Tracer - Conecte a Camada Física   <img src="./pkt_017/0-aux/logo_course.png" alt="pkt_017" width="auto" height="25"></a></li>
-<li>pkt_018: <a href="./pkt_018/">Packet Tracer - Explore a casa inteligente   <img src="./pkt_018/0-aux/logo_course.png" alt="pkt_018" width="auto" height="25"></a></li>
-<li>pkt_019: <a href="./pkt_019/">Packet Tracer - Configurar Segurança Sem Fio   <img src="./pkt_019/0-aux/logo_course.png" alt="pkt_019" width="auto" height="25"></a></li>
-<li>pkt_020: <a href="./pkt_020/">Packet Tracer - A engenhoca da senha   <img src="./pkt_020/0-aux/logo_course.png" alt="pkt_020" width="auto" height="25"></a></li>
+<li>pkt_001: <a href="./files/pkt_001/">Packet Tracer: representação da Rede   <img src="./files/pkt_001/0-aux/logo_course.png" alt="pkt_001" width="auto" height="25"></a></li>
+<li>pkt_002: <a href="./files/pkt_002/">Packet Tracer - Navegue no IOS   <img src="./files/pkt_002/0-aux/logo_course.png" alt="pkt_002" width="auto" height="25"></a></li>
+<li>pkt_003: <a href="./files/pkt_003/">Packet Tracer - Navegue pelo IOS usando um cliente terminal para conectividade de console - Modo Físico   <img src="./files/pkt_003/0-aux/logo_course.png" alt="pkt_003" width="auto" height="25"></a></li>
+<li>pkt_004: <a href="./files/pkt_004/">Packet Tracer – Criar uma Rede Simples   <img src="./files/pkt_004/0-aux/logo_course.png" alt="pkt_004" width="auto" height="25"></a></li>
+<li>pkt_005: <a href="./files/pkt_005/">Packet Tracer - Conecte os dispositivos a um gateway doméstico e monitore a rede   <img src="./files/pkt_005/0-aux/logo_course.png" alt="pkt_005" width="auto" height="25"></a></li>
+<li>pkt_006: <a href="./files/pkt_006/">Packet Tracer - Conecte-se a um gateway doméstico e monitore a rede   <img src="./files/pkt_006/0-aux/logo_course.png" alt="pkt_006" width="auto" height="25"></a></li>
+<li>pkt_007: <a href="./files/pkt_007/">Packet Tracer - Definir configurações iniciais do switch   <img src="./files/pkt_007/0-aux/logo_course.png" alt="pkt_007" width="auto" height="25"></a></li>
+<li>pkt_008: <a href="./files/pkt_008/">Packet Tracer - Implementação da conectividade básica   <img src="./files/pkt_008/0-aux/logo_course.png" alt="pkt_008" width="auto" height="25"></a></li>
+<li>pkt_009: <a href="./files/pkt_009/">Vídeo Activity - Testar a atribuição de interface   <img src="./files/pkt_009/0-aux/logo_course.png" alt="pkt_009" width="auto" height="25"></a></li>
+<li>pkt_010: <a href="./files/pkt_010/">Vídeo Activity - Teste a conectividade de ponta a ponta   <img src="./files/pkt_010/0-aux/logo_course.png" alt="pkt_010" width="auto" height="25"></a></li>
+<li>pkt_011: <a href="./files/pkt_011/">Packet Tracer - Configuração básica do switch e do dispositivo final   <img src="./files/pkt_011/0-aux/logo_course.png" alt="pkt_011" width="auto" height="25"></a></li>
+<li>pkt_012: <a href="./files/pkt_012/">Packet Tracer - Configuração básica do switch e do dispositivo final - Modo Físico   <img src="./files/pkt_012/0-aux/logo_course.png" alt="pkt_012" width="auto" height="25"></a></li>
+<li>pkt_013: <a href="./files/pkt_013/">Packet Tracer - Investigue os modelos TCP / IP e OSI em ação   <img src="./files/pkt_013/0-aux/logo_course.png" alt="pkt_013" width="auto" height="25"></a></li>
+<li>pkt_014: <a href="./files/pkt_014/">Packet Tracer - Conecte uma LAN com e sem fio   <img src="./files/pkt_014/0-aux/logo_course.png" alt="pkt_014" width="auto" height="25"></a></li>
+<li>pkt_015: <a href="./files/pkt_015/">Packet Tracer - Fazendo um LED piscar usando Blockly   <img src="./files/pkt_015/0-aux/logo_course.png" alt="pkt_015" width="auto" height="25"></a></li>
+<li>pkt_016: <a href="./files/pkt_016/">Packet Tracer - Exploração de Camada Física - Modo Físico   <img src="./files/pkt_016/0-aux/logo_course.png" alt="pkt_016" width="auto" height="25"></a></li>
+<li>pkt_017: <a href="./files/pkt_017/">Packet Tracer - Packet Tracer - Conecte a Camada Física   <img src="./files/pkt_017/0-aux/logo_course.png" alt="pkt_017" width="auto" height="25"></a></li>
+<li>pkt_018: <a href="./files/pkt_018/">Packet Tracer - Explore a casa inteligente   <img src="./files/pkt_018/0-aux/logo_course.png" alt="pkt_018" width="auto" height="25"></a></li>
+<li>pkt_019: <a href="./files/pkt_019/">Packet Tracer - Configurar Segurança Sem Fio   <img src="./files/pkt_019/0-aux/logo_course.png" alt="pkt_019" width="auto" height="25"></a></li>
+<li>pkt_020: <a href="./files/pkt_020/">Packet Tracer - A engenhoca da senha   <img src="./files/pkt_020/0-aux/logo_course.png" alt="pkt_020" width="auto" height="25"></a></li>
+<li>pkt_021: <a href="./files/pkt_021/">Packet Tracer - Exibir Endereços MAC do dispositivo de rede   <img src="./files/pkt_021/0-aux/logo_course.png" alt="pkt_021" width="auto" height="25"></a></li>
+<li>pkt_022: <a href="./files/pkt_022/">Packet Tracer - Exibir a tabela de endereços MAC do switch   <img src="./files/pkt_022/0-aux/logo_course.png" alt="pkt_022" width="auto" height="25"></a></li>
 
 
 
