@@ -58,11 +58,6 @@ O objetivo desse laboratório foi apresentar métodos para extrair o máximo de 
 - f. Documente todas as informações obtidas dessa pesquisa.
   - As informações são pessoais, portanto foram ocultadas.
 
-<div align="center"><figure>
-    <img src="./0-aux/img01.png" alt="img01"><br>
-    <figcaption>Imagem 01.</figcaption>
-</figure></div><br>
-
 <a name="item02"><h4>2. Parte 2: Use " People Search Global"</h4></a>[Back to summary](#item00)
 
 O People Search Global é um outro site para uma plataforma básica de pesquisa internacional de pessoas Navegue até o site http://people-search-global.com/ e insira os parâmetros de pesquisa e continue com a pesquisa.

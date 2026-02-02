@@ -46,7 +46,7 @@ Pesquisar oportunidades de trabalho.
 
 ### Development:
 
-<a name="item01"><h4>1. PAbrir um navegador e acessar um site de emprego</h4></a>[Back to summary](#item00)
+<a name="item01"><h4>1. Abrir um navegador e acessar um site de emprego</h4></a>[Back to summary](#item00)
 
 <a name="item01.01"><h4>1.1 Abrir um navegador e acessar um site de emprego</h4></a>[Back to summary](#item00)
 
