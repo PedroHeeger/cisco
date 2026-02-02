@@ -5,24 +5,24 @@ video_activity/mat/*
 
 
 
-instructor_led/ild_001/*
-!instructor_led/ild_001/mod-01/
-!instructor_led/ild_001/mod-02/
-!instructor_led/ild_001/mod-03/
-!instructor_led/ild_001/mod-04/
-!instructor_led/ild_001/mod-05/
-!instructor_led/ild_001/mod-06/
-!instructor_led/ild_001/mod-07/
-!instructor_led/ild_001/mod-08/
-!instructor_led/ild_001/mod-09/
-!instructor_led/ild_001/mod-10/
-!instructor_led/ild_001/mod-11/
-!instructor_led/ild_001/mod-12/
-!instructor_led/ild_001/mod-13/
-!instructor_led/ild_001/mod-14/
-!instructor_led/ild_001/mod-15/
-!instructor_led/ild_001/mod-16/
-!instructor_led/ild_001/mod-17/
+# instructor_led/ild_001/*
+# !instructor_led/ild_001/mod-01/
+# !instructor_led/ild_001/mod-02/
+# !instructor_led/ild_001/mod-03/
+# !instructor_led/ild_001/mod-04/
+# !instructor_led/ild_001/mod-05/
+# !instructor_led/ild_001/mod-06/
+# !instructor_led/ild_001/mod-07/
+# !instructor_led/ild_001/mod-08/
+# !instructor_led/ild_001/mod-09/
+# !instructor_led/ild_001/mod-10/
+# !instructor_led/ild_001/mod-11/
+# !instructor_led/ild_001/mod-12/
+# !instructor_led/ild_001/mod-13/
+# !instructor_led/ild_001/mod-14/
+# !instructor_led/ild_001/mod-15/
+# !instructor_led/ild_001/mod-16/
+# !instructor_led/ild_001/mod-17/
 
 
 
@@ -30,48 +30,8 @@ instructor_led/ild_001/*
 pkt/mat/*
 pkt/files/pkt_000/*
 pkt/files/pkt_*/mat/*
-# pkt/pkt_001/mat/*
-# pkt/pkt_002/mat/*
-# pkt/pkt_003/mat/*
-# pkt/pkt_004/mat/*
-# pkt/pkt_005/mat/*
-# pkt/pkt_006/mat/*
-# pkt/pkt_007/mat/*
-# pkt/pkt_008/mat/*
-# pkt/pkt_009/mat/*
-# pkt/pkt_010/mat/*
-# pkt/pkt_011/mat/*
-# pkt/pkt_012/mat/*
-# pkt/pkt_013/mat/*
-# pkt/pkt_014/mat/*
-# pkt/pkt_015/mat/*
-# pkt/pkt_016/mat/*
-# pkt/pkt_017/mat/*
-# pkt/pkt_018/mat/*
-# pkt/pkt_019/mat/*
-# pkt/pkt_020/mat/*
 
-
-
+labs/mat_cyberops/*
 labs/mat/*
-labs/lab_000/*
-labs/lab_*/mat/*
-
-# labs/lab_001/mat/*
-# labs/lab_002/mat/*
-# labs/lab_003/mat/*
-# labs/lab_004/mat/*
-# labs/lab_005/mat/*
-# labs/lab_006/mat/*
-# labs/lab_007/mat/*
-# labs/lab_008/mat/*
-# labs/lab_009/mat/*
-# labs/lab_010/mat/*
-# labs/lab_011/mat/*
-# labs/lab_012/mat/*
-# labs/lab_013/mat/*
-# labs/lab_014/mat/*
-# labs/lab_014/mat/*
-# labs/lab_014/mat/*
-# labs/lab_014/mat/*
-# labs/lab_014/mat/*
+labs/files/lab_000/*
+labs/files/lab_*/mat/*
