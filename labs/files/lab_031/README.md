@@ -26,7 +26,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - SysAdm:
-  - Editor do Registro (Regedit)   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/regedit.png" alt="regedit" width="auto" height="25">
+  - Registry Editor (Regedit)   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/regedit.png" alt="regedit" width="auto" height="25">
   - Process Explorer (Procexp)   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/procexp.png" alt="procexp" width="auto" height="25">
   - Windows Sysinternals Suite   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/windows_sysinternals_suite.png" alt="windows_sysinternals_suite" width="auto" height="25">
 
