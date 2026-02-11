@@ -33,16 +33,16 @@
 1. <a name="item01">Tudo está Conectado</a><br>
 1.1 <a href="#item01.01">Introdução</a><br>
 1.2 <a href="#item01.02">A digitalização transforma os negócios</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;1.2.1 <a href="../../../labs/lab_002/">Laboratório - Como você está conectado?</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.2.1 <a href="../../../labs/files/lab_002/">Laboratório - Como você está conectado?</a><br>
 1.3 <a href="#item01.03">Globalmente conectado pelas redes</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;1.3.1 <a href="../../../labs/lab_003/">Laboratório - Mapeamento da Internet</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;1.3.2 <a href="../../../pkt/pkt_004/">Packet Tracer - Criando uma Rede Simples</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.3.1 <a href="../../../labs/files/lab_003/">Laboratório - Mapeamento da Internet</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.3.2 <a href="../../../pkt/files/pkt_004/">Packet Tracer - Criando uma Rede Simples</a><br>
 1.4 <a href="#item01.04">O crescimento dos dispositivos de loT</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;1.4.1 <a href="../../../labs/lab_004/">Laboratório - Imagine um novo sensor inteligente</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;1.4.2 <a href="../../../labs/lab_005/">Laboratório - Vantagens e desvantagens dos dispositivos de IoT</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.4.1 <a href="../../../labs/files/lab_004/">Laboratório - Imagine um novo sensor inteligente</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.4.2 <a href="../../../labs/files/lab_005/">Laboratório - Vantagens e desvantagens dos dispositivos de IoT</a><br>
 1.5 <a href="#item01.05">Conexão dos dispositivos de loT à rede</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;1.5.1 <a href="../../../pkt/pkt_005/">Packet Tracer - Adicionar dispositivos de IoT no Packet Tracer</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;1.5.2 <a href="../../../pkt/pkt_006/">Packet Tracer - Conecte os dispositivos a um gateway doméstico e monitore a rede</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.5.1 <a href="../../../pkt/files/pkt_005/">Packet Tracer - Adicionar dispositivos de IoT no Packet Tracer</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.5.2 <a href="../../../pkt/files/pkt_006/">Packet Tracer - Conecte os dispositivos a um gateway doméstico e monitore a rede</a><br>
 1.6 <a href="#item01.06">Resumo de Tudo está conectado</a><br>
 
 ---
