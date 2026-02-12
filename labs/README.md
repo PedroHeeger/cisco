@@ -39,3 +39,14 @@ A seguir, são listados os laboratórios já realizados:
 <li>lab_025: <a href="./files/lab_025/">Laboratório - Instalando as Máquinas Virtuais   <img src="./files/lab_025/0-aux/logo_course.png" alt="lab_025" width="auto" height="25"></a></li>
 <li>lab_026: <a href="./files/lab_026/">Laboratório - Estudos de caso de cibersegurança   <img src="./files/lab_026/0-aux/logo_course.png" alt="lab_026" width="auto" height="25"></a></li>
 <li>lab_027: <a href="./files/lab_027/">Laboratório - Aprendendo os detalhes dos ataques   <img src="./files/lab_027/0-aux/logo_course.png" alt="lab_027" width="auto" height="25"></a></li>
+<li>lab_028: <a href="./files/lab_028/">Laboratório - Visualização dos Black Hats   <img src="./files/lab_028/0-aux/logo_course.png" alt="lab_028" width="auto" height="25"></a></li>
+<li>lab_029: <a href="./files/lab_029/">Laboratório - Como se tornar um defensor   <img src="./files/lab_029/0-aux/logo_course.png" alt="lab_029" width="auto" height="25"></a></li>
+<li>lab_030: <a href="./files/lab_030/">Atividade da Classe - Identificar Processos em Execução   <img src="./files/lab_030/0-aux/logo_course.png" alt="lab_030" width="auto" height="25"></a></li>
+<li>lab_031: <a href="./files/lab_031/">Laboratório - Explorando Processos, Threads, Handles e Registro do Windows   <img src="./files/lab_031/0-aux/logo_course.png" alt="lab_031" width="auto" height="25"></a></li>
+<li>lab_032: <a href="./files/lab_032/">Laboratório – Criação de Contas de Usuário   <img src="./files/lab_032/0-aux/logo_course.png" alt="lab_032" width="auto" height="25"></a></li>
+<li>lab_033: <a href="./files/lab_033/">Laboratório - Usando o Windows PowerShell   <img src="./files/lab_033/0-aux/logo_course.png" alt="lab_033" width="auto" height="25"></a></li>
+<li>lab_034: <a href="./files/lab_034/">Laboratório - Gerenciador de Tarefas do Windows   <img src="./files/lab_034/0-aux/logo_course.png" alt="lab_034" width="auto" height="25"></a></li>
+<li>lab_035: <a href="./files/lab_035/">Laboratório - Monitorar e gerenciar recursos do sistema no Windows   <img src="./files/lab_035/0-aux/logo_course.png" alt="lab_035" width="auto" height="25"></a></li>
+
+
+

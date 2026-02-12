@@ -1,4 +1,4 @@
-
+desktop.ini
 
 video_activity/*
 video_activity/mat/*
@@ -35,3 +35,5 @@ labs/mat_cyberops/*
 labs/mat/*
 labs/files/lab_000/*
 labs/files/lab_*/mat/*
+
+
