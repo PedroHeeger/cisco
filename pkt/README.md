@@ -39,7 +39,7 @@ A seguir, são listados os PKTs já realizados:
 <li>pkt_021: <a href="./files/pkt_021/">Packet Tracer - Exibir Endereços MAC do dispositivo de rede   <img src="./files/pkt_021/0-aux/logo_course.png" alt="pkt_021" width="auto" height="25"></a></li>
 <li>pkt_022: <a href="./files/pkt_022/">Packet Tracer - Exibir a tabela de endereços MAC do switch   <img src="./files/pkt_022/0-aux/logo_course.png" alt="pkt_022" width="auto" height="25"></a></li>
 <li>pkt_023: <a href="./files/pkt_023/">Packet Tracer – Identificação de Endereços MAC e IP   <img src="./files/pkt_023/0-aux/logo_course.png" alt="pkt_023" width="auto" height="25"></a></li>
-
+<li>pkt_024: <a href="./files/pkt_024/">Packet Tracer – Exame da Tabela ARP   <img src="./files/pkt_024/0-aux/logo_course.png" alt="pkt_024" width="auto" height="25"></a></li>
 
 
 
