@@ -33,10 +33,10 @@
 3. <a name="item03">Tudo Gera Dados</a><br>
   3.1 <a href="#item03.01">Introdução</a><br>
   3.2 <a href="#item03.02">O que é Big Data?</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.2.1 <a href="../../../labs/lab_014/">Laboratório - Explore um Conjunto Grande de Dados</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.2.1 <a href="../../../labs/files/lab_014/">Laboratório - Explore um Conjunto Grande de Dados</a><br>
   3.3 <a href="#item03.03">Onde o big data é armazenado?</a><br>
   3.4 <a href="#item03.04">Suporte aos negócios com Big Data</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.4.1 <a href="../../../labs/lab_015/">Laboratório - Use o Excel para fazer previsões</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.4.1 <a href="../../../labs/files/lab_015/">Laboratório - Use o Excel para fazer previsões</a><br>
   3.5 <a href="#item03.05">Resumo de Tudo Gera Dados</a><br>
 
 ---
