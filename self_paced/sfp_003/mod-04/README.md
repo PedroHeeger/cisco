@@ -33,12 +33,12 @@
 4. <a name="item04">Tudo Pode Ser Automatizado</a><br>
   4.1 <a href="#item04.01">Introdução</a><br>
   4.2 <a href="#item04.02">Automação</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.2.1 <a href="../../../labs/lab_016/">Laboratório - Automatize eventos do dia-a-dia</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.2.2 <a href="../../../pkt/pkt_018/">Packet Tracer - Explore a casa inteligente</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.2.1 <a href="../../../labs/files/lab_016/">Laboratório - Automatize eventos do dia-a-dia</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.2.2 <a href="../../../pkt/files/pkt_018/">Packet Tracer - Explore a casa inteligente</a><br>
   4.3 <a href="#item04.03">Inteligência artificial (Al) e Aprendizado de Máquina (ML)</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.3.1 <a href="../../../labs/lab_017/">Laboratório - Projetar um protótipo de um aplicativo de IA</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.3.1 <a href="../../../labs/files/lab_017/">Laboratório - Projetar um protótipo de um aplicativo de IA</a><br>
   4.4 <a href="#item04.04">Rede baseada em intenção</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.4.1 <a href="../../../labs/lab_018/">Laboratório - Pesquisa sobre Rede Baseada em Intenção (IBN)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.4.1 <a href="../../../labs/files/lab_018/">Laboratório - Pesquisa sobre Rede Baseada em Intenção (IBN)</a><br>
   4.5 <a href="#item04.05">Resumo de tudo pode ser automatizado</a><br>
 
 ---
