@@ -33,13 +33,13 @@
 5. <a name="item05">Tudo Precisa Ser Protegido</a><br>
   5.1 <a href="#item05.01">Introdução</a><br>
   5.2 <a href="#item05.02">Por que a segurança é tão importante?</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;5.2.1 <a href="../../../labs/lab_019/">Laboratório - Tipos de Dados</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;5.2.2 <a href="../../../labs/lab_020/">Laboratório - Impressão digital na Internet</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;5.2.1 <a href="../../../labs/files/lab_019/">Laboratório - Tipos de Dados</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;5.2.2 <a href="../../../labs/files/lab_020/">Laboratório - Impressão digital na Internet</a><br>
   5.3 <a href="#item05.03">Proteção do mundo corporativo</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;5.3.1 <a href="../../../pkt/pkt_019/">Packet Tracer - Configurar Segurança Sem Fio</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;5.3.1 <a href="../../../pkt/files/pkt_019/">Packet Tracer - Configurar Segurança Sem Fio</a><br>
   5.4 <a href="#item05.04">Protegendo Dados e Dispositivos Pessoais</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;5.4.1 <a href="#item05.04.01">Verifique sua Compreensão - Crie uma senha forte</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;5.4.2 <a href="../../../labs/lab_021/">Laboratório - Descobrir seu próprio comportamento on-line arriscado</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;5.4.2 <a href="../../../labs/files/lab_021/">Laboratório - Descobrir seu próprio comportamento on-line arriscado</a><br>
   5.5 <a href="#item05.05">Resumo de Tudo que Precisa ser Protegido</a><br>
 
 ---
