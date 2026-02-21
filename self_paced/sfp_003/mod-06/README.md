@@ -34,9 +34,9 @@
   6.1 <a href="#item06.01">Introdução</a><br>
   6.2 <a href="#item06.02">Desafios e Oportunidades no Mundo Digital</a><br>
   6.3 <a href="#item06.03">Oportunidades Educacionais e Profissionais</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;6.3.1 <a href="../../../labs/lab_022/">Laboratório - Emprego e oportunidades de aprendizado relacionados à IoT</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;6.3.1 <a href="../../../labs/files/lab_022/">Laboratório - Emprego e oportunidades de aprendizado relacionados à IoT</a><br>
   6.4 <a href="#item06.04">Resumo das oportunidades educacionais e de negócios</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;6.4.1 <a href="../../../pkt/pkt_020/">Packet Tracer - A engenhoca da senha</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;6.4.1 <a href="../../../pkt/files/pkt_020/">Packet Tracer - A engenhoca da senha</a><br>
 
 ---
 
