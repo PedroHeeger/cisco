@@ -80,7 +80,7 @@
 ### Objective:
 O objetivo desse curso foi introduzir os conceitos fundamentais de cibersegurança, abordando governança, conformidade, testes de segurança, inteligência de ameaças, avaliação de vulnerabilidades, gerenciamento de riscos e resposta a incidentes.
 
-### Course Structure:
+### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, apresentando esse curso e distribuíndo para cada módulo.
 - [0-aux](../0-aux/): Pasta auxiliar com imagens utilizadas na construção dos arquivos de README desse curso.
 
