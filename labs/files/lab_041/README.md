@@ -16,7 +16,7 @@
   - Linux   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" width="auto" height="25">
   - Windows 11 <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/windows11.png" alt="windows11" width="auto" height="25">
 - Linux Distribution:
-  - Kali Linux   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/kali_linux.png" alt="kali_linux" width="auto" height="25">
+  - Arch Linux   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/arch_linux.png" alt="arch_linux" width="auto" height="25">
 - Virtualization: 
   - VMWare Workstation   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/vmware_workstation.png" alt="vmware_workstation" width="auto" height="25">
 - Cloud Services:
@@ -35,7 +35,9 @@
   - ping   <img src="" alt="iputils" width="auto" height="25">
   - traceroute   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/traceroute.png" alt="traceroute" width="auto" height="25">
   - Trace Route (tracert)   <img src="" alt="tracert" width="auto" height="25">
-
+- Cibersecurity:
+  - Cisco CyberOps Workstation   <img src="" alt="cisco_cyberops_workstation" width="auto" height="25">
+  
 ---
 
 <h3><a name="item00">Course Strcuture:</a></h3>
