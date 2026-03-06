@@ -40,6 +40,9 @@ A seguir, são listados os PKTs já realizados:
 <li>pkt_022: <a href="./files/pkt_022/">Packet Tracer - Exibir a tabela de endereços MAC do switch   <img src="./files/pkt_022/0-aux/logo_course.png" alt="pkt_022" width="auto" height="25"></a></li>
 <li>pkt_023: <a href="./files/pkt_023/">Packet Tracer – Identificação de Endereços MAC e IP   <img src="./files/pkt_023/0-aux/logo_course.png" alt="pkt_023" width="auto" height="25"></a></li>
 <li>pkt_024: <a href="./files/pkt_024/">Packet Tracer – Exame da Tabela ARP   <img src="./files/pkt_024/0-aux/logo_course.png" alt="pkt_024" width="auto" height="25"></a></li>
+<li>pkt_025: <a href="./files/pkt_025/">Packat Tracer - Descoberta de vizinhos de IPv6   <img src="./files/pkt_025/0-aux/logo_course.png" alt="pkt_025" width="auto" height="25"></a></li>
+<li>pkt_026: <a href="./files/pkt_026/">Packet Tracer – Configurar definições iniciais do roteador   <img src="./files/pkt_026/0-aux/logo_course.png" alt="pkt_026" width="auto" height="25"></a></li>
+<li>pkt_026: <a href="./files/pkt_026/">Packet Tracer - Verificar endereçamento IPv4 e IPv6   <img src="./files/pkt_026/0-aux/logo_course.png" alt="pkt_026" width="auto" height="25"></a></li>
 
 
 
