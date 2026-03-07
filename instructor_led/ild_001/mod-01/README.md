@@ -37,12 +37,12 @@
   1.4 <a href="#item01.04">Representações e topologias de rede</a><br>
   1.5 <a href="#item01.05">Tipos comuns de redes</a><br>
   1.6 <a href="#item01.06">Conexões com a Internet</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;1.6.1 <a href="#item01.6.01">PTTA - Representação da Rede</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.6.1 <a href="../../../pkt/files/pkt_001/">Packet Tracer - Representação da Rede</a><br>
   1.7 <a href="#item01.07">Redes confiáveis</a><br>
   1.8 <a href="#item01.08">Tendênciais das redes</a><br>
   1.9 <a href="#item01.09">Segurança de Redes</a><br>
   1.10 <a href="#item01.10">O profissional de TI</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;1.10.1 <a href="#item01.10.01">Laboratório - Pesquise oportunidades de trabalho em TI e redes</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.10.1 <a href="../../../labs/files/lab_001/">Laboratório - Pesquise oportunidades de trabalho em TI e redes</a><br>
   1.11 <a href="#item01.11">Módulo Prático e Quiz</a><br>
 
 ---
