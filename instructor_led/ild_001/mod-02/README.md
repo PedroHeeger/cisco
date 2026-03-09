@@ -36,24 +36,24 @@
   2.3 <a href="#item02.03">Navegação IOS</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.3.1 <a href="#item02.03.01">Verificador de Sintaxe - Navegar entre modos IOS</a><br>
   2.4 <a href="#item02.04">A Estrutura de Comandos</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.4.1 <a href="#item02.04.01">PTTA - Navegue no IOS</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.4.2 <a href="#item02.04.02">PTTA - Navegue pelo IOS usando Tera Term para conectividade de console</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.4.3 <a href="#item02.04.03">Laboratório - Navegue pelo IOS usando Tera Term para conectividade de console</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.4.1 <a href="../../../pkt/files/pkt_002/">Packet Tracer - Navegue no IOS</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.4.2 <a href="../../../pkt/files/pkt_003/">Packet Tracer - Navegue pelo IOS usando Tera Term para conectividade de console</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.4.3 <a href="../../../pkt/files/pkt_003/">Laboratório - Navegue pelo IOS usando Tera Term para conectividade de console</a><br>
   2.5 <a href="#item02.05">Configuração básica de dispositivos</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.5.1 <a href="#item02.05.01">Verificador de Sintaxe - Configuração básica do dispositivo</a><br>
   2.6 <a href="#item02.06">Salvar configurações</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.6.1 <a href="#item02.06.01">PTTA - Definir configurações iniciais do switch</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.6.1 <a href="../../../pkt/files/pkt_007/">Packet Tracer - Definir configurações iniciais do switch</a><br>
   2.7 <a href="#item02.07">Portas e Endereços</a><br>
   2.8 <a href="#item02.08">Configurar Endereços IP</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.8.1 <a href="#item02.08.01">Verificador de sintaxe - Verifique a configuração de IP do PC do Windows</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.8.2 <a href="#item02.08.02">Verificador de sintaxe - Configurar uma interface virtual do switch</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.8.3 <a href="#item02.08.03">PTTA - Implementação da conectividade básica</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.8.3 <a href="../../../pkt/files/pkt_008/">Packet Tracer - Implementação da conectividade básica</a><br>
   2.9 <a href="#item02.09">Verificar a conectividade</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.9.1 <a href="#item02.09.01">Vídeo Activity - Testar a atribuição de interface</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.9.2 <a href="#item02.09.02">Vídeo Activity - Teste a conectividade de ponta a ponta</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.9.1 <a href="../../../pkt/files/pkt_009/">Vídeo Activity - Testar a atribuição de interface</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.9.2 <a href="../../../pkt/files/pkt_010/">Vídeo Activity - Teste a conectividade de ponta a ponta</a><br>
   2.10 <a href="#item02.10">Módulo Prático e Quiz</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.10.1 <a href="#item02.10.01">PTTA - Configuração básica do switch e do dispositivo final</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.10.2 <a href="#item02.10.02">PTTA - Configuração básica do switch e do dispositivo final</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.10.1 <a href="../../../pkt/files/pkt_011/">Packet Tracer - Configuração básica do switch e do dispositivo final</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.10.2 <a href="../../../pkt/files/pkt_012/">Packet Tracer - Configuração básica do switch e do dispositivo final - Modo Físico</a><br>
 
 ---
 
