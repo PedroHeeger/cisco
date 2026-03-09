@@ -32,18 +32,18 @@
 ### Course Module 3 Structure:
 3. <a name="item03">Protocolos e modelos</a><br>
   3.1 <a href="#item03.01">Introdução</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.1.1 <a href="#item03.01.01">Atividade em Classe - Projetar um Sistema de Comunicação</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.1.1 <a href="../../../labs/files/lab_006/">Atividade em Classe - Projetar um Sistema de Comunicação</a><br>
   3.2 <a href="#item03.02">As regras</a><br>
   3.3 <a href="#item03.03">Protocolos</a><br>
   3.4 <a href="#item03.04">Conjuntos de protocolos</a><br>
   3.5 <a href="#item03.05">Empresas de padrões</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.5.1 <a href="#item03.05.01">Laboratório - Padrões de Rede de Pesquisa</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.5.1 <a href="../../../labs/files/lab_007/">Laboratório - Padrões de Rede de Pesquisa</a><br>
   3.6 <a href="#item03.06">Modelos de Referência</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.6.1 <a href="#item03.06.01">PTTA - Rastreador de pacotes: Investigue os modelos TCP / IP e OSI em ação</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.6.1 <a href="../../../pkt/files/pkt_013/">Packet Tracer - Rastreador de pacotes: Investigue os modelos TCP / IP e OSI em ação</a><br>
   3.7 <a href="#item03.07">Encapsulamento de dados</a><br>
   3.8 <a href="#item03.08">Acesso a dados</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.8.1 <a href="#item03.08.01">Laboratório - Instalar o Wireshark</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.8.2 <a href="#item03.08.02">Laboratório - Usar o Wireshark para ver o tráfego na Rede</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.8.1 <a href="../../../labs/files/lab_008/">Laboratório - Instalar o Wireshark</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.8.2 <a href="../../../labs/files/lab_009/">Laboratório - Usar o Wireshark para ver o tráfego na Rede</a><br>
   3.9 <a href="#item03.09">Módulo Prático e Quiz</a><br>
   3.10 <a href="#item03.10">Exame de Comunicação e Conectividade de Rede Básica</a><br>
   
