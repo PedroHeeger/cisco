@@ -39,12 +39,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;4.5.1 <a href="#item04.05.01">Atividade - Pinagem de cabos</a><br>
   4.6 <a href="#item04.06">Cabeamento de Fibra Óptica</a><br>
   4.7 <a href="#item04.07">Meios Sem Fio</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.7.1 <a href="#item04.07.01">PTTA - Conecte uma Rede cabeada e sem Fio</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.7.2 <a href="#item04.07.02">Laboratório - Exibir informações de Placas de Rede com fio e sem fio</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.7.1 <a href="../../../pkt/files/pkt_014/">Packet Tracer - Conecte uma Rede cabeada e sem Fio</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.7.2 <a href="../../../labs/files/lab_013/">Laboratório - Exibir informações de Placas de Rede com fio e sem fio</a><br>
   4.8 <a href="#item04.08">Módulo Prático e Quiz</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.8.1 <a href="#item04.08.01">PTTA - Exploração de Camada Física</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.8.2 <a href="#item04.08.02">PTTA - Conecte a Camada Física</a><br>
-
+&nbsp;&nbsp;&nbsp;&nbsp;4.8.1 <a href="../../../pkt/files/pkt_016/">Packet Tracer - Exploração de Camada Física</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.8.2 <a href="../../../pkt/files/pkt_017/">Packet Tracer - Conecte a Camada Física</a><br>
 
 ---
 
