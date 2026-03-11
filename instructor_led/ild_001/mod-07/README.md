@@ -33,12 +33,12 @@
 7. <a name="item07">Switching Ethernet</a><br>
   7.1 <a href="#item07.01">Introdução</a><br>
   7.2 <a href="#item07.02">Quadros Ethernet</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;7.2.1 <a href="#item07.02.01">Laboratório - Use o Wireshark para examinar os quadros Ethernet</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;7.2.1 <a href="../../../labs/files/lab_023/">Laboratório - Use o Wireshark para examinar os quadros Ethernet</a><br>
   7.3 <a href="#item07.03">Endereços MAC Ethernet</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;7.3.1 <a href="#item07.03.01">Laboratório - Endereços MAC do dispositivo de rede Labview</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;7.3.1 <a href="../../../pkt/files/pkt_021/">Laboratório - Exibir Endereços MAC do dispositivo de rede</a><br>
   7.4 <a href="#item07.04">A Tabela de Endereços MAC</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;7.4.1 <a href="#item07.04.01">Atividade - Encaminhe-o!</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;7.4.2 <a href="#item07.04.02">Laboratório - Exibir a tabela de endereços MAC do switch</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;7.4.2 <a href="../../../pkt/files/pkt_022/">Laboratório - Exibir a tabela de endereços MAC do switch</a><br>
   7.5 <a href="#item07.05">Métodos de encaminhamento e velocidade de switches</a><br>
   7.6 <a href="#item07.06">Módulo Prático e Quiz</a><br>
   7.7 <a href="#item07.07">Exame de Comunicação e Conectividade de Rede Básica</a><br>
