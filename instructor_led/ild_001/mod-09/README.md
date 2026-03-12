@@ -33,11 +33,11 @@
 9. <a name="item09">Resolução de endereços</a><br>
   9.1 <a href="#item09.01">Introdução</a><br>
   9.2 <a href="#item09.02">MAC e IP</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;9.2.1 <a href="#item09.02.01">PTTA - Identificação de Endereços MAC e IP</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;9.2.1 <a href="../../../pkt/files/pkt_023/">Packet Tracer – Identificação de Endereços MAC e IP</a><br>
   9.3 <a href="#item09.03">ARP</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;9.3.1 <a href="#item09.03.01">PTTA - Exame da Tabela ARP</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;9.3.1 <a href="../../../pkt/files/pkt_024/">Packet Tracer – Exame da Tabela ARP</a><br>
   9.4 <a href="#item09.04">Descoberta de vizinhos de IPv6</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;9.4.1 <a href="#item09.04.01">PTTA - Rastreador de pacotes: Descoberta de vizinhos IPv6</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;9.4.1 <a href="../../../pkt/files/pkt_025/">Packat Tracer - Descoberta de vizinhos de IPv6</a><br>
   9.5 <a href="#item09.05">Módulo Prático e Quiz</a><br>
 
 ---
