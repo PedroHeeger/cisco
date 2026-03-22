@@ -42,7 +42,13 @@ A seguir, são listados os PKTs já realizados:
 <li>pkt_024: <a href="./files/pkt_024/">Packet Tracer – Exame da Tabela ARP   <img src="./files/pkt_024/0-aux/logo_course.png" alt="pkt_024" width="auto" height="25"></a></li>
 <li>pkt_025: <a href="./files/pkt_025/">Packat Tracer - Descoberta de vizinhos de IPv6   <img src="./files/pkt_025/0-aux/logo_course.png" alt="pkt_025" width="auto" height="25"></a></li>
 <li>pkt_026: <a href="./files/pkt_026/">Packet Tracer – Configurar definições iniciais do roteador   <img src="./files/pkt_026/0-aux/logo_course.png" alt="pkt_026" width="auto" height="25"></a></li>
-<li>pkt_026: <a href="./files/pkt_026/">Packet Tracer - Verificar endereçamento IPv4 e IPv6   <img src="./files/pkt_026/0-aux/logo_course.png" alt="pkt_026" width="auto" height="25"></a></li>
+<li>pkt_027: <a href="./files/pkt_027/">Packet Tracer - Verificar endereçamento IPv4 e IPv6   <img src="./files/pkt_027/0-aux/logo_course.png" alt="pkt_027" width="auto" height="25"></a></li>
+<li>pkt_028: <a href="./files/pkt_028/">Packet Tracer – Conexão de um Roteador a uma LAN   <img src="./files/pkt_028/0-aux/logo_course.png" alt="pkt_028" width="auto" height="25"></a></li>
+<li>pkt_029: <a href="./files/pkt_029/">Packet Tracer – Solucionar problemas de gateway padrão   <img src="./files/pkt_029/0-aux/logo_course.png" alt="pkt_029" width="auto" height="25"></a></li>
+<li>pkt_030: <a href="./files/pkt_030/">Packet Tracer - Construir uma rede de switch e roteador - Modo Físico   <img src="./files/pkt_030/0-aux/logo_course.png" alt="pkt_030" width="auto" height="25"></a></li>
+<li>pkt_031: <a href="./files/pkt_031/">Packet Tracer - Sub-rede uma rede IPv4   <img src="./files/pkt_031/0-aux/logo_course.png" alt="pkt_031" width="auto" height="25"></a></li>
+<li>pkt_032: <a href="./files/pkt_032/">Packet Tracer - Criação de sub-redes no cenário   <img src="./files/pkt_032/0-aux/logo_course.png" alt="pkt_032" width="auto" height="25"></a></li>
+<li>pkt_033: <a href="./files/pkt_033/">Packet Tracer - Prática de projeto e implementação do VLSM   <img src="./files/pkt_033/0-aux/logo_course.png" alt="pkt_033" width="auto" height="25"></a></li>
 
 
 
