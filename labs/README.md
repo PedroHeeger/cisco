@@ -47,6 +47,29 @@ A seguir, são listados os laboratórios já realizados:
 <li>lab_033: <a href="./files/lab_033/">Laboratório - Usando o Windows PowerShell   <img src="./files/lab_033/0-aux/logo_course.png" alt="lab_033" width="auto" height="25"></a></li>
 <li>lab_034: <a href="./files/lab_034/">Laboratório - Gerenciador de Tarefas do Windows   <img src="./files/lab_034/0-aux/logo_course.png" alt="lab_034" width="auto" height="25"></a></li>
 <li>lab_035: <a href="./files/lab_035/">Laboratório - Monitorar e gerenciar recursos do sistema no Windows   <img src="./files/lab_035/0-aux/logo_course.png" alt="lab_035" width="auto" height="25"></a></li>
+<li>lab_041: <a href="./files/lab_041/">Laboratório - Rastreando uma Rota   <img src="./files/lab_041/0-aux/logo_course.png" alt="lab_041" width="auto" height="25"></a></li>
+<li>lab_042: <a href="./files/lab_042/">Laboratório - Introdução ao Wireshark   <img src="./files/lab_042/0-aux/logo_course.png" alt="lab_042" width="auto" height="25"></a></li>
+<li>lab_043: <a href="./files/lab_043/">Laboratório - Usando Wireshark para Examinar Quadros Ethernet   <img src="./files/lab_043/0-aux/logo_course.png" alt="lab_043" width="auto" height="25"></a></li>
+<li>lab_044: <a href="./files/lab_044/">Laboratório - Usando o Wireshark para Observar o Handshake TCP de 3 Vias   <img src="./files/lab_044/0-aux/logo_course.png" alt="lab_044" width="auto" height="25"></a></li>
+<li>lab_045: <a href="./files/lab_045/">Laboratório - Explorando o Nmap   <img src="./files/lab_045/0-aux/logo_course.png" alt="lab_045" width="auto" height="25"></a></li>
+<li>lab_046: <a href="./files/lab_046/">Laboratório - Usando o Wireshark para Examinar uma Captura UDP DNS   <img src="./files/lab_046/0-aux/logo_course.png" alt="lab_046" width="auto" height="25"></a></li>
+<li>lab_047: <a href="./files/lab_047/">Laboratório - Usando o Wireshark para Examinar Capturas FTP e TFTP   <img src="./files/lab_047/0-aux/logo_course.png" alt="lab_047" width="auto" height="25"></a></li>
+<li>lab_048: <a href="./files/lab_048/">Laboratório - Usando Wireshark para examinar tráfego HTTP e HTTPS   <img src="./files/lab_048/0-aux/logo_course.png" alt="lab_048" width="auto" height="25"></a></li>
+<li>lab_049: <a href="./files/lab_049/">Laboratório - O que foi roubado?   <img src="./files/lab_049/0-aux/logo_course.png" alt="lab_049" width="auto" height="25"></a></li>
+<li>lab_050: <a href="./files/lab_050/">Laboratório - Calcular sub-redes IPv4   <img src="./files/lab_050/0-aux/logo_course.png" alt="lab_050" width="auto" height="25"></a></li>
 
 
+
+
+
+
+
+
+
+
+<li>lab_036: <a href="./files/lab_036/">Laboratório — Trabalhando com arquivos de texto na CLI   <img src="./files/lab_036/0-aux/logo_course.png" alt="lab_036" width="auto" height="25"></a></li>
+<li>lab_037: <a href="./files/lab_037/">Laboratório — Familiarizando-se com o Linux Shell   <img src="./files/lab_037/0-aux/logo_course.png" alt="lab_037" width="auto" height="25"></a></li>
+<li>lab_038: <a href="./files/lab_038/">Laboratório - Servidores Linux   <img src="./files/lab_038/0-aux/logo_course.png" alt="lab_038" width="auto" height="25"></a></li>
+<li>lab_039: <a href="./files/lab_039/">Laboratório — Localizando arquivos de log   <img src="./files/lab_039/0-aux/logo_course.png" alt="lab_039" width="auto" height="25"></a></li>
+<li>lab_040: <a href="./files/lab_040/">Laboratório - Navegando no Sistema de Arquivos Linux e Configurações de Permissão   <img src="./files/lab_040/0-aux/logo_course.png" alt="lab_040" width="auto" height="25"></a></li>
 
