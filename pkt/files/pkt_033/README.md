@@ -38,13 +38,13 @@
   1.1 <a href="#item01.01">Etapa 1: Determine o número de sub-redes necessárias.</a><br>
   1.2 <a href="#item01.02">Etapa 2: Determine as informações de máscara de sub-rede para cada sub-rede.</a><br>
 2. <a href="#item02">Parte 2: Projetar o Esquema de Endereçamento VLSM</a><br>
-  2.1 <a href="#item02.01">Etapa 1: Divida a rede [[DisplayNet]] com base no número de hosts por sub-rede.</a><br>
+  2.1 <a href="#item02.01">Etapa 1: Divida a rede DisplayNet com base no número de hosts por sub-rede.</a><br>
   2.2 <a href="#item02.02">Etapa 2: Documente as sub-redes VLSM.</a><br>
   2.3 <a href="#item02.03">Etapa 3: Documente o esquema de endereçamento.</a><br>
 3. <a href="#item03">Parte 3: Atribuir Endereços IP a Dispositivos e Verificar a Conectividade</a><br>
-  3.1 <a href="#item03.01">Etapa 1: Configure o endereçamento IP nas interfaces LAN do roteador [[R1Name]].</a><br>
-  3.2 <a href="#item03.02">Etapa 2: Configure o endereçamento IP no comutador [[S3Name]], incluindo o gateway padrão.</a><br>
-  3.3 <a href="#item03.03">Etapa 3: Configure o endereçamento IP em [[PC4Name]], incluindo o gateway padrão.</a><br>
+  3.1 <a href="#item03.01">Etapa 1: Configure o endereçamento IP nas interfaces LAN do roteador Building1.</a><br>
+  3.2 <a href="#item03.02">Etapa 2: Configure o endereçamento IP no comutador ASW-3, incluindo o gateway padrão.</a><br>
+  3.3 <a href="#item03.03">Etapa 3: Configure o endereçamento IP em Host-D, incluindo o gateway padrão.</a><br>
   3.3 <a href="#item03.03">Etapa 4: Verifique a conectividade.</a><br>
 
 ---
