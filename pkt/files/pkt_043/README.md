@@ -45,7 +45,7 @@
 3. <a href="#item03">Parte 3: Solucionar Problemas da Topologia</a><br>
   3.1 <a href="#item03.01">Etapa 1: Acesse o local de rede onde o problema de conectividade está ocorrendo.</a><br>
   3.2 <a href="#item03.02">Etapa 2: Verifique a conectividade ponta a ponta.</a><br>
-4. <a href="#item04">Use comandos de ping estendidos no PC-A.</a><br>
+4. <a href="#item04">Parte 4: Use comandos de ping estendidos no PC-A.</a><br>
   4.1 <a href="#item04.01">Etapa 1: Use comandos de ping estendidos no PC-A.</a><br>
   4.2 <a href="#item04.02">Etapa 2: Teste a conectividade de rede da rede R1 usando dispositivos Cisco.</a><br>
 5. <a href="#item05">Perguntas para reflexão</a><br>
@@ -199,7 +199,7 @@ A imagem 05 valida que agora o servidor External foi alcançado corretamente.
     <figcaption>Imagem 05.</figcaption>
 </figure></div><br>
 
-<a name="item04"><h4>4. Use comandos de ping estendidos no PC-A.</h4></a>[Back to summary](#item00)
+<a name="item04"><h4>4. Parte 4: Use comandos de ping estendidos no PC-A.</h4></a>[Back to summary](#item00)
 
 <a name="item04.01"><h4>4.1 Etapa 1: Use comandos de ping estendidos no PC-A.</h4></a>[Back to summary](#item00)
 
