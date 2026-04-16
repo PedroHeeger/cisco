@@ -37,7 +37,7 @@
   15.4 <a href="#item15.04">Protocolos de E-mail e Web</a><br>
   15.5 <a href="#item15.05">Serviços de Endereçamento IP</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;15.5.1 <a href="#item15.05.01">Verificador de Sintaxe - O Comando nslookup</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;15.5.2 <a href="#item15.05.02">Laboratório - Identificando Endereços IPv6</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;15.5.2 <a href="../../../labs/files/lab_052/">Laboratório - Observe a resolução DNS</a><br>
   15.6 <a href="#item15.06">Serviços de Compartilhamento de Arquivos</a><br>
   15.7 <a href="#item15.07">Módulo Prático e Quiz</a><br>
   15.8 <a href="#item15.08">Exame de Comunicação de Aplicativos de Rede</a><br>
@@ -45,7 +45,7 @@
 ---
 
 ### Objective:
-O objetivo deste módulo foi apresentar os fundamentos da governança em segurança digital, destacando políticas, papéis e responsabilidades na administração de dados. Também foram exploradas as principais leis, regulamentações e normas internacionais aplicáveis à proteção da informação. Além disso, foram abordados os princípios éticos na tomada de decisões em ambientes digitais e introduzidos frameworks e controles essenciais, como ISO 27000, NIST, CIS e CSA, para garantir conformidade, proteção de dados e integridade operacional em organizações.
+O objetivo do módulo é apresentado na introdução, que compõe o primeiro item do desenvolvimento.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, descrevendo todo conteúdo realizado neste módulo.

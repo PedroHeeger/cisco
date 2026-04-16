@@ -40,12 +40,12 @@
   14.7 <a href="#item14.07">Confiabilidade e controle de fluxo</a><br>
   14.8 <a href="#item14.08">Comunicação UDP</a><br>
   14.9 <a href="#item14.09">Módulo Prático e Quiz</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;14.9.1 <a href="#item14.09.01">PTTA - Comunicações TCP e UDP</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;14.9.1 <a href="../../../pkt/pkt_044/">Packet Tracer - Comunicações TCP e UDP</a><br>
 
 ---
 
 ### Objective:
-O objetivo deste módulo foi apresentar os fundamentos da governança em segurança digital, destacando políticas, papéis e responsabilidades na administração de dados. Também foram exploradas as principais leis, regulamentações e normas internacionais aplicáveis à proteção da informação. Além disso, foram abordados os princípios éticos na tomada de decisões em ambientes digitais e introduzidos frameworks e controles essenciais, como ISO 27000, NIST, CIS e CSA, para garantir conformidade, proteção de dados e integridade operacional em organizações.
+O objetivo do módulo é apresentado na introdução, que compõe o primeiro item do desenvolvimento.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, descrevendo todo conteúdo realizado neste módulo.

@@ -41,25 +41,25 @@
 &nbsp;&nbsp;&nbsp;&nbsp;11.4.2 <a href="#item11.04.02">Atividade - Endereço IPv4 Privado ou Público</a><br>
   11.5 <a href="#item11.05">Segmentação de rede</a><br>
   11.6 <a href="#item11.06">Sub-rede de uma rede IPv4</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;11.6.1 <a href="#item11.06.01">PTTA - Sub-rede uma rede IPv4</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;11.6.1 <a href="../../../pkt/files/pkt_031/">Packet Tracer - Sub-rede uma rede IPv4</a><br>
   11.7 <a href="#item11.07">Sub-rede uma barra 16 e um prefixo de barra 8</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;11.7.1 <a href="#item11.07.01">Atividade - Cálculo da Máscara de Sub-Rede</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;11.7.2 <a href="#item11.07.02">Laboratório - Calcular sub-redes IPv4</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;11.7.2 <a href="../../../labs/files/lab_050/">Laboratório - Calcular sub-redes IPv4</a><br>
   11.8 <a href="#item11.08">Divisão em sub-redes para atender a requisitos</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;11.8.1 <a href="#item11.08.01">Atividade - Determinando o Número de Bits para Pegar Emprestado</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;11.8.2 <a href="#item11.08.02">PTTA - Criação de sub-redes no cenário</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;11.8.2 <a href="../../../pkt/files/pkt_032/">Packet Tracer - Criação de sub-redes no cenário</a><br>
   11.9 <a href="#item11.09">VLSM</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;11.9.1 <a href="#item11.09.01">Atividade - Prática VLSM</a><br>
   11.10 <a href="#item11.10">Projeto estruturado</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;11.10.1 <a href="#item11.10.01">PTTA - Prática de projeto e implementação do VLSM</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;11.10.1 <a href="../../../pkt/files/pkt_033/">Packet Tracer - Prática de projeto e implementação do VLSM</a><br>
   11.11 <a href="#item11.11">Módulo Prático e Quiz</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;11.11.1 <a href="#item11.11.01">PTTA - Projete e implemente um esquema de endereçamento VLSM</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;11.11.2 <a href="#item11.11.02">PTTA - Projetar e implementar um esquema de endereçamento VLSM</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;11.11.1 <a href="../../../pkt/files/pkt_034/">Packet Tracer - Projete e implemente um esquema de endereçamento VLSM</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;11.11.2 <a href="../../../pkt/files/pkt_035/">Packet Tracer - Projetar e implementar um esquema de endereçamento VLSM</a><br>
 
 ---
 
 ### Objective:
-O objetivo deste módulo foi apresentar os fundamentos da governança em segurança digital, destacando políticas, papéis e responsabilidades na administração de dados. Também foram exploradas as principais leis, regulamentações e normas internacionais aplicáveis à proteção da informação. Além disso, foram abordados os princípios éticos na tomada de decisões em ambientes digitais e introduzidos frameworks e controles essenciais, como ISO 27000, NIST, CIS e CSA, para garantir conformidade, proteção de dados e integridade operacional em organizações.
+O objetivo do módulo é apresentado na introdução, que compõe o primeiro item do desenvolvimento.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, descrevendo todo conteúdo realizado neste módulo.

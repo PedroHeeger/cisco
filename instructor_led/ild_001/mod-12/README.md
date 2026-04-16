@@ -38,22 +38,22 @@
   12.4 <a href="#item12.04">Tipos de Endereço IPv6</a><br>
   12.5 <a href="#item12.05">Configuração Estática do GUA e do LLA</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;12.5.1 <a href="#item12.05.01">Verificador de Sintaxe - Configuração Estática GUA e LLA</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;12.5.2 <a href="#item12.05.02">PTTA - Configuração Básica do Dispositivo</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;12.5.2 <a href="../../../pkt/files/pkt_036/">Packet Tracer - Configuração Básica do Dispositivo</a><br>
   12.6 <a href="#item12.06">Endereçamento dinâmico para GUAs IPv6</a><br>
   12.7 <a href="#item12.07">Endereçamento Dinâmico para LLAs IPv6</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;12.7.1 <a href="#item12.07.01">Verificador de sintaxe - Verifique a configuração do endereço IPv6</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;12.7.2 <a href="#item12.07.02">PTTA - Configurar Endereçamento IPv6</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;12.7.2 <a href="../../../pkt/files/pkt_037/">Packet Tracer - Configurar Endereçamento IPv6</a><br>
   12.8 <a href="#item12.08">Endereços IPv6 Multicast</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;12.8.1 <a href="#item12.08.01">Laboratório - Identificando Endereços IPv6</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;12.8.1 <a href="../../../labs/files/lab_051/">Laboratório - Identificando Endereços IPv6</a><br>
   12.9 <a href="#item12.09">Sub-rede de uma rede IPv6</a><br>
   12.10 <a href="#item12.10">Módulo Prático e Quiz</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;12.10.1 <a href="#item12.10.01">PTTA - Implementando um Esquema de Endereçamento IPv6 com Sub-Redes</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;12.10.2 <a href="#item12.10.02">PTTA - Configurar endereços IPv6 em dispositivos de rede</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;12.10.1 <a href="../../../pkt/files/pkt_038/">Packet Tracer - Implementando um Esquema de Endereçamento IPv6 com Sub-Redes</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;12.10.2 <a href="../../../pkt/files/pkt_039/">Packet Tracer - Configurar Endereços IPv6 em Dispositivos de Rede - Modo Físico</a><br>
 
 ---
 
 ### Objective:
-O objetivo deste módulo foi apresentar os fundamentos da governança em segurança digital, destacando políticas, papéis e responsabilidades na administração de dados. Também foram exploradas as principais leis, regulamentações e normas internacionais aplicáveis à proteção da informação. Além disso, foram abordados os princípios éticos na tomada de decisões em ambientes digitais e introduzidos frameworks e controles essenciais, como ISO 27000, NIST, CIS e CSA, para garantir conformidade, proteção de dados e integridade operacional em organizações.
+O objetivo do módulo é apresentado na introdução, que compõe o primeiro item do desenvolvimento.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, descrevendo todo conteúdo realizado neste módulo.

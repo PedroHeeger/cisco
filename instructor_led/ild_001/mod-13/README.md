@@ -34,17 +34,17 @@
   13.1 <a href="#item13.01">Introdução</a><br>
   13.2 <a href="#item13.02">Mensagens ICMP</a><br>
   13.3 <a href="#item13.03">Testes de Ping e Traceroute</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;13.3.1 <a href="#item13.03.01">PTTA - Verifique o endereçamento IPv4 e IPv6</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;13.3.2 <a href="#item13.03.02">PTTA - Use Ping e Traceroute para testar a conectividade de rede</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;13.3.1 <a href="../../../pkt/files/pkt_040/">Packet Tracer - Verifique o endereçamento IPv4 e IPv6</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;13.3.2 <a href="../../../pkt/files/pkt_041/">Packet Tracer - Use Ping e Traceroute para testar a conectividade de rede</a><br>
   13.4 <a href="#item13.04">Módulo Prático e Quiz</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;13.4.1 <a href="#item13.04.01">PTTA - Usar ICMP para testar e corrigir conectividade de rede</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;13.4.2 <a href="#item13.04.02">PTTA - Use Ping e Traceroute para testar a conectividade de rede</a><br>
-  13.5 <a href="#item13.05">Exame de endereçamento IP</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;13.4.1 <a href="../../../pkt/files/pkt_042/">Packet Tracer - Usar ICMP para testar e corrigir conectividade de rede</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;13.4.2 <a href="../../../pkt/files/pkt_043/">Packet Tracer - Use Ping e Traceroute para testar a conectividade de rede</a><br>
+  13.5 Exame de endereçamento IP<br>
 
 ---
 
 ### Objective:
-O objetivo deste módulo foi apresentar os fundamentos da governança em segurança digital, destacando políticas, papéis e responsabilidades na administração de dados. Também foram exploradas as principais leis, regulamentações e normas internacionais aplicáveis à proteção da informação. Além disso, foram abordados os princípios éticos na tomada de decisões em ambientes digitais e introduzidos frameworks e controles essenciais, como ISO 27000, NIST, CIS e CSA, para garantir conformidade, proteção de dados e integridade operacional em organizações.
+O objetivo do módulo é apresentado na introdução, que compõe o primeiro item do desenvolvimento.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, descrevendo todo conteúdo realizado neste módulo.
