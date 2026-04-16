@@ -35,18 +35,18 @@
   7.2 <a href="#item07.02">Quadros Ethernet</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;7.2.1 <a href="../../../labs/files/lab_023/">Laboratório - Use o Wireshark para examinar os quadros Ethernet</a><br>
   7.3 <a href="#item07.03">Endereços MAC Ethernet</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;7.3.1 <a href="../../../pkt/files/pkt_021/">Laboratório - Exibir Endereços MAC do dispositivo de rede</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;7.3.1 <a href="../../../pkt/files/pkt_021/">Packet Tracer - Exibir Endereços MAC do dispositivo de rede</a><br>
   7.4 <a href="#item07.04">A Tabela de Endereços MAC</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;7.4.1 <a href="#item07.04.01">Atividade - Encaminhe-o!</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;7.4.2 <a href="../../../pkt/files/pkt_022/">Laboratório - Exibir a tabela de endereços MAC do switch</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;7.4.2 <a href="../../../pkt/files/pkt_022/">Packet Tracer - Exibir a tabela de endereços MAC do switch</a><br>
   7.5 <a href="#item07.05">Métodos de encaminhamento e velocidade de switches</a><br>
   7.6 <a href="#item07.06">Módulo Prático e Quiz</a><br>
-  7.7 <a href="#item07.07">Exame de Comunicação e Conectividade de Rede Básica</a><br>
+  7.7 Exame de Comunicação e Conectividade de Rede Básica<br>
 
 ---
 
 ### Objective:
-O objetivo deste módulo foi apresentar os fundamentos da governança em segurança digital, destacando políticas, papéis e responsabilidades na administração de dados. Também foram exploradas as principais leis, regulamentações e normas internacionais aplicáveis à proteção da informação. Além disso, foram abordados os princípios éticos na tomada de decisões em ambientes digitais e introduzidos frameworks e controles essenciais, como ISO 27000, NIST, CIS e CSA, para garantir conformidade, proteção de dados e integridade operacional em organizações.
+O objetivo do módulo é apresentado na introdução, que compõe o primeiro item do desenvolvimento.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, descrevendo todo conteúdo realizado neste módulo.

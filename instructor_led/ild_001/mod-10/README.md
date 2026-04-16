@@ -34,21 +34,21 @@
   10.1 <a href="#item10.01">Introdução</a><br>
   10.2 <a href="#item10.02">Configurar definições iniciais do roteador</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;10.2.1 <a href="#item10.02.01">Verificador de sintaxe - Executar configurações iniciais do roteador</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;10.2.2 <a href="#item10.02.02">PTTA - Definição das Configurações Iniciais de um Roteador</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;10.2.2 <a href="../../../pkt/files/pkt_026/">Packet Tracer – Configurar definições iniciais do roteador</a><br>
   10.3 <a href="#item10.03">Configurar Interfaces</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;10.3.1 <a href="#item10.03.01">Verificador de sintaxe - Configurar interfaces</a><br>
   10.4 <a href="#item10.04">Configurar o gateway padrão</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;10.4.1 <a href="#item10.04.01">Verificador de Sintaxe - Configurar o Gateway Padrão</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;10.4.2 <a href="#item10.04.02">PTTA - Conexão de um Roteador a uma LAN</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;10.4.3 <a href="#item10.04.03">PTTA - Solucionar problemas de gateway padrão</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;10.4.2 <a href="../../../pkt/files/pkt_028/">Packet Tracer – Conexão de um Roteador a uma LAN</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;10.4.3 <a href="../../../pkt/files/pkt_029/">Packet Tracer – Solucionar problemas de gateway padrão</a><br>
   10.5 <a href="#item10.05">Módulo Prático e Quiz</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;10.5.1 <a href="#item10.05.01">PTTA - Construção de uma rede de switch e roteador</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;10.5.1 <a href="../../../pkt/files/pkt_030/">Packet Tracer - Construir uma rede de switch e roteador - Modo Físico</a><br>
   10.6 <a href="#item10.06">Exame de comunicação entre redes</a><br>
 
 ---
 
 ### Objective:
-O objetivo deste módulo foi apresentar os fundamentos da governança em segurança digital, destacando políticas, papéis e responsabilidades na administração de dados. Também foram exploradas as principais leis, regulamentações e normas internacionais aplicáveis à proteção da informação. Além disso, foram abordados os princípios éticos na tomada de decisões em ambientes digitais e introduzidos frameworks e controles essenciais, como ISO 27000, NIST, CIS e CSA, para garantir conformidade, proteção de dados e integridade operacional em organizações.
+O objetivo do módulo é apresentado na introdução, que compõe o primeiro item do desenvolvimento.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, descrevendo todo conteúdo realizado neste módulo.
