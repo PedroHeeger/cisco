@@ -180,7 +180,7 @@
   17.7 <a href="./mod-17/README.md#item17.07">Metodologias de solução de problemas</a><br>
   17.8 <a href="./mod-17/README.md#item17.08">Cenários de solução de problemas</a><br>
   17.9 <a href="./mod-17/README.md#item17.09">Módulo Prático e Quiz</a><br>
-  17.10 <a href="./mod-17/README.md#item17.10">Construíndo e protegendo um exame de rede pequena</a><br>
+  17.10 <a href="./mod-17/README.md#item17.10">Exame Construíndo e protegendo uma rede pequena</a><br>
 18. <a href="./mod-18/">ITNv7 Practice Final Exam</a><br>
   18.1 <a href="./mod-18/README.md#item18.01">ITNv7 Practice Final Exam</a><br>
   18.2 <a href="./mod-18/README.md#item18.02">Avaliação de habilidades do ITN Practice PT (PTSA)</a><br>
