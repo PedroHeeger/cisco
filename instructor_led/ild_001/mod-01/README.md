@@ -32,6 +32,7 @@
 ### Course Module 1 Structure:
 1. <a name="item01">As redes de hoje</a><br>
   1.1 <a href="#item01.01">Introdução</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 <a href="../../../pkt/files/pkt_053/">Packet Tracer - Exploração de modo lógico e físico</a><br>
   1.2 <a href="#item01.02">Redes afetam nossas vidas</a><br>
   1.3 <a href="#item01.03">Componentes de rede</a><br>
   1.4 <a href="#item01.04">Representações e topologias de rede</a><br>
@@ -48,8 +49,7 @@
 ---
 
 ### Objective:
-#TODO
-O objetivo deste módulo foi apresentar os fundamentos da governança em segurança digital, destacando políticas, papéis e responsabilidades na administração de dados. Também foram exploradas as principais leis, regulamentações e normas internacionais aplicáveis à proteção da informação. Além disso, foram abordados os princípios éticos na tomada de decisões em ambientes digitais e introduzidos frameworks e controles essenciais, como ISO 27000, NIST, CIS e CSA, para garantir conformidade, proteção de dados e integridade operacional em organizações.
+O objetivo do módulo é apresentado na introdução, que compõe o primeiro item do desenvolvimento.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, descrevendo todo conteúdo realizado neste módulo.
@@ -72,8 +72,6 @@ A capacidade de se comunicar sempre foi central para a vida em sociedade, e as r
 
 ☁️ A Nuvem e o Acesso Contínuo à Informação   
 A computação em nuvem complementa essa nova dinâmica ao permitir que arquivos e aplicativos deixem de depender de um único dispositivo. Com tudo armazenado online, qualquer pessoa consegue abrir seus documentos de onde estiver — no transporte público, em uma viagem ou em um momento de lazer. Isso amplia a flexibilidade, facilita a colaboração e torna a rotina digital mais integrada, já que o acesso não fica mais preso a um computador específico.
-
-<a name="item01.02.01"><h4>1.2.1 Laboratório - Desenvolver Políticas e procedimentos de segurança cibernética</h4></a>[Back to summary](#item01)
 
 <a name="item01.03"><h4>1.3 Componentes de rede</h4></a>[Back to summary](#item01)
 
