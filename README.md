@@ -6,7 +6,9 @@ A proposta é semelhante ao repositório dedicado à [AWS](https://github.com/Pe
 
 Embora o repositório tenha sido criado com foco exclusivo na CNA, ele poderá futuramente abranger outras plataformas oficiais de capacitação da Cisco, como o Cisco U., Cisco Digital Learning ou a Cisco Learning Network.
 
-Atualmente, os conteúdos são organizados com base nas categorias oferecidas dentro da Cisco Networking Academy:
+Atualmente, os conteúdos são organizados com base nas categorias oferecidas dentro da Cisco Networking Academy. Entretanto, optei por realizar os laboratórios e atividades do Packet Tracer que contemplam os cursos, em uma pasta separada facilitando a organização. Dessa forma, duas pastas específicas foram criadas para essas finalidades.
+
+Atualmente, os conteúdos são organizados conforme as categorias da Cisco Networking Academy. No entanto, optei por armazenar os laboratórios e atividades do Packet Tracer em uma pasta separada, a fim de facilitar a organização e o acesso. Para isso, foram criadas duas pastas específicas dedicadas a essas finalidades.
 
 - **Courses**: Cursos estruturados com conteúdo teórico e prático, divididos em:
   - [Instructor-Led](./instructor_led/): Cursos conduzidos por instrutores, geralmente em ambientes guiados ou salas virtuais.
@@ -16,5 +18,8 @@ Atualmente, os conteúdos são organizados com base nas categorias oferecidas de
 - **Resources**: Materiais adicionais, como guias, simuladores e tutoriais.
 - **Articles**: Conteúdos explicativos e complementares sobre tecnologias e boas práticas.
 - **Learning Collections**: Coleções temáticas que agrupam cursos, módulos e recursos sobre um mesmo assunto.
+- **Específicas**:
+  - [pkt](./pkt/): Atividades desenvolvidas no **Cisco Packet Tracer**, incluindo arquivos dos tipos PTA, PTTA, PTPM, além de desafios e cenários práticos propostos ao longo dos cursos.
+  - [labs](./labs/): Laboratórios conceituais (com base em pesquisas online) e práticos realizados com ferramentas como **Oracle VM VirtualBox**, **VMware** e **Wireshark**, desenvolvidos durante os cursos.
 
 A organização das pastas seguiu essa divisão, permitindo uma navegação clara e consistente à medida que os estudos avançam. Conforme novos materiais forem desenvolvidos ou novas plataformas da Cisco forem incorporadas, esta estrutura poderá ser expandida para incluir laboratórios, simuladores, materiais autorais e preparações para certificações.
