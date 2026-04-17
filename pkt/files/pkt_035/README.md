@@ -27,7 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -164,6 +164,8 @@ Use as informações obtidas na Parte 1 para preencher a tabela a seguir.
 
 <div align="center">
 
+#### Tabela 1 — Planejamento das Sub-redes IPv4
+
 | Nº Sub-rede | Nº de Hosts Necessários | Endereço da Sub-Rede | Prefixo | Máscara de Sub-Rede | Primeiro Host | Último Host | Broadcast |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 192.168.33.128 | 40 | /26 | 255.255.255.192 | 192.168.33.129 | 192.168.33.190 | 192.168.33.191 |
@@ -180,6 +182,8 @@ Use as informações obtidas na Parte 1 para preencher a tabela a seguir.
 Atribua o primeiro endereço de host válido na sub-rede às interfaces Ethernet. BR1 deve receber o primeiro endereço de host no link BR1-BR2.
 
 <div align="center">
+
+#### Tabela 2 — Planejamento de Endereçamento IPv4
 
 | Dispositivo | Interface | Endereço IP | Máscara de sub-rede | Gateway padrão |
 |:---:|:---:|:---:|:---:|:---:|

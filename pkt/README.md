@@ -62,7 +62,7 @@ A seguir, são listados os PKTs já realizados:
 <li>pkt_040: <a href="./files/pkt_040/">Packet Tracer – Verifique o endereçamento IPv4 e IPv6   <img src="./files/pkt_040/0-aux/logo_course.png" alt="pkt_040" width="auto" height="25"></a></li>
 <li>pkt_041: <a href="./files/pkt_041/">Packet Tracer - Use Ping e Traceroute para testar a conectividade de rede   <img src="./files/pkt_041/0-aux/logo_course.png" alt="pkt_041" width="auto" height="25"></a></li>
 <li>pkt_042: <a href="./files/pkt_042/">Packet Tracer - Use o ICMP para testar e corrigir a conectividade de rede   <img src="./files/pkt_042/0-aux/logo_course.png" alt="pkt_042" width="auto" height="25"></a></li>
-<li>pkt_044: <a href="./files/pkt_043/">Packet Tracer - Use Ping e Traceroute para Testar Conectividade de Rede - Modo Físico   <img src="./files/pkt_043/0-aux/logo_course.png" alt="pkt_043" width="auto" height="25"></a></li>
+<li>pkt_043: <a href="./files/pkt_043/">Packet Tracer - Use Ping e Traceroute para Testar Conectividade de Rede - Modo Físico   <img src="./files/pkt_043/0-aux/logo_course.png" alt="pkt_043" width="auto" height="25"></a></li>
 <li>pkt_044: <a href="./files/pkt_044/">Packet Tracer: Comunicações TCP e UDP   <img src="./files/pkt_044/0-aux/logo_course.png" alt="pkt_044" width="auto" height="25"></a></li>
 <li>pkt_045: <a href="./files/pkt_045/">Packet Tracer - Configurar Senhas Seguras e SSH   <img src="./files/pkt_045/0-aux/logo_course.png" alt="pkt_045" width="auto" height="25"></a></li>
 <li>pkt_046: <a href="./files/pkt_046/">Packet Tracer - Dispositivos de Rede Segura   <img src="./files/pkt_046/0-aux/logo_course.png" alt="pkt_046" width="auto" height="25"></a></li>

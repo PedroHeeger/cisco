@@ -27,7 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -37,8 +37,6 @@
 1. <a href="#item01">Packet Tracer - Projete e implemente um esquema de endereçamento VLSM</a><br>
   1.1 <a href="#item01.01">Tabela de Endereçamento</a><br>
   1.2 <a href="#item01.02">Requisitos</a><br>
-  1.3 <a href="#item01.03">Requisitos de Configuração</a><br>
-  1.4 <a href="#item01.04">Configuração</a><br>
 
 ---
 
@@ -63,6 +61,8 @@ A imagem 01 mostra a topologia inicial.
 <a name="item01.01"><h4>1.1 Requisitos</h4></a>[Back to summary](#item00)
 
 <div align="center">
+
+#### Tabela 2 — Planejamento de Endereçamento IPv4 e IPv6
 
 | Dispositivo | Interface | Tipo IP | Endereço IP | Prefixo | Gateway padrão |
 |:---:|:---:|:---:|:---:|:---:|:---:|

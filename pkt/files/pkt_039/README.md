@@ -27,7 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ipconfig   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/ipconfig.jpeg" alt="ipconfig" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
   - Trace Route (tracert)   <img src="" alt="tracert" width="auto" height="25">
@@ -51,7 +51,7 @@
 ---
 
 ### Objective:
-O objetivo desta atividade do modo físico ffoi configurar o endereçamento IPv6 nos dispositivos, realizando o cabeamento, a configuração básica nos ativos de rede e os testes de conectividade, a fim de garantir a plena operacionalidade da infraestrutura.
+O objetivo desta atividade do modo físico foi configurar o endereçamento IPv6 nos dispositivos, realizando o cabeamento, a configuração básica nos ativos de rede e os testes de conectividade, a fim de garantir a plena operacionalidade da infraestrutura.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo do laboratório.

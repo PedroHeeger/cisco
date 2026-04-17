@@ -27,7 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -232,9 +232,9 @@ A imagem 04 exibe as configurações realizadas nos três switches.
 
 <a name="item01.05"><h4>1.5 Requisitos de conectividade</h4></a>[Back to summary](#item00)
 
-- Usando navegadores Web nos computadores Staff, Sales e TI, navegue para www.cisco.pka.
+- Usando navegadores Web nos computadores Staff, Sales e TI, navegue para `www.cisco.pka`.
   - `www.cisco.pka`.
-- Usando navegadores Web nos computadores Staff, Sales e TI, navegue para www.cisco6.pka.
+- Usando navegadores Web nos computadores Staff, Sales e TI, navegue para `www.cisco6.pka`.
   - `www.cisco6.pka`.
 - Todos os PCs devem poder executar ping em todos os outros dispositivos.
   - Staff -> Sales: `ping 192.168.0.135` -> `ping 2001:DB8:ACAD:1::2`.

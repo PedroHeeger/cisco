@@ -66,6 +66,8 @@ Você recebeu a sub-rede IPv6 2001:db8:acad:00c8::/64 como sub-rede inicial. Voc
 
 <div align="center">
 
+#### Tabela 1 — Planejamento das Sub-redes IPv6
+
 | Nº Sub-rede | Nome da Sub-Rede | Endereço da Sub-Rede | Prefixo |
 |:---:|:---:|:---:|:---:|
 | 1 | R1 G0/0/ LAN | 2001:db8:acad:00c8:: | /64 |
@@ -87,6 +89,8 @@ Preencha a tabela de endereçamento acima para usar como guia para configurar os
 - e. Defina todos os quatro hosts para configurar automaticamente com endereços IPv6.
 
 <div align="center">
+
+#### Tabela 2 — Planejamento de Endereçamento IPv6
 
 | Dispositivo | Interface | Endereço IP | Endereço Link-Local |
 |:---:|:---:|:---:|:---:|
