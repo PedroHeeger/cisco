@@ -100,7 +100,7 @@ Você coletará uma quantidade de dados suficiente para calcular as estatística
 
 <div align="center">
 
-#### Tabela 1 — Planejamento das Sub-redes IPv6
+#### Tabela 1
 
 | Site | Mínimo | Máximo | Média |
 |:---:|:---:|:---:|:---:|

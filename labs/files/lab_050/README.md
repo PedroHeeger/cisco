@@ -148,7 +148,7 @@ Descubra:
   - Endereço IPv4 do Último Host nesta Sub-Rede: 192.135.250.182
   - Endereço IPv4 de Broadcast nesta Sub-Rede: 192.135.250.183
 
-<a name="item03"><h4>3. Perguntas para reflexão</h4></a>[Back to summary](#item00)
+<a name="item02"><h4>2. Perguntas para reflexão</h4></a>[Back to summary](#item00)
 
 - a. Por que a máscara de sub-rede é tão importante na análise de um endereço IPv4?
   - A máscara de sub-rede é importante porque determina qual parte do endereço IPv4 identifica a rede e qual parte identifica o host dentro dessa rede. Com isso, é possível organizar os dispositivos em diferentes sub-redes, facilitar o roteamento de pacotes entre redes e melhorar o gerenciamento e a eficiência da comunicação na rede.

@@ -61,6 +61,8 @@ Na Parte 1, você usará comandos em sua CyberOps Workstation VM para encontrar 
 
 <div align="center">
 
+#### Tabela 1
+
 | Descrição | Configurações | 
 | :---: | :---: |
 | **Endereço IP** | 192.168.1.9/24 |
@@ -101,7 +103,7 @@ Na Parte 2, você configurará o Wireshark para capturar pacotes de consulta e r
 
 Na Parte 3, você examinará os pacotes UDP gerados ao se comunicar com um servidor DNS para os endereços IP de www.google.com.
 
-<a name="item03.01"><h4>3.1 Etapa 1: Etapa 1: Filtrar os pacotes DNS.</h4></a>[Back to summary](#item00)
+<a name="item03.01"><h4>3.1 Etapa 1: Filtrar os pacotes DNS.</h4></a>[Back to summary](#item00)
 
 - a. Na janela principal do Wireshark, digite dns no campo Filter. Clique em Aplicar. Observação: se não vir nenhum resultado após ter aplicado o filtro DNS, feche o navegador Web. Na janela do terminal, digite ping www.google.com como uma alternativa ao navegador da Web.
 - b. No painel da lista de pacotes (seção superior) na janela principal, localize o pacote que inclui Standard query (Consulta padrão) e A www.google.com. Veja o quadro 429 acima como exemplo.
@@ -117,6 +119,8 @@ Os campos de protocolo, destacados em cinza, são exibidos no painel de detalhes
 
 <div align="center">
 
+#### Tabela 2 - Endereço de IP e MAC
+
 | Dispositivo | Endereço IP | Endereço MAC |
 | :---: | :---: |
 | **Estação de Trabalho de Origem** | 192.168.1.9 | 00:0c:29:b8:a1:db |
@@ -131,6 +135,8 @@ Os campos de protocolo, destacados em cinza, são exibidos no painel de detalhes
 - d. A soma de verificação é usada para determinar a integridade do cabeçalho UDP depois que ele cruzou a Internet. O cabeçalho UDP tem pouca sobrecarga visto que o UDP não tem campos associados ao handshake triplo do TCP. Todos os problemas de confiabilidade da transferência de dados que ocorrem devem ser tratados pela camada de aplicação. Expanda conforme necessário para ver os detalhes. Registre os resultados do Wireshark na tabela abaixo: 
 
 <div align="center">
+
+#### Tabela 3
 
 | Descrição | Resultados Wireshark | 
 | :---: | :---: |

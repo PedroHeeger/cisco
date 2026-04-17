@@ -49,6 +49,8 @@ O objetivo deste laboratório foi investigar exemplos de violações de seguran�
 
 <div align="center">
 
+#### Tabela 1
+
 | Data do incidente | Empresa afetada | O que foi roubado? | Quais exploits foram usados? | Como evitar essa violação de segurança? | Fonte de referência |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 11/07/2012 | Yahoo! (Yahoo Voices) | Aproximadamente 450.000 usernames e senhas de usuários | SQL Injection em banco de dados vulnerável | Sanitização de entradas, uso de prepared statements, testes de segurança e criptografia de senhas | [Wkipedia](https://en.wikipedia.org/wiki/2012_Yahoo_Voices_hack) |

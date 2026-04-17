@@ -86,6 +86,10 @@ As capturas de tela da captura do Wireshark no arquivo mostram os pacotes gerado
 
 - a. A tabela a seguir usa o primeiro quadro na captura do Wireshark e exibe os dados nos campos do cabeçalho Ethernet II.
 
+<div align="center">
+
+#### Tabela 1
+
 | Campo              | Valor                                   | Descrição |
 |:--------------------:|:------------------------------------------:|:-----------:|
 | Preâmbulo          | Não mostrado na captura                  | Este campo contém bits de sincronização, processados pelo hardware da NIC. |
@@ -94,6 +98,8 @@ As capturas de tela da captura do Wireshark no arquivo mostram os pacotes gerado
 | Tipo de quadro     | 0x0806                                  | Nos quadros Ethernet II, este campo indica o tipo de protocolo de camada superior no campo de dados. Exemplos comuns: 0x0800 (IPv4) e 0x0806 (ARP). |
 | Dados ARP          | —                                       | Contém o protocolo de nível superior encapsulado. O campo de dados varia de 46 a 1.500 bytes. |
 | FCS                | Não mostrado na captura                  | Sequência de Verificação de Quadro (FCS), usada pela NIC para identificar erros durante a transmissão. O valor é calculado pelo dispositivo de envio e verificado pelo receptor. |
+
+</div>
 
 - b. Qual é a importância do conteúdo do campo Endereço Destino?
   - Permite identificar qual interface de rede deve receber e processar o quadro, garantindo que ele seja entregue ao destino correto na Camada 2.

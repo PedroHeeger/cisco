@@ -46,7 +46,10 @@ Pesquisar quantas horas 3 a 4 pessoas ficam conectadas por meio de qualquer disp
 
 <a name="item01"><h4>1. Laboratório - Como você está conectado?</h4></a>[Back to summary](#item00)
 
-Registro de Horas por Participante:
+<div align="center">
+
+#### Tabela 1 — Registro de Horas por Participante
+
 | Nome | Idade | Tempo Total em Horas |
 | :---: | :---: | :---: |
 | Lucas Almeida | 10 | 3 |
@@ -54,7 +57,12 @@ Registro de Horas por Participante:
 | Carlos Oliveira | 47 | 6 |
 | Dona Helena Pereira | 68 | 2 |
 
-Registro de Horas por Participante e Dispositivo:
+</div>
+
+<div align="center">
+
+#### Tabela 2 — Registro de Horas por Participante e Dispositivo
+
 | Nome | Dispositivo | Tarefa | Tempo em Horas |
 | :---: | :---: | :---: | :---: |
 | Lucas Almeida | Celular | Assistir vídeos (YouTube) | 1,5 |
@@ -69,6 +77,8 @@ Registro de Horas por Participante e Dispositivo:
 | Dona Helena Pereira | Celular | Mensagens (WhatsApp) | 1 |
 | Dona Helena Pereira | Celular | Chamadas de vídeo com família | 0,5 |
 | Dona Helena Pereira | Tablet | Redes sociais | 0,5 |
+
+</div>
 
 <a name="item01.01"><h4>1.1 Reflexão</h4></a>[Back to summary](#item00)
 

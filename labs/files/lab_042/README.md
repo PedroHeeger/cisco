@@ -88,6 +88,8 @@ Nesta parte, você usará um script Python para configurar a Topologia Mininet d
 
 <div align="center">
 
+#### Tabela 1 - Endereços de IP e MAC
+
 | Interface de host | Endereço IP | Endereço MAC |
 | :---: | :---: | :---: |
 | **H1-eth0** | 10.0.0.11/24 | a2:09:98:e2:c7:02 |
@@ -146,6 +148,8 @@ Você executará ping em hosts remotos (hosts que não estão na LAN) e examinar
 - b. No prompt em Node: H4, digite o ip address para verificar o endereço IPv4 e registrar o endereço MAC. Faça o mesmo para o node: R1.
 
 <div align="center">
+
+#### Tabela 2 - Endereços de IP e MAC
 
 | Interface de host | Endereço IP | Endereço MAC |
 | :---: | :---: | :---: |

@@ -3,13 +3,11 @@
 ### Cisco: <a href="../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
 
-Os laboratórios da Cisco são atividades presentes nos cursos da **Cisco Networking Academy (CNA)** que exigem análise, interpretação e aplicação dos conceitos estudados em cada módulo. Diferentemente dos arquivos realizados no **Cisco Packet Tracer**, esses laboratórios têm um foco majoritariamente conceitual, envolvendo pesquisa, compreensão de cenários e respostas a questionamentos relacionados ao conteúdo teórico.
+Os laboratórios da **Cisco Networking Academy (CNA)** são atividades presentes nos cursos que não utilizam o **Cisco Packet Tracer**. Eles podem ser conceituais, envolvendo pesquisa, análise de cenários e respostas a questionamentos relacionados ao conteúdo teórico, ou práticos, com o uso de máquinas virtuais por meio do **Oracle VM VirtualBox**, **VMware** e outros softwares, que podem ser executados tanto nas VMs quanto na própria máquina física.
 
-Entretanto, embora a maioria dessas atividades seja voltada para a pesquisa e teoria, existem também laboratórios práticos que não utilizam o simulador. Nesses casos, a prática ocorre por meio de utilitários nativos de sistemas operacionais (como Windows e Linux) ou através de softwares especializados que exigem instalação, como é o caso do Wireshark.
+Essas atividades têm como objetivo consolidar o entendimento dos conteúdos abordados em cada curso, incentivando a investigação, a reflexão e a aplicação prática dos conceitos apresentados. Embora tenham sido organizadas separadamente nesta pasta, cada atividade está devidamente referenciada em seu respectivo módulo, assim como ocorre com as atividades do Packet Tracer.
 
-Essas atividades ajudam a consolidar o entendimento dos conteúdos abordados em cada curso, incentivando a investigação, a reflexão e a aplicação prática dos conceitos apresentados. Elas foram desenvolvidas de forma separada dos cursos nesta pasta, mas cada atividade foi devidamente referenciada em seu respectivo módulo, da mesma forma que ocorre com os PTTAs.
-
-A seguir, são listados os laboratórios já realizados:
+A seguir, estão listados os laboratórios já realizados:
 
 ### Activities:
 <li>lab_001: <a href="./files/lab_001/">Laboratório - Pesquise oportunidades de trabalho em TI e redes   <img src="./files/lab_001/0-aux/logo_course.png" alt="lab_001" width="auto" height="25"></a></li>

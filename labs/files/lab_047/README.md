@@ -117,6 +117,8 @@ O Wireshark foi acessado e a captura foi encerrada.
 
 <div align="center">
 
+#### Tabela 1
+
 | Descrição | Resultados Wireshark |
 | :---: | :---: |
 | Endereço IP origem | 192.168.1.9 |
@@ -141,6 +143,8 @@ A imagem 01 mostra a captura dos pacotes da conexão FTP que iniciaram o handsha
 
 <div align="center">
 
+#### Tabela 2
+
 | Descrição | Resultados Wireshark |
 | :---: | :---: |
 | Endereço IP origem | 198.246.121.209 |
@@ -157,6 +161,8 @@ A imagem 01 mostra a captura dos pacotes da conexão FTP que iniciaram o handsha
 - g. No estágio final da negociação para estabelecer a comunicação, a VM envia uma mensagem de confirmação ao servidor. Observe que apenas o bit ACK está definido como 1 e o número de sequência foi incrementado para 1. Preencha as seguintes informações com relação à mensagem de ACK.
 
 <div align="center">
+
+#### Tabela 3
 
 | Descrição | Resultados Wireshark |
 | :---: | :---: |
@@ -224,6 +230,8 @@ Na Parte 2, use o Wireshark para capturar uma sessão TFTP e inspecionar os camp
 
 <div align="center">
 
+#### Tabela 4
+
 | Descrição | Resultados Wireshark |
 | :---: | :---: |
 | Endereço IP origem | 10.0.0.12 |
@@ -240,6 +248,8 @@ Na Parte 2, use o Wireshark para capturar uma sessão TFTP e inspecionar os camp
 - h. Examine o primeiro quadro retornado pelo servidor tftpd. Preencha as informações sobre o cabeçalho UDP.
 
 <div align="center">
+
+#### Tabela 5
 
 | Descrição | Resultados Wireshark |
 | :---: | :---: |

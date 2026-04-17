@@ -45,6 +45,7 @@
 1. <a href="#item01">Parte 1: Verificando a conectividade de rede usando ping</a><br>
 2. <a href="#item02">Parte 2: Traçando uma rota para um servidor remoto usando Traceroute</a><br>
 3. <a href="#item03">Parte 3: Rastreie uma rota para um servidor remoto usando a ferramenta Traceroute baseada na web</a><br>
+4. <a href="#item04">Perguntas para reflexão</a><br>
 
 ---
 
