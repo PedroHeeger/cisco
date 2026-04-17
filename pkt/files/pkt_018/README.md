@@ -28,7 +28,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/pkt.webp" alt="pkt" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   
 ---
 
@@ -39,12 +39,12 @@
   1.2 <a href="#item01.02">Etapa 2: Interação com a casa inteligente.</a><br>
 2. <a href="#item02">Parte 2: Edge Computing na Casa Inteligente</a><br>
   2.1 <a href="#item02.01">Etapa 1: Dar partida no carro clássico.</a><br>
-3. <a href="#item03">Parte 3: Desafio</a><br>
+3. <a href="#item03">Reflexão</a><br>
 
 ---
 
 ### Objective:
-Este PTTA visou compreender o papel da computação de borda no ecossistema de IoT residencial, explorando os motivos técnicos para a sua utilização no processamento de dados próximo à fonte de origem em vez da nuvem centralizada.
+Este atividade visou compreender o papel da computação de borda no ecossistema de IoT residencial, explorando os motivos técnicos para a sua utilização no processamento de dados próximo à fonte de origem em vez da nuvem centralizada.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo desta atividade.

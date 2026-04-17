@@ -26,7 +26,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
   - Trace Route (tracert)   <img src="" alt="tracert" width="auto" height="25">
 
@@ -77,6 +77,8 @@ A imagem 01 mostra a topologia inicial.
 - b. No PC2, digite o comando ipv6config /all para coletar as informações de IPv6. Preencha a Tabela de Endereçamento com o endereço IPv6, prefixo de sub-rede e gateway padrão.
 
 <div align="center">
+
+#### Tabela 1 — Planejamento de Endereçamento IPv4 e IPv6
 
 | Dispositivo | Interface | Versão IP | Endereço IP / Prefixo | Gateway Padrão |
 |:---:|:---:|:---:|:---:|:---:|

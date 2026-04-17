@@ -27,7 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -45,7 +45,7 @@
 ---
 
 ### Objective:
-Esta atividade do Packet Tracer teve como objetivo solucionar falhas de conectividade em uma infraestrutura composta por duas sub-redes. O foco principal foi validar a comunicação entre todos os dispositivos da rede, identificar e corrigir inconsistências nos endereçamentos de gateway padrão e endereço IP e assegurar a plena troca de pacotes entre os hosts e os ativos de rede.
+Esta atividade teve como objetivo solucionar falhas de conectividade em uma infraestrutura composta por duas sub-redes. O foco principal foi validar a comunicação entre todos os dispositivos da rede, identificar e corrigir inconsistências nos endereçamentos de gateway padrão e endereço IP e assegurar a plena troca de pacotes entre os hosts e os ativos de rede.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo do laboratório.
@@ -69,6 +69,8 @@ A imagem 01 mostra a topologia inicial.
 - a. Para poder testar uma rede, você deve ter toda a documentação. Verifique se há alguma informação faltando na Tabela de Endereçamento. Complete a Tabela de Endereçamento preenchendo as informações de gateway padrão que estão faltando para os switches e os PCs.
 
 <div align="center">
+
+#### Tabela 1 — Planejamento de Endereçamento IPv4
 
 | Dispositivo | Interface | Endereço IP | Máscara de Sub-rede | Gateway Padrão |
 | :---: | :---: | :---: | :---: | :---: |

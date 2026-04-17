@@ -13,6 +13,7 @@
 
 ### Used Tools:
 - Operating System (OS): 
+  - Cisco Internetwork Operating System (Cisco IOS)   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_ios.jpg" alt="cisco_ios" width="auto" height="25">
   - Windows 11 <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/windows11.png" alt="windows11" width="auto" height="25">
 - Cloud Services:
   - Google Drive <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/google_drive.png" alt="google_drive" width="auto" height="25">
@@ -26,8 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Internetwork Operating System (Cisco IOS)   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_ios.jpg" alt="cisco_ios" width="auto" height="25">
-  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/pkt.webp" alt="pkt" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
   
 ---
@@ -54,7 +54,7 @@
 ---
 
 ### Objective:
-O objetivo deste PTTA foi realizar a configuração básica de dois switches e estabelecer a conectividade da rede através do endereçamento IP nos ativos e nos computadores conectados. A atividade foi finalizada com a inspeção das configurações aplicadas e a validação da comunicação entre todos os dispositivos.
+O objetivo desta atividade foi realizar a configuração básica de dois switches e estabelecer a conectividade da rede através do endereçamento IP nos ativos e nos computadores conectados. A atividade foi finalizada com a inspeção das configurações aplicadas e a validação da comunicação entre todos os dispositivos.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo desta atividade.

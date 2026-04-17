@@ -26,7 +26,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -75,6 +75,8 @@ A imagem 01 mostra a topologia inicial.
 
 <div align="center">
 
+#### Tabela 1 — Endereços MAC e IP
+
 | Dispositivo | MAC de Origem | MAC de Destino | IPv4 Origem | IPv4 Destino |
 | :---: | :---: | :---: | :---: | :---: |
 | **172.16.31.5** | 00D0:D311:C788 | 000C:85CC:1DA7 | 172.16.31.5 | 172.16.31.2 |
@@ -94,6 +96,8 @@ A imagem 01 mostra a topologia inicial.
 
 <div align="center">
 
+#### Tabela 2 — Endereços MAC e IP
+
 | Dispositivo | MAC de Origem | MAC de Destino | IPv4 Origem | IPv4 Destino |
 | :---: | :---: | :---: | :---: | :---: |
 | **172.16.31.2** | 000C:85CC:1DA7 | 0060:7036:2849 | 172.16.31.2 | 172.16.31.3 |
@@ -108,6 +112,8 @@ A imagem 01 mostra a topologia inicial.
 - a. Repita o processo da Etapa 1 e colete informações para os seguintes testes: Ping 172.16.31.4 de 172.16.31.5.
 
 <div align="center">
+
+#### Tabela 3 — Endereços MAC e IP
 
 | Dispositivo | MAC de Origem | MAC de Destino | IPv4 Origem | IPv4 Destino |
 | :---: | :---: | :---: | :---: | :---: |
@@ -146,6 +152,10 @@ Para se comunicar com redes remotas, é necessário um dispositivo de gateway. E
   - 
 - e. Clique em Capture/Forward (Capturar/Encaminhar) para mover a PDU para o próximo dispositivo. Colete as mesmas informações da Etapa 1d. Repita esse processo até que a PDU chegue ao seu destino. Registre as informações da PDU coletadas do ping 172.16.31.5 a 10.10.10.2 em uma planilha 
 usando um formato de tabela:
+
+<div align="center">
+
+#### Tabela 4 — Endereços MAC e IP
 
 | Dispositivo | MAC de Origem | MAC de Destino | IPv4 Origem | IPv4 Destino |
 | :---: | :---: | :---: | :---: | :---: |

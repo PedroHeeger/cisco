@@ -13,6 +13,7 @@
 
 ### Used Tools:
 - Operating System (OS): 
+  - Cisco Internetwork Operating System (Cisco IOS)   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_ios.jpg" alt="cisco_ios" width="auto" height="25">
   - Windows 11 <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/windows11.png" alt="windows11" width="auto" height="25">
 - Cloud Services:
   - Google Drive <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/google_drive.png" alt="google_drive" width="auto" height="25">
@@ -26,8 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Internetwork Operating System (Cisco IOS)   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_ios.jpg" alt="cisco_ios" width="auto" height="25">
-  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/pkt.webp" alt="pkt" width="auto" height="25">
+  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
 
 ---
 
@@ -47,7 +47,7 @@
 ---
 
 ### Objective:   
-Este PTTA teve como foco a exploração do **Cisco IOS**, o sistema operacional presente nos dispositivos de rede da Cisco. O objetivo principal foi compreender a hierarquia de modos de operação, abrangendo desde os modos Exec Usuário e Exec Privilegiado até o modo de Configuração Global. Durante a atividade, foram praticados comandos fundamentais de navegação e a configuração de parâmetros de sistema, como o comando clock para ajuste de data e hora. Além disso, foi enfatizada a utilização da ajuda sensível ao contexto (uso do caractere ?) como ferramenta essencial para a descoberta e sintaxe de comandos.
+Esta atividade teve como foco a exploração do **Cisco IOS**, o sistema operacional presente nos dispositivos de rede da Cisco. O objetivo principal foi compreender a hierarquia de modos de operação, abrangendo desde os modos Exec Usuário e Exec Privilegiado até o modo de Configuração Global. Durante a atividade, foram praticados comandos fundamentais de navegação e a configuração de parâmetros de sistema, como o comando clock para ajuste de data e hora. Além disso, foi enfatizada a utilização da ajuda sensível ao contexto (uso do caractere ?) como ferramenta essencial para a descoberta e sintaxe de comandos.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo desta atividade.

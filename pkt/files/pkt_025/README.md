@@ -27,7 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -41,8 +41,6 @@
   2.1 <a href="#item02.01">Etapa 1: Capturar eventos para comunicação remota.</a><br>
   2.2 <a href="#item02.02">Etapa 2: Examine as saídas do roteador.</a><br>
 3. <a href="#item03">Perguntas para reflexão</a><br>
-  3.1 <a href="#item03.01">Etapa 1: Gerar tráfego para produzir tráfego ARP.</a><br>
-  3.2 <a href="#item03.02">Etapa 2: Examinar a tabela ARP em Router1.</a><br>
 
 ---
 
@@ -143,6 +141,8 @@ Na Parte 2 desta atividade, você executará etapas semelhantes às da Parte 1, 
   - Porque o destino do pacote está em outra rede. Assim, o PCB1 envia o quadro para o gateway padrão (roteador), utilizando o MAC da interface do roteador para que ele encaminhe o pacote até a rede de destino.
 
 <div align="center">
+
+#### Tabela 1 — Endereços MAC e IP
 
 | Dispositivo | MAC | IP | Caminho |
 | :---: | :---: | :---: | :---: |

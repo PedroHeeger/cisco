@@ -26,7 +26,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/pkt.webp" alt="pkt" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
   
 ---
@@ -57,7 +57,7 @@
 ---
 
 ### Objective:
-Este PTTA teve como objetivo identificar e aplicar o cabeamento adequado para a interconexão de diferentes dispositivos de rede. A atividade consistiu na montagem física da topologia, validando a conectividade desde uma estação em rede doméstica até o acesso a um servidor remoto.
+Esta atividade teve como objetivo identificar e aplicar o cabeamento adequado para a interconexão de diferentes dispositivos de rede. A atividade consistiu na montagem física da topologia, validando a conectividade desde uma estação em rede doméstica até o acesso a um servidor remoto.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo desta atividade.

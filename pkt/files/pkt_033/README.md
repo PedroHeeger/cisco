@@ -27,7 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -45,7 +45,7 @@
   3.1 <a href="#item03.01">Etapa 1: Configure o endereçamento IP nas interfaces LAN do roteador Building1.</a><br>
   3.2 <a href="#item03.02">Etapa 2: Configure o endereçamento IP no comutador ASW-3, incluindo o gateway padrão.</a><br>
   3.3 <a href="#item03.03">Etapa 3: Configure o endereçamento IP em Host-D, incluindo o gateway padrão.</a><br>
-  3.3 <a href="#item03.03">Etapa 4: Verifique a conectividade.</a><br>
+  3.4 <a href="#item03.04">Etapa 4: Verifique a conectividade.</a><br>
 
 ---
 
@@ -106,6 +106,8 @@ Preencha a Tabela de sub-rede, listando as descrições de sub-rede (por exemplo
 
 <div align="center">
 
+#### Tabela 1 — Planejamento das Sub-redes IPv4
+
 | Nº Sub-rede | Endereço da Sub-Rede | Prefixo | Máscara de Sub-Rede | Primeiro Host | Último Host | Broadcast |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 172.31.103.0 | /27 | 255.255.255.224 | 172.31.103.1 | 172.31.103.30 | 172.31.103.31 |
@@ -124,6 +126,8 @@ Preencha a Tabela de sub-rede, listando as descrições de sub-rede (por exemplo
 - d. Atribua os últimos endereços IP utilizáveis aos hosts.
 
 <div align="center">
+
+#### Tabela 2 — Planejamento de Endereçamento IPv4
 
 | Dispositivo | Interface | Endereço IP | Máscara de sub-rede | Gateway padrão |
 |:---:|:---:|:---:|:---:|:---:|

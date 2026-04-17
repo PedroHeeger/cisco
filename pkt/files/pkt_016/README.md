@@ -26,7 +26,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/pkt.webp" alt="pkt" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - traceroute   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/traceroute.png" alt="traceroute" width="auto" height="25">
   - Trace Route (tracert)   <img src="" alt="tracert" width="auto" height="25">
 
@@ -58,7 +58,7 @@ roteadores em cada salto.</a><br>
 ---
 
 ### Objective:
-O objetivo deste PTPM foi rastrear o caminho físico e lógico de pacotes IP entre uma residência em Monterey (Califórnia) e um servidor web na Universidade do Havaí. A atividade utilizou o Packet Tracer para identificar detalhadamente cada dispositivo, interface e meio de conexão no trajeto, replicando o experimento em uma máquina física para a comparação de resultados entre o ambiente simulado e o real.
+O objetivo desta atividade foi rastrear o caminho físico e lógico de pacotes IP entre uma residência em Monterey (Califórnia) e um servidor web na Universidade do Havaí. A atividade utilizou o Packet Tracer para identificar detalhadamente cada dispositivo, interface e meio de conexão no trajeto, replicando o experimento em uma máquina física para a comparação de resultados entre o ambiente simulado e o real.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo desta atividade.

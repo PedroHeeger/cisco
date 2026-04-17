@@ -26,7 +26,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/pkt.webp" alt="pkt" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   
 ---
 
@@ -43,7 +43,7 @@
 ---
 
 ### Objective:
-O objetivo deste PTTA foi utilizar o modo de simulação do Packet Tracer para monitorar o fluxo de PDUs entre um cliente e um servidor web. A atividade focou na análise dos processos de encapsulamento e desencapsulamento, observando o comportamento de diferentes protocolos como DNS, HTTP e TCP através das camadas do modelo OSI.
+O objetivo desta atividade foi utilizar o modo de simulação do Packet Tracer para monitorar o fluxo de PDUs entre um cliente e um servidor web. A atividade focou na análise dos processos de encapsulamento e desencapsulamento, observando o comportamento de diferentes protocolos como DNS, HTTP e TCP através das camadas do modelo OSI.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo desta atividade.

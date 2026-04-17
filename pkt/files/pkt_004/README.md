@@ -26,7 +26,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/pkt.webp" alt="pkt" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
   
 ---
@@ -45,7 +45,7 @@
 ---
 
 ### Objective:
-O objetivo deste PTTA foi construir uma rede local conectada à internet via roteador sem fio e modem, configurando os dispositivos finais para a obtenção de IP via DHCP e validando a conectividade através do acesso ao servidor.
+O objetivo desta atividade foi construir uma rede local conectada à internet via roteador sem fio e modem, configurando os dispositivos finais para a obtenção de IP via DHCP e validando a conectividade através do acesso ao servidor.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo desta atividade.

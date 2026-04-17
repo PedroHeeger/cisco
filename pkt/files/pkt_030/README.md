@@ -1,10 +1,10 @@
-# Packet Tracer – Conexão de um Roteador a uma LAN   <img src="./0-aux/logo_course.png" alt="pkt_030" width="auto" height="45">
+# Packet Tracer - Construir uma rede de switch e roteador - Modo Físico   <img src="./0-aux/logo_course.png" alt="pkt_030" width="auto" height="45">
 
 ### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
 ### Training Category: <a href="../../../pkt/">pkt</a>
 ### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
-### Course: <a href="./">pkt_030 (Packet Tracer – Conexão de um Roteador a uma LAN)   <img src="./0-aux/logo_course.png" alt="pkt_030" width="auto" height="25"></a>
+### Course: <a href="./">pkt_030 (Packet Tracer - Construir uma rede de switch e roteador - Modo Físico)   <img src="./0-aux/logo_course.png" alt="pkt_030" width="auto" height="25"></a>
 
 ---
 
@@ -27,7 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -49,7 +49,7 @@
 ---
 
 ### Objective:
-O objetivo deste PTPM foi construir uma arquitetura de rede simples com dois PCs em redes diferentes, conectados por um switch e um roteador. Foram realizadas as configurações básicas de segurança e endereçamento IP em todos os dispositivos, e ao final foi verificada a comunicação entre as redes por meio de testes de conectividade.
+O objetivo deste atividade foi construir uma arquitetura de rede simples com dois PCs em redes diferentes, conectados por um switch e um roteador. Foram realizadas as configurações básicas de segurança e endereçamento IP em todos os dispositivos, e ao final foi verificada a comunicação entre as redes por meio de testes de conectividade.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo do laboratório.

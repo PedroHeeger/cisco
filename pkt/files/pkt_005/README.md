@@ -27,7 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/pkt.webp" alt="pkt" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
 
 ---
 
@@ -50,7 +50,7 @@
 ---
 
 ### Objective:
-O objetivo deste PTTA foi integrar e configurar dispositivos inteligentes (Smart Things) em uma rede local, utilizando conexões cabeadas e sem fios para estabelecer a comunicação.
+O objetivo desta atividade foi integrar e configurar dispositivos inteligentes (Smart Things) em uma rede local, utilizando conexões cabeadas e sem fios para estabelecer a comunicação.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo desta atividade.

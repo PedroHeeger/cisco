@@ -27,7 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -48,7 +48,7 @@
 ---
 
 ### Objective:
-O objetivo foi configurar o endereçamento IP de dois dispositivos (um PC e um Switch), realizar a conexão entre eles por meio de cabos Ethernet e Console, testar a conectividade de rede e analisar o comportamento dos endereços MAC nas tabelas MAC e ARP, bem como nas configurações dos próprios dispositivos.
+O objetivo desta atividade foi configurar o endereçamento IP de dois dispositivos (um PC e um Switch), realizar a conexão entre eles por meio de cabos Ethernet e Console, testar a conectividade de rede e analisar o comportamento dos endereços MAC nas tabelas MAC e ARP, bem como nas configurações dos próprios dispositivos.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo do laboratório.

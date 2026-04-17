@@ -27,7 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -114,6 +114,8 @@ Nesse cenário, você é um técnico de rede atribuído para instalar uma nova r
 
 <div align="center">
 
+#### Tabela 1 — Planejamento das Sub-redes IPv4
+
 | Endereço da Sub-Rede | Prefixo | Máscara de Sub-Rede | Primeiro Host | Último Host | Broadcast |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 192.168.0.0 | /26 | 255.255.255.192 | 192.168.0.1 | 192.168.0.62 | 192.168.0.63 |
@@ -137,6 +139,8 @@ Atribuir endereços IP com base nos seguintes critérios: Use as configurações
 - b. Use o último endereço de host para PC-B. Certifique-se de atribuir um endereço de gateway padrão para o PC.
 
 <div align="center">
+
+#### Tabela 2 — Planejamento de Endereçamento IPv4
 
 | Dispositivo | Interface | Endereço IP | Máscara de sub-rede | Gateway padrão |
 |:---:|:---:|:---:|:---:|:---:|

@@ -27,7 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -78,6 +78,8 @@ A imagem 01 mostra a topologia inicial.
 
 <div align="center">
 
+#### Tabela 1 — Sub-redes e Representação Binária
+
 | Nº Sub-rede | Endereço da Sub-Rede | Bit 7 | Bit 6 | Bit 5 | Bit 4 | Bit 3 | Bit 2 | Bit 1 | Bit 0 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 0 | 192.168.100.0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -93,6 +95,8 @@ A imagem 01 mostra a topologia inicial.
 - g. Preencha a Tabela de Sub-Redes, listando o valor decimal de todas as sub-redes disponíveis, o primeiro e o último host utilizáveis e o endereço de broadcast. Repita até que todos os endereços estejam listados. Observação: não é necessário usar todas as linhas.
 
 <div align="center">
+
+#### Tabela 2 — Planejamento das Sub-redes IPv4
 
 | Nº Sub-rede | Endereço da Sub-Rede | Prefixo | Máscara de Sub-Rede | Primeiro Host | Último Host | Broadcast |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -121,6 +125,8 @@ Preencha a Addressing Table utilizando as seguintes diretrizes:
 - d. Atribua os últimos endereços IP utilizáveis aos PCs em cada sub-rede. 
 
 <div align="center">
+
+#### Tabela 3 — Planejamento de Endereçamento IPv4
 
 | Dispositivo | Interface | Endereço IP | Máscara de sub-rede | Gateway padrão |
 |:---:|:---:|:---:|:---:|:---:|

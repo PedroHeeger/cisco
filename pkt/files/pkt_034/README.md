@@ -27,7 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -64,6 +64,8 @@ A imagem 01 mostra a topologia inicial.
 
 <div align="center">
 
+#### Tabela 1 — Sub-redes e Hosts
+
 | Nº Sub-rede | Nome da Sub-Rede | Número de endereços necessários |
 |:---:|:---:|:---:|
 | 1 | ES-2 LAN | 23 |
@@ -82,6 +84,8 @@ A imagem 01 mostra a topologia inicial.
 - Documente seu design em uma tabela como a abaixo.
 
 <div align="center">
+
+#### Tabela 2 — Planejamento das Sub-redes IPv4
 
 | Nº Sub-rede | Nome da Sub-Rede | Endereço da Sub-Rede | Prefixo | Máscara de Sub-Rede | Primeiro Host | Último Host | Broadcast |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -104,6 +108,8 @@ Observação: Você configurará o endereçamento em todos os dispositivos e hos
 - Atribua os últimos endereços IP utilizáveis nas sub-redes apropriadas aos hosts.
 
 <div align="center">
+
+#### Tabela 3 — Planejamento de Endereçamento IPv4
 
 | Dispositivo | Interface | Endereço IP | Máscara de sub-rede | Gateway padrão |
 |:---:|:---:|:---:|:---:|:---:|

@@ -13,6 +13,7 @@
 
 ### Used Tools:
 - Operating System (OS): 
+  - Cisco Internetwork Operating System (Cisco IOS)   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_ios.jpg" alt="cisco_ios" width="auto" height="25">
   - Windows 11 <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/windows11.png" alt="windows11" width="auto" height="25">
 - Cloud Services:
   - Google Drive <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/google_drive.png" alt="google_drive" width="auto" height="25">
@@ -26,8 +27,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Internetwork Operating System (Cisco IOS)   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_ios.jpg" alt="cisco_ios" width="auto" height="25">
-  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/pkt.webp" alt="pkt" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
   
 ---
@@ -51,7 +51,7 @@
 ---
 
 ### Objective:
-O objetivo foi analisar as características físicas de switches e roteadores para a instalação de módulos adicionais necessários ao seu funcionamento. Além disso, foi realizada a conexão de diversos dispositivos utilizando o cabeamento e as interfaces adequadas, concluindo com testes de conectividade para validar a topologia montada.
+O objetivo desta atividade foi analisar as características físicas de switches e roteadores para a instalação de módulos adicionais necessários ao seu funcionamento. Além disso, foi realizada a conexão de diversos dispositivos utilizando o cabeamento e as interfaces adequadas, concluindo com testes de conectividade para validar a topologia montada.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo desta atividade.

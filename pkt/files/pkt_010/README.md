@@ -26,7 +26,7 @@
 - Repository:
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
-  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/pkt.webp" alt="pkt" width="auto" height="25">
+  - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -38,7 +38,7 @@
 ---
 
 ### Objective:
-O objetivo desta Video Activity foi validar a conectividade de uma rede local (LAN) através do comando ping, verificando a comunicação fim-a-fim entre computadores e switches previamente configurados com endereçamento IP.
+O objetivo desta atividade foi validar a conectividade de uma rede local (LAN) através do comando ping, verificando a comunicação fim-a-fim entre computadores e switches previamente configurados com endereçamento IP.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo desta atividade.
