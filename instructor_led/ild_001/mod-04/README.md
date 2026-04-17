@@ -2,7 +2,7 @@
 
 ### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
-### Training Category: <a href="../../../self_paced/">self-paced</a>
+### Training Category: <a href="../../../instructor_led/">instructor-led</a>
 ### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
 ### Course: <a href="../">ild_001 (CCNA: Introduction to Networks)   <img src="../0-aux/logo_course.png" alt="ild_001" width="auto" height="25"></a>
 ### Module: 4. Camada física
@@ -39,10 +39,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;4.5.1 <a href="#item04.05.01">Atividade - Pinagem de cabos</a><br>
   4.6 <a href="#item04.06">Cabeamento de Fibra Óptica</a><br>
   4.7 <a href="#item04.07">Meios Sem Fio</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.7.1 <a href="../../../pkt/files/pkt_014/">Packet Tracer - Conecte uma Rede cabeada e sem Fio</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.7.2 <a href="../../../labs/files/lab_013/">Laboratório - Exibir informações de Placas de Rede com fio e sem fio</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.7.1 <a href="../../../pkt/files/pkt_014/">Packet Tracer - Conecte uma LAN com e sem fio</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.7.2 <a href="../../../labs/files/lab_013/">Laboratório - Exibir informações de NIC com e sem fio</a><br>
   4.8 <a href="#item04.08">Módulo Prático e Quiz</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.8.1 <a href="../../../pkt/files/pkt_016/">Packet Tracer - Exploração de Camada Física</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.8.1 <a href="../../../pkt/files/pkt_016/">Packet Tracer - Exploração de Camada Física - Modo Físico</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;4.8.2 <a href="../../../pkt/files/pkt_017/">Packet Tracer - Conecte a Camada Física</a><br>
 
 ---

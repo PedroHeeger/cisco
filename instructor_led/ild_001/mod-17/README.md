@@ -2,7 +2,7 @@
 
 ### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
-### Training Category: <a href="../../../self_paced/">self-paced</a>
+### Training Category: <a href="../../../instructor_led/">instructor-led</a>
 ### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
 ### Course: <a href="../">ild_001 (CCNA: Introduction to Networks)   <img src="../0-aux/logo_course.png" alt="ild_001" width="auto" height="25"></a>
 ### Module: 17. Criação de uma rede pequena
@@ -36,7 +36,7 @@
   17.3 <a href="#item17.03">Aplicações e Protocolos de Redes Pequenas</a><br>
   17.4 <a href="#item17.04">Escalar para Redes Maiores</a><br>
   17.5 <a href="#item17.05">Verificar a conectividade</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;17.5.1 <a href="../../../labs/files/lab_057/">Packet Tracer - Teste a latência da rede com ping e traceroute</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;17.5.1 <a href="../../../labs/files/lab_054/">Laboratório - Teste a latência da rede com ping e traceroute</a><br>
   17.6 <a href="#item17.06">Host e comandos IOS</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;17.6.1 <a href="../../../pkt/files/pkt_047/">Packet Tracer - Interpretar saída de comando show</a><br>
   17.7 <a href="#item17.07">Metodologias de solução de problemas</a><br>

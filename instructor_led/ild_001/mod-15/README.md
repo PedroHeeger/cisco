@@ -2,7 +2,7 @@
 
 ### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
-### Training Category: <a href="../../../self_paced/">self-paced</a>
+### Training Category: <a href="../../../instructor_led/">instructor-led</a>
 ### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
 ### Course: <a href="../">ild_001 (CCNA: Introduction to Networks)   <img src="../0-aux/logo_course.png" alt="ild_001" width="auto" height="25"></a>
 ### Module: 15. Camada de aplicação
@@ -40,7 +40,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;15.5.2 <a href="../../../labs/files/lab_052/">Laboratório - Observe a resolução DNS</a><br>
   15.6 <a href="#item15.06">Serviços de Compartilhamento de Arquivos</a><br>
   15.7 <a href="#item15.07">Módulo Prático e Quiz</a><br>
-  15.8 <a href="#item15.08">Exame de Comunicação de Aplicativos de Rede</a><br>
+  15.8 Exame de Comunicação de Aplicativos de Rede<br>
 
 ---
 

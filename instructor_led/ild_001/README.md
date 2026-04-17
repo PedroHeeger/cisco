@@ -2,12 +2,13 @@
 
 ### Cisco: <a href="../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
-### Training Category: <a href="../../self_paced/">self-paced</a>
+### Training Category: <a href="../../instructor_led/">instructor-led</a>
 ### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
 ### Course: <a href="./">ild_001 (CCNA: Introduction to Networks)   <img src="./0-aux/logo_course.png" alt="ild_001" width="auto" height="25"></a>
 
-#### <a href="https://github.com/PedroHeeger/my_tech_journey/blob/main/credentials/certificates/online_courses/cybersecurity\2590922_Cyber_Threat_Management_PH_CNA.pdf">Certificate</a>
-#### <a href="https://www.credly.com/badges/1210f13a-8b8b-41f6-826e-a7434d02922f">Badge</a>
+#### <a href="https://github.com/PedroHeeger/my_tech_journey/blob/main/credentials/certificates/live_courses/network/251218_ccna-mod1_PH_CNA.pdf">Certificate</a>
+#### <a href="https://github.com/PedroHeeger/my_tech_journey/blob/main/credentials/certificates/live_courses/network/251230_ccna-mod1_PH_SNA.pdf">Certificate Senai</a>
+#### <a href="https://www.credly.com/badges/cd901473-fc50-4478-8a83-f067c7812fe5">Badge</a>
 
 ---
 
@@ -65,7 +66,7 @@
   3.7 <a href="./mod-03/README.md#item03.07">Encapsulamento de dados</a><br>
   3.8 <a href="./mod-03/README.md#item03.08">Acesso a dados</a><br>
   3.9 <a href="./mod-03/README.md#item03.09">Módulo Prático e Quiz</a><br>
-  3.10 <a href="./mod-03/README.md#item03.10">Exame de Comunicação e Conectividade de Rede Básica</a><br>
+  3.10 Exame de Comunicação e Conectividade de Rede Básica<br>
 4. <a href="./mod-04/">Camada física</a><br>
   4.1 <a href="./mod-04/README.md#item04.01">Introdução</a><br>
   4.2 <a href="./mod-04/README.md#item04.02">Propósito da camada física</a><br>
@@ -74,7 +75,7 @@
   4.5 <a href="./mod-04/README.md#item04.05">Cabeamento UTP</a><br>
   4.6 <a href="./mod-04/README.md#item04.06">Cabeamento de Fibra Óptica</a><br>
   4.7 <a href="./mod-04/README.md#item04.07">Meios Sem Fio</a><br>
-  4.8 <a href="./mod-03/README.md#item04.08">Módulo Prático e Quiz</a><br>
+  4.8 <a href="./mod-04/README.md#item04.08">Módulo Prático e Quiz</a><br>
 5. <a href="./mod-05/">Sistemas de números</a><br>
   5.1 <a href="./mod-05/README.md#item05.01">Introdução</a><br>
   5.2 <a href="./mod-05/README.md#item05.02">Sistema de numeração binária</a><br>
@@ -93,7 +94,7 @@
   7.4 <a href="./mod-07/README.md#item07.04">A Tabela de Endereços MAC</a><br>
   7.5 <a href="./mod-07/README.md#item07.05">Métodos de encaminhamento e velocidade de switches</a><br>
   7.6 <a href="./mod-07/README.md#item07.06">Módulo Prático e Quiz</a><br>
-  7.7 <a href="./mod-07/README.md#item07.07">Exame de Comunicação e Conectividade de Rede Básica</a><br>
+  7.7 Exame de Comunicação e Conectividade de Rede Básica<br>
 8. <a href="./mod-08/">Camada de rede</a><br>
   8.1 <a href="./mod-08/README.md#item08.01">Introdução</a><br>
   8.2 <a href="./mod-08/README.md#item08.02">Características de camada de rede</a><br>
@@ -114,7 +115,7 @@
   10.3 <a href="./mod-10/README.md#item10.03">Configurar Interfaces</a><br>
   10.4 <a href="./mod-10/README.md#item10.04">Configurar o gateway padrão</a><br>
   10.5 <a href="./mod-10/README.md#item10.05">Módulo Prático e Quiz</a><br>
-  10.6 <a href="./mod-10/README.md#item10.06">Exame de comunicação entre redes</a><br>
+  10.6 Exame de comunicação entre redes<br>
 11. <a href="./mod-11/">Endereçamento IPv4</a><br>
   11.1 <a href="./mod-11/README.md#item11.01">Introdução</a><br>
   11.2 <a href="./mod-11/README.md#item11.02">Estrutura do Endereço IPv4</a><br>
@@ -143,7 +144,7 @@
   13.2 <a href="./mod-13/README.md#item13.02">Mensagens ICMP</a><br>
   13.3 <a href="./mod-13/README.md#item13.03">Testes de Ping e Traceroute</a><br>
   13.4 <a href="./mod-13/README.md#item13.04">Módulo Prático e Quiz</a><br>
-  13.5 <a href="./mod-13/README.md#item13.05">Exame de endereçamento IP</a><br>
+  13.5 Exame de endereçamento IP<br>
 14. <a href="./mod-14/">Camada de transporte</a><br>
   14.1 <a href="./mod-14/README.md#item14.01">Introdução</a><br>
   14.2 <a href="./mod-14/README.md#item14.02">Transporte de Dados</a><br>
@@ -162,7 +163,7 @@
   15.5 <a href="./mod-15/README.md#item15.05">Serviços de Endereçamento IP</a><br>
   15.6 <a href="./mod-15/README.md#item15.06">Serviços de Compartilhamento de Arquivos</a><br>
   15.7 <a href="./mod-15/README.md#item15.07">Módulo Prático e Quiz</a><br>
-  15.8 <a href="./mod-15/README.md#item15.08">Exame de Comunicação de Aplicativos de Rede</a><br>
+  15.8 Exame de Comunicação de Aplicativos de Rede<br>
 16. <a href="./mod-16/">Fundamentos de segurança de rede</a><br>
   16.1 <a href="./mod-16/README.md#item16.01">Introdução</a><br>
   16.2 <a href="./mod-16/README.md#item16.02">Ameaças à Segurança e Vulnerabilidades</a><br>
@@ -180,11 +181,11 @@
   17.7 <a href="./mod-17/README.md#item17.07">Metodologias de solução de problemas</a><br>
   17.8 <a href="./mod-17/README.md#item17.08">Cenários de solução de problemas</a><br>
   17.9 <a href="./mod-17/README.md#item17.09">Módulo Prático e Quiz</a><br>
-  17.10 <a href="./mod-17/README.md#item17.10">Exame Construíndo e protegendo uma rede pequena</a><br>
-18. <a href="./mod-18/">ITNv7 Practice Final Exam</a><br>
-  18.1 <a href="./mod-18/README.md#item18.01">ITNv7 Practice Final Exam</a><br>
-  18.2 <a href="./mod-18/README.md#item18.02">Avaliação de habilidades do ITN Practice PT (PTSA)</a><br>
-  18.3 <a href="./mod-18/README.md#item18.03">Exame Final ITNv7</a><br>
+  17.10 Exame Construíndo e protegendo uma rede pequena<br>
+18. ITNv7 Practice Final Exam<br>
+  18.1 ITNv7 Practice Final Exam<br>
+  18.2 Avaliação de habilidades do ITN Practice PT (PTSA)<br>
+  18.3 Exame Final ITNv7<br>
 ---
 
 ### Objective:
@@ -200,6 +201,8 @@ O curso **CCNA: Introduction to Networks** da **Cisco Networking Academy (CNA)**
 
 Este curso foi disponibilizado juntamente com o **CyberOps Associate** ([ild_002](./ild_002)) na etapa de capacitação profissionalizante do **Programa CiberEducação Cisco Brasil**, considerada a terceira fase do programa. Para acessar essa fase, foi necessário ser aprovado na etapa inicial: a **11ª Maratona CiberEducação Cisco – Edição 1 Milhão de Estudantes no Brasil**, que exigiu a realização do curso **Gerenciamento de Ameaças Cibernéticas** ([sfp_001](../../self_paced/sfp_001/)). A segunda fase do programa foi dedicada à qualificação de instrutores credenciados no CNA.
 
-O curso foi estruturado em dezessete módulos, cada um contendo atividades práticas e laboratórios no **Cisco Packet Tracer** (PTTA). Também foram realizados questionários e quizzes ao longo do conteúdo, além de cinco exames de verificação distribuídos a cada três ou quatro módulos, e um exame final abrangendo todos os tópicos estudados. A nota mínima para aprovação em todas as avaliações foi de 70%.
+O curso foi estruturado em dezessete módulos, cada um contendo laboratórios e atividades práticas do **Cisco Packet Tracer**. Também foram realizados questionários e quizzes ao longo do conteúdo, além de cinco exames de verificação distribuídos a cada três ou quatro módulos, e um exame final abrangendo todos os tópicos estudados. A nota mínima para aprovação em todas as avaliações foi de 70%.
 
-O conteúdo teórico e prático foi documentado em seus respectivos módulos. Os PTTAs desenvolvidos ao longo do curso foram registrados na pasta ([ptta](../../ptta/)) deste repositório, cujos arquivos são acessados por meio de links diretos. Essa pasta centraliza todas as atividades do Packet Tracer deste e de outros cursos, organizadas de forma padronizada.
+O conteúdo teórico e prático foi documentado em seus respectivos módulos. As atividades do Packet Tracer desenvolvidas ao longo do curso foram registradas na pasta ([pkt](../../pkt/)) deste repositório, com arquivos acessíveis por meio de links diretos. Essa pasta centraliza todas as atividades do Packet Tracer deste e de outros cursos, organizadas de forma padronizada.
+
+Os laboratórios, por sua vez, foram organizados em sua pasta específica, denominada [labs](../../labs/), onde são centralizados todos os laboratórios desenvolvidos ao longo dos cursos. Esses laboratórios podem ser conceituais ou práticos. Nos laboratórios práticos, são utilizadas tecnologias como **Oracle VM VirtualBox**, **VMware**, **Wireshark**, **Nmap**, entre outras.

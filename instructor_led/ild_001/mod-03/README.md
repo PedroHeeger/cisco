@@ -2,7 +2,7 @@
 
 ### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
-### Training Category: <a href="../../../self_paced/">self-paced</a>
+### Training Category: <a href="../../../instructor_led/">instructor-led</a>
 ### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
 ### Course: <a href="../">ild_001 (CCNA: Introduction to Networks)   <img src="../0-aux/logo_course.png" alt="ild_001" width="auto" height="25"></a>
 ### Module: 3. Protocolos e modelos
@@ -37,9 +37,9 @@
   3.3 <a href="#item03.03">Protocolos</a><br>
   3.4 <a href="#item03.04">Conjuntos de protocolos</a><br>
   3.5 <a href="#item03.05">Empresas de padrões</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.5.1 <a href="../../../labs/files/lab_007/">Laboratório - Padrões de Rede de Pesquisa</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.5.1 <a href="../../../labs/files/lab_007/">Laboratório - Pesquisa dos Padrões de Rede</a><br>
   3.6 <a href="#item03.06">Modelos de Referência</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.6.1 <a href="../../../pkt/files/pkt_013/">Packet Tracer - Rastreador de pacotes: Investigue os modelos TCP / IP e OSI em ação</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.6.1 <a href="../../../pkt/files/pkt_013/">Packet Tracer - Investigue os modelos TCP / IP e OSI em ação</a><br>
   3.7 <a href="#item03.07">Encapsulamento de dados</a><br>
   3.8 <a href="#item03.08">Acesso a dados</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;3.8.1 <a href="../../../labs/files/lab_008/">Laboratório - Instalar o Wireshark</a><br>

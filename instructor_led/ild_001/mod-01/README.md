@@ -2,7 +2,7 @@
 
 ### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
-### Training Category: <a href="../../../self_paced/">self-paced</a>
+### Training Category: <a href="../../../instructor_led/">instructor-led</a>
 ### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
 ### Course: <a href="../">ild_001 (CCNA: Introduction to Networks)   <img src="../0-aux/logo_course.png" alt="ild_001" width="auto" height="25"></a>
 ### Module: 1. As redes de hoje
@@ -32,7 +32,7 @@
 ### Course Module 1 Structure:
 1. <a name="item01">As redes de hoje</a><br>
   1.1 <a href="#item01.01">Introdução</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 <a href="../../../pkt/files/pkt_053/">Packet Tracer - Exploração de modo lógico e físico</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 <a href="../../../pkt/files/pkt_053/">Packet Tracer - Exploração dos modos lógico e físico</a><br>
   1.2 <a href="#item01.02">Redes afetam nossas vidas</a><br>
   1.3 <a href="#item01.03">Componentes de rede</a><br>
   1.4 <a href="#item01.04">Representações e topologias de rede</a><br>

@@ -2,7 +2,7 @@
 
 ### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
-### Training Category: <a href="../../../self_paced/">self-paced</a>
+### Training Category: <a href="../../../instructor_led/">instructor-led</a>
 ### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
 ### Course: <a href="../">ild_001 (CCNA: Introduction to Networks)   <img src="../0-aux/logo_course.png" alt="ild_001" width="auto" height="25"></a>
 ### Module: 16. Fundamentos de segurança de rede
@@ -41,7 +41,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;16.5.2 <a href="../../../pkt/files/pkt_055/">Packet Tracer - Configurar dispositivos de rede com SSH</a><br>
   16.6 <a href="#item16.06">Módulo Prático e Quiz</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;16.6.1 <a href="../../../pkt/files/pkt_046/">Packet Tracer - Dispositivos de Rede Segura</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;16.6.2 <a href="../../../labs/files/lab_056/">Packet Tracer - Dispositivos de rede seguros</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;16.6.2 <a href="../../../pkt/files/pkt_056/">Packet Tracer - Dispositivos de rede seguros</a><br>
 
 ---
 

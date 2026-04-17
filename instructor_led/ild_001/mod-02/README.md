@@ -2,7 +2,7 @@
 
 ### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
-### Training Category: <a href="../../../self_paced/">self-paced</a>
+### Training Category: <a href="../../../instructor_led/">instructor-led</a>
 ### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
 ### Course: <a href="../">ild_001 (CCNA: Introduction to Networks)   <img src="../0-aux/logo_course.png" alt="ild_001" width="auto" height="25"></a>
 ### Module: 2. Switch básico e configuração de dispositivo final
@@ -37,7 +37,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;2.3.1 <a href="#item02.03.01">Verificador de Sintaxe - Navegar entre modos IOS</a><br>
   2.4 <a href="#item02.04">A Estrutura de Comandos</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.4.1 <a href="../../../pkt/files/pkt_002/">Packet Tracer - Navegue no IOS</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.4.2 <a href="../../../pkt/files/pkt_003/">Packet Tracer - Navegue pelo IOS usando Tera Term para conectividade de console</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.4.2 <a href="../../../pkt/files/pkt_003/">Packet Tracer - Navegue pelo IOS usando um cliente terminal para conectividade de console - Modo Físico</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.4.3 <a href="../../../pkt/files/pkt_003/">Laboratório - Navegue pelo IOS usando Tera Term para conectividade de console</a><br>
   2.5 <a href="#item02.05">Configuração básica de dispositivos</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.5.1 <a href="#item02.05.01">Verificador de Sintaxe - Configuração básica do dispositivo</a><br>
@@ -310,7 +310,7 @@ Para permitir acesso remoto a um switch, é necessário configurar um endereço 
 
 - Insira o comando para exibir a configuração IP em um PC com Windows: `ipconfig`.
 
-<a name="item02.08.02"><h4>2.8.2 Verificador de sintaxe - Verifique a configuração de IP do PC do Windows</h4></a>[Back to summary](#item02)
+<a name="item02.08.02"><h4>2.8.2 Verificador de sintaxe - Configurar uma interface virtual do switch</h4></a>[Back to summary](#item02)
 
 - Entre no modo de configuração de interface de VLAN 1: `interface vlan 1`.
 - Configure o endereço IPv4 como 192.168.1.20 e a máscara de sub-rede como 255.255.255.0: `ip address 192.168.1.20 255.255.255.0`.
@@ -318,10 +318,7 @@ Para permitir acesso remoto a um switch, é necessário configurar um endereço 
 
 <a name="item02.09"><h4>2.9 Verificar a conectividade</h4></a>[Back to summary](#item02)
 
-Neste módulo só houveram duas atividades do Packet Tracer (PTTA), listadas abaixo.
-
-- <a href="#item02.09.01">Atividade de vídeo - Testar a atribuição de interface</a><br>
-- <a href="#item02.09.02">Atividade em vídeo - Teste a conectividade de ponta a ponta</a><br>
+Neste módulo só houveram as atividades do Packet Tracer (PTTA), listadas na parte superior na estrutura do módulo.
 
 <a name="item02.10"><h4>2.10 Módulo Prático e Quiz</h4></a>[Back to summary](#item02)
 
