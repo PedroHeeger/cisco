@@ -1,0 +1,33 @@
+
+Disparando www.afrinic.net [2001:42d0:0:250::4] com 32 bytes de dados:
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=310ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=310ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=310ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=310ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=310ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=310ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=311ms 
+Resposta de 2001:42d0:0:250::4: tempo=313ms 
+Resposta de 2001:42d0:0:250::4: tempo=312ms 
+Resposta de 2001:42d0:0:250::4: tempo=312ms 
+
+Estat¡sticas do Ping para 2001:42d0:0:250::4:
+    Pacotes: Enviados = 25, Recebidos = 25, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 310ms, M ximo = 313ms, M‚dia = 310ms

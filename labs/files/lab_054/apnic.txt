@@ -1,0 +1,33 @@
+
+Disparando www.apnic.net.cdn.cloudflare.net [2606:4700::6812:ec44] com 32 bytes de dados:
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=80ms 
+Resposta de 2606:4700::6812:ec44: tempo=25ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=24ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=25ms 
+Resposta de 2606:4700::6812:ec44: tempo=25ms 
+Resposta de 2606:4700::6812:ec44: tempo=25ms 
+Resposta de 2606:4700::6812:ec44: tempo=25ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=24ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+Resposta de 2606:4700::6812:ec44: tempo=23ms 
+
+Estat¡sticas do Ping para 2606:4700::6812:ec44:
+    Pacotes: Enviados = 25, Recebidos = 25, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 23ms, M ximo = 80ms, M‚dia = 25ms

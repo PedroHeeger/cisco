@@ -1,0 +1,33 @@
+
+Disparando www.lacnic.net [2001:13c7:7002:4128::145] com 32 bytes de dados:
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=28ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=28ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=28ms 
+Resposta de 2001:13c7:7002:4128::145: tempo=27ms 
+
+Estat¡sticas do Ping para 2001:13c7:7002:4128::145:
+    Pacotes: Enviados = 25, Recebidos = 25, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 27ms, M ximo = 28ms, M‚dia = 27ms
