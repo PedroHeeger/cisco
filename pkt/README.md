@@ -49,7 +49,26 @@ A seguir, são listados os PKTs já realizados:
 <li>pkt_031: <a href="./files/pkt_031/">Packet Tracer - Sub-rede uma rede IPv4   <img src="./files/pkt_031/0-aux/logo_course.png" alt="pkt_031" width="auto" height="25"></a></li>
 <li>pkt_032: <a href="./files/pkt_032/">Packet Tracer - Criação de sub-redes no cenário   <img src="./files/pkt_032/0-aux/logo_course.png" alt="pkt_032" width="auto" height="25"></a></li>
 <li>pkt_033: <a href="./files/pkt_033/">Packet Tracer - Prática de projeto e implementação do VLSM   <img src="./files/pkt_033/0-aux/logo_course.png" alt="pkt_033" width="auto" height="25"></a></li>
-
-
-
-
+<li>pkt_034: <a href="./files/pkt_034/">Packet Tracer - Projete e implemente um esquema de endereçamento VLSM   <img src="./files/pkt_034/0-aux/logo_course.png" alt="pkt_034" width="auto" height="25"></a></li>
+<li>pkt_035: <a href="./files/pkt_035/">Packet Tracer - Projetar e Implementar um Esquema de Endereçamento VLSM - Modo Físico   <img src="./files/pkt_035/0-aux/logo_course.png" alt="pkt_035" width="auto" height="25"></a></li>
+<li>pkt_036: <a href="./files/pkt_036/">Packet Tracer - Configuração Básica do Dispositivo   <img src="./files/pkt_036/0-aux/logo_course.png" alt="pkt_036" width="auto" height="25"></a></li>
+<li>pkt_037: <a href="./files/pkt_037/">Packet Tracer – Configurando Endereçamento IPv6   <img src="./files/pkt_037/0-aux/logo_course.png" alt="pkt_037" width="auto" height="25"></a></li>
+<li>pkt_038: <a href="./files/pkt_038/">Packet Tracer – Implementando um Esquema de Endereçamento IPv6 com Sub-Redes   <img src="./files/pkt_038/0-aux/logo_course.png" alt="pkt_038" width="auto" height="25"></a></li>
+<li>pkt_039: <a href="./files/pkt_039/">Packet Tracer - Configurar Endereços IPv6 em Dispositivos de Rede - Modo Físico   <img src="./files/pkt_039/0-aux/logo_course.png" alt="pkt_039" width="auto" height="25"></a></li>
+<li>pkt_040: <a href="./files/pkt_040/">Packet Tracer – Verifique o endereçamento IPv4 e IPv6   <img src="./files/pkt_040/0-aux/logo_course.png" alt="pkt_040" width="auto" height="25"></a></li>
+<li>pkt_041: <a href="./files/pkt_041/">Packet Tracer - Use Ping e Traceroute para testar a conectividade de rede   <img src="./files/pkt_041/0-aux/logo_course.png" alt="pkt_041" width="auto" height="25"></a></li>
+<li>pkt_042: <a href="./files/pkt_042/">Packet Tracer - Use o ICMP para testar e corrigir a conectividade de rede   <img src="./files/pkt_042/0-aux/logo_course.png" alt="pkt_042" width="auto" height="25"></a></li>
+<li>pkt_044: <a href="./files/pkt_043/">Packet Tracer - Use Ping e Traceroute para Testar Conectividade de Rede - Modo Físico   <img src="./files/pkt_043/0-aux/logo_course.png" alt="pkt_043" width="auto" height="25"></a></li>
+<li>pkt_044: <a href="./files/pkt_044/">Packet Tracer: Comunicações TCP e UDP   <img src="./files/pkt_044/0-aux/logo_course.png" alt="pkt_044" width="auto" height="25"></a></li>
+<li>pkt_045: <a href="./files/pkt_045/">Packet Tracer - Configurar Senhas Seguras e SSH   <img src="./files/pkt_045/0-aux/logo_course.png" alt="pkt_045" width="auto" height="25"></a></li>
+<li>pkt_046: <a href="./files/pkt_046/">Packet Tracer - Dispositivos de Rede Segura   <img src="./files/pkt_046/0-aux/logo_course.png" alt="pkt_046" width="auto" height="25"></a></li>
+<li>pkt_047: <a href="./files/pkt_047/">Packet Tracer - Interpretar a saída do comando show   <img src="./files/pkt_047/0-aux/logo_course.png" alt="pkt_047" width="auto" height="25"></a></li>
+<li>pkt_048: <a href="./files/pkt_048/">Packet Tracer - Solucionar problemas de conectividade   <img src="./files/pkt_048/0-aux/logo_course.png" alt="pkt_048" width="auto" height="25"></a></li>
+<li>pkt_049: <a href="./files/pkt_049/">Packet Tracer - Solucione Problemas de Conectividade - Modo Físico   <img src="./files/pkt_049/0-aux/logo_course.png" alt="pkt_049" width="auto" height="25"></a></li>
+<li>pkt_050: <a href="./files/pkt_050/">Packet Tracer - Projete e Construa uma Rede Pequena - Modo Físico   <img src="./files/pkt_050/0-aux/logo_course.png" alt="pkt_050" width="auto" height="25"></a></li>
+<li>pkt_051: <a href="./files/pkt_051/">Packet Tracer – Desafio de Integração de Habilidades   <img src="./files/pkt_051/0-aux/logo_course.png" alt="pkt_051" width="auto" height="25"></a></li>
+<li>pkt_052: <a href="./files/pkt_052/">Packet Tracer – Desafio de Solução de Problemas   <img src="./files/pkt_052/0-aux/logo_course.png" alt="pkt_052" width="auto" height="25"></a></li>
+<li>pkt_053: <a href="./files/pkt_053/">Packet Tracer - Exploração dos modos lógico e físico   <img src="./files/pkt_053/0-aux/logo_course.png" alt="pkt_053" width="auto" height="25"></a></li>
+<li>pkt_054: <a href="./files/pkt_054/">Packet Tracer - Use comandos de diagnóstico   <img src="./files/pkt_054/0-aux/logo_course.png" alt="pkt_054" width="auto" height="25"></a></li>
+<li>pkt_055: <a href="./files/pkt_055/">Packet Tracer - Configurar dispositivos de rede com SSH   <img src="./files/pkt_055/0-aux/logo_course.png" alt="pkt_055" width="auto" height="25"></a></li>
+<li>pkt_056: <a href="./files/pkt_056/">Packet Tracer - Dispositivos de rede seguros   <img src="./files/pkt_056/0-aux/logo_course.png" alt="pkt_056" width="auto" height="25"></a></li>
