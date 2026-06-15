@@ -1,4 +1,24 @@
-desktop.ini
+**/desktop.ini
+
+instructor_led/ild_003/*
+!instructor_led/ild_003/README.md
+!instructor_led/ild_003/mod-01/
+!instructor_led/ild_003/mod-02/
+!instructor_led/ild_003/mod-03/
+!instructor_led/ild_003/mod-04/
+!instructor_led/ild_003/mod-05/
+!instructor_led/ild_003/mod-06/
+!instructor_led/ild_003/mod-07/
+!instructor_led/ild_003/mod-08/
+!instructor_led/ild_003/mod-09/
+!instructor_led/ild_003/mod-10/
+!instructor_led/ild_003/mod-11/
+!instructor_led/ild_003/mod-12/
+
+
+
+self_paced/sfp_005/*
+
 
 video_activity/*
 video_activity/mat/*
@@ -28,6 +48,8 @@ video_activity/mat/*
 
 
 pkt/mat/*
+pkt/mat_fund_redes/*
+pkt/mat_cyberops/*
 pkt/files/pkt_000/*
 pkt/files/pkt_*/mat/*
 
