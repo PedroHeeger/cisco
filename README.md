@@ -1,4 +1,6 @@
-# Cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25">
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Cisco&fontSize=90&animation=fadeIn&fontAlignY=38&descAlignY=60&descAlign=50"/>
+
+<!-- # Cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"> -->
 
 Este repositório foi criado com o objetivo de centralizar todos os conteúdos desenvolvidos durante os estudos das tecnologias Cisco, utilizando inicialmente a plataforma oficial **Cisco Networking Academy (CNA)**.
 
