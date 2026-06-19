@@ -29,6 +29,8 @@ A seguir, são listados os cursos Instructor-Led organizados por assunto:
 </details>
 <details><summary>Cybersecurity</summary>
     <ul>
+        <li>ild_002: <a href="./ild_002/">CyberOps Associate   <img src="./ild_002/0-aux/logo_course.png" alt="ild_002" width="auto" height="25"></a></li>
+        <li>ild_004: <a href="./ild_004/">Cybersecurity Essentials   <img src="./ild_004/0-aux/logo_course.png" alt="ild_004" width="auto" height="25"></a></li>
     </ul>
 </details>
 <details><summary>Digital Literacy</summary>
@@ -42,6 +44,7 @@ A seguir, são listados os cursos Instructor-Led organizados por assunto:
 <details><summary>Network</summary>
     <ul>
         <li>ild_001: <a href="./ild_001/">CCNA: Introduction to Networks   <img src="./ild_001/0-aux/logo_course.png" alt="ild_001" width="auto" height="25"></a></li>
+        <li>ild_003: <a href="./ild_003/">Networking Essentials   <img src="./ild_003/0-aux/logo_course.png" alt="ild_003" width="auto" height="25"></a></li>
     </ul>
 </details>
 <details><summary>Professional Skills</summary>
