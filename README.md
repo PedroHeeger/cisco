@@ -8,7 +8,7 @@ A proposta é semelhante ao repositório dedicado à [AWS](https://github.com/Pe
 
 Embora o repositório tenha sido criado com foco exclusivo na CNA, ele poderá futuramente abranger outras plataformas oficiais de capacitação da Cisco, como o Cisco U., Cisco Digital Learning ou a Cisco Learning Network.
 
-Atualmente, os conteúdos são organizados com base nas categorias oferecidas dentro da Cisco Networking Academy. Entretanto, optei por realizar os laboratórios e atividades do Packet Tracer que contemplam os cursos, em uma pasta separada facilitando a organização. Dessa forma, duas pastas específicas foram criadas para essas finalidades.
+Atualmente, os conteúdos são organizados com base nas categorias oferecidas dentro da Cisco Networking Academy. Entretanto, optei por realizar os laboratórios e atividades do Packet Tracer que contemplam os cursos, em pastas separadas facilitando a organização. Dessa forma, duas pastas específicas foram criadas para essas finalidades.
 
 - **Courses**: Cursos estruturados com conteúdo teórico e prático, divididos em:
   - [Instructor-Led](./instructor_led/): Cursos conduzidos por instrutores, geralmente em ambientes guiados ou salas virtuais.
