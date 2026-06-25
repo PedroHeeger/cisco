@@ -14,9 +14,9 @@ Esse tipo de curso pode incluir:
 
 Os cursos **Self-Paced** ficam disponíveis para acesso contínuo, permitindo pausar e retomar os estudos a qualquer momento, o que facilita um aprendizado flexível e independente.
 
-A grande maioria dos cursos desta categoria seguiu a estruturação dos próprios cursos da Cisco. Para cada módulo, foi criada uma subpasta contendo um arquivo `README.md` com todo o conteúdo teórico correspondente. O conteúdo prático, que geralmente consiste em laboratórios e atividades do **Packet Tracer**, foi realizado separadamente e organizado em pastas específicas ([labs](/labs/) e [pkt](/pkt/)). Nessas pastas, estão agrupados os laboratórios e arquivos do Packet Tracer de todos os cursos.
+A grande maioria dos cursos desta categoria seguiu a estruturação dos próprios cursos da Cisco. Para cada módulo, foi criada uma subpasta contendo um arquivo `README` com todo o conteúdo teórico correspondente. O conteúdo prático, que geralmente consiste em laboratórios e atividades do **Packet Tracer**, foi realizado separadamente e organizado em pastas específicas ([labs](/labs/) e [pkt](/pkt/)). Nessas pastas, estão agrupados os laboratórios e atividades do Packet Tracer de todos os cursos.
 
-Essa organização foi adotada para facilitar a separação entre teoria e prática, permitir a conclusão dos cursos teóricos de forma independente e possibilitar a execução das atividades práticas em outro momento, além de evitar a duplicação de laboratórios ou atividades idênticas que são comuns entre diferentes cursos. Ainda assim, os laboratórios e atividades do Packet Tracer foram devidamente indicados nos arquivos `README.md` dos módulos dos cursos, por meio de links que direcionam para as atividades correspondentes localizadas nessas pastas de outras categorias.
+Essa organização foi adotada para facilitar a separação entre teoria e prática, permitir a conclusão dos cursos teóricos de forma independente e possibilitar a execução das atividades práticas em outro momento, além de evitar a duplicação de laboratórios ou atividades idênticas que são comuns entre diferentes cursos. Ainda assim, os laboratórios e atividades do Packet Tracer foram devidamente indicados nos arquivos `README` dos módulos dos cursos, por meio de links que direcionam para as atividades correspondentes localizadas nessas pastas de outras categorias.
 
 A seguir, são listados os cursos Self-Paced organizados por assunto:
 
@@ -33,6 +33,7 @@ A seguir, são listados os cursos Self-Paced organizados por assunto:
     <ul>
         <li>sfp_001: <a href="./sfp_001/">Gerenciamento de Ameaças Cibernéticas   <img src="./sfp_001/0-aux/logo_course.png" alt="sfp_001" width="auto" height="25"></a></li>
         <li>sfp_004: <a href="./sfp_004/">Introdução à Cibersegurança   <img src="./sfp_004/0-aux/logo_course.png" alt="sfp_004" width="auto" height="25"></a></li>
+        <li>sfp_005: <a href="./sfp_005/">Introduction To Splunk   <img src="./sfp_005/0-aux/logo_course.png" alt="sfp_005" width="auto" height="25"></a></li>
     </ul>
 </details>
 <details><summary>Digital Literacy</summary>
