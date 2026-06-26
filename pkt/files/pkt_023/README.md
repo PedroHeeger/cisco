@@ -66,11 +66,11 @@ A imagem 01 mostra a topologia inicial.
 - b. Insira o comando ping 172.16.31.2.
 - c. Mude para o modo de simulação e repita o comando ping 172.16.31.2. Uma PDU aparece ao lado de 172.16.31.5.
 - d. Clique na PDU e observe as seguintes informações nas guias Modelo OSI e Camada de PDU de saída:
-  - Endereço MAC de destino: 000C:85CC:1DA7
-  - Endereço MAC de origem: 00D0:D311:C788
-  - Endereço IP Origem: 172.16.31.5
+  - Endereço MAC de destino: 000C:85CC:1DA7 (0060.7036.2849)
+  - Endereço MAC de origem: 00D0:D311:C788 (000C:85CC:1DA7)
+  - Endereço IP Origem: 172.16.31.5 (172.16.31.3)
   - Endereço IP Destino: 172.16.31.2
-  - No Dispositivo: 172.16.31.5
+  - No Dispositivo: 172.16.31.5 (172.16.31.3)
 - e. Clique em Capture/Forward (Capturar/Encaminhar) para mover a PDU para o próximo dispositivo. Colete as mesmas informações da Etapa 1d. Repita esse processo até que a PDU chegue ao seu destino. Para registrar as informações coletadas sobre as PDUs, use uma tabela:
 
 <div align="center">
@@ -79,16 +79,20 @@ A imagem 01 mostra a topologia inicial.
 
 | Dispositivo | MAC de Origem | MAC de Destino | IPv4 Origem | IPv4 Destino |
 | :---: | :---: | :---: | :---: | :---: |
-| **172.16.31.5** | 00D0:D311:C788 | 000C:85CC:1DA7 | 172.16.31.5 | 172.16.31.2 |
-| **Switch1** | 00D0:D311:C788 | 000C:85CC:1DA7 | N/D | N/D |
+| **172.16.31.5 (172.16.31.3)** | 00D0:D311:C788 (0060.7036.2849) | 000C:85CC:1DA7 | 172.16.31.5 (172.16.31.3) | 172.16.31.2 |
+| **Switch1** | 00D0:D311:C788 (0060.7036.2849) | 000C:85CC:1DA7 | N/D | N/D |
 | **Hub** | N/D | N/D | N/D | N/D |
-| **172.16.31.2** | 00D0:D311:C788 | 000C:85CC:1DA7 | 172.16.31.5 | 172.16.31.2 |
-| **172.16.31.2** | 000C:85CC:1DA7 | 00D0:D311:C788 | 172.16.31.2 | 172.16.31.5 |
+| **172.16.31.2** | 00D0:D311:C788 (0060.7036.2849) | 000C:85CC:1DA7 | 172.16.31.5 (172.16.31.3) | 172.16.31.2 |
+| **172.16.31.2** | 000C:85CC:1DA7 | 00D0:D311:C788 (0060.7036.2849) | 172.16.31.2 | 172.16.31.5 (172.16.31.3) |
 | **Hub** | N/D | N/D | N/D | N/D |
-| **Switch1** | 000C:85CC:1DA7 | 00D0:D311:C788 | N/D | N/D |
-| **172.16.31.5** | 000C:85CC:1DA7 | 00D0:D311:C788 | 172.16.31.2 | 172.16.31.5 |
+| **Switch1** | 000C:85CC:1DA7 | 00D0:D311:C788 (0060.7036.2849) | N/D | N/D |
+| **172.16.31.5 (172.16.31.3)** | 000C:85CC:1DA7 | 00D0:D311:C788 (0060.7036.2849) | 172.16.31.2 | 172.16.31.5 (172.16.31.3) |
 
 </div>
+
+- f. Você vai notar que as informações da PDU de entrada não mudam. Na janela PDU information, clique na guia Outbound PDU Details (PDU de saída). Como o endereçamento difere, e por quê? Registre o endereçamento em sua tabela
+  - Os endereços de origem e destino são invertidos tanto no quadro (MAC) quanto no pacote (IP), pois essa PDU corresponde à resposta do ping (ICMP Echo Reply). Assim, o dispositivo que recebeu a solicitação passa a ser a origem da resposta, enquanto o host que iniciou a comunicação torna-se o destino.
+- g. Volte ao modo de Realtime.
 
 <a name="item01.02"><h4>1.2 Etapa 2: Obtenha informações adicionais sobre a PDU de outros pings.</h4></a>[Back to summary](#item00)
 
@@ -100,16 +104,16 @@ A imagem 01 mostra a topologia inicial.
 
 | Dispositivo | MAC de Origem | MAC de Destino | IPv4 Origem | IPv4 Destino |
 | :---: | :---: | :---: | :---: | :---: |
-| **172.16.31.2** | 000C:85CC:1DA7 | 0060:7036:2849 | 172.16.31.2 | 172.16.31.3 |
+| **172.16.31.2** | 000C:85CC:1DA7 | 0060:7036:2849 (00D0:D311:C788) | 172.16.31.2 | 172.16.31.3 (172.16.31.5) |
 | **Hub** | N/D | N/D | N/D | N/D |
-| **172.16.31.3** | 000C:85CC:1DA7 | 0060:7036:2849 | 172.16.31.2 | 172.16.31.3 |
-| **172.16.31.3** | 0060:7036:2849 | 000C:85CC:1DA7 | 172.16.31.3 | 172.16.31.2 |
+| **172.16.31.3 (172.16.31.5)** | 000C:85CC:1DA7 | 0060:7036:2849 (00D0:D311:C788) | 172.16.31.2 | 172.16.31.3 (172.16.31.5) |
+| **172.16.31.3 (172.16.31.5)** | 0060:7036:2849 (00D0:D311:C788) | 000C:85CC:1DA7 | 172.16.31.3 (172.16.31.5) | 172.16.31.2 |
 | **Hub** | N/D | N/D | N/D | N/D |
-| **172.16.31.2** | 0060:7036:2849 | 000C:85CC:1DA7 | 172.16.31.3 | 172.16.31.2 |
+| **172.16.31.2** | 0060:7036:2849 (00D0:D311:C788) | 000C:85CC:1DA7 | 172.16.31.3 (172.16.31.5) | 172.16.31.2 |
 
 </div>
 
-- a. Repita o processo da Etapa 1 e colete informações para os seguintes testes: Ping 172.16.31.4 de 172.16.31.5.
+- a. Repita o processo da Etapa 1 e colete informações para os seguintes testes: Ping 172.16.31.4 de 172.16.31.5 (172.16.31.3).
 
 <div align="center">
 
@@ -117,12 +121,12 @@ A imagem 01 mostra a topologia inicial.
 
 | Dispositivo | MAC de Origem | MAC de Destino | IPv4 Origem | IPv4 Destino |
 | :---: | :---: | :---: | :---: | :---: |
-| **172.16.31.4** | 000C:CF0B:BC80 | 00D0:D311:C788  | 172.16.31.4 | 172.16.31.5 |
-| **Switch1** | 000C:CF0B:BC80 | 00D0:D311:C788 | N/D | N/D |
-| **172.16.31.5** | 000C:CF0B:BC80 | 00D0:D311:C788  | 172.16.31.4 | 172.16.31.5 |
-| **172.16.31.5** | 00D0:D311:C788 | 000C:CF0B:BC80 | 172.16.31.5 | 172.16.31.4 |
-| **Switch1** | 00D0:D311:C788 | 000C:CF0B:BC80 | N/D | N/D |
-| **172.16.31.4** | 00D0:D311:C788 | 000C:CF0B:BC80 | 172.16.31.5 | 172.16.31.4 |
+| **172.16.31.4** | 000C:CF0B:BC80 | 00D0:D311:C788 (0060.7036.2849) | 172.16.31.4 | 172.16.31.5 (172.16.31.3) |
+| **Switch1** | 000C:CF0B:BC80 | 00D0:D311:C788 (0060.7036.2849)| N/D | N/D |
+| **172.16.31.5 (172.16.31.3)** | 000C:CF0B:BC80 | 00D0:D311:C788 (0060.7036.2849) | 172.16.31.4 | 172.16.31.5 (172.16.31.3) |
+| **172.16.31.5 (172.16.31.3)** | 00D0:D311:C788 (0060.7036.2849)| 000C:CF0B:BC80 | 172.16.31.5 (172.16.31.3) | 172.16.31.4 |
+| **Switch1** | 00D0:D311:C788 (0060.7036.2849)| 000C:CF0B:BC80 | N/D | N/D |
+| **172.16.31.4** | 00D0:D311:C788 (0060.7036.2849)| 000C:CF0B:BC80 | 172.16.31.5 (172.16.31.3) | 172.16.31.4 |
 
 </div>
 
@@ -135,21 +139,23 @@ A imagem 02 exibe a conclusão da Parte 1.
 
 <a name="item02"><h4>2. Parte 2: Coletar informações de PDU para comunicação remota de rede</h4></a>[Back to summary](#item00)
 
-Para se comunicar com redes remotas, é necessário um dispositivo de gateway. Estude o processo que ocorre para se comunicar com dispositivos na rede remota. Preste muita atenção aos endereços MAC usados.
+Para se comunicar com redes remotas, é necessário um dispositivo gateway. O dispositivo gateway conecta duas ou mais redes. Nesta parte, você estudará o processo que ocorre quando um dispositivo se comunica com outro dispositivo que está em uma rede remota. Preste muita atenção aos endereços MAC usados.
+
+Observação: Coloque o mouse sobre o Router. Você verá informações sobre o endereçamento das interfaces do roteador. Consulte esses endereços ao observar o fluxo de PDUs que atravessa o roteador.
 
 <a name="item02.01"><h4>2.1 Etapa 1: Reunir informações da PDU à medida que um pacote viaja de 172.16.31.5 a 10.10.10.2.</h4></a>[Back to summary](#item00)
 
-- a. Clique em 172.16.31.5 e abra o Prompt de Comando.
+- a. Clique em 172.16.31.5 (172.16.31.3) e abra o Prompt de Comando.
 - b. Insira o comando ping 10.10.10.2.
-- c. Mude para o modo de simulação e repita o comando ping 10.10.10.2. Uma PDU aparece ao lado de 172.16.31.5.
+- c. Mude para o modo de simulação e repita o comando ping 10.10.10.2. Uma PDU aparece ao lado de 172.16.31.5 (172.16.31.3).
 - d. Clique na PDU e observe as seguintes informações na guia Outbound PDU Layer (PDU das Camadas de Saída):
-  - Endereço MAC de Destino: 00D0:BA8E:741A.
-  - Endereço MAC de origem: 00D0:D311:C788.
-  - Endereço IP Origem: 172.16.31.5.
+  - Endereço MAC de Destino: 00D0:BA8E:741A (00D0:BA8E:741A).
+  - Endereço MAC de origem: 00D0:D311:C788 (0060.7036.2849).
+  - Endereço IP Origem: 172.16.31.5 (172.16.31.3).
   - Endereço IP Destino: 10.10.10.2.
-  - No Dispositivo: 172.16.31.5.
-- d. Qual dispositivo tem o MAC de destino que é mostrado?
-  - 
+  - No Dispositivo: 172.16.31.5 (172.16.31.3).
+- d. Qual dispositivo e interface tem o endereço MAC de destino mostrado?
+  - A interface do roteador FasteEthernet1/0
 - e. Clique em Capture/Forward (Capturar/Encaminhar) para mover a PDU para o próximo dispositivo. Colete as mesmas informações da Etapa 1d. Repita esse processo até que a PDU chegue ao seu destino. Registre as informações da PDU coletadas do ping 172.16.31.5 a 10.10.10.2 em uma planilha 
 usando um formato de tabela:
 
@@ -159,20 +165,20 @@ usando um formato de tabela:
 
 | Dispositivo | MAC de Origem | MAC de Destino | IPv4 Origem | IPv4 Destino |
 | :---: | :---: | :---: | :---: | :---: |
-| **172.16.31.5** | 00D0:D311:C788 | 00D0:BA8E:741A | 172.16.31.5 | 10.10.10.2 |
-| **Switch1** | 00D0:D311:C788 | 00D0:BA8E:741A | N/D | N/D |
-| **Roteador** | 00D0:D311:C788 | 00D0:BA8E:741A | 172.16.31.5 | 10.10.10.2 |
-| **Roteador** | 00D0:588C:2401 | 0060:2F84:4AB6 | 172.16.31.5 | 10.10.10.2 |
+| **172.16.31.5 (172.16.31.3)** | 00D0:D311:C788 (0060.7036.2849) | 00D0:BA8E:741A | 172.16.31.5 (172.16.31.3) | 10.10.10.2 |
+| **Switch1** | 00D0:D311:C788 (0060.7036.2849) | 00D0:BA8E:741A | N/D | N/D |
+| **Roteador** | 00D0:D311:C788 (0060.7036.2849) | 00D0:BA8E:741A | 172.16.31.5 (172.16.31.3) | 10.10.10.2 |
+| **Roteador** | 00D0:588C:2401 | 0060:2F84:4AB6 | 172.16.31.5 (172.16.31.3) | 10.10.10.2 |
 | **Switch0** | 00D0:588C:2401 | 0060:2F84:4AB6 | N/D | N/D |
 | **Ponto de Acesso** | N/D | N/D | N/D | N/D |
-| **10.10.10.2** | N/D | N/D | 172.16.31.5 | 10.10.10.2 |
-| **10.10.10.2** | N/D | N/D | 10.10.10.2 | 172.16.31.5 |
+| **10.10.10.2** | 00D0:588C:2401 | 0060:2F84:4AB6 | 172.16.31.5 (172.16.31.3) | 10.10.10.2 |
+| **10.10.10.2** | 0060:2F84:4AB6 | 00D0:588C:2401 | 10.10.10.2 | 172.16.31.5 (172.16.31.3) |
 | **Ponto de Acesso** | N/D | N/D | N/D | N/D |
 | **Switch0** | 0060:2F84:4AB6 | 00D0:588C:2401 | N/D | N/D |
-| **Roteador** | 0060:2F84:4AB6 | 00D0:588C:2401 | 10.10.10.2 | 172.16.31.5 |
-| **Roteador** | 00D0:BA8E:741A | 00D0:D311:C788 | 10.10.10.2 | 172.16.31.5 |
-| **Switch1** | 00D0:BA8E:741A | 00D0:D311:C788 | N/D | N/D |
-| **172.16.31.5** | 00D0:BA8E:741A | 00D0:D311:C788 | 10.10.10.2 | 172.16.31.5 |
+| **Roteador** | 0060:2F84:4AB6 | 00D0:588C:2401 | 10.10.10.2 | 172.16.31.5 (172.16.31.3) |
+| **Roteador** | 00D0:BA8E:741A | 00D0:D311:C788 (0060.7036.2849) | 10.10.10.2 | 172.16.31.5 (172.16.31.3) |
+| **Switch1** | 00D0:BA8E:741A | 00D0:D311:C788 (0060.7036.2849) | N/D | N/D |
+| **172.16.31.5 (172.16.31.3)** | 00D0:BA8E:741A | 00D0:D311:C788 (0060.7036.2849) | 10.10.10.2 | 172.16.31.5 (172.16.31.3) |
 
 </div>
 
@@ -230,3 +236,15 @@ Responda às perguntas a seguir sobre os dados capturados:
   - As redes IP diferentes precisam ser atribuídas a portas distintas porque a função principal do roteador é interconectar redes independentes e encaminhar o tráfego entre elas. Se ambas as portas estivessem na mesma rede, o roteador não conseguiria distinguir para qual interface enviar o pacote, perdendo sua utilidade de "ponte inteligente" que define as rotas de navegação.
 - t. O que seria diferente se a simulação fosse configurada com IPv6 em vez de IPv4?
   - Se a simulação utilizasse IPv6, a mudança mais drástica seria a substituição do protocolo ARP por mensagens de Multicast via NDP, eliminando as transmissões de broadcast que geram o "X" vermelho em dispositivos não destinados. Além disso, os endereços passariam de 32 bits decimais para 128 bits hexadecimais, mantendo a lógica de troca de cabeçalhos MAC em cada salto do roteador, mas com um processamento de cabeçalho mais simplificado e eficiente.
+- u. O endereçamento da PDU foi alterado pelo access point?
+  - Não. O Access Point apenas encaminha os quadros entre a rede cabeada e a rede sem fio, sem modificar os endereços IP ou MAC da PDU.
+- v. Em qual camada do modelo OSI os cabos e Access Points operam?
+  - Os cabos operam na Camada 1 (Física), enquanto o Access Point atua principalmente na Camada 2 (Enlace), realizando a ponte entre a rede cabeada e a rede sem fio.
+- w. Às vezes, as PDUs eram marcadas com Xs vermelhos, enquanto outras tinham marcas de seleção verdes. Qual é o significado dessas marcações?
+  - O "X" vermelho indica que a PDU foi recebida por um dispositivo que não era o destinatário e, por isso, foi descartada. A marca de seleção verde indica que a PDU foi aceita e processada corretamente.
+- x. Cada vez que a PDU foi enviada entre a rede 10 e a rede 172, havia um ponto em que os endereços MAC mudavam de repente. Onde isso aconteceu?
+  - Isso ocorreu no roteador, que substitui os endereços MAC a cada salto entre redes diferentes, mantendo os endereços IP inalterados.
+- y. Por que você acha que as interfaces do roteador fazem parte de duas redes IP diferentes?
+  - Porque cada interface do roteador pertence a uma rede distinta, permitindo o encaminhamento de pacotes entre elas.
+- z. Quais redes IP são conectadas pelo roteador?
+  - O roteador interconecta as redes 10.10.10.0/24 e 172.16.31.0/24.
