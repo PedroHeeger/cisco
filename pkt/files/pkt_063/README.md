@@ -13,7 +13,6 @@
 
 ### Used Tools:
 - Operating System (OS): 
-  - Cisco Internetwork Operating System (Cisco IOS)   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_ios.jpg" alt="cisco_ios" width="auto" height="25">
   - Windows 11 <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/windows11.png" alt="windows11" width="auto" height="25">
 - Cloud Services:
   - Google Drive <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/google_drive.png" alt="google_drive" width="auto" height="25">
@@ -33,17 +32,17 @@
 
 <h3><a name="item00">Course Strcuture:</a></h3>
 
-1. <a href="#item01">Parte 1: Entre no modo de simulação</a><br>
-2. <a href="#item02">Parte 2: Defina os Filtros da Lista de Eventos</a><br>
-3. <a href="#item03">Parte 3: Conecte dispositivos finais a dispositivos de rede</a><br>
-4. <a href="#item04">Parte 4: Instalar um roteador de backup</a><br>
-5. <a href="#item05">Parte 5: Configurar um nome de host</a><br>
-6. <a href="#item06">Parte 6: Explore o Resto da Rede</a><br>
+1. <a href="#item01">Parte 1: Entre no modo de simulação.</a><br>
+2. <a href="#item02">Parte 2: Defina os Filtros da Lista de Eventos.</a><br>
+3. <a href="#item03">Parte 3: Solicite uma página Web em um PC.</a><br>
+4. <a href="#item04">Parte 4: Execute a simulação.</a><br>
+5. <a href="#item05">Parte 5: Acesse uma PDU específica.</a><br>
+6. <a href="#item06">Parte 6: Examine o conteúdo da janela de Informações da PDU.</a><br>
 
 ---
 
 ### Objective:
-O objetivo desta atividade foi explorar o modo físico e obter uma visão geral do **Cisco Packet Tracer**, identificando diferentes dispositivos, realizando conexões com diversos tipos de cabos e acessando dispositivos intermediários para fins de configuração e gerenciamento.
+O objetivo desta atividade foi analisar o fluxo de tráfego gerado durante a comunicação entre um computador cliente e os servidor DNS e HTTP, observando todas as etapas do processo, desde a resolução de nomes (DNS) até o estabelecimento da comunicação e a troca de dados com o servidor web (HTTP).
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo do laboratório.
@@ -51,7 +50,7 @@ O objetivo desta atividade foi explorar o modo físico e obter uma visão geral 
 
 ### Development:
 
-<a name="item01"><h4>1. Parte 1: Entre no modo de simulação</h4></a>[Back to summary](#item00)
+<a name="item01"><h4>1. Parte 1: Entre no modo de simulação.</h4></a>[Back to summary](#item00)
 
 A imagem 01 mostra a topologia inicial.
 
@@ -60,52 +59,39 @@ A imagem 01 mostra a topologia inicial.
     <figcaption>Imagem 01.</figcaption>
 </figure></div><br>
 
+- a. Quando o Packet Tracer inicia, ele apresenta uma visão lógica da rede em modo de tempo real. Clique em Simulation Mode para entrar no modo de simulação. O ícone simulation mode está localizado no canto inferior direito do logical workplace.
 
+<a name="item02"><h4>2. Parte 2: Defina os Filtros da Lista de Eventos.</h4></a>[Back to summary](#item00)
 
-<a name="item02"><h4>2. Parte 2: Defina os Filtros da Lista de Eventos</h4></a>[Back to summary](#item00)
+No simulation mode, o padrão é capturar todos os eventos. Você usará os filtros somente para capturar os eventos de DNS e HTTP.
+- a. Na seção Event List Filters, clique em Show All/None para desmarcar todas as seleções.
+- b. Clique em Edit Filters. Na guia IPv4, selecione DNS. Na guia Misc, selecione HTTP. Feche a janela quando terminar. Os Event List Filters mostram o DNS e o HTTP como os únicos eventos visíveis.
 
+<a name="item03"><h4>3. Parte 3: Solicite uma página Web em um PC.</h4></a>[Back to summary](#item00)
 
+Você abrirá um navegador da Web simulado no PC e solicitará uma página Web do servidor.
+- a. Clique em PC. Clique na guia Desktop e no Web Browser.
+- b. Um navegador da Web simulado será aberto. Digite www.example.com na caixa da URL e clique no botão Go à direita. Minimize a janela do PC.
+  - `www.example.com`.
 
-A imagem 02 exibe o armário de fiação no modo físico.
+<a name="item04"><h4>4. Parte 4: Execute a simulação.</h4></a>[Back to summary](#item00)
+
+- a. Na seção Play Controls do Simulation Panel, clique Play. A troca entre o PC e o servidor é animada e os eventos são adicionados na Event List. Esses eventos representam a solicitação do PC pela resolução da URL para um endereço IP, o fornecimento do endereço IP pelo servidor, a solicitação do PC pela a página Web, o servidor enviando a página Web em dois segmentos e o reconhecimento do PC sobre a página Web.
+- b. Clique em View Previous Event (Visualizar Evento Anterior) para continuar quando o buffer estiver completo.
+
+<a name="item05"><h4>5. Parte 5: Acesse uma PDU específica.</h4></a>[Back to summary](#item00)
+
+- a. Restaure a janela simulada do PC. Observe que há uma página Web em exibição no Navegador da Web. Minimize a janela simulada do navegador.
+- b. Na seção Simulation Panel Event List, a última coluna contém uma caixa colorida que fornece acesso a informações detalhadas sobre um evento. Clique na caixa colorida na primeira linha para o primeiro evento. A janela PDU Information (janela de Informações da PDU) será aberta.
+
+A imagem 02 exibe a simulação do tráfego entre o cliente e servidor realizada com sucesso, obtendo acesso ao site.
 
 <div align="center"><figure>
     <img src="./0-aux/img02.png" alt="img02"><br>
     <figcaption>Imagem 02.</figcaption>
 </figure></div><br>
 
-<a name="item03"><h4>3. Parte 3: Conecte dispositivos finais a dispositivos de rede</h4></a>[Back to summary](#item00)
+<a name="item06"><h4>6. Parte 6: Examine o conteúdo da janela de Informações da PDU.</h4></a>[Back to summary](#item00)
 
-
-
-
-
-A imagem 03 mostra as conexões realizadas no PC_1.
-
-<div align="center"><figure>
-    <img src="./0-aux/img03.png" alt="img03"><br>
-    <figcaption>Imagem 03.</figcaption>
-</figure></div><br>
-
-<a name="item04"><h4>4. Parte 4: Instalar um roteador de backup</h4></a>[Back to summary](#item00)
-
-
-A imagem 04 evidencia a conexão via console USB estabelecida entre o Laptop_1 e o Backup_Router.
-
-<div align="center"><figure>
-    <img src="./0-aux/img04.png" alt="img04"><br>
-    <figcaption>Imagem 04.</figcaption>
-</figure></div><br>
-
-<a name="item05"><h4>5. Parte 5: Configurar um nome de host</h4></a>[Back to summary](#item00)
-
-
-
-A imagem 05 confirma que o roteador de backup possui esses dois nomes atribuídos.
-
-<div align="center"><figure>
-    <img src="./0-aux/img05.png" alt="img05"><br>
-    <figcaption>Imagem 05.</figcaption>
-</figure></div><br>
-
-<a name="item06"><h4>6. Parte 6: Explore o Resto da Rede</h4></a>[Back to summary](#item00)
-
+- a. A primeira guia na janela de informações da PDU contém informações sobre a PDU de entrada e/ou de saída com base no modelo OSI. Clique em Next Layer >> repetidamente para percorrer as camadas de inbound e outbound e leia a descrição na caixa abaixo das camadas para obter uma visão geral de como a troca funciona.
+- b. Examine as informações da PDU quanto aos outros eventos para ter um resumo de todo o processo de troca.
