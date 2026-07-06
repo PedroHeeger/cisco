@@ -33,8 +33,8 @@
 
 <h3><a name="item00">Course Strcuture:</a></h3>
 
-1. <a href="#item01">Parte 1: Entre no modo de simulação.</a><br>
-2. <a href="#item02">Parte 2: Investigar dispositivos em um armário de fiação</a><br>
+1. <a href="#item01">Parte 1: Entre no modo de simulação</a><br>
+2. <a href="#item02">Parte 2: Defina os Filtros da Lista de Eventos</a><br>
 3. <a href="#item03">Parte 3: Conecte dispositivos finais a dispositivos de rede</a><br>
 4. <a href="#item04">Parte 4: Instalar um roteador de backup</a><br>
 5. <a href="#item05">Parte 5: Configurar um nome de host</a><br>
@@ -51,7 +51,7 @@ O objetivo desta atividade foi explorar o modo físico e obter uma visão geral 
 
 ### Development:
 
-<a name="item01"><h4>1. Parte 1: Entre no modo de simulação.</h4></a>[Back to summary](#item00)
+<a name="item01"><h4>1. Parte 1: Entre no modo de simulação</h4></a>[Back to summary](#item00)
 
 A imagem 01 mostra a topologia inicial.
 
@@ -62,7 +62,7 @@ A imagem 01 mostra a topologia inicial.
 
 
 
-<a name="item02"><h4>2. Parte 2: Investigar dispositivos em um armário de fiação</h4></a>[Back to summary](#item00)
+<a name="item02"><h4>2. Parte 2: Defina os Filtros da Lista de Eventos</h4></a>[Back to summary](#item00)
 
 
 
