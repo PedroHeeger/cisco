@@ -63,15 +63,23 @@ A imagem 01 mostra a topologia inicial.
     <figcaption>Imagem 01.</figcaption>
 </figure></div><br>
 
-
+Nesta parte, você localizará o arquivo sampleFile.txt e o carregará em um servidor FTP.
 
 <a name="item01.01"><h4>1.1 Etapa 1: Localize o arquivo.</h4></a>[Back to summary](#item00)
 
-
-
+- a. Clique em PC-A
+- b. Clique em Desktop.
+- c. Clique em Command Prompt.
+- d. No prompt, clique em ? para listar os comandos disponíveis.
+- e. Insira dir para ver os arquivos no PC. Observe que há um arquivo sampleFile.txt no diretório C:.
+  - `dir`.
 
 <a name="item01.02"><h4>1.2 Etapa 2: Conecte o servidor FTP.</h4></a>[Back to summary](#item00)
 
+- a. Efetue FTP para o servidor FTP em 209.165.200.226 ou ftp.pka.
+  - `ftp 209.165.200.226` -> `ftp ftp.pka`.
+- b. Entre com username student e password class para obter accesso.
+  - `student` -> `class`.
 
 A imagem 02 exibe a criação da PDU ICMP, bem como, o processo ARP realizado.
 
@@ -83,9 +91,14 @@ A imagem 02 exibe a criação da PDU ICMP, bem como, o processo ARP realizado.
 
 <a name="item01.03"><h4>1.3 Etapa 3: Carregamento (upload) de um arquivo para um servidor FTP.</h4></a>[Back to summary](#item00)
 
-
-
-
+- a. Digite ? para ver os comandos disponíveis no cliente ftp.
+  - `?`.
+- b. Insira dir para ver os arquivos disponíveis no servidor.
+  - `dir`.
+- c. Digite put sampleFile.txt para enviar o arquivo para o servidor.
+  - `put sampleFile.txt`.
+- d. Use o comando dir novamente para listar o conteúdo do servidor FTP e verificar se o arquivo foi carregado para o servidor FTP.
+  - `dir`.
 
 <a name="item02"><h4>2. Parte 2: Baixar (download de) um arquivo de um servidor FTP.</h4></a>[Back to summary](#item00)
 
