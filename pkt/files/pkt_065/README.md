@@ -43,7 +43,6 @@
   2.2 <a href="#item02.02">Etapa 2: Baixe o arquivo do servidor FTP.</a><br>
   2.3 <a href="#item02.03">Etapa 3: Excluindo o arquivo do servidor FTP.</a><br>
 
-
 ---
 
 ### Objective:
@@ -68,10 +67,8 @@ A imagem 01 mostra a topologia inicial.
 
 <a name="item01.01"><h4>1.1 Etapa 1: Localize o arquivo.</h4></a>[Back to summary](#item00)
 
-- a. Passe o mouse sobre o host Sales 1 para ver seu endereço IP. Tome nota disso.
-  - `192.168.1.6`.
-- a. Clique em Sales 1 > guia Desktop> Command Prompt e insira o comando arp -a. Não deverá haver endereços MAC no cache ARP. Se houver entradas no cache ARP, use o comando arp -d para excluí-las.
-  - `arp -a` -> `arp -d`.
+
+
 
 <a name="item01.02"><h4>1.2 Etapa 2: Conecte o servidor FTP.</h4></a>[Back to summary](#item00)
 
@@ -95,7 +92,7 @@ A imagem 02 exibe a criação da PDU ICMP, bem como, o processo ARP realizado.
 
 <a name="item02.01"><h4>2.1 Etapa 1: Renomeie o arquivo no servidor FTP.</h4></a>[Back to summary](#item00)
 
-Os três switches são conectados entre si com cabos diretos de cobre (straight through).
+
 
 <a name="item02.02"><h4>2.2 Etapa 2: Baixe o arquivo do servidor FTP.</h4></a>[Back to summary](#item00)
 
