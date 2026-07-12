@@ -102,14 +102,22 @@ A imagem 02 exibe a criação da PDU ICMP, bem como, o processo ARP realizado.
 
 <a name="item02"><h4>2. Parte 2: Baixar (download de) um arquivo de um servidor FTP.</h4></a>[Back to summary](#item00)
 
+Você também pode baixar um arquivo de um servidor FTP. Nesta parte, você vai renomear o arquivo sampleFile.txt e baixá-lo do servidor FTP.
 
 <a name="item02.01"><h4>2.1 Etapa 1: Renomeie o arquivo no servidor FTP.</h4></a>[Back to summary](#item00)
 
-
+- a. No prompt ftp>, renomeie o arquivo sampleFile.txt para sampleFile_FTP.txt.
+  - `rename sampleFile.txt sampleFile_FTP.txt`.
+- b. No prompt ftp>, digite dir para verificar se o arquivo foi renomeado.
+  - `dir`.
 
 <a name="item02.02"><h4>2.2 Etapa 2: Baixe o arquivo do servidor FTP.</h4></a>[Back to summary](#item00)
 
-
+- a. Insira o comando get exampleFile_FTP.txt para recuperar o arquivo do servidor.
+  - `get sampleFile_FTP.txt`.
+- b. Digite quit para sair do cliente FTP quando terminar.
+  `quit`.
+- c. Exiba o conteúdo do diretório no PC novamente para ver o arquivo de imagem do servidor FTP.
 
 <div align="center"><figure>
     <img src="./0-aux/img03.png" alt="img03"><br>
@@ -119,10 +127,12 @@ A imagem 02 exibe a criação da PDU ICMP, bem como, o processo ARP realizado.
 
 <a name="item02.03"><h4>2.3 Etapa 3: Excluindo o arquivo do servidor FTP.</h4></a>[Back to summary](#item00)
 
-
-
-
-
+- a. Faça login no servidor FTP novamente para excluir o arquivo sampleFile_FTP.txt.
+  - `a`.
+- b. Insira o comando para excluir o arquivo sampleFile_FTP.txt do servidor. Qual comando você usou para remover o arquivo do servidor FTP?
+  - `delete sampleFile_FTP.txt`.
+- c. Digite quit para sair do cliente FTP quando terminar.
+  - `quit`.
 
 <div align="center"><figure>
     <img src="./0-aux/img04.png" alt="img04"><br>
