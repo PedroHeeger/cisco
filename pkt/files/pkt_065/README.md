@@ -46,7 +46,7 @@
 ---
 
 ### Objective:
-O objetivo desta atividade foi entender o funcionamento de um servidor FTP, carregando e baixando um arquivo do servidor.
+O objetivo desta atividade 
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo do laboratório.
