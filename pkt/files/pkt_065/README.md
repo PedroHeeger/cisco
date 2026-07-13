@@ -81,7 +81,8 @@ Nesta parte, você localizará o arquivo sampleFile.txt e o carregará em um ser
 - b. Entre com username student e password class para obter accesso.
   - `student` -> `class`.
 
-A imagem 02 exibe a criação da PDU ICMP, bem como, o processo ARP realizado.
+
+A imagem 02 exibe 
 
 <div align="center"><figure>
     <img src="./0-aux/img02.png" alt="img02"><br>
