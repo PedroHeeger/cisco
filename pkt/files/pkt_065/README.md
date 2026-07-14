@@ -27,8 +27,7 @@
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
   - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
-  - ipconfig   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/ipconfig.jpeg" alt="ipconfig" width="auto" height="25">
-  - ping   <img src="" alt="iputils" width="auto" height="25">
+  - ftp   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/ftp.png" alt="ftp" width="auto" height="25">
 
 ---
 
@@ -46,7 +45,7 @@
 ---
 
 ### Objective:
-O objetivo desta atividade 
+O objetivo desta atividade foi apresentar o funcionamento de um servidor de arquivos, demonstrando como acessá-lo remotamente e realizar as principais operações de gerenciamento de arquivos, incluindo upload, listagem, download e exclusão de arquivos.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo do laboratório.
@@ -71,6 +70,7 @@ Nesta parte, você localizará o arquivo sampleFile.txt e o carregará em um ser
 - b. Clique em Desktop.
 - c. Clique em Command Prompt.
 - d. No prompt, clique em ? para listar os comandos disponíveis.
+  - `?`.
 - e. Insira dir para ver os arquivos no PC. Observe que há um arquivo sampleFile.txt no diretório C:.
   - `dir`.
 
@@ -80,15 +80,6 @@ Nesta parte, você localizará o arquivo sampleFile.txt e o carregará em um ser
   - `ftp 209.165.200.226` -> `ftp ftp.pka`.
 - b. Entre com username student e password class para obter accesso.
   - `student` -> `class`.
-
-
-A imagem 02 exibe 
-
-<div align="center"><figure>
-    <img src="./0-aux/img02.png" alt="img02"><br>
-    <figcaption>Imagem 02.</figcaption>
-</figure></div><br>
-
 
 <a name="item01.03"><h4>1.3 Etapa 3: Carregamento (upload) de um arquivo para um servidor FTP.</h4></a>[Back to summary](#item00)
 
@@ -100,6 +91,13 @@ A imagem 02 exibe
   - `put sampleFile.txt`.
 - d. Use o comando dir novamente para listar o conteúdo do servidor FTP e verificar se o arquivo foi carregado para o servidor FTP.
   - `dir`.
+
+A imagem 02 comprova que o arquivo de teste foi transferido com sucesso do PC para o servidor de arquivos. 
+
+<div align="center"><figure>
+    <img src="./0-aux/img02.png" alt="img02"><br>
+    <figcaption>Imagem 02.</figcaption>
+</figure></div><br>
 
 <a name="item02"><h4>2. Parte 2: Baixar (download de) um arquivo de um servidor FTP.</h4></a>[Back to summary](#item00)
 
@@ -119,6 +117,9 @@ Você também pode baixar um arquivo de um servidor FTP. Nesta parte, você vai 
 - b. Digite quit para sair do cliente FTP quando terminar.
   `quit`.
 - c. Exiba o conteúdo do diretório no PC novamente para ver o arquivo de imagem do servidor FTP.
+  - `dir`.
+
+A imagem 03 mostra que o arquivo renomeado também foi baixado do servidor para o PC.
 
 <div align="center"><figure>
     <img src="./0-aux/img03.png" alt="img03"><br>
@@ -129,11 +130,13 @@ Você também pode baixar um arquivo de um servidor FTP. Nesta parte, você vai 
 <a name="item02.03"><h4>2.3 Etapa 3: Excluindo o arquivo do servidor FTP.</h4></a>[Back to summary](#item00)
 
 - a. Faça login no servidor FTP novamente para excluir o arquivo sampleFile_FTP.txt.
-  - `a`.
+  - `ftp ftp.pka` -> `student` -> `class`.
 - b. Insira o comando para excluir o arquivo sampleFile_FTP.txt do servidor. Qual comando você usou para remover o arquivo do servidor FTP?
   - `delete sampleFile_FTP.txt`.
 - c. Digite quit para sair do cliente FTP quando terminar.
   - `quit`.
+
+A imagem 04 evidencia que o arquivo foi excluído com sucesso do servidor de arquivos por meio do acesso remoto realizado a partir do PC.
 
 <div align="center"><figure>
     <img src="./0-aux/img04.png" alt="img04"><br>
