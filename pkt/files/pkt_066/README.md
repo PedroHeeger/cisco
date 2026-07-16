@@ -27,25 +27,24 @@
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
   - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
-  - ftp   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/ftp.png" alt="ftp" width="auto" height="25">
+  - OpenSSH   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/openssh.png" alt="openssh" width="auto" height="25">
+  - Telnet   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/telnet.png" alt="telnet" width="auto" height="25">
 
 ---
 
 <h3><a name="item00">Course Strcuture:</a></h3>
 
 1. <a href="#item01">Parte 1: Verificar a conectividade</a><br>
-  1.1 <a href="#item01.01">Etapa 1: Localize o arquivo.</a><br>
-  1.2 <a href="#item01.02">Etapa 2: Conecte o servidor FTP.</a><br>
-  1.3 <a href="#item01.03">Etapa 3: Carregamento (upload) de um arquivo para um servidor FTP.</a><br>
-2. <a href="#item02">Parte 2: Baixar (download de) um arquivo de um servidor FTP.</a><br>
-  2.1 <a href="#item02.01">Etapa 1: Renomeie o arquivo no servidor FTP.</a><br>
-  2.2 <a href="#item02.02">Etapa 2: Baixe o arquivo do servidor FTP.</a><br>
-  2.3 <a href="#item02.03">Etapa 3: Excluindo o arquivo do servidor FTP.</a><br>
+  1.1 <a href="#item01.01">Etapa 1: Verifique o endereço IP em um PC.</a><br>
+  1.2 <a href="#item01.02">Etapa 2: Verificar a conectividade com HQ.</a><br>
+2. <a href="#item02">Parte 2: Acessar um dispositivo remoto</a><br>
+  2.1 <a href="#item02.01">Etapa 1: Telnet para HQ.</a><br>
+  2.2 <a href="#item02.02">Etapa 2: SSH para HQ.</a><br>
 
 ---
 
-### Objective:
-O objetivo desta atividade foi apresentar o funcionamento de um servidor de arquivos, demonstrando como acessá-lo remotamente e realizar as principais operações de gerenciamento de arquivos, incluindo upload, listagem, download e exclusão de arquivos.
+### Objective
+O objetivo desta atividade foi demonstrar como acessar remotamente um roteador por meio dos protocolos Telnet e SSH, comparando suas funcionalidades e destacando as diferenças entre eles, especialmente em relação à segurança.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo do laboratório.
@@ -62,83 +61,47 @@ A imagem 01 mostra a topologia inicial.
     <figcaption>Imagem 01.</figcaption>
 </figure></div><br>
 
-Nesta parte, você localizará o arquivo sampleFile.txt e o carregará em um servidor FTP.
+Nesta parte, você verificará se o PC tem endereçamento IP e pode pingar o roteador remoto.
 
-<a name="item01.01"><h4>1.1 Etapa 1: Localize o arquivo.</h4></a>[Back to summary](#item00)
+<a name="item01.01"><h4>1.1 Etapa 1: Verifique o endereço IP em um PC.</h4></a>[Back to summary](#item00)
 
-- a. Clique em PC-A
-- b. Clique em Desktop.
-- c. Clique em Command Prompt.
-- d. No prompt, clique em ? para listar os comandos disponíveis.
-  - `?`.
-- e. Insira dir para ver os arquivos no PC. Observe que há um arquivo sampleFile.txt no diretório C:.
-  - `dir`.
+- a. Em um PC, clique em Desktop. Clique em Command Prompt.
+- b. No prompt, verifique se o PC possui um endereço IP do DHCP. Qual comando você usou para verificar se o endereço IP foi obtido por DHCP?
+  - `ipconfig`.
 
-<a name="item01.02"><h4>1.2 Etapa 2: Conecte o servidor FTP.</h4></a>[Back to summary](#item00)
+<a name="item01.02"><h4>1.2 Etapa 2: Verificar a conectividade com HQ.</h4></a>[Back to summary](#item00)
 
-- a. Efetue FTP para o servidor FTP em 209.165.200.226 ou ftp.pka.
-  - `ftp 209.165.200.226` -> `ftp ftp.pka`.
-- b. Entre com username student e password class para obter accesso.
-  - `student` -> `class`.
+- a. Verifique se você consegue pingar o roteador HQ usando o endereço IP listado na tabela de endereçamento.
+  - `ping 64.100.1.1`.
 
-<a name="item01.03"><h4>1.3 Etapa 3: Carregamento (upload) de um arquivo para um servidor FTP.</h4></a>[Back to summary](#item00)
-
-- a. Digite ? para ver os comandos disponíveis no cliente ftp.
-  - `?`.
-- b. Insira dir para ver os arquivos disponíveis no servidor.
-  - `dir`.
-- c. Digite put sampleFile.txt para enviar o arquivo para o servidor.
-  - `put sampleFile.txt`.
-- d. Use o comando dir novamente para listar o conteúdo do servidor FTP e verificar se o arquivo foi carregado para o servidor FTP.
-  - `dir`.
-
-A imagem 02 comprova que o arquivo de teste foi transferido com sucesso do PC para o servidor de arquivos. 
+A imagem 02 demonstra que o teste de conectividade realizado por meio do comando ping foi bem-sucedido, confirmando a comunicação entre o PC1 e o roteador.
 
 <div align="center"><figure>
     <img src="./0-aux/img02.png" alt="img02"><br>
     <figcaption>Imagem 02.</figcaption>
 </figure></div><br>
 
-<a name="item02"><h4>2. Parte 2: Baixar (download de) um arquivo de um servidor FTP.</h4></a>[Back to summary](#item00)
+<a name="item02"><h4>2. Parte 2: Acessar um dispositivo remoto</h4></a>[Back to summary](#item00)
 
-Você também pode baixar um arquivo de um servidor FTP. Nesta parte, você vai renomear o arquivo sampleFile.txt e baixá-lo do servidor FTP.
+Nesta parte, você tentará estabelecer uma conexão remota usando Telnet e SSH.
 
-<a name="item02.01"><h4>2.1 Etapa 1: Renomeie o arquivo no servidor FTP.</h4></a>[Back to summary](#item00)
+<a name="item02.01"><h4>2.1 Etapa 1: Telnet para HQ.</h4></a>[Back to summary](#item00)
 
-- a. No prompt ftp>, renomeie o arquivo sampleFile.txt para sampleFile_FTP.txt.
-  - `rename sampleFile.txt sampleFile_FTP.txt`.
-- b. No prompt ftp>, digite dir para verificar se o arquivo foi renomeado.
-  - `dir`.
+- a. No prompt, digite o comando telnet 64.100.1.1.
+  - `telnet 64.100.1.1`.
+- a. Deu certo? Qual foi a saída?
+  - Não. O comando realizou uma tentativa de conexão com o roteador, porém a sessão foi encerrada sem que o acesso fosse estabelecido. Isso indica que o serviço Telnet não está habilitado ou que o acesso por esse protocolo está bloqueado, o que é uma prática recomendada, já que o Telnet transmite os dados em texto puro, sem criptografia, tornando a comunicação vulnerável a interceptações.
 
-<a name="item02.02"><h4>2.2 Etapa 2: Baixe o arquivo do servidor FTP.</h4></a>[Back to summary](#item00)
+<a name="item02.02"><h4>2.2 Etapa 2: SSH para HQ.</h4></a>[Back to summary](#item00)
 
-- a. Insira o comando get exampleFile_FTP.txt para recuperar o arquivo do servidor.
-  - `get sampleFile_FTP.txt`.
-- b. Digite quit para sair do cliente FTP quando terminar.
-  `quit`.
-- c. Exiba o conteúdo do diretório no PC novamente para ver o arquivo de imagem do servidor FTP.
-  - `dir`.
+- a. O roteador está configurado corretamente para não permitir acesso não seguro ao Telnet. Você tem que usar o SSH. No prompt, digite o comando ssh -l admin 64.100.1.1. Entre com a senha class quando solicitado.
+  - `ssh -l admin 64.100.1.1` -> `class`.
+- a. Qual o prompt após acessar o roteador com sucesso via SSH?
+  - Com o protocolo SSH, o acesso remoto ao roteador foi estabelecido com sucesso. Após a autenticação, foi exibido o prompt *HQ#*, indicando que a conexão foi realizada corretamente e que o usuário possui acesso ao modo EXEC privilegiado do roteador.
 
-A imagem 03 mostra que o arquivo renomeado também foi baixado do servidor para o PC.
+A imagem 03 apresenta as tentativas de conexão utilizando os protocolos Telnet e SSH, evidenciando que apenas o SSH foi capaz de estabelecer uma conexão remota com o roteador.
 
 <div align="center"><figure>
     <img src="./0-aux/img03.png" alt="img03"><br>
     <figcaption>Imagem 03.</figcaption>
-</figure></div><br>
-
-
-<a name="item02.03"><h4>2.3 Etapa 3: Excluindo o arquivo do servidor FTP.</h4></a>[Back to summary](#item00)
-
-- a. Faça login no servidor FTP novamente para excluir o arquivo sampleFile_FTP.txt.
-  - `ftp ftp.pka` -> `student` -> `class`.
-- b. Insira o comando para excluir o arquivo sampleFile_FTP.txt do servidor. Qual comando você usou para remover o arquivo do servidor FTP?
-  - `delete sampleFile_FTP.txt`.
-- c. Digite quit para sair do cliente FTP quando terminar.
-  - `quit`.
-
-A imagem 04 evidencia que o arquivo foi excluído com sucesso do servidor de arquivos por meio do acesso remoto realizado a partir do PC.
-
-<div align="center"><figure>
-    <img src="./0-aux/img04.png" alt="img04"><br>
-    <figcaption>Imagem 04.</figcaption>
 </figure></div><br>
