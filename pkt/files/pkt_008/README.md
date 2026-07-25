@@ -54,7 +54,7 @@
 ---
 
 ### Objective:
-O objetivo desta atividade foi realizar a configuração básica de dois switches e estabelecer a conectividade da rede através do endereçamento IP nos ativos e nos computadores conectados. A atividade foi finalizada com a inspeção das configurações aplicadas e a validação da comunicação entre todos os dispositivos.
+O objetivo desta atividade foi realizar a configuração básica de dois switches, incluindo a configuração das interfaces de gerenciamento (SVIs) e o endereçamento IP dos quatro dispositivos da rede (dois PCs e dois switches), permitindo a comunicação entre todos os equipamentos. Ao final, foi realizada a verificação da conectividade para validar o funcionamento da rede.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo desta atividade.
@@ -76,8 +76,10 @@ A imagem 01 mostra a topologia inicial.
 <a name="item01.01"><h4>1.1 Etapa 1: Configurar S1 com um hostname.</h4></a>[Back to summary](#item00)
 
 - a. Clique em S1 e clique na guia CLI.
-- b. Digite o comando correto para configurar o hostname como S1.
-  - `enable` -> `configure terminal` -> `hostname S1`.
+- b. Entre no modo EXEC privilegiado. Em seguida, entre no modo de configuração global.
+  - `enable` -> `configure terminal`.
+- c. Configure o hostname como S1.
+  - `hostname S1`.
 
 <a name="item01.02"><h4>1.2 Etapa 2: Configure o console e as senhas criptografadas no modo EXEC privilegiado.</h4></a>[Back to summary](#item00)
 
@@ -110,7 +112,7 @@ A imagem 01 mostra a topologia inicial.
 - `config t` -> `banner motd "Only Authorized Access. Violators will face the consequences of the law."` -> `exit`.
 - `copy running-config startup-config` -> `show startup-config`.
 
-A imagem 02 exibe a conclusão da Parte 1.
+A imagem 02 apresenta trechos do arquivo de configuração inicial do Switch 2, evidenciando que as configurações básicas foram realizadas nos switches.
 
 <div align="center"><figure>
     <img src="./0-aux/img02.png" alt="img02"><br>
@@ -130,10 +132,12 @@ A imagem 02 exibe a conclusão da Parte 1.
 <a name="item02.02"><h4>2.2 Etapa 2: Testar a conectividade com os switches.</h4></a>[Back to summary](#item00)
 
 - a. Clique em PC1. Feche a janela IP Configuration (Configuração de IP) se ainda estiver aberta. Na guia Desktop, clique em Command Prompt (Prompt de comando). 
-- b. Digite o comando ping e o endereço IP para S1 e pressione Enter: `PC> ping 192.168.1.253`. Pergunta: Deu certo? Explique. 
+- b. Digite o comando ping e o endereço IP para S1 e pressione Enter.
+  - `ping 192.168.1.253`. 
+- b. Deu certo? Explique. 
   - Não, todos os pacotes foram perdidos, pois o switch ainda não possui um endereço IP configurado em uma interface VLAN para permitir comunicação de rede. Contudo, a comunicação entre os dois PCs já está funcionando, pois eles estão na mesma rede local e o switch consegue encaminhar quadros na Camada 2, mesmo sem um endereço IP configurado.
 
-A imagem 03 exibe a conclusão da Parte 2.
+A imagem 03 mostra que apesar dos PCs conseguiam se comunicar entre si, ainda não era possível acessar os switches, devido à ausência de configuração das interfaces virtuais de switch (SVIs).
 
 <div align="center"><figure>
     <img src="./0-aux/img03.png" alt="img03"><br>
@@ -149,7 +153,7 @@ A imagem 03 exibe a conclusão da Parte 2.
 - a. Os switches podem ser usados como dispositivos plug-and-play. Isso significa que não precisam ser configurados para funcionar. Os switches encaminham informações de uma porta para outra com base nos endereços MAC. Se esse é o caso, por que configurar com um endereço IP?
   - Embora o switch funcione sem configuração por operar na Camada 2 usando endereços MAC, o endereço IP não é necessário para o encaminhamento de tráfego. Ele é usado para gerenciamento remoto do switch, permitindo acesso via SSH, Telnet ou interface web. Sem IP, o gerenciamento fica restrito ao acesso local pelo console.
 - a. Use os comandos a seguir para configurar S1 com um endereço IP.
-  - `S1# configure terminal` -> `S1(config)# interface vlan 1` -> `S1(config-if)# ip address 192.168.1.253 255.255.255.0` -> `S1(config-if)# no shutdown` -> `S1(config-if)# exit` -> `S1(config)# exit`.
+  - `configure terminal` -> `interface vlan 1` -> `ip address 192.168.1.253 255.255.255.0` -> `no shutdown` -> `exit` -> `exit`.
 - a. Por que digitar o comando no shutdown? 
   - Porque, por padrão, a interface VLAN fica em estado administrativamente down, e o comando no shutdown a ativa. Sem esse comando, o endereço IP configurado não entra em operação e o switch não consegue se comunicar pela rede.
 
@@ -174,12 +178,12 @@ A imagem 03 exibe a conclusão da Parte 2.
 - b. Clique em Command Prompt (Prompt de comando). 
 - c. Faça ping no endereço IP do PC2.
   - `ping 192.168.1.2`.
-- d. Faça ping no endereço IP do S1.
+- d. Faça ping no endereço IP do S1 (PC1-S1).
   - `ping 192.168.1.253`.
-- e. Faça ping no endereço IP do S2. 
+- e. Faça ping no endereço IP do S2 (PC2-S2). 
   - `ping 192.168.1.254`.
 
-A imagem 04 exibe a conclusão da Parte 3.
+A imagem 04 demonstra que as interfaces virtuais de switch (SVIs) foram configuradas com o devido endereçamento IP, permitindo a comunicação entre os dispositivos.
 
 <div align="center"><figure>
     <img src="./0-aux/img04.png" alt="img04"><br>
