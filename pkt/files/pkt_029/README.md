@@ -55,14 +55,14 @@ Esta atividade teve como objetivo solucionar falhas de conectividade em uma infr
 
 <a name="item01"><h4>1. Parte 1: Verificar a Documentação de Rede e Isolar Problemas</h4></a>[Back to summary](#item00)
 
-Na Parte 1 desta atividade, você concluirá a documentação e executará testes de conectividade para identificar problemas. Também determinará uma solução apropriada que será implementada na Parte 2.
-
 A imagem 01 mostra a topologia inicial.
 
 <div align="center"><figure>
     <img src="./0-aux/img01.png" alt="img01"><br>
     <figcaption>Imagem 01.</figcaption>
 </figure></div><br>
+
+Na Parte 1 desta atividade, você concluirá a documentação e executará testes de conectividade para identificar problemas. Também determinará uma solução apropriada que será implementada na Parte 2.
 
 <a name="item01.01"><h4>1.1 Etapa 1: Verifique a documentação de rede e isole todos os problemas.</h4></a>[Back to summary](#item00)
 
@@ -72,24 +72,21 @@ A imagem 01 mostra a topologia inicial.
 
 #### Tabela 1 — Planejamento de Endereçamento IPv4
 
-| Dispositivo | Interface | Endereço IP | Máscara de Sub-rede | Gateway Padrão |
-| :---: | :---: | :---: | :---: | :---: |
-| **R1** | G0/0 | 192.168.10.1 | 255.255.255.0 | N/D |
-| **R1** | G0/1 | 192.168.11.1 | 255.255.255.0 | N/D |
-| **S1** | VLAN 1 | 192.168.10.2 | 255.255.255.0 | 192.168.10.1 |
-| **S2** | VLAN 1 | 192.168.11.2 | 255.255.255.0 | 192.168.11.1 |
-| **PC1** | NIC | 192.168.10.10 | 255.255.255.0 | 192.168.10.1 |
-| **PC2** | NIC | 192.168.10.11 | 255.255.255.0 | 192.168.10.1 |
-| **PC3** | NIC | 192.168.11.10 | 255.255.255.0 | 192.168.11.1 |
-| **PC4** | NIC | 192.168.11.11 | 255.255.255.0 | 192.168.11.1 |
+| Dispositivo | Interface | Endereço IP   | Máscara de Sub-rede | Gateway Padrão |
+|:-----------:|:---------:|:-------------:|:-------------------:|:--------------:|
+| **R1**      | G0/0      | 192.168.10.1  | 255.255.255.0       | N/D            |
+| **R1**      | G0/1      | 192.168.11.1  | 255.255.255.0       | N/D            |
+| **S1**      | VLAN 1    | 192.168.10.2  | 255.255.255.0       | 192.168.10.1   |
+| **S2**      | VLAN 1    | 192.168.11.2  | 255.255.255.0       | 192.168.11.1   |
+| **PC1**     | NIC       | 192.168.10.10 | 255.255.255.0       | 192.168.10.1   |
+| **PC2**     | NIC       | 192.168.10.11 | 255.255.255.0       | 192.168.10.1   |
+| **PC3**     | NIC       | 192.168.11.10 | 255.255.255.0       | 192.168.11.1   |
+| **PC4**     | NIC       | 192.168.11.11 | 255.255.255.0       | 192.168.11.1   |
 
 </div>
 
-- b. Teste a conectividade entre dispositivos da mesma rede. Ao isolar e corrigir todos os problemas de acesso local, você pode testar melhor a conectividade remota com a certeza de que a conectividade local está operacional. Um plano de verificação pode ser tão simples quanto uma lista de testes de conectividade. Utilize os testes a seguir para verificar a conectividade local e isolar todos os problemas de acesso. O primeiro 
-problema já está documentado, mas você deve executar e verificar a solução durante a Parte 2. Nota: A tabela é um exemplo; você deve criar seu próprio documento. Você pode usar papel e lápis para desenhar uma tabela ou usar um editor de texto ou uma planilha. Consulte seu instrutor caso precise de orientações adicionais. 
-
-- c. Teste a conectividade com dispositivos remotos (de PC1 a PC4, por exemplo) e documente eventuais problemas. Isso é conhecido como conectividade de ponta a ponta. Significa que todos os dispositivos em uma rede têm conectividade total permitida pela política de rede. 
-Nota: O teste de conectividade remota pode ainda não ser possível, porque você deve primeiro resolver os problemas de conectividade local. Depois de resolver esses problemas, volte a esta etapa e teste a conectividade entre redes.
+- b. Teste a conectividade entre dispositivos da mesma rede. Ao isolar e corrigir todos os problemas de acesso local, você pode testar melhor a conectividade remota com a certeza de que a conectividade local está operacional. Um plano de verificação pode ser tão simples quanto uma lista de testes de conectividade. Utilize os testes a seguir para verificar a conectividade local e isolar todos os problemas de acesso. O primeiro problema já está documentado, mas você deve executar e verificar a solução durante a Parte 2. Nota: A tabela é um exemplo; você deve criar seu próprio documento. Você pode usar papel e lápis para desenhar uma tabela ou usar um editor de texto ou uma planilha. Consulte seu instrutor caso precise de orientações adicionais. 
+- c. Teste a conectividade com dispositivos remotos (de PC1 a PC4, por exemplo) e documente eventuais problemas. Isso é conhecido como conectividade de ponta a ponta. Significa que todos os dispositivos em uma rede têm conectividade total permitida pela política de rede. Nota: O teste de conectividade remota pode ainda não ser possível, porque você deve primeiro resolver os problemas de conectividade local. Depois de resolver esses problemas, volte a esta etapa e teste a conectividade entre redes.
 
 <a name="item01.02"><h4>1.2 Etapa 2: Determine uma solução apropriada para o problema.</h4></a>[Back to summary](#item00)
 
@@ -99,16 +96,18 @@ Nota: O teste de conectividade remota pode ainda não ser possível, porque voc�
 
 <div align="center">
 
-| Teste | Efetuado com êxito? | Problemas | Solução | Verificado |
-| :---: | :---: | :---: | :---: | :---: |
-| **PC1 a PC2** | Não | Endereço IP em PC1 | Alterar o endereço IP de PC1 | OK |
-| **PC1 a S1** | Sim | Gateway Padrão não configurado no S1 | Configurar Gateway Padrão no S1 | OK |
-| **PC1 a R1 (G0/0)** | Sim | - | - | - |
-| **PC1 a R1 (G0/1)** | Sim | - | - | - |
-| **PC1 a S2** | Não | Interface VLAN 1 do S2 sem IP | Configurar IP na VLAN 1 do S2 | OK |
-| **PC1 a S2** | Não | Gateway Padrão não configurado no S2 | Configurar Gateway Padrão no S2 | OK |
-| **PC1 a PC3** | Sim | - | - | - ||
-| **PC1 a PC4** | Não | Gateway Padrão do PC4 | Alterar o Gateway Padrão do PC4 | OK |
+#### Tabela 2 — Testes de Conectividade e Correções
+
+| Teste                | Efetuado com êxito? | Problemas                            | Solução                         | Verificado |
+|:--------------------:|:-------------------:|:------------------------------------:|:-------------------------------:|:----------:|
+| **PC1 a PC2**        | Não                 | Endereço IP em PC1                   | Alterar o endereço IP de PC1    | OK         |
+| **PC1 a S1**         | Sim                 | Gateway Padrão não configurado no S1 | Configurar Gateway Padrão no S1 | OK         |
+| **PC1 a R1 (G0/0)**  | Sim                 | -                                    | -                               | -          |
+| **PC1 a R1 (G0/1)**  | Sim                 | -                                    | -                               | -          |
+| **PC1 a S2**         | Não                 | Interface VLAN 1 do S2 sem IP        | Configurar IP na VLAN 1 do S2   | OK         |
+| **PC1 a S2**         | Não                 | Gateway Padrão não configurado no S2 | Configurar Gateway Padrão no S2 | OK         |
+| **PC1 a PC3**        | Sim                 | -                                    | -                               | -          |
+| **PC1 a PC4**        | Não                 | Gateway Padrão do PC4                | Alterar o Gateway Padrão do PC4 | OK         |
 
 </div>
 
@@ -136,7 +135,7 @@ Na Parte 2 desta atividade, você implementará as soluções que identificou na
 - a. Se você ainda tiver um problema pendente com uma solução que não tenha sido implementada, retorne à Parte 2, Etapa 1.
 - b. Caso todos os problemas atuais estejam resolvidos, você também resolveu algum problema de conectividade remota (por exemplo, PC1 poder fazer ping em PC4)? Se a resposta for não, retorne à Parte 1, Etapa 1c, para testar a conectividade remota.
 
-A imagens 02 e 03 exibem a conclusão das Partes 1 e 2.
+A imagens 02 e 03 apresentam a correção do endereço do gateway padrão no PC4 e a configuração da interface virtual (SVI) do switch S2, além dos testes de conectividade realizados a partir do PC1 para ambos os dispositivos, evidenciando o restabelecimento da comunicação na rede.
 
 <div align="center"><figure>
     <img src="./0-aux/img02.png" alt="img02"><br>
