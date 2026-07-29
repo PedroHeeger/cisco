@@ -28,6 +28,7 @@
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
   - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - OpenSSH   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/openssh.png" alt="openssh" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -71,7 +72,7 @@ A imagem 01 mostra a topologia inicial.
 - c. Configure os nomes de dispositivo conforme mostrado na Tabela de Endereçamento e na Topologia.
 - d. Ligue todos os dispositivos.
 
-A imagem 02 exibe a conclusão da Parte 1.
+A imagem 02 apresenta os dispositivos devidamente cabeados e identificados com suas respectivas nomenclaturas.
 
 <div align="center"><figure>
     <img src="./0-aux/img02.png" alt="img02"><br>
@@ -129,8 +130,17 @@ necessários para executar este comando.
 - n. A partir de uma janela de comando prompt no PC-A, ping PC-B. Observação: se os pings não forem bem-sucedidos, talvez seja necessário desativar o Firewall do 
 Windows. Os pings foram bem-sucedidos? Explique. 
   - `ping 192.168.0.3`.
+- n0. Em R1, configure o nome de domínio como academy.net.
+  - `cisco` -> `enable` -> `class` -> `configure terminal`.
+  - `ip domain name academy.net`.
+- n0. Generate RSA keys com um comprimento de chave de 1024.
+  - `crypto key generate rsa` -> `1024`.
+- n0. Crie um usuário com SSHuser como o nome do usuário e cisco como a senha secreta.
+  - `username SSHuser secret cisco`.
+- n0. Configure as linhas VTY para usar o banco de dados local de nome de usuários para as credenciais de login. As linhas de VTY só devem permitir acesso remoto via SSH.
+  - `line vty 0 15` -> `login local` -> `transport input ssh` -> `end`.
 
-A imagem 03 exibe a conclusão até essa etapa da Parte 2.
+A imagem 03 evidencia a configuração básica do roteador e o endereçamento IP de suas interfaces, demonstrando também a comunicação entre os dois PCs através de um teste de conectividade utilizando o comando ping.
 
 <div align="center"><figure>
     <img src="./0-aux/img03.png" alt="img03"><br>
@@ -147,8 +157,16 @@ Nesta etapa, você configurará o nome do host, a interface VLAN 1 e seu gateway
   - `configure terminal`.
 - c. Atribua um nome de dispositivo ao comutador.
   - `hostname S1`.
+- d0. Atribua class como a senha criptografada do EXEC privilegiado.
+  - `enable secret class`.
+- d0. Atribua cisco como a senha do console e ativar o login.
+  - `line console 0` -> `password cisco` -> `login` -> `exit`.
+- d0. Criptografe as senhas de texto sem formatação.
+  - `service password-encryption`.
+- d0. Crie um banner para avisar às pessoas que o acesso não autorizado é proibido.
+  - `banner motd #O acesso nao autorizado e proibido#`
 - d. Configure e ative a interface VLAN no switch S1.
-  - `interface vlan 1` -> `ip address 192.168.1.2 255.255.255.0` -> `no shutdown`.
+  - `interface vlan 1` -> `ip address 192.168.1.2 255.255.255.0` -> `no shutdown` -> `exit`.
 - e. Configure o gateway padrão para o switch S1.
   - `ip default-gateway 192.168.1.1` -> `exit`.
 - f. Salve a configuração atual no arquivo de configuração inicial.
@@ -160,8 +178,10 @@ Nesta etapa, você configurará o nome do host, a interface VLAN 1 e seu gateway
   - `ping 192.168.0.3`.
 - b. De S1, ping PC-B. Todos os pings devem ser bem sucedidos.
   - `ping 192.168.0.3`.
+- b0. Em PCA ou PCB, use o prompt de comando para estabelecer uma sessão segura com R1. No prompt, use o comando ssh.
+  - `ssh -l SSHuser 192.168.1.1` -> `cisco`.
 
-A imagem 04 exibe a conclusão da Parte 2.
+A imagem 04 exibe o acesso ao switch realizado pelo PC-A através do cabo de console, evidenciando também o teste de conectividade realizado pelo switch com o PC-B.
 
 <div align="center"><figure>
     <img src="./0-aux/img04.png" alt="img04"><br>
@@ -172,19 +192,19 @@ A imagem 04 exibe a conclusão da Parte 2.
 
 <a name="item03.01"><h4>3.1 Etapa 1: Exiba a tabela de roteamento no roteador.</h4></a>[Back to summary](#item00)
 
-- a. Use o comando `show ip route` no roteador R1 para responder às seguintes perguntas. Qual código é usado na tabela de roteamento para indicar uma rede diretamente conectada?
+- a. Use o comando show ip route no roteador R1 para responder às seguintes perguntas. Qual código é usado na tabela de roteamento para indicar uma rede diretamente conectada?
   - `show ip route`.
   - O código utilizado na tabela de roteamento para indicar uma rede diretamente conectada é a letra C. Esse código significa Connected, indicando que a rede está diretamente ligada ao roteador.
 - a. Quantas entradas de rotas são codificadas com um código C na tabela de roteamento?
   - Existem duas entradas de rotas marcadas com o código C na tabela de roteamento. Isso indica que o roteador possui duas redes diretamente conectadas.
 - a. Que tipos de interface são associados às rotas com código C?
   - As rotas com código C estão associadas às interfaces diretamente conectadas e ativas no roteador. Neste caso, correspondem às interfaces G0/0/0 (192.168.0.0/24) e G0/0/1 (192.168.1.0/24).
-- b. Use o comando `show ipv6 route` em R1 para exibir a tabela de roteamento IPv6.
+- b. Use o comando show ipv6 route em R1 para exibir a tabela de roteamento IPv6.
   - `show ipv6 route`.
 
 <a name="item03.02"><h4>3.2 Etapa 2: Exiba informações das interfaces de R1.</h4></a>[Back to summary](#item00)
 
-- a. Use o `show interface g0/1` para responder às perguntas a seguir.
+- a. Use o show interface g0/1 para responder às perguntas a seguir.
   - `show interface g0/0/1`.
 - a. Qual é o status operacional da interface G0/0/1?
   - O status operacional da interface G0/0/1 está ativo (up). Isso indica que a interface está funcionando e pronta para transmitir dados.
@@ -192,21 +212,21 @@ A imagem 04 exibe a conclusão da Parte 2.
   - O endereço MAC da interface G0/0/1 é 0060.4731.8102. Esse endereço identifica fisicamente a interface na rede.
 - a. Como o endereço Internet é exibido nesse comando?
   - O endereço de Internet é exibido no formato IP/prefixo de rede. Neste caso, aparece como 192.168.1.1/24.
-- b. Para obter informações sobre IPv6, insira o comando `show ipv6 interface g0/0/1`.
+- b. Para obter informações sobre IPv6, insira o comando show ipv6 interface g0/0/1.
   - `show ipv6 interface g0/0/1`.
 
 <a name="item03.03"><h4>3.3 Etapa 3: Exiba uma lista resumida das interfaces no roteador e no switch.</h4></a>[Back to summary](#item00)
 
-Existem vários comandos que podem ser usados para verificar uma configuração de interface. Um dos mais úteis é o comando `show ip interface brief`. A saída do comando exibe uma lista resumida das interfaces no dispositivo e fornece feedback imediato para o status de cada interface.
+Existem vários comandos que podem ser usados para verificar uma configuração de interface. Um dos mais úteis é o comando show ip interface brief. A saída do comando exibe uma lista resumida das interfaces no dispositivo e fornece feedback imediato para o status de cada interface.
 
-- a. Digite o comando `show ip interface brief` no roteador R1.
+- a. Digite o comando show ip interface brief no roteador R1.
   - `show ip interface brief`.
-- b. Para ver as informações da interface IPv6, digite o comando `show ipv6 interface brief` em R1.
+- b. Para ver as informações da interface IPv6, digite o comando show ipv6 interface brief em R1.
   - `show ipv6 interface brief`.
-- c. Insira o comando `show ip interface brief` no switch S1.
+- c. Insira o comando show ip interface brief no switch S1.
   - `show ip interface brief`.
 
-A imagem 05 exibe a conclusão da Parte 3.
+A imagem 05 mostra as interfaces do switch e do roteador devidamente configuradas, com ambos os dispositivos sendo acessados via cabo de console pelos respectivos PCs, PC-A e PC-B.
 
 <div align="center"><figure>
     <img src="./0-aux/img05.png" alt="img05"><br>
