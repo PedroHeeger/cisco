@@ -53,7 +53,7 @@
 ---
 
 ### Objective:
-Esta atividade visou a configuração de endereços IPv6 em dispositivos finais e intermediários, seguida da verificação de conectividade fim-a-fim para garantir o pleno funcionamento da rede.
+Esta atividade visou a configuração de endereçamento IPv6 em dispositivos finais e intermediários, seguida da verificação de conectividade fim-a-fim para garantir o pleno funcionamento da rede.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo do laboratório.
@@ -117,7 +117,7 @@ A imagem 01 mostra a topologia inicial.
 - d. Salve a configuração do roteador na NVRAM.
   - `copy running-config startup-config`.
 
-A imagem 02 mostra o roteador devidamente configurado e as configurações copiadas para NVRAM.
+A imagem 02 mostra o roteador com suas interfaces devidamente configuradas, além da confirmação de que a configuração foi salva na memória NVRAM.
 
 <div align="center"><figure>
     <img src="./0-aux/img02.png" alt="img02"><br>
@@ -136,9 +136,8 @@ A imagem 02 mostra o roteador devidamente configurado e as configurações copia
 
 <a name="item02.02"><h4>2.2 Etapa 2: Configure o endereçamento IPv6 no servidor CAD.</h4></a>[Back to summary](#item00)
 
-Configure o servidor CAD com endereços como foi feito na Etapa 1. Consulte o endereço IPv6 na Tabela de Endereçamento.
-
-- `2001:db8:1:2::4` -> `/64` -> `fe80::1`.
+- a. Configure o servidor CAD com endereços como foi feito na Etapa 1. Consulte o endereço IPv6 na Tabela de Endereçamento.
+  - `2001:db8:1:2::4` -> `/64` -> `fe80::1`.
 
 A imagem 03 comprova que os endereçamentos IPv6 foram devidamente configurados nos servidores.
 
@@ -169,7 +168,7 @@ A imagem 03 comprova que os endereçamentos IPv6 foram devidamente configurados 
 - d. Repita as etapas 2a a 2c para Design. Consulte o endereço IPv6 na Tabela de Endereçamento.
   - `2001:db8:1:2::2` -> `/64` -> `fe80::1`.
 
-A imagem 04 exibe os dispositivos clientes configurados conforme solicitado.
+A imagem 04 exibe os dispositivos clientes com endereçamento IPv6 configurados conforme solicitado.
 
 <div align="center"><figure>
     <img src="./0-aux/img04.png" alt="img04"><br>
