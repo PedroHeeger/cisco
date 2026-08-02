@@ -86,27 +86,27 @@ A imagem 01 mostra a topologia inicial.
 
 #### Tabela 1 — Planejamento de Endereçamento IPv4 e IPv6
 
-| Dispositivo | Interface | Tipo IP | Endereço IP | Prefixo | Gateway padrão |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| R1 | G0/1 | IPv4 | 10.10.1.97 | /27 (255.255.255.224) | N/A |
-| R1 | G0/0 | IPv6 | 2001:DB8:1:1::1 | /64 | N/A |
-| R1 | S0/0/1 | IPv4 | 10.10.1.6 | /30 (255.255.255.252) | N/A |
-| R1 | S0/0/1 | IPv6 | 2001:DB8:1:2::2 | /64 | N/A |
-| R1 | S0/0/1 | IPv6 (Link Local) | FE80::1 | - | N/A |
-| R2 | S0/0/0 | IPv4 | 10.10.1.5 | /30 (255.255.255.252) | N/A |
-| R2 | S0/0/0 | IPv6 | 2001:DB8:1:2::1 | /64 | N/A |
-| R2 | S0/0/1 | IPv4 | 10.10.1.9 | /30 (255.255.255.252) | N/A |
-| R2 | S0/0/1 | IPv6 | 2001:DB8:1:3::1 | /64 | N/A |
-| R2 | S0/0/1 | IPv6 (Link Local) | FE80::2 | - | N/A |
-| R3 | S0/0/1 | IPv4 | 10.10.1.10 | /30 (255.255.255.252) | N/A |
-| R3 | S0/0/1 | IPv6 | 2001:DB8:1:3::2 | /64 | N/A |
-| R3 | S0/0/1 | IPv6 (Link Local) | FE80::3 | - | N/A |
-| R3 | G0/1 | IPv4 | 10.10.1.17 | /28 (255.255.255.240) | N/A |
-| R3 | G0/0 | IPv6 | 2001:DB8:1:4::1 | /64 | N/A |
-| PC1 | NIC | IPv4 | 10.10.1.98 | /27 (255.255.255.224) | 10.10.1.97 |
-| PC3 | NIC | IPv4 | 10.10.1.18 | /28 (255.255.255.240) | 10.10.1.17 |
-| PC2 | NIC | IPv6 | 2001:DB8:1:1::2 | /64 | FE80::1 |
-| PC4 | NIC | IPv6 | 2001:DB8:1:4::2 | /64 | FE80::2 |
+| Dispositivo | Interface |      Tipo IP      | Endereço IP     | Prefixo               | Gateway Padrão |
+|:-----------:|:---------:|:-----------------:|:---------------:|:---------------------:|:--------------:|
+| R1          | G0/1      | IPv4              | 10.10.1.97      | /27 (255.255.255.224) | N/A            |
+| R1          | G0/0      | IPv6              | 2001:DB8:1:1::1 | /64                   | N/A            |
+| R1          | S0/0/1    | IPv4              | 10.10.1.6       | /30 (255.255.255.252) | N/A            |
+| R1          | S0/0/1    | IPv6              | 2001:DB8:1:2::2 | /64                   | N/A            |
+| R1          | S0/0/1    | IPv6 (Link Local) | FE80::1         | -                     | N/A            |
+| R2          | S0/0/0    | IPv4              | 10.10.1.5       | /30 (255.255.255.252) | N/A            |
+| R2          | S0/0/0    | IPv6              | 2001:DB8:1:2::1 | /64                   | N/A            |
+| R2          | S0/0/1    | IPv4              | 10.10.1.9       | /30 (255.255.255.252) | N/A            |
+| R2          | S0/0/1    | IPv6              | 2001:DB8:1:3::1 | /64                   | N/A            |
+| R2          | S0/0/1    | IPv6 (Link Local) | FE80::2         | -                     | N/A            |
+| R3          | S0/0/1    | IPv4              | 10.10.1.10      | /30 (255.255.255.252) | N/A            |
+| R3          | S0/0/1    | IPv6              | 2001:DB8:1:3::2 | /64                   | N/A            |
+| R3          | S0/0/1    | IPv6 (Link Local) | FE80::3         | -                     | N/A            |
+| R3          | G0/1      | IPv4              | 10.10.1.17      | /28 (255.255.255.240) | N/A            |
+| R3          | G0/0      | IPv6              | 2001:DB8:1:4::1 | /64                   | N/A            |
+| PC1         | NIC       | IPv4              | 10.10.1.98      | /27 (255.255.255.224) | 10.10.1.97     |
+| PC3         | NIC       | IPv4              | 10.10.1.18      | /28 (255.255.255.240) | 10.10.1.17     |
+| PC2         | NIC       | IPv6              | 2001:DB8:1:1::2 | /64                   | FE80::1        |
+| PC4         | NIC       | IPv6              | 2001:DB8:1:4::2 | /64                   | FE80::2        |
 
 </div>
 
@@ -163,7 +163,7 @@ A imagem 01 mostra a topologia inicial.
 
 <a name="item01.06"><h4>1.6 Etapa 6: Documente a solução.</h4></a>[Back to summary](#item00)
 
-A imagem 02 exibe a conclusão da Parte 1.
+A imagem 02 apresenta as tabelas de roteamento dos roteadores, onde foi identificado o problema, além da correção do endereçamento IP da rota incorreta no roteador R2 e dos testes de conectividade entre os PCs, confirmando o restabelecimento da comunicação por meio dessas rotas.
 
 <div align="center"><figure>
     <img src="./0-aux/img02.png" alt="img02"><br>
@@ -205,7 +205,7 @@ A imagem 02 exibe a conclusão da Parte 1.
 <a name="item02.03"><h4>2.3 Etapa 3: Proponha uma solução para resolver o problema.</h4></a>[Back to summary](#item00)
 
 - a. Compare suas respostas na Etapa 2 com a documentação que está disponível para a rede. Qual é o erro?
-  - Ao comparar as configurações, foi identificado que o gateway padrão no PC4 estava incorreto. O host estava configurado com o endereço de link-local fe80::2, enquanto a interface G0/0 do roteador R3 (seu gateway real) utiliza o endereço fe80::3. Essa divergência impedia o host de encaminhar pacotes para fora de sua rede local."
+  - Ao comparar as configurações, foi identificado que o gateway padrão no PC4 estava incorreto. O host estava configurado com o endereço de link-local fe80::2, enquanto a interface G0/0 do roteador R3 (seu gateway real) utiliza o endereço fe80::3. Essa divergência impedia o host de encaminhar pacotes para fora de sua rede local.
 - b. Que solução você sugeriria para corrigir o problema?
   - A solução é atualizar o gateway padrão do PC4, alterando o endereço de link-local de fe80::2 para fe80::3. Isso garante que o host aponte corretamente para a interface do roteador R3, restabelecendo a saída de dados para outras redes.
 
@@ -225,7 +225,7 @@ A imagem 02 exibe a conclusão da Parte 1.
 
 <a name="item02.06"><h4>2.6 Etapa 6: Documente a solução.</h4></a>[Back to summary](#item00)
 
-A imagem 03 exibe a conclusão da Parte 2.
+A imagem 03 comprova que, após a correção do endereço do gateway padrão no PC4, a comunicação entre os dois PCs foi restabelecida com sucesso.
 
 <div align="center"><figure>
     <img src="./0-aux/img03.png" alt="img03"><br>
