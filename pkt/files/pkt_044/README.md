@@ -1,10 +1,10 @@
-# Packet Tracer: Comunicações TCP e UDP   <img src="./0-aux/logo_course.png" alt="pkt_044" width="auto" height="45">
+# Packet Tracer - Comunicações TCP e UDP   <img src="./0-aux/logo_course.png" alt="pkt_044" width="auto" height="45">
 
 ### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
 ### Training Category: <a href="../../../pkt/">pkt</a>
 ### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
-### Course: <a href="./">pkt_044 (Packet Tracer: Comunicações TCP e UDP)   <img src="./0-aux/logo_course.png" alt="pkt_044" width="auto" height="25"></a>
+### Course: <a href="./">pkt_044 (Packet Tracer - Comunicações TCP e UDP)   <img src="./0-aux/logo_course.png" alt="pkt_044" width="auto" height="25"></a>
 
 ---
 
@@ -27,6 +27,8 @@
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
   - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
+  - ftp   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/ftp.png" alt="ftp" width="auto" height="25">
+  - nslookup   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/nslookup.webp" alt="nslookup" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
 ---
@@ -128,7 +130,7 @@ Agora você usará o botão Capturar/Avançar no Painel de Simulação para obse
 - b. Uma variedade de PDUs aparece na lista de eventos no Painel de Simulação. Qual é o significado das diferentes cores?
   - As diferentes cores das PDUs representam os diferentes protocolos de rede que estão sendo transmitidos (como TCP, HTTP, FTP, DNS e SMTP), facilitando a identificação visual e a distinção de cada tipo de tráfego enquanto ele atravessa os dispositivos no simulador.
 
-A imagem 03 exibe a conclusão da Parte 1.
+A imagem 03 exibe o painel de simulação exibindo o tráfego das PDUs geradas durante a comunicação entre os dispositivos na rede.
 
 <div align="center"><figure>
     <img src="./0-aux/img03.png" alt="img03"><br>
@@ -144,6 +146,7 @@ A imagem 03 exibe a conclusão da Parte 1.
 - b. Clique em Editar filtros e alterne o botão Mostrar tudo/nenhum.
 - b. Selecione HTTP e TCP. Clique no “x” vermelho no canto superior direito da caixa Editar filtros para fechá-lo. Eventos visíveis agora devem exibir apenas PDUs HTTP e TCP.
 - c. Abra o navegador no Cliente HTTP e digite 192.168.1.254 no campo URL. Clique em Ir para conectar-se ao servidor por HTTP. Minimize a janela do cliente HTTP.
+  - `192.168.1.254`.
 - d. Clique em Capturar/Encaminhar até ver uma PDU aparecer para HTTP. Observe que a cor do envelope na janela de topologia corresponde ao código de cor da PDU HTTP no Painel de simulação.
 - d. Por que demorou tanto para a PDU HTTP aparecer?
   - A demora ocorre porque o protocolo TCP precisa estabelecer uma conexão confiável antes de enviar os dados do HTTP. Esse processo é chamado de Three-Way Handshake (Sincronização de Três Vias), onde PDUs de controle (SYN, SYN-ACK e ACK) são trocadas entre o cliente e o servidor para abrir a sessão, e somente após essa etapa o protocolo HTTP pode iniciar a transferência da página web.
