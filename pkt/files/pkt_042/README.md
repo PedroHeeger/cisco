@@ -74,17 +74,18 @@ A imagem 01 mostra a topologia inicial.
 
 #### Tabela 1 — Teste de Conectividade
 
-| Origem | Destino | Comando | Status |
-| :---: | :---: | :---: | :---: |
-| PC-1 | PC-1 | `ping 10.10.1.10` | Sucesso |
-| PC-1 | Laptop A | `ping 10.10.1.20` | Sucesso |
-| PC-1 | PC-4 | `ping 10.10.5.10` | Inacessível |
-| PC-1 | Server 1 | `ping 10.10.5.20` | Inacessível |
-| PC-1 | Servidor Corporativo | `ping 203.0.113.100` | Sucesso |
-| Laptop C | PC-2 | `ping 2001:db8:1::10` | Inacessível |
-| Laptop C | PC-3 | `ping 2001:db8:1::20` | Inacessível |
-| Laptop C | Laptop B | `ping 2001:db8:5::10` | Sucesso |
-| Laptop C | Laptop C | `ping 2001:db8:5::20` | Sucesso |
+
+| Origem   |       Destino        | Comando                   |   Status    |
+|:--------:|:--------------------:|:-------------------------:|:-----------:|
+| PC-1     | PC-1                 | `ping 10.10.1.10`         | Sucesso     |
+| PC-1     | Laptop A             | `ping 10.10.1.20`         | Sucesso     |
+| PC-1     | PC-4                 | `ping 10.10.5.10`         | Inacessível |
+| PC-1     | Server 1             | `ping 10.10.5.20`         | Inacessível |
+| PC-1     | Servidor Corporativo | `ping 203.0.113.100`      | Sucesso     |
+| Laptop C | PC-2                 | `ping 2001:db8:1::10`     | Inacessível |
+| Laptop C | PC-3                 | `ping 2001:db8:1::20`     | Inacessível |
+| Laptop C | Laptop B             | `ping 2001:db8:5::10`     | Sucesso     |
+| Laptop C | Laptop C             | `ping 2001:db8:5::20`     | Sucesso     |
 | Laptop C | Servidor Corporativo | `ping 2001:db8:acad::100` | Inacessível |
 
 </div>
@@ -93,13 +94,13 @@ A imagem 01 mostra a topologia inicial.
 
 #### Tabela 2 — Rastreio de Conectividade
 
-| Ordem | Origem | Destino | Comando | Salto | Dispositivo | Problema | 
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | PC-1 | PC-4 | `tracert 10.10.5.10` | 3º Salto | PC-4 | Gateway Padrão incorreto (não aponta para RTR-3) |
-| 2 | PC-1 | Server 1 | `tracert 10.10.5.20` | 3º Salto | Server 1 | Falha na atribuição de IP (serviço DHCP não configurado) |
-| 3 | Laptop C | PC-2 | `tracert 2001:db8:1::10` | 1º Salto | RTR-3 G0/0/1 | Interface com endereço de IP incorreto |
-| 4 | Laptop C | PC-3 | `tracert 2001:db8:1::20` | 1º Salto | RTR-3 G0/0/1 | Interface com endereço de IP incorreto |
-| 5 | Laptop C | Servidor Corporativo | `tracert 2001:db8:acad::100` | 1º Salto | RTR-3 G0/0/1 | Interface com endereço de IP incorreto |
+| Ordem | Origem   | Destino        | Comando                      | Salto | Dispositivo  | Problema                                         | 
+|:-----:|:--------:|:--------------:|:----------------------------:|:-----:|:------------:|:------------------------------------------------:|
+| 1     | PC-1     | PC-4           | `tracert 10.10.5.10`         | 3º    | PC-4         | Gateway Padrão incorreto (não aponta para RTR-3) |
+| 2     | PC-1     | Server 1       | `tracert 10.10.5.20`         | 3º    | Server 1     | Falha na atribuição de IP (DHCP não configurado) |
+| 3     | Laptop C | PC-2           | `tracert 2001:db8:1::10`     | 1º    | RTR-3 G0/0/1 | Interface com endereço de IP incorreto           |
+| 4     | Laptop C | PC-3           | `tracert 2001:db8:1::20`     | 1º    | RTR-3 G0/0/1 | Interface com endereço de IP incorreto           |
+| 5     | Laptop C | Servidor Corp. | `tracert 2001:db8:acad::100` | 1º    | RTR-3 G0/0/1 | Interface com endereço de IP incorreto           |
 
 </div>
 
@@ -109,7 +110,7 @@ A imagem 01 mostra a topologia inicial.
 - 2 - Alterar para endereçamento IP estático: `10.10.5.20` -> `255.255.255.0` -> `10.10.5.1`.
 - 3, 4 e 5 - Alterar o endereço de IP da interface G0/0/1 do roteador RTR-3: `enable` -> `configure terminal` -> `interface g0/0/1` -> `no ipv6 address 2001:db8:6::1/64` -> `ipv6 address 2001:db8:5::1/64` -> `exit`.
 
-A imagem 02 mostra que os últimos três erros foram corrigidos.
+A imagem 02 evidencia os testes de conectividade realizados a partir do Laptop C com os dispositivos que apresentavam problemas de comunicação, confirmando a correção das falhas e o restabelecimento da conectividade na rede.
 
 <div align="center"><figure>
     <img src="./0-aux/img02.png" alt="img02"><br>
