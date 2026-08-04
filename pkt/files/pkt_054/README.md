@@ -52,7 +52,7 @@
 ---
 
 ### Objective:
-O objetivo desta atividade foi obter uma visão geral do **Cisco Packet Tracer**, identificando diferentes dispositivos, compreendendo como eles se comunicam, analisando a tabela ARP, a tabela de rotas e verificando o funcionamento de servidores DHCP, DNS e FTP.
+O objetivo desta atividade foi praticar comandos de diagnóstico de rede para solucionar problemas de conectividade e serviços. Isso inclui coletar informações de IP e gateway, verificar tabelas ARP e rotas, usar DNS com nslookup, e inspecionar conexões FTP/HTTP com netstat.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo do laboratório.
