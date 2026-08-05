@@ -42,7 +42,7 @@
 ---
 
 ### Objective:
-O objetivo desta atividade foi analisar o fluxo de tráfego gerado durante a comunicação entre um computador cliente e os servidor DNS e HTTP, observando todas as etapas do processo, desde a resolução de nomes (DNS) até o estabelecimento da comunicação e a troca de dados com o servidor web (HTTP).
+O objetivo desta atividade foi analisar o fluxo de tráfego gerado durante a comunicação entre um computador cliente e o servidor DNS e HTTP, observando todas as etapas do processo, desde a resolução de nomes (DNS) até o estabelecimento da comunicação e a troca de dados com o servidor web (HTTP).
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo do laboratório.
