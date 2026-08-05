@@ -41,8 +41,8 @@
   2.1 <a href="#item02.01">Etapa 1: Alterar as conexões dos dispositivos.</a><br>
   2.2 <a href="#item02.02">Etapa 2: Configure os hosts com endereços nas novas LANs.</a><br>
 3. <a href="#item03">Parte 3: Observar o fluxo de tráfego na Rede Roteada</a><br>
-  3.1 <a href="#item03.01">Etapa 1: testar uma URL para investigar um problema de conectividade.</a><br>
-  3.2 <a href="#item03.02">Etapa 2: Use o comando nslookup para verificar o serviço DNS.</a><br>
+  3.1 <a href="#item03.01">Etapa 1: Ping Sales 1 a partir de Sales 2</a><br>
+  3.2 <a href="#item03.02">Etapa 2: Pingue outros hosts.</a><br>
 
 ---
 
