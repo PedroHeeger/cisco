@@ -4,7 +4,7 @@
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
 ### Training Category: <a href="../../../pkt/">pkt</a>
 ### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
-### Course: <a href="./">pkt_070 (Packet Tracer – Configurar o SSH)   <img src="./0-aux/logo_course.png" alt="pkt_061" width="auto" height="25"></a>
+### Course: <a href="./">pkt_070 (Packet Tracer – Configurar o SSH)   <img src="./0-aux/logo_course.png" alt="pkt_070" width="auto" height="25"></a>
 
 ---
 
@@ -104,7 +104,7 @@ A imagem 03 mostra que as linhas VTY do switch foram configuradas para permitir 
     <figcaption>Imagem 03.</figcaption>
 </figure></div><br>
 
-<a name="item03"><h4>3. Parte 3: Salvar o Arquivo de Configuração Atual</h4></a>[Back to summary](#item00)
+<a name="item03"><h4>3. Parte 3: Verificar a implementação SSH</h4></a>[Back to summary](#item00)
 
 - a. Saia da sessão Telnet e tente fazer logon em usar o Telnet. A tentativa deverá falhar.
   - `exit` -> `telnet 10.10.10.2`.
