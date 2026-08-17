@@ -27,8 +27,7 @@
   - GitHub   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="auto" height="25">
 - Network:
   - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
-  - ipconfig   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/ipconfig.jpeg" alt="ipconfig" width="auto" height="25">
-  - ping   <img src="" alt="iputils" width="auto" height="25">
+  - ftp   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/ftp.png" alt="ftp" width="auto" height="25">
 
 ---
 
@@ -51,7 +50,7 @@
 ---
 
 ### Objective:
-O objetivo desta atividade foi analisar o funcionamento das transmissões em broadcast em uma rede local e demonstrar como a segmentação da rede em sub-redes melhora sua eficiência, dividindo um único domínio de broadcast em três domínios menores.
+O objetivo desta atividade foi implementar e validar mecanismos de controle de acesso em três serviços distintos: servidor RADIUS, servidor de e-mail e servidor de arquivos (FTP). Para isso, foram criadas contas de usuários com suas respectivas credenciais de autenticação em cada servidor. Em seguida, por meio de dispositivos finais, esses usuários foram utilizados para acessar os serviços, autenticar-se e interagir com os recursos disponibilizados, respeitando as permissões configuradas para cada perfil.
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, com o conteúdo do laboratório.
@@ -67,8 +66,6 @@ A imagem 01 mostra a topologia inicial.
     <img src="./0-aux/img01.png" alt="img01"><br>
     <figcaption>Imagem 01.</figcaption>
 </figure></div><br>
-
-
 
 <a name="item01.01"><h4>1.1 Etapa 1: Configurar contas de usuário no servidor AAA.</h4></a>[Back to summary](#item00)
 
@@ -89,18 +86,18 @@ A imagem 01 mostra a topologia inicial.
 - f. No espaço "IP Configuration", clique em "DHCP". Aguarde alguns momentos para a oferta do DHCP ser aceita, Verifique se o HQ-Laptop-1 recebeu a configuração de endereço IP e se foi atribuído um endereço na rede 192.168.50.0/24.
 - f. Observação: Pode ser necessário alternar entre as opções Static (estático) e "DHCP" para forçar o Packet Tracer a convergir nas suas configurações. Além disso, clique em Check Results para garantir que você configurou corretamente o servidor AAA e as configurações sem fio no laptop. Clicar em "Check Results" também pode forçar o Packet Tracer a convergir. Se tudo estiver configurado corretamente, prossiga para a configuração do "HQ-Laptop-2" e, em seguida, retorne ao "HQ-Laptop-1" para verificar sua configuração de IP. Esse problema normalmente é resolvido.
 
-A imagem 02 exibe a criação da PDU ICMP, bem como, o processo ARP realizado.
-
-<div align="center"><figure>
-    <img src="./0-aux/img02.png" alt="img02"><br>
-    <figcaption>Imagem 02.</figcaption>
-</figure></div><br>
-
 <a name="item01.03"><h4>1.3 Etapa 3: Configure a autenticação wireless no HQ-Laptop-2.</h4></a>[Back to summary](#item00)
 
 - a. Clique em "HQ-Laptop-2", que está localizado no canto superior direito do "HQ".
 - b. Repita os passos anteriores para configurar as configurações sem fio para "HQ-Laptop-2", usando as credenciais do "user2".
 - c. Verifique se o "HQ-Laptop-2" recebeu uma configuração de endereço IP e foi atribuído um endereço na rede 192.168.50.0/24.
+
+A imagem 02 exibe os dois laptops conectados à rede wireless HQ-INT, utilizando suas respectivas credenciais, previamente cadastradas no servidor RADIUS, responsável pela autenticação dos dispositivos para acesso à rede.
+
+<div align="center"><figure>
+    <img src="./0-aux/img02.png" alt="img02"><br>
+    <figcaption>Imagem 02.</figcaption>
+</figure></div><br>
 
 <a name="item02"><h4>2. Parte 2: Configurar e Verificar Serviços de E-mail</h4></a>[Back to summary](#item00)
 
@@ -110,39 +107,61 @@ A imagem 02 exibe a criação da PDU ICMP, bem como, o processo ARP realizado.
 - b. No lado direito do Rack, clique em Mail server > guia Services e depois em EMAIL sob SERVICES.
 - c. Ative tanto o serviço SMTP quanto o serviço POP3.
 - d. Configure o domínio para mail.cyberhq.com.
+  - `mail.cyberhq.com`
 - e. Na seção "Configuração de Usuários", digite os seguintes nomes de usuário / senhas. Clique no sinal de adição (+) para adicionar cada par.
-  - HQuser1 / Cisco123!
-  - HQuser2 / Cisco123~
-  - BRuser1 / Cisco123-
-  - BRuser2 / Cisco123+
+  - `HQuser1` / `Cisco123!`.
+  - `HQuser2` / `Cisco123~`.
+  - `BRuser1` / `Cisco123-`.
+  - `BRuser2` / `Cisco123+`.
 
 <a name="item02.02"><h4>2.2 Etapa 2: Configure os clientes de e-mail</h4></a>[Back to summary](#item00)
 
 - a. Navegue de volta para "HQ" e clique em "PC 1-1", que está no canto inferior.
 - b. Clique na guia Desktop > Email. As configurações de e-mail estão abertas.
 - c. Insira as informações a seguir:
-  - Seu Nome: Suk-Yi
-  - Endereço de e-mail: HQuser1@mail.cyberhq.com
-  - Servidor(es) de E-mail de Entrada e Saída: mail.cyberhq.com
-  - Nome de Usuário: HQuser1
-  - Senha: Cisco123!
+  - Seu Nome: `Suk-Yi`.
+  - Endereço de e-mail: `HQuser1@mail.cyberhq.com`.
+  - Servidor(es) de E-mail de Entrada e Saída: `mail.cyberhq.com`.
+  - Nome de Usuário: `HQuser1`.
+  - Senha: `Cisco123!`.
+- c. Insira as informações a seguir (PC2-3):
+  - Seu Nome: `Ajulo`.
+  - Endereço de e-mail: `BRuser1@mail.cyberhq.com`.
+  - Servidor(es) de E-mail de Entrada e Saída: `mail.cyberhq.com`.
+  - Nome de Usuário: `BRuser1`.
+  - Senha: `Cisco123-`.
+- c. Insira as informações a seguir (HQ-Laptop-1):
+  - Seu Nome: `Malia`.
+  - Endereço de e-mail: `BRuser2@mail.cyberhq.com`.
+  - Servidor(es) de E-mail de Entrada e Saída: `mail.cyberhq.com`.
+  - Nome de Usuário: `BRuser2`.
+  - Senha: `Cisco123+`.
+- c. Insira as informações a seguir (NetAdmin):
+  - Seu Nome: `Cisco`.
+  - Endereço de e-mail: `HQuser2@mail.cyberhq.com`.
+  - Servidor(es) de E-mail de Entrada e Saída: `mail.cyberhq.com`.
+  - Nome de Usuário: `HQuser2`.
+  - Senha: `Cisco123~`.
 - d. Click em Salvar.
-
-A imagem 03 mostra que os dois hosts das novas redes obtiveram seus respectivos endereços IP. A renovação do endereçamento foi realizada de três formas distintas: pela interface de linha de comando (CLI), utilizando o comando `ipconfig /renew`; pela aba IP Configuration; e pela aba Config, alternando a configuração de endereçamento de estático para automático (DHCP).
-
-<div align="center"><figure>
-    <img src="./0-aux/img03.png" alt="img03"><br>
-    <figcaption>Imagem 03.</figcaption>
-</figure></div><br>
 
 <a name="item02.03"><h4>2.3 Etapa 3: Enviar um e-mail como Suk-Yi.</h4></a>[Back to summary](#item00)
 
 - a. No PC 1-1, clique em Compor.
 - b. Componha um email para Ajulo em BRuser1@mail.cyberhq.com. Insira um assunto e uma mensagem de e-mail de sua escolha. Clique em Enviar quando terminar.
+  - To: `BRuser1@mail.cyberhq.com`.
+  - Subject: `Teste1`.
+  - Content: `Conteúdo de Teste`.
 - b. Observação: O Packet Tracer pode levar alguns segundos para convergir antes de você ver uma mensagem "Envio bem-sucedido" na parte inferior da janela.
 - b. Observção: O Packet Tracer não classifica esta etapa. Verifique se você completou corretamente esta etapa recebendo o e-mail enviado por Suk-Yi no PC de Ajulo (PC2-3).
 - c. Navegue até o PC2-3 de Ajulo. Se necessário, clique na guia "Desktop" e depois em "Email".
 - d. Clique em "Receber" e leia o e-mail de Suk-Yi.
+
+A imagem 03 demonstra o envio bem-sucedido de um e-mail do PC 1-1 para o PC 2-3, após a configuração de suas respectivas contas de e-mail nos dispositivos e o cadastramento dos mesmos usuários no servidor de e-mail.
+
+<div align="center"><figure>
+    <img src="./0-aux/img03.png" alt="img03"><br>
+    <figcaption>Imagem 03.</figcaption>
+</figure></div><br>
 
 <a name="item03"><h4>3. Parte 3: Configurar e usar serviços de FTP</h4></a>[Back to summary](#item00)
 
@@ -155,38 +174,53 @@ A imagem 03 mostra que os dois hosts das novas redes obtiveram seus respectivos 
 <a name="item03.02"><h4>3.2 Etapa 2: Criar as contas de usuário de FTP.</h4></a>[Back to summary](#item00)
 
 - a. Em "Configuração de Usuário", por favor, insira os seguintes nomes de usuário, senhas e privilégios: Clique em Add para adicionar cada usuário. Observação: certifique-se de que o nome de usuário malia não inclua a opção Delete como um dos privilégios de usuário.
+  - Nome de usuário: `sukyi`; Senha: `cisco123`; Privilégio de usuário: `RWDNL` (escrever, ler, excluir, renomear, listar).
+  - Nome de usuário: `ajulo`; Senha: `cisco321`; Privilégio de usuário: `RWDNL` (escrever, ler, excluir, renomear, listar).
+  - Nome de usuário: `malia`; Senha: `cisco123`; Privilégio de usuário: `RWNL` (gravação, leitura, renomeação, listar).
 - b. Verifique se cada usuário foi criado corretamente e feche o servidor.
 
 <a name="item03.03"><h4>3.3 Etapa 3: Transferir arquivos entre o Net-Admin e o servidor FTP.</h4></a>[Back to summary](#item00)
 
 - a. Clique em Net-Admin PC e então clique em Desktop > Command Prompt.
 - b. Digite o comando "ftp 192.168.75.2" para fazer login no servidor FTP e, em seguida, autentique com o nome de usuário "sukyi" e a senha "cisco123".
+  - `ftp 192.168.75.2` -> `sukyi` -> `cisco123`.
 - c. Insira o comando dir para listar os arquivos no servidor FTP.
+  - `dir`
 - d. Utilize o comando "get" para baixar o arquivo "aMessage.txt".
+  - `get aMessage.txt`.
 - e. Saia da sessão de FTP.
+  - `quit`.
 - f. Feche o prompt de comando, clique em Text Editor e em File > Open. Abra o arquivo baixado aMessage.txt.
 - f. Qual é a mensagem no arquivo?
-  - 
+  - `Greetings. You have successfully accessed the FTP server.`
 - g. Clique File > New. Digite uma mensagem de texto de sua escolha.
+  - `Criando um arquivo de teste para o servidor FTP`.
 - h. Clique em File > Save e salve o novo arquivo como aMessage_new.txt. Feche o Editor de Text.
+  - `aMessage_new.txt`.
 - i. Clique em Prompt de comando e faça login novamente no servidor FTP como usuário sukyi.
+  - `ftp 192.168.75.2` -> `sukyi` -> `cisco123`.
 - j. Use o comando put para fazer upload do arquivo aMessage_new.txt.
+  - `put aMessage_new.txt`.
 - k. Saia da sessão de FTP.
+  - `quit`.
 
 <a name="item03.04"><h4>3.4 Etapa 4: Verificar se os privilégios de usuário do FTP estão funcionando conforme configurado.</h4></a>[Back to summary](#item00)
 
 - a. Para retornar ao HQ e clicar em HQ-Laptop-1, vá até a guia "Desktop" e clique em "Command Prompt".
 - b. Faça login no servidor FTP em 192.168.75.2 com o nome de usuário malia e a senha cisco123.
+  - `ftp 192.168.75.2` -> `malia` -> `cisco123`.
 - c. Use o comando delete para tentar remover o arquivo recém-carregado aMessage_new.txt.
+  - `delete aMessage_new.txt`.
 - c. Você conseguiu excluir o arquivo do servidor FTP? Explique.
-  - 
+  - Não. Não foi possível excluir o arquivo do servidor FTP, pois o usuário utilizado para o acesso não possuía a permissão de exclusão (Delete) configurada no servidor. Durante o cadastramento desse usuário, essa permissão não foi atribuída, restringindo suas ações apenas às operações autorizadas.
 - d. Use o comando rename para tentar alterar o nome do arquivo "aMessage_new.txt para aMessage_rename.txt.
-  - ftp> rename aMessage_new.txt aMessage_rename.txt
+  - `rename aMessage_new.txt aMessage_rename.txt`.
 - d. Você conseguiu renomear o arquivo do servidor FTP?
-  - 
+  - Sim. Foi possível renomear o arquivo no servidor FTP, pois o usuário utilizado para o acesso possuía a permissão de renomeação configurada em seu perfil. Dessa forma, a operação foi executada com sucesso.
 - e. Encerre a sessão FTP e feche a janela do HQ-Laptop-1.
+  - `quit`.
 
-A imagem 04 ilustra a solicitação ARP sendo propagada apenas dentro de um domínio de broadcast menor, resultado da segmentação da rede em sub-redes.
+A imagem 04 apresenta os quatro usuários cadastrados no servidor FTP, juntamente com suas respectivas permissões de acesso, além da relação de arquivos armazenados no servidor. Ao lado, são exibidas duas conexões remotas realizadas por usuários distintos: o usuário sukyi, acessando por meio do Net-Admin, com permissões completas, realizou o envio de um novo arquivo ao servidor; já o usuário malia, acessando pelo HQ-Laptop-1, não possuía permissão de exclusão, motivo pelo qual não conseguiu remover o arquivo, sendo capaz apenas de renomeá-lo.
 
 <div align="center"><figure>
     <img src="./0-aux/img04.png" alt="img04"><br>
