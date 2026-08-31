@@ -97,3 +97,17 @@ A seguir, são listados os PKTs já realizados:
 <li>pkt_075: <a href="./files/pkt_075/">Packet Tracer - Desafio de solução de problemas: Use a documentação para resolver problemas   <img src="./files/pkt_075/0-aux/logo_course.png" alt="pkt_075" width="auto" height="25"></a></li>
 <li>pkt_076: <a href="./files/pkt_076/">Packet Tracer - Configurar Controle de Acesso   <img src="./files/pkt_076/0-aux/logo_course.png" alt="pkt_076" width="auto" height="25"></a></li>
 <li>pkt_077: <a href="./files/pkt_077/">Packet Tracer - Configurando Segurança Básica em Redes sem Fios   <img src="./files/pkt_077/0-aux/logo_course.png" alt="pkt_077" width="auto" height="25"></a></li>
+<li>pkt_078: <a href="./files/pkt_078/">Networking Essentials (Fundamentos de Redes) - Módulo 13 - Quiz Mod - Q10   <img src="./files/pkt_078/0-aux/logo_course.png" alt="pkt_078" width="auto" height="25"></a></li>
+<li>pkt_079: <a href="./files/pkt_079/">Networking Essentials (Fundamentos de Redes) - Módulo 14 - Exam - Q10   <img src="./files/pkt_079/0-aux/logo_course.png" alt="pkt_079" width="auto" height="25"></a></li>
+<li>pkt_080: <a href="./files/pkt_080/">Networking Essentials (Fundamentos de Redes) - Módulo 14 - Exam - Q8 e 10   <img src="./files/pkt_080/0-aux/logo_course.png" alt="pkt_080" width="auto" height="25"></a></li>
+<li>pkt_081: <a href="./files/pkt_081/">Networking Essentials (Fundamentos de Redes) - Módulo 29 - Exam - Q15   <img src="./files/pkt_081/0-aux/logo_course.png" alt="pkt_081" width="auto" height="25"></a></li>
+<li>pkt_082: <a href="./files/pkt_082/">Packet Tracer - Identificar Fluxo   <img src="./files/pkt_082/0-aux/logo_course.png" alt="pkt_082" width="auto" height="25"></a></li>
+<li>pkt_083: <a href="./files/pkt_083/">Packet Tracer – Demonstração de lista de controle de acesso   <img src="./files/pkt_083/0-aux/logo_course.png" alt="pkt_083" width="auto" height="25"></a></li>
+<li>pkt_084: <a href="./files/pkt_084/">Packet Tracer - Registrando atividade de rede   <img src="./files/pkt_084/0-aux/logo_course.png" alt="pkt_084" width="auto" height="25"></a></li>
+<li>pkt_085: <a href="./files/pkt_085/">Packet Tracer — Explore uma implementação NetFlow   <img src="./files/pkt_085/0-aux/logo_course.png" alt="pkt_085" width="auto" height="25"></a></li>
+<li>pkt_086: <a href="./files/pkt_086/">Packet Tracer - Registro de Várias Origens   <img src="./files/pkt_086/0-aux/logo_course.png" alt="pkt_086" width="auto" height="25"></a></li>
+<li>pkt_087: <a href="./files/pkt_087/">Packet Tracer - Configuração Básica do Switch - Modo Físico   <img src="./files/pkt_087/0-aux/logo_course.png" alt="pkt_087" width="auto" height="25"></a></li>
+<li>pkt_088: <a href="./files/pkt_088/">Packet Tracer - Configurar interfaces de roteador   <img src="./files/pkt_088/0-aux/logo_course.png" alt="pkt_088" width="auto" height="25"></a></li>
+<li>pkt_089: <a href="./files/pkt_089/">Packet Tracer - Verificar redes diretamente conectadas   <img src="./files/pkt_089/0-aux/logo_course.png" alt="pkt_089" width="auto" height="25"></a></li>
+<li>pkt_090: <a href="./files/pkt_090/">Packet Tracer - Implementar uma rede pequena   <img src="./files/pkt_090/0-aux/logo_course.png" alt="pkt_090" width="auto" height="25"></a></li>
+<li>pkt_091: <a href="./files/pkt_091/">Packet Tracer - Configurações Básicas do Roteador - Modo Físico   <img src="./files/pkt_091/0-aux/logo_course.png" alt="pkt_091" width="auto" height="25"></a></li>
