@@ -99,7 +99,7 @@ A seguir, são listados os PKTs já realizados:
 <li>pkt_077: <a href="./files/pkt_077/">Packet Tracer - Configurando Segurança Básica em Redes sem Fios   <img src="./files/pkt_077/0-aux/logo_course.png" alt="pkt_077" width="auto" height="25"></a></li>
 <li>pkt_078: <a href="./files/pkt_078/">Networking Essentials (Fundamentos de Redes) - Módulo 13 - Quiz Mod - Q10   <img src="./files/pkt_078/0-aux/logo_course.png" alt="pkt_078" width="auto" height="25"></a></li>
 <li>pkt_079: <a href="./files/pkt_079/">Networking Essentials (Fundamentos de Redes) - Módulo 14 - Exam - Q10   <img src="./files/pkt_079/0-aux/logo_course.png" alt="pkt_079" width="auto" height="25"></a></li>
-<li>pkt_080: <a href="./files/pkt_080/">Networking Essentials (Fundamentos de Redes) - Módulo 14 - Exam - Q8 e 10   <img src="./files/pkt_080/0-aux/logo_course.png" alt="pkt_080" width="auto" height="25"></a></li>
+<li>pkt_080: <a href="./files/pkt_080/">Networking Essentials (Fundamentos de Redes) - Módulo 17 - Exam - Q8 e 10   <img src="./files/pkt_080/0-aux/logo_course.png" alt="pkt_080" width="auto" height="25"></a></li>
 <li>pkt_081: <a href="./files/pkt_081/">Networking Essentials (Fundamentos de Redes) - Módulo 29 - Exam - Q15   <img src="./files/pkt_081/0-aux/logo_course.png" alt="pkt_081" width="auto" height="25"></a></li>
 <li>pkt_082: <a href="./files/pkt_082/">Packet Tracer - Identificar Fluxo   <img src="./files/pkt_082/0-aux/logo_course.png" alt="pkt_082" width="auto" height="25"></a></li>
 <li>pkt_083: <a href="./files/pkt_083/">Packet Tracer – Demonstração de lista de controle de acesso   <img src="./files/pkt_083/0-aux/logo_course.png" alt="pkt_083" width="auto" height="25"></a></li>
@@ -111,3 +111,26 @@ A seguir, são listados os PKTs já realizados:
 <li>pkt_089: <a href="./files/pkt_089/">Packet Tracer - Verificar redes diretamente conectadas   <img src="./files/pkt_089/0-aux/logo_course.png" alt="pkt_089" width="auto" height="25"></a></li>
 <li>pkt_090: <a href="./files/pkt_090/">Packet Tracer - Implementar uma rede pequena   <img src="./files/pkt_090/0-aux/logo_course.png" alt="pkt_090" width="auto" height="25"></a></li>
 <li>pkt_091: <a href="./files/pkt_091/">Packet Tracer - Configurações Básicas do Roteador - Modo Físico   <img src="./files/pkt_091/0-aux/logo_course.png" alt="pkt_091" width="auto" height="25"></a></li>
+<li>pkt_092: <a href="./files/pkt_092/">Packet Tracer - Quem ouve o broadcast?   <img src="./files/pkt_092/0-aux/logo_course.png" alt="pkt_092" width="auto" height="25"></a></li>
+<li>pkt_093: <a href="./files/pkt_093/">Packet Tracer - Investigação de uma implementação de VLAN   <img src="./files/pkt_093/0-aux/logo_course.png" alt="pkt_093" width="auto" height="25"></a></li>
+<li>pkt_094: <a href="./files/pkt_094/">Packet Tracer - Configuração de VLAN   <img src="./files/pkt_094/0-aux/logo_course.png" alt="pkt_094" width="auto" height="25"></a></li>
+<li>pkt_095: <a href="./files/pkt_095/">Packet Tracer - Configurando troncos   <img src="./files/pkt_095/0-aux/logo_course.png" alt="pkt_095" width="auto" height="25"></a></li>
+<li>pkt_096: <a href="./files/pkt_096/">Packet Tracer - Configurar VLAN e entroncamento - modo físico   <img src="./files/pkt_096/0-aux/logo_course.png" alt="pkt_096" width="auto" height="25"></a></li>
+<li>pkt_097: <a href="./files/pkt_097/">Packet Tracer - Configurar o VTP e DTP   <img src="./files/pkt_097/0-aux/logo_course.png" alt="pkt_097" width="auto" height="25"></a></li>
+<li>pkt_098: <a href="./files/pkt_098/">Packet Tracer - Implementar VLANs e entroncamento   <img src="./files/pkt_098/0-aux/logo_course.png" alt="pkt_098" width="auto" height="25"></a></li>
+<li>pkt_099: <a href="./files/pkt_099/">Packet Tracer - Implementar VLANs e entroncamento (Lab)   <img src="./files/pkt_099/0-aux/logo_course.png" alt="pkt_099" width="auto" height="25"></a></li>
+<li>pkt_100: <a href="./files100/pkt_100/">Packet Tracer - Configurar o roteamento entre VLANs do roteador no stick   <img src="./files100/pkt_100/0-aux/logo_course.png" alt="pkt_100" width="auto" height="25"></a></li>
+<li>pkt_101: <a href="./files100/pkt_101/">Packet Tracer - Configurar o roteamento inter-VLAN do roteador no stick (Lab)   <img src="./files100/pkt_101/0-aux/logo_course.png" alt="pkt_101" width="auto" height="25"></a></li>
+<li>pkt_102: <a href="./files100/pkt_102/">Packet Tracer - Configurar comutação de camada 3 e roteamento entre VLANs   <img src="./files100/pkt_102/0-aux/logo_course.png" alt="pkt_102" width="auto" height="25"></a></li>
+<li>pkt_103: <a href="./files100/pkt_103/">Packet Tracer - Pesquise defeitos o roteamento Inter-VLAN   <img src="./files100/pkt_103/0-aux/logo_course.png" alt="pkt_103" width="auto" height="25"></a></li>
+<li>pkt_104: <a href="./files100/pkt_104/">Packet Tracer - Solucionar Problemas de Roteamento Inter-VLAN – Modo Físico   <img src="./files100/pkt_104/0-aux/logo_course.png" alt="pkt_104" width="auto" height="25"></a></li>
+<li>pkt_105: <a href="./files100/pkt_105/">Packet Tracer - Desafio do roteamento entre VLANs   <img src="./files100/pkt_105/0-aux/logo_course.png" alt="pkt_105" width="auto" height="25"></a></li>
+<li>pkt_106: <a href="./files100/pkt_106/">CCNA: SRWE - Módulo 4 - Exam - Q7   <img src="./files100/pkt_106/0-aux/logo_course.png" alt="pkt_106" width="auto" height="25"></a></li>
+<li>pkt_107: <a href="./files100/pkt_107/">CCNA: ITN - Módulo 3 - Exam - Q31   <img src="./files100/pkt_107/0-aux/logo_course.png" alt="pkt_107" width="auto" height="25"></a></li>
+<li>pkt_108: <a href="./files100/pkt_108/">CCNA: ITN - Módulo 7 - Exam - Q30   <img src="./files100/pkt_108/0-aux/logo_course.png" alt="pkt_108" width="auto" height="25"></a></li>
+<li>pkt_109: <a href="./files100/pkt_109/">CCNA: ITN - Módulo 10 - Exam - Q27   <img src="./files100/pkt_109/0-aux/logo_course.png" alt="pkt_109" width="auto" height="25"></a></li>
+<li>pkt_110: <a href="./files100/pkt_110/">CCNA: ITN - Módulo 13 - Exam - Q29   <img src="./files100/pkt_110/0-aux/logo_course.png" alt="pkt_110" width="auto" height="25"></a></li>
+<li>pkt_111: <a href="./files100/pkt_111/">CCNA: ITN - Módulo 17 - Exam - Q31   <img src="./files100/pkt_111/0-aux/logo_course.png" alt="pkt_111" width="auto" height="25"></a></li>
+<li>pkt_112: <a href="./files100/pkt_112/">Packet Tracer - Investigar a Prevenção de Loop de STP   <img src="./files100/pkt_112/0-aux/logo_course.png" alt="pkt_112" width="auto" height="25"></a></li>
+
+
