@@ -115,8 +115,7 @@ A imagem 03 exibe a conclusão da Parte 2.
 
 <a name="item03.01"><h4>3.1 Etapa 1: Conectar Router1 a Switch.</h4></a>[Back to summary](#item00)
 
-- a. Escolha o cabo certo para conectar Router1 F1/0 a Switch F0/1. Se você conectou o cabo certo, as luzes de link no cabo ficam verdes. Espere alguns segundos até a luz 
-passar de amarela para verde. 
+- a. Escolha o cabo certo para conectar Router1 F1/0 a Switch F0/1. Se você conectou o cabo certo, as luzes de link no cabo ficam verdes. Espere alguns segundos até a luz passar de amarela para verde. 
 
 <a name="item03.02"><h4>3.2 Etapa 2: Conectar Cable Modem a Wireless Router.</h4></a>[Back to summary](#item00)
 
