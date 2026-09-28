@@ -30,7 +30,7 @@
   - Cisco Packet Tracer   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/software/cisco_packet_tracer.webp" alt="cisco_packet_tracer" width="auto" height="25">
   - ping   <img src="" alt="iputils" width="auto" height="25">
 
----cisco_packet_tracer
+---
 
 <h3><a name="item00">Course Strcuture:</a></h3>
 
