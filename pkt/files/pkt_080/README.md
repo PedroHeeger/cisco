@@ -1,10 +1,10 @@
-# Networking Essentials (Fundamentos de Redes) - Módulo 14 - Exam - Q8 e 10   <img src="./0-aux/logo_course.png" alt="pkt_080" width="auto" height="45">
+# Networking Essentials (Fundamentos de Redes) - Módulo 17 - Exam - Q8 e 10   <img src="./0-aux/logo_course.png" alt="pkt_080" width="auto" height="45">
 
 ### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
 ### Training Category: <a href="../../../pkt/">pkt</a>
 ### Software/Subject: network   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/network.jpg" alt="network" width="auto" height="25"></a>
-### Course: <a href="./">pkt_080 (Networking Essentials (Fundamentos de Redes) - Módulo 14 - Exam - Q8 e 10)   <img src="./0-aux/logo_course.png" alt="pkt_080" width="auto" height="25"></a>
+### Course: <a href="./">pkt_080 (Networking Essentials (Fundamentos de Redes) - Módulo 17 - Exam - Q8 e 10)   <img src="./0-aux/logo_course.png" alt="pkt_080" width="auto" height="25"></a>
 
 ---
 
@@ -33,7 +33,7 @@
 
 <h3><a name="item00">Course Strcuture:</a></h3>
 
-1. <a href="#item01">Networking Essentials (Fundamentos de Redes) - Módulo 14 - Exam - Q8 e 10</a><br>
+1. <a href="#item01">Networking Essentials (Fundamentos de Redes) - Módulo 17 - Exam - Q8 e 10</a><br>
 
 ---
 
@@ -46,7 +46,7 @@ O objetivo deste PTSA foi acessar um servidor Web utilizando o protocolo seguro 
 
 ### Development:
 
-<a name="item01"><h4>1. Networking Essentials (Fundamentos de Redes) - Módulo 14 - Exam - Q8 e 10</h4></a>[Back to summary](#item00)
+<a name="item01"><h4>1. Networking Essentials (Fundamentos de Redes) - Módulo 17 - Exam - Q8 e 10</h4></a>[Back to summary](#item00)
 
 - a. Depois que a conexão sem fio for estabelecida, use o navegador da Web no notebook para acessar o site www.cisco.com com o protocolo seguro HTTPS. Pode haver um atraso na resposta do comando.
   - `https://www.cisco.com`.
