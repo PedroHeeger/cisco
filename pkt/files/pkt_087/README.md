@@ -46,7 +46,7 @@
   3.3 <a href="#item03.03">Etapa 3: Teste e verifique o gerenciamento remoto de S1.</a><br>
   3.4 <a href="#item03.04">Etapa 4: Implante o switch S1 na rede de produção.</a><br>
 4. <a href="#item04">Perguntas para reflexão</a><br>
-5. <a href="#item03">Parte 4: Gerenciar a tabela de endereços MAC</a><br>
+5. <a href="#item05">Parte 4: Gerenciar a tabela de endereços MAC</a><br>
   5.1 <a href="#item05.01">Etapa 1: Registre o endereço MAC do host.</a><br>
   5.2 <a href="#item05.02">Etapa 2: Determine os endereços MAC que o switch aprendeu.</a><br>
   5.3 <a href="#item05.03">Etapa 3: Liste as opções do show mac address-table.</a><br>
