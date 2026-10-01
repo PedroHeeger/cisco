@@ -33,31 +33,31 @@
 
 ### Course Strcuture:
 1. <a href="./mod-01/">Há agentes maliciosos - Fique de olho!</a><br>
-  1.1 <a href="./mod-01/README.md#item01.01">Avaliação de Riscos</a><br>
-  1.2 <a href="./mod-01/README.md#item01.02">Salvaguardar hoje e amanhã</a><br>
-  1.3 <a href="./mod-01/README.md#item01.03">Falsificações & Filtros: Em Busca da Realidade</a><br>
-  1.4 <a href="./mod-01/README.md#item01.04">Dicas para resolução de problemas</a><br>
+  1.1 <a href="./mod-01#item01.01">Avaliação de Riscos</a><br>
+  1.2 <a href="./mod-01#item01.02">Salvaguardar hoje e amanhã</a><br>
+  1.3 <a href="./mod-01#item01.03">Falsificações & Filtros: Em Busca da Realidade</a><br>
+  1.4 <a href="./mod-01#item01.04">Dicas para resolução de problemas</a><br>
 2. <a href="./mod-02/">Proteja o que he é importante</a><br>
-  2.1 <a href="./mod-02/README.md#item02.01">Um guia abrangente para proteger a sua vida digital</a><br>
-  2.2 <a href="./mod-02/README.md#item02.02">Fundamentos de Privacidade e Segurança Por Trás do Ecrã</a><br>
-  2.3 <a href="./mod-02/README.md#item02.03">Gateway para uma rede segura: Estratégias-chave para manter a segurança e a eficiência</a><br>
-  2.4 <a href="./mod-02/README.md#item02.04">Dicas para resolução de problemas</a><br>
+  2.1 <a href="./mod-02#item02.01">Um guia abrangente para proteger a sua vida digital</a><br>
+  2.2 <a href="./mod-02#item02.02">Fundamentos de Privacidade e Segurança Por Trás do Ecrã</a><br>
+  2.3 <a href="./mod-02#item02.03">Gateway para uma rede segura: Estratégias-chave para manter a segurança e a eficiência</a><br>
+  2.4 <a href="./mod-02#item02.04">Dicas para resolução de problemas</a><br>
 3. <a href="./mod-03/">Verifique sempre antes de partilhar</a><br>
-  3.1 <a href="./mod-03/README.md#item03.01">Siga com constância</a><br>
-  3.2 <a href="./mod-03/README.md#item03.02">O Diabo está nos Detalhes</a><br>
-  3.3 <a href="./mod-03/README.md#item03.03">O efeito dominó dos engarrafamentos de dados.</a><br>
-  3.4 <a href="./mod-03/README.md#item03.04">Dicas para resolução de problemas</a><br>
+  3.1 <a href="./mod-03#item03.01">Siga com constância</a><br>
+  3.2 <a href="./mod-03#item03.02">O Diabo está nos Detalhes</a><br>
+  3.3 <a href="./mod-03#item03.03">O efeito dominó dos engarrafamentos de dados.</a><br>
+  3.4 <a href="./mod-03#item03.04">Dicas para resolução de problemas</a><br>
 4. <a href="./mod-04/">Pode Também Afetar a Sua Saúde Mental e Física<br>
-  4.1 <a href="./mod-04/README.md#item04.01">Mente Saudável, Corpo Saudável, Planeta Saudável</a><br>
-  4.2 <a href="./mod-04/README.md#item04.02">Factos, Notícias Falsas, Verdades e Mentiras</a><br>
-  4.3 <a href="./mod-04/README.md#item04.03">Equilibrar influência e controle</a><br>
-  4.3 <a href="./mod-04/README.md#item04.04">Dicas para resolução de problemas</a><br>
+  4.1 <a href="./mod-04#item04.01">Mente Saudável, Corpo Saudável, Planeta Saudável</a><br>
+  4.2 <a href="./mod-04#item04.02">Factos, Notícias Falsas, Verdades e Mentiras</a><br>
+  4.3 <a href="./mod-04#item04.03">Equilibrar influência e controle</a><br>
+  4.3 <a href="./mod-04#item04.04">Dicas para resolução de problemas</a><br>
 5. <a href="./mod-05/">Resumo do Curso<br>
-  5.1 <a href="./mod-05/README.md#item05.01">Resumo do Curso</a><br>
+  5.1 <a href="./mod-05#item05.01">Resumo do Curso</a><br>
 6. Inquérito de Fim de Curso<br>
 7. Introdução à Cibersegurança: Exame Final do Curso<br>
 8. <a href="./mod-08/">Torne-se certificado em Segurança e Cibersegurança<br>
-  8.1 <a href="./mod-08/README.md#item08.01">Torne-se certificado em Segurança e Cibersegurança</a><br>
+  8.1 <a href="./mod-08#item08.01">Torne-se certificado em Segurança e Cibersegurança</a><br>
 
 
 ---
