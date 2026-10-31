@@ -40,7 +40,6 @@
   1.2 <a href="#item01.02">Etapa 2: Conecte os dispositivos finais.</a><br>
 2. <a href="#item02">Parte 2: Configurar dispositivos com endereçamento IPv4</a><br>
   2.1 <a href="#item02.01">Etapa 1: Configure os hosts com as informações de endereçamento.</a><br>
-  2.2 <a href="#item02.02">Etapa 2: Em S1, use o comando traceroute para Externo.</a><br>
 3. <a href="#item03">Parte 3: Verificar a configuração do dispositivo final e a conectividade</a><br>
   3.1 <a href="#item03.01">Etapa 1: Verifique a conectividade entre os dois PCs.</a><br>
   3.2 <a href="#item03.02">Etapa 2: Verifique a conectividade com a internet.</a><br>
