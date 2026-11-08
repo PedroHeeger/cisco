@@ -47,7 +47,7 @@
   3.2 <a href="./mod-03#item03.02">O Diabo está nos Detalhes</a><br>
   3.3 <a href="./mod-03#item03.03">O efeito dominó dos engarrafamentos de dados.</a><br>
   3.4 <a href="./mod-03#item03.04">Dicas para resolução de problemas</a><br>
-4. <a href="./mod-04/">Pode Também Afetar a Sua Saúde Mental e Física<br>
+4. <a href="./mod-04/">Pode Também Afetar a Sua Saúde Mental e Física</a><br>
   4.1 <a href="./mod-04#item04.01">Mente Saudável, Corpo Saudável, Planeta Saudável</a><br>
   4.2 <a href="./mod-04#item04.02">Factos, Notícias Falsas, Verdades e Mentiras</a><br>
   4.3 <a href="./mod-04#item04.03">Equilibrar influência e controle</a><br>
@@ -58,7 +58,6 @@
 7. Introdução à Cibersegurança: Exame Final do Curso<br>
 8. <a href="./mod-08/">Torne-se certificado em Segurança e Cibersegurança<br>
   8.1 <a href="./mod-08#item08.01">Torne-se certificado em Segurança e Cibersegurança</a><br>
-
 
 ---
 
