@@ -132,5 +132,11 @@ A seguir, são listados os PKTs já realizados:
 <li>pkt_110: <a href="./files100/pkt_110/">CCNA: ITN - Módulo 13 - Exam - Q29   <img src="./files100/pkt_110/0-aux/logo_course.png" alt="pkt_110" width="auto" height="25"></a></li>
 <li>pkt_111: <a href="./files100/pkt_111/">CCNA: ITN - Módulo 17 - Exam - Q31   <img src="./files100/pkt_111/0-aux/logo_course.png" alt="pkt_111" width="auto" height="25"></a></li>
 <li>pkt_112: <a href="./files100/pkt_112/">Packet Tracer - Investigar a Prevenção de Loop de STP   <img src="./files100/pkt_112/0-aux/logo_course.png" alt="pkt_112" width="auto" height="25"></a></li>
-
+<li>pkt_113: <a href="./files100/pkt_113/">Packet Tracer - Configuração do EtherChannel   <img src="./files100/pkt_113/0-aux/logo_course.png" alt="pkt_113" width="auto" height="25"></a></li>
+<li>pkt_114: <a href="./files100/pkt_114/">Packet Tracer - Pesquise defeitos o EtherChannel   <img src="./files100/pkt_114/0-aux/logo_course.png" alt="pkt_114" width="auto" height="25"></a></li>
+<li>pkt_115: <a href="./files100/pkt_115/">Packet Tracer - Implementar EtherChannel   <img src="./files100/pkt_115/0-aux/logo_course.png" alt="pkt_115" width="auto" height="25"></a></li>
+<li>pkt_116: <a href="./files100/pkt_116/">Packet Tracer - Implementar EtherChannel   <img src="./files100/pkt_116/0-aux/logo_course.png" alt="pkt_116" width="auto" height="25"></a></li>
+<li>pkt_117: <a href="./files100/pkt_117/">Packet Tracer - Configurar DHCPv4   <img src="./files100/pkt_117/0-aux/logo_course.png" alt="pkt_117" width="auto" height="25"></a></li>
+<li>pkt_118: <a href="./files100/pkt_118/">Packet Tracer - Implementar DHCPv4   <img src="./files100/pkt_118/0-aux/logo_course.png" alt="pkt_118" width="auto" height="25"></a></li>
+<li>pkt_119: <a href="./files100/pkt_119/">Packet Tracer - Implementar DHCPv4 (Lab)   <img src="./files100/pkt_119/0-aux/logo_course.png" alt="pkt_119" width="auto" height="25"></a></li>
 
