@@ -6,7 +6,7 @@
 ### Software/Subject: cybersecurity   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/cybersecurity.jpg" alt="cybersecurity" width="auto" height="25"></a>
 ### Course: <a href="./">sfp_006 (Digital Safety and Security Awareness)   <img src="./0-aux/logo_course.png" alt="sfp_006" width="auto" height="25"></a>
 
-#### <a href="https://github.com/PedroHeeger/my_tech_journey/blob/main/credentials/certificates/online_courses/cybersecurity/261001_Digital..Security_Awareness_PH_CNA.pdf">Certificate</a>
+#### <a href="https://github.com/PedroHeeger/my_tech_journey/blob/main/credentials/certificates/online_courses/cybersecurity/261001_Cert_sfp_006_PH_CNA.pdf">Certificate</a>
 #### <a href="https://www.credly.com/badges/f14187ae-02de-4b17-a844-19b3b511711d/public_url">Badge</a>
 
 ---
