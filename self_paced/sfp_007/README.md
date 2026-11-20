@@ -6,7 +6,7 @@
 ### Software/Subject: cybersecurity   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/cybersecurity.jpg" alt="cybersecurity" width="auto" height="25"></a>
 ### Course: <a href="./">sfp_007 (Networking Basics)   <img src="./0-aux/logo_course.png" alt="sfp_007" width="auto" height="25"></a>
 
-#### <a href="https://github.com/PedroHeeger/my_tech_journey/blob/main/credentials/certificates/online_courses/network/cisco/261115_Cert_spl_007_PH_CNA.pdf">Certificate</a>
+#### <a href="https://github.com/PedroHeeger/my_tech_journey/blob/main/credentials/certificates/online_courses/network/cisco/261115_Cert_sfp_007_PH_CNA.pdf">Certificate</a>
 #### <a href="https://www.credly.com/badges/e71ea3ae-6028-4c35-82cb-317abf421e19">Badge</a>
 
 ---
