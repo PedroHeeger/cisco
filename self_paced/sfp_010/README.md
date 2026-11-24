@@ -59,9 +59,7 @@
   3.6 <a href="./mod-03/README.md#item03.06">Prevenção de Intrusão Baseada em Host e Firewalls</a><br>
   3.7 <a href="./mod-03/README.md#item03.07">Acesso sem fio seguro</a><br>
   3.8 <a href="./mod-03/README.md#item03.08">Resumo de Segurança de Rede</a><br>
-  3.9 Fundamentos de Redes: Exame Final do Curso<br>
-4. Exame Final</a><br>
-  4.1 Exame Final do Curso Suporte e Segurança de Rede<br>
+4. Suporte e Segurança de Rede: Exame Final do Curso<br>
 
 ---
 
