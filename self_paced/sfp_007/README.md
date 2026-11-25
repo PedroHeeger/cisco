@@ -132,8 +132,7 @@
   17.2 <a href="./mod-17/README.md#item17.02">Comandos para solução de problemas</a><br>
   17.3 <a href="./mod-17/README.md#item17.03">Resumo das Network Testing Utilities</a><br>
   17.4 Exame de ponto de verificação: protocolos para tarefas específicas<br>
-18. Exame Final<br>
-  18.1 Exame Final do Curso Básico de Redes<br>
+18. Básico de Redes: Exame Final do Curso<br>
 
 ---
 

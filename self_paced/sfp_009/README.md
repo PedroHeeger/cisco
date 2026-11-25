@@ -81,8 +81,7 @@
   7.6 <a href="./mod-07/README.md#item07.06">Suporte ao cliente</a><br>
   7.7 Resumo Solução de Problemas Comuns de Rede<br>
   7.8 Exame de ponto de verificação: Dispositivos Cisco e solução de problemas de rede<br>
-8. Exame Final<br>
-  8.1 Exame Final do Curso Enderaçamento de Rede e Solução Básica de Problemas</a><br>
+8. Enderaçamento de Rede e Solução Básica de Problemas: Exame Final do Curso<br>
 
 ---
 

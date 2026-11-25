@@ -105,8 +105,7 @@
   12.3 <a href="./mod-12/README.md#item12.03">Teste de Ping e Traceroute</a><br>
   12.4 <a href="./mod-12/README.md#item12.04">Resumo ICMP</a><br>
   12.5 Exame de ponto de verificação: serviços de endereçamento e protocolos da camada de transporte<br>
-13. Exame Final<br>
-  13.1 Exame Final do Curso Dispositivos de rede e configuração inicial</a><br>
+13. Dispositivos de rede e configuração inicial: Exame Final do Curso<br>
 
 ---
 
