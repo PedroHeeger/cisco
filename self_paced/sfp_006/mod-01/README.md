@@ -31,10 +31,10 @@
 
 ### Course Module 1 Structure:
 1. <a name="item01">Há agentes maliciosos - Fique de olho!</a><br>
-1.1 <a href="#item01.01">Avaliação de Riscos</a><br>
-1.2 <a href="#item01.02">Salvaguardar hoje e amanhã</a><br>
-1.3 <a href="#item01.03">Falsificações & Filtros: Em Busca da Realidade</a><br>
-1.4 <a href="#item01.04">Dicas para resolução de problemas</a><br>
+  1.1 <a href="#item01.01">Avaliação de Riscos</a><br>
+  1.2 <a href="#item01.02">Salvaguardar hoje e amanhã</a><br>
+  1.3 <a href="#item01.03">Falsificações & Filtros: Em Busca da Realidade</a><br>
+  1.4 <a href="#item01.04">Dicas para resolução de problemas</a><br>
 
 ---
 

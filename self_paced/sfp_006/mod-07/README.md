@@ -1,11 +1,11 @@
-# Digital Safety and Security Awareness - Módulo 8   <img src="../0-aux/logo_course.png" alt="sfp_006" width="auto" height="45">
+# Digital Safety and Security Awareness - Módulo 7   <img src="../0-aux/logo_course.png" alt="sfp_006" width="auto" height="45">
 
 ### Cisco: <a href="../../../">cisco   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cisco.png" alt="cisco" width="auto" height="25"></a>
 ### Cisco Networking Academy: cna   <img src="https://github.com/PedroHeeger/my_tech_journey/blob/main/platforms/img/cna.png" alt="cna" width="auto" height="25"></a>
 ### Training Category: <a href="../../../self_paced/">self-paced</a>
 ### Software/Subject: cybersecurity   <img src="https://github.com/PedroHeeger/main/blob/main/0-aux/logos/content/cybersecurity.jpg" alt="cybersecurity" width="auto" height="25"></a>
 ### Course: <a href="../">sfp_006 (Digital Safety and Security Awareness)   <img src="../0-aux/logo_course.png" alt="sfp_006" width="auto" height="25"></a>
-### Module: 8. Torne-se certificado em Segurança e Cibersegurança
+### Module: 7. Torne-se certificado em Segurança e Cibersegurança
 
 ---
 
@@ -29,9 +29,9 @@
 
 ---
 
-### Course Module 8 Structure:
-8. <a name="item08">Torne-se certificado em Segurança e Cibersegurança</a><br>
-8.1 <a href="#item08.01">Torne-se certificado em Segurança e Cibersegurança</a><br>
+### Course Module 7 Structure:
+7. <a name="item07">Torne-se certificado em Segurança e Cibersegurança</a><br>
+  7.1 <a href="#item07.01">Torne-se certificado em Segurança e Cibersegurança</a><br>
 
 ---
 
@@ -44,7 +44,7 @@ O objetivo do módulo foi orientar sobre a conclusão do curso e os próximos pa
 
 ### Development:
 
-<a name="item08.01"><h4>8.1 Torne-se certificado em Segurança e Cibersegurança</h4></a>[Back to summary](#item08)
+<a name="item07.01"><h4>7.1 Torne-se certificado em Segurança e Cibersegurança</h4></a>[Back to summary](#item07)
 
 🎓 Certificação em Segurança Digital e Literacia OpenEDG   
 A conclusão do curso de conscientização habilita o profissional à realização do exame de avaliação intermediária, etapa integrante da formação em competências digitais fundamentais.

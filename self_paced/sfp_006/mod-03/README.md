@@ -31,10 +31,10 @@
 
 ### Course Module 3 Structure:
 3. <a name="item03">Verifique sempre antes de partilhar</a><br>
-3.1 <a href="#item03.01">Siga com constância</a><br>
-3.2 <a href="#item03.02">O Diabo está nos Detalhes</a><br>
-3.3 <a href="#item03.03">O efeito dominó dos engarrafamentos de dados.</a><br>
-3.4 <a href="#item03.04">Dicas para resolução de problemas</a><br>
+  3.1 <a href="#item03.01">Siga com constância</a><br>
+  3.2 <a href="#item03.02">O Diabo está nos Detalhes</a><br>
+  3.3 <a href="#item03.03">O efeito dominó dos engarrafamentos de dados.</a><br>
+  3.4 <a href="#item03.04">Dicas para resolução de problemas</a><br>
 
 ---
 

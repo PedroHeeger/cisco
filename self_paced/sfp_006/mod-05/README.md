@@ -31,7 +31,7 @@
 
 ### Course Module 5 Structure:
 5. <a name="item05">Resumo do Curso</a><br>
-5.1 <a href="#item05.01">Resumo do Curso</a><br>
+  5.1 <a href="#item05.01">Resumo do Curso</a><br>
 
 ---
 

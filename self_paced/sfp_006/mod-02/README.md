@@ -31,10 +31,10 @@
 
 ### Course Module 2 Structure:
 2. <a name="item02">Proteja o que lhe é importante</a><br>
-2.1 <a href="#item02.01">Um guia abrangente para proteger a sua vida digital</a><br>
-2.2 <a href="#item02.02">Fundamentos de Privacidade e Segurança Por Trás do Ecrã</a><br>
-2.3 <a href="#item02.03">Gateway para uma rede segura: Estratégias-chave para manter a segurança e a eficiência</a><br>
-2.4 <a href="#item02.04">Dicas para resolução de problemas</a><br>
+  2.1 <a href="#item02.01">Um guia abrangente para proteger a sua vida digital</a><br>
+  2.2 <a href="#item02.02">Fundamentos de Privacidade e Segurança Por Trás do Ecrã</a><br>
+  2.3 <a href="#item02.03">Gateway para uma rede segura: Estratégias-chave para manter a segurança e a eficiência</a><br>
+  2.4 <a href="#item02.04">Dicas para resolução de problemas</a><br>
 
 ---
 

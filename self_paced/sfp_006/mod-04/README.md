@@ -31,10 +31,10 @@
 
 ### Course Module 4 Structure:
 4. <a name="item04">Pode Também Afetar a Sua Saúde Mental e Física</a><br>
-4.1 <a href="#item04.01">Mente Saudável, Corpo Saudável, Planeta Saudável</a><br>
-4.2 <a href="#item04.02">Fatos, Notícias Falsas, Verdades e Mentiras</a><br>
-4.3 <a href="#item04.03">Equilibrar influência e controle</a><br>
-4.4 <a href="#item04.04">Dicas para a resolução de problemas</a><br>
+  4.1 <a href="#item04.01">Mente Saudável, Corpo Saudável, Planeta Saudável</a><br>
+  4.2 <a href="#item04.02">Fatos, Notícias Falsas, Verdades e Mentiras</a><br>
+  4.3 <a href="#item04.03">Equilibrar influência e controle</a><br>
+  4.4 <a href="#item04.04">Dicas para a resolução de problemas</a><br>
 
 ---
 

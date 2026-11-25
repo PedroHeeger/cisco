@@ -7,7 +7,7 @@
 ### Course: <a href="./">sfp_006 (Digital Safety and Security Awareness)   <img src="./0-aux/logo_course.png" alt="sfp_006" width="auto" height="25"></a>
 
 #### <a href="https://github.com/PedroHeeger/my_tech_journey/blob/main/credentials/certificates/online_courses/cybersecurity/261001_Cert_sfp_006_PH_CNA.pdf">Certificate</a>
-#### <a href="https://www.credly.com/badges/f14187ae-02de-4b17-a844-19b3b511711d/public_url">Badge</a>
+#### <a href="https://www.credly.com/badges/f14187ae-02de-4b17-a844-19b3b511711d">Badge</a>
 
 ---
 
@@ -54,10 +54,9 @@
   4.3 <a href="./mod-04#item04.04">Dicas para resolução de problemas</a><br>
 5. <a href="./mod-05/">Resumo do Curso<br>
   5.1 <a href="./mod-05#item05.01">Resumo do Curso</a><br>
-6. Inquérito de Fim de Curso<br>
-7. Introdução à Cibersegurança: Exame Final do Curso<br>
-8. <a href="./mod-08/">Torne-se certificado em Segurança e Cibersegurança<br>
-  8.1 <a href="./mod-08#item08.01">Torne-se certificado em Segurança e Cibersegurança</a><br>
+6. Sensibilização para a Segurança Digital: Exame Final do Curso<br>
+7. <a href="./mod-07/">Torne-se certificado em Segurança e Cibersegurança<br>
+  7.1 <a href="./mod-07#item07.01">Torne-se certificado em Segurança e Cibersegurança</a><br>
 
 ---
 
