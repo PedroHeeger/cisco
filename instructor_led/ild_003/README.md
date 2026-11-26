@@ -46,7 +46,7 @@ O objetivo deste curso foi proporcionar uma formação abrangente nos fundamento
 
 ### Folder Structure:
 - [README.md](./README.md): Este documento de README, escrito em **Markdown**, apresentando esse curso e distribuíndo para cada módulo.
-- [0-aux](../0-aux/): Pasta auxiliar com imagens utilizadas na construção dos arquivos de README desse curso.
+- [0-aux](./0-aux/): Pasta auxiliar com imagens utilizadas na construção dos arquivos de README desse curso.
 
 ### Development
 Este curso foi concluído em duas edições do **Programa CiberEducação Cisco Brasil** (12ª e 13ª), sendo ministrado pelo SENAC-SC na 12ª edição e pelo SENAI-SC na 13ª.
